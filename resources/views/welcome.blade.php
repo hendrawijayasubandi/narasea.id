@@ -279,37 +279,38 @@
     </section>
 
     <!-- New Section: Social Currents -->
-    <section class="relative bg-[url('/public/assets/images/francesco-ungaro-nlqqldluDBw-unsplash 5.png')] bg-cover bg-center pt-32 pb-16 px-6 sm:pt-36 sm:pb-20 md:pt-40 md:pb-24 lg:pt-44 lg:pb-28 xl:pt-48 xl:pb-32 -mt-[100px] z-10" style="padding-top: 200px;">
+    <section class="relative bg-[url('/public/assets/images/francesco-ungaro.png')] bg-cover bg-center pt-32 pb-16 px-6 sm:pt-36 sm:pb-20 md:pt-40 md:pb-24 lg:pt-44 lg:pb-28 xl:pt-48 xl:pb-32 -mt-[100px] z-10" style="padding-top: 200px;">
         <!-- Teal-blue overlay with opacity -->
         <div class="absolute inset-0 bg-teal-blue/70"></div>
 
         <div class="max-w-6xl mx-auto relative z-10">
             <!-- Section Title -->
-            <h2
-                class="text-3xl font-bold sm:text-4xl md:text-5xl tracking-wide font-calimate mb-12 text-white text-center lg:text-left">
-                Social<br>Currents.
+            <h2 class="text-3xl font-bold sm:text-4xl md:text-5xl tracking-wide font-calimate mb-12 text-center lg:text-left">
+                <span class="text-raspberry-pink">Social</span><br>
+                <span class="text-golden-yellow">Currents.</span>
             </h2>
 
             <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
                 <!-- Left Column - Text Content (narrower) -->
-                <div class="lg:w-2/5"> <!-- Changed from lg:w-1/2 to lg:w-2/5 -->
-                    <p class="text-base sm:text-lg md:text-xl font-ttNorms text-white mb-6 max-w-md"> <!-- Added max-w-md -->
+                <div class="lg:w-2/5">
+                    <p class="text-base sm:text-lg md:text-xl font-ttNorms text-white mb-6 max-w-md">
                         The ocean moves, and so do we! Stay connected with the latest stories, moments, and impact straight from our Instagram.
                     </p>
                     
-                    <div class="mb-8"> <!-- Reduced margin -->
+                    <div class="mb-8">
                         <a href="#" class="px-6 py-2 text-sm sm:text-base bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms inline-flex items-center">
                             Follow the Waves
-                            <i class="fas fa-arrow-right ml-2"></i>
+                            <i class="fas fa-arrow-right ml-2 me-2"></i>
+                            Explore More
                         </a>
                     </div>
                 </div>
                 
                 <!-- Right Column - Instagram Photos (wider) -->
-                <div class="lg:w-3/5"> <!-- Changed from lg:w-1/2 to lg:w-3/5 -->
+                <div class="lg:w-3/5">
                     <div class="relative h-full flex items-center">
                         <!-- Main Slider Container -->
-                        <div class="w-full px-8 relative"> <!-- Reduced side padding -->
+                        <div class="w-full px-8 relative">
                             <!-- Navigation Buttons -->
                             <button class="slick-prev-instagram absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue/80 text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-teal-blue transition -ml-4">
                                 <i class="fas fa-chevron-left"></i>

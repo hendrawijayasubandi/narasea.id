@@ -225,9 +225,7 @@
     </section>
 
     <!-- New Storytelling Section -->
-    <section
-        class="relative px-6 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-blue bg-[url('/public/assets/images/ASdaf%202.png')] bg-cover bg-[position:center_30%] lg:bg-center rounded-bl-[50px] rounded-br-[50px] mt-[-100px] z-[-1]"
-        style="padding-top: 200px;">
+    <section class="relative px-6 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-blue bg-[url('/public/assets/images/ASdaf%202.png')] bg-cover bg-[position:center_30%] lg:bg-center rounded-bl-[50px] rounded-br-[50px] z-20" style="padding-top: 200px;">
         <!-- Blue overlay -->
         <div class="absolute inset-0 bg-blue-900/70"></div>
 
@@ -280,6 +278,83 @@
         </div>
     </section>
 
+    <!-- New Section: Social Currents -->
+    <section class="relative bg-[url('/public/assets/images/francesco-ungaro-nlqqldluDBw-unsplash 5.png')] bg-cover bg-center pt-32 pb-16 px-6 sm:pt-36 sm:pb-20 md:pt-40 md:pb-24 lg:pt-44 lg:pb-28 xl:pt-48 xl:pb-32 -mt-[100px] z-10" style="padding-top: 200px;">
+        <!-- Teal-blue overlay with opacity -->
+        <div class="absolute inset-0 bg-teal-blue/70"></div>
+
+        <div class="max-w-6xl mx-auto relative z-10">
+            <!-- Section Title -->
+            <h2
+                class="text-3xl font-bold sm:text-4xl md:text-5xl tracking-wide font-calimate mb-12 text-white text-center lg:text-left">
+                Social<br>Currents.
+            </h2>
+
+            <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
+                <!-- Left Column - Text Content (narrower) -->
+                <div class="lg:w-2/5"> <!-- Changed from lg:w-1/2 to lg:w-2/5 -->
+                    <p class="text-base sm:text-lg md:text-xl font-ttNorms text-white mb-6 max-w-md"> <!-- Added max-w-md -->
+                        The ocean moves, and so do we! Stay connected with the latest stories, moments, and impact straight from our Instagram.
+                    </p>
+                    
+                    <div class="mb-8"> <!-- Reduced margin -->
+                        <a href="#" class="px-6 py-2 text-sm sm:text-base bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms inline-flex items-center">
+                            Follow the Waves
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Right Column - Instagram Photos (wider) -->
+                <div class="lg:w-3/5"> <!-- Changed from lg:w-1/2 to lg:w-3/5 -->
+                    <div class="relative h-full flex items-center">
+                        <!-- Main Slider Container -->
+                        <div class="w-full px-8 relative"> <!-- Reduced side padding -->
+                            <!-- Navigation Buttons -->
+                            <button class="slick-prev-instagram absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue/80 text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-teal-blue transition -ml-4">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            
+                            <button class="slick-next-instagram absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue/80 text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-teal-blue transition -mr-4">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                    
+                            <!-- Instagram Slider -->
+                            <div class="instagram-slider">
+                                <!-- Instagram Photos 1-5 -->
+                                <div class="px-1"> <!-- Reduced padding between slides -->
+                                    <div class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        <img src="/assets/images/image-1.png" alt="Instagram photo" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                    </div>
+                                </div>
+                                <div class="px-1"> <!-- Reduced padding between slides -->
+                                    <div class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        <img src="/assets/images/image-2.png" alt="Instagram photo" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                    </div>
+                                </div>
+                                <div class="px-1"> <!-- Reduced padding between slides -->
+                                    <div class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        <img src="/assets/images/image-3.png" alt="Instagram photo" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                    </div>
+                                </div>
+                                <div class="px-1"> <!-- Reduced padding between slides -->
+                                    <div class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        <img src="/assets/images/image-4.png" alt="Instagram photo" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                    </div>
+                                </div>
+                                <div class="px-1"> <!-- Reduced padding between slides -->
+                                    <div class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        <img src="/assets/images/image-5.png" alt="Instagram photo" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
@@ -316,6 +391,44 @@
 
             $('.slick-next-custom').click(function() {
                 $('.stats-slider').slick('slickNext');
+            });
+        });
+
+        $(document).ready(function(){
+            $('.instagram-slider').slick({
+                dots: false,
+                arrows: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: '60px',
+                focusOnSelect: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            centerPadding: '40px'
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            centerPadding: '30px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+
+            // Custom arrow navigation
+            $('.slick-prev-instagram').click(function(){
+                $('.instagram-slider').slick('slickPrev');
+            });
+            
+            $('.slick-next-instagram').click(function(){
+                $('.instagram-slider').slick('slickNext');
             });
         });
     </script>

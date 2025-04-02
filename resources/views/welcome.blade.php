@@ -122,7 +122,7 @@
     </section>
 
     <!-- Impact Section with Side-by-Side Cards -->
-    <section class="bg-white py-16 px-6 sm:py-20 md:py-24 lg:py-28 xl:py-32">
+    <section class="bg-white py-16 px-6 sm:py-20 md:py-24 lg:py-28 xl:py-32 rounded-bl-[50px] rounded-br-[50px]">
         <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-8 lg:gap-12">
             <!-- Left Side - Title -->
             <div class="lg:w-1/3">
@@ -225,50 +225,54 @@
     </section>
 
     <!-- New Storytelling Section -->
-    <section class="relative py-16 px-6 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-blue bg-[url('/public/assets/images/ASdaf%202.png')] bg-cover bg-[position:center_30%] lg:bg-center">
+    <section
+        class="relative px-6 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-blue bg-[url('/public/assets/images/ASdaf%202.png')] bg-cover bg-[position:center_30%] lg:bg-center rounded-bl-[50px] rounded-br-[50px] mt-[-100px] z-[-1]"
+        style="padding-top: 200px;">
         <!-- Blue overlay -->
         <div class="absolute inset-0 bg-blue-900/70"></div>
-        
+
         <div class="max-w-6xl mx-auto relative z-10">
             <!-- Voice title with different colors -->
             <h2 class="text-3xl font-bold sm:text-4xl md:text-5xl tracking-wide font-calimate mb-8 lg:mb-12">
                 <span class="text-teal-blue">Voice from the</span>
                 <span class="text-white"> ocean.</span>
             </h2>
-    
+
             <!-- Two-column content below -->
             <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
                 <!-- Left Column - YouTube Thumbnail -->
                 <div class="lg:w-1/2 w-full">
-                    <div class="aspect-video bg-black/30 rounded-xl border-2 border-white/20 flex items-center justify-center cursor-pointer transition hover:border-white/40">
+                    <div
+                        class="aspect-video bg-black/30 rounded-xl border-2 border-white/20 flex items-center justify-center cursor-pointer transition hover:border-white/40">
                         <div class="text-center">
                             <i class="fas fa-play text-white text-4xl mb-2"></i>
                             <p class="text-white font-ttNorms">Watch the story</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Right Column - Text Content -->
                 <div class="lg:w-1/2 w-full rounded-2xl p-6">
                     <p class="text-lg sm:text-xl md:text-2xl font-bold mb-3 font-calimate text-white">
                         The Fading Fishermen of Pulau Sabira.
                     </p>
-                    
+
                     <p class="mb-4 text-sm sm:text-base leading-relaxed font-ttNorms text-white">
                         Once a thriving haven for traditional fishermen, Pulau Sabira now
                         faces a quiet transformation. As the younger generation drifts away
                         from the sea, the island's rich fishing heritage stands at a crossroads.
                     </p>
-                    
+
                     <p class="mb-6 text-sm sm:text-base leading-relaxed font-ttNorms text-white">
                         NPM Fikom Unpad and Narasea Indonesia set sail to uncover the
                         stories of Sabira's fishermen—learning, listening, and capturing
                         their journey before it fades into history.
                     </p>
-                    
-                    <button class="px-5 py-1.5 text-xs sm:text-sm md:text-base 
-                                bg-peachy-orange text-white rounded-full font-bold tracking-wider 
-                                hover:bg-[#D96630] transition duration-200 font-ttNorms">
+
+                    <button
+                        class="px-5 py-1.5 text-xs sm:text-sm md:text-base 
+                          bg-peachy-orange text-white rounded-full font-bold tracking-wider 
+                          hover:bg-[#D96630] transition duration-200 font-ttNorms">
                         Share What You See
                     </button>
                 </div>

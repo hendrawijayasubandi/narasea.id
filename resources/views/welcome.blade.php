@@ -53,7 +53,8 @@
             object-fit: cover;
         }
 
-        .slick-prev-custom, .slick-next-custom {
+        .slick-prev-custom,
+        .slick-next-custom {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
@@ -81,13 +82,16 @@
             right: -60px;
         }
 
-        .slick-prev-custom:hover, .slick-next-custom:hover {
+        .slick-prev-custom:hover,
+        .slick-next-custom:hover {
             background-color: #017C89;
         }
 
         /* Sembunyikan tombol di layar kecil */
         @media (max-width: 1024px) {
-            .slick-prev-custom, .slick-next-custom {
+
+            .slick-prev-custom,
+            .slick-next-custom {
                 display: none !important;
             }
         }
@@ -124,10 +128,10 @@
             <div class="lg:w-1/3">
                 <h2 class="text-3xl font-bold sm:text-4xl md:text-5xl lg:text-5xl tracking-wide font-calimate">
                     <span class="text-blue">Tides of</span>
-                    <span class="text-[#019AAA]">Impact.</span>
+                    <span class="text-teal-blue">Impact.</span>
                 </h2>
             </div>
-            
+
             <!-- Right Side - Cards Slider -->
             <div class="relative lg:w-2/3 w-full">
                 <!-- Tombol Navigasi Kiri (Desktop Only) -->
@@ -138,13 +142,33 @@
                 <!-- Slider -->
                 <div class="stats-slider">
                     <!-- Card 1 -->
-                    <div class="px-2 h-full">
-                        <div class="flex flex-col h-full">
-                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl">
-                                <img src="assets/images/image-1.png" alt="Community" class="w-full h-full object-cover">
+                    <div class="px-2 h-full group">
+                        <div class="flex flex-col min-h-[300px] max-h-[500px] relative overflow-hidden rounded-2xl">
+                            <!-- Gambar -->
+                            <div class="overflow-hidden rounded-t-2xl h-full">
+                                <img src="assets/images/image-1.png" alt="Community"
+                                    class="w-full h-full object-cover transition-all duration-500 ease-in-out">
                             </div>
-                            <div class="bg-[#019AAA] p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center">
-                                <p class="text-white text-base lg:text-lg font-calimate">10+ coastal communities empowered</p>
+
+                            <!-- Bagian Biru (Naik Saat Hover) -->
+                            <div
+                                class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex flex-col items-start justify-end 
+                                absolute bottom-0 left-0 w-full h-1/3 group-hover:h-full transition-all duration-500 ease-[cubic-bezier(0.33,1,0.68,1)] 
+                                rounded-2xl group-hover:rounded-2xl">
+                                <!-- Teks pertama yang bergerak saat hover -->
+                                <p
+                                    class="text-white text-base lg:text-lg font-calimate absolute bottom-6 left-6 transition-all duration-500 ease-[cubic-bezier(0.33,1,0.68,1)] 
+                                group-hover:bottom-auto group-hover:top-6 group-hover:left-6">
+                                    10+ coastal communities empowered.
+                                </p>
+                                <!-- Teks kedua yang muncul saat hover -->
+                                <p
+                                    class="text-white text-sm font-ttNorms opacity-0 absolute left-6 transition-all duration-500 ease-[cubic-bezier(0.33,1,0.68,1)] 
+                                    group-hover:opacity-100 group-hover:top-1/2 transform group-hover:-translate-y-1/2 w-[calc(100%-3rem)] 
+                                    leading-relaxed">
+                                    <!-- atau line-height nilai spesifik seperti `line-height-[1.5]` -->
+                                    Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -155,8 +179,10 @@
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl">
                                 <img src="assets/images/image-1.png" alt="Education" class="w-full h-full object-cover">
                             </div>
-                            <div class="bg-[#E84373] p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center">
-                                <p class="text-white text-base lg:text-lg font-calimate">500+ people educated on ocean literacy</p>
+                            <div
+                                class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center">
+                                <p class="text-white text-base lg:text-lg font-calimate">500+ people educated on ocean
+                                    literacy</p>
                             </div>
                         </div>
                     </div>
@@ -167,8 +193,10 @@
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl">
                                 <img src="assets/images/image-1.png" alt="Media" class="w-full h-full object-cover">
                             </div>
-                            <div class="bg-[#FF864A] p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center">
-                                <p class="text-white text-base lg:text-lg font-calimate">100K+ media impressions through digital storytelling</p>
+                            <div
+                                class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center">
+                                <p class="text-white text-base lg:text-lg font-calimate">100K+ media impressions through
+                                    digital storytelling</p>
                             </div>
                         </div>
                     </div>
@@ -179,8 +207,10 @@
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl">
                                 <img src="assets/images/image-1.png" alt="Community" class="w-full h-full object-cover">
                             </div>
-                            <div class="bg-[#019AAA] p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center">
-                                <p class="text-white text-base lg:text-lg font-calimate">10+ coastal communities empowered</p>
+                            <div
+                                class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center">
+                                <p class="text-white text-base lg:text-lg font-calimate">10+ coastal communities
+                                    empowered</p>
                             </div>
                         </div>
                     </div>
@@ -190,6 +220,58 @@
                 <button class="slick-next-custom hidden lg:flex">
                     <i class="fa-solid fa-chevron-right"></i>
                 </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Storytelling Section -->
+    <section class="relative py-16 px-6 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-blue bg-[url('/public/assets/images/ASdaf%202.png')] bg-cover bg-[position:center_30%] lg:bg-center">
+        <!-- Blue overlay -->
+        <div class="absolute inset-0 bg-blue-900/70"></div>
+        
+        <div class="max-w-6xl mx-auto relative z-10">
+            <!-- Voice title with different colors -->
+            <h2 class="text-3xl font-bold sm:text-4xl md:text-5xl tracking-wide font-calimate mb-8 lg:mb-12">
+                <span class="text-teal-blue">Voice from the</span>
+                <span class="text-white"> ocean.</span>
+            </h2>
+    
+            <!-- Two-column content below -->
+            <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
+                <!-- Left Column - YouTube Thumbnail -->
+                <div class="lg:w-1/2 w-full">
+                    <div class="aspect-video bg-black/30 rounded-xl border-2 border-white/20 flex items-center justify-center cursor-pointer transition hover:border-white/40">
+                        <div class="text-center">
+                            <i class="fas fa-play text-white text-4xl mb-2"></i>
+                            <p class="text-white font-ttNorms">Watch the story</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Right Column - Text Content -->
+                <div class="lg:w-1/2 w-full rounded-2xl p-6">
+                    <p class="text-lg sm:text-xl md:text-2xl font-bold mb-3 font-calimate text-white">
+                        The Fading Fishermen of Pulau Sabira.
+                    </p>
+                    
+                    <p class="mb-4 text-sm sm:text-base leading-relaxed font-ttNorms text-white">
+                        Once a thriving haven for traditional fishermen, Pulau Sabira now
+                        faces a quiet transformation. As the younger generation drifts away
+                        from the sea, the island's rich fishing heritage stands at a crossroads.
+                    </p>
+                    
+                    <p class="mb-6 text-sm sm:text-base leading-relaxed font-ttNorms text-white">
+                        NPM Fikom Unpad and Narasea Indonesia set sail to uncover the
+                        stories of Sabira's fishermen—learning, listening, and capturing
+                        their journey before it fades into history.
+                    </p>
+                    
+                    <button class="px-5 py-1.5 text-xs sm:text-sm md:text-base 
+                                bg-peachy-orange text-white rounded-full font-bold tracking-wider 
+                                hover:bg-[#D96630] transition duration-200 font-ttNorms">
+                        Share What You See
+                    </button>
+                </div>
             </div>
         </div>
     </section>
@@ -206,8 +288,7 @@
                 speed: 300,
                 slidesToShow: 3,
                 slidesToScroll: 1,
-                responsive: [
-                    {
+                responsive: [{
                         breakpoint: 1024,
                         settings: {
                             slidesToShow: 2,
@@ -233,7 +314,6 @@
                 $('.stats-slider').slick('slickNext');
             });
         });
-
     </script>
 </body>
 

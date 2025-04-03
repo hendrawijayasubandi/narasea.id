@@ -95,6 +95,30 @@
                 display: none !important;
             }
         }
+
+        /* Ensure all cards in slider have equal height */
+        .projects-slider {
+            display: flex;
+        }
+
+        .projects-slider .slick-track {
+            display: flex;
+            align-items: stretch;
+        }
+
+        .projects-slider .slick-slide {
+            height: auto;
+        }
+
+        .projects-slider .slick-slide>div {
+            height: 100%;
+        }
+
+        /* Image zoom effect */
+        .projects-slider img {
+            transition: transform 0.5s ease;
+            will-change: transform;
+        }
     </style>
 </head>
 
@@ -225,7 +249,9 @@
     </section>
 
     <!-- New Storytelling Section -->
-    <section class="relative px-6 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-blue bg-[url('/public/assets/images/ASdaf%202.png')] bg-cover bg-[position:center_30%] lg:bg-center rounded-bl-[50px] rounded-br-[50px] z-20" style="padding-top: 200px;">
+    <section
+        class="relative px-6 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-blue bg-[url('/public/assets/images/ASdaf%202.png')] bg-cover bg-[position:center_30%] lg:bg-center rounded-bl-[50px] rounded-br-[50px] z-20"
+        style="padding-top: 200px;">
         <!-- Blue overlay -->
         <div class="absolute inset-0 bg-blue-900/70"></div>
 
@@ -269,8 +295,8 @@
 
                     <button
                         class="px-5 py-1.5 text-xs sm:text-sm md:text-base 
-                          bg-peachy-orange text-white rounded-full font-bold tracking-wider 
-                          hover:bg-[#D96630] transition duration-200 font-ttNorms">
+                            bg-peachy-orange text-white rounded-full font-bold tracking-wider 
+                            hover:bg-[#D96630] transition duration-200 font-ttNorms">
                         Share What You See
                     </button>
                 </div>
@@ -278,14 +304,170 @@
         </div>
     </section>
 
+    <!-- Projects & Partnership Section -->
+    <section
+        class="relative bg-black py-16 px-6 sm:py-20 md:py-24 lg:py-28 xl:py-32 pb-16 mb-16 rounded-bl-[50px] rounded-br-[50px]">
+        <div class="max-w-6xl mx-auto">
+            <!-- Section Header -->
+            <div class="mb-12 lg:mb-16">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-raspberry-pink mb-4 font-calimate">Protect.
+                    Educate. Empower.</h1>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-golden-yellow mb-6 font-calimate">Our
+                    Projects & Partnership</h2>
+            </div>
+
+            <!-- Two Column Layout -->
+            <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
+                <!-- Left Column - Text Content -->
+                <div class="lg:w-1/4 flex flex-col justify-center">
+                    <p class="text-white text-base sm:text-lg font-ttNorms leading-relaxed">
+                        At Narasea, every wave carries a story, and every initiative is a step toward protecting our
+                        marine heritage.
+                        Through collaborations with passionate organizations, we bring education, sustainability, and
+                        community empowerment to life.
+                    </p>
+                </div>
+
+                <!-- Right Column - Image Cards Slider -->
+                <div class="lg:w-3/4 relative">
+                    <!-- Navigation Buttons -->
+                    <button
+                        class="slick-prev-projects absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-teal-blue-dark transition -ml-12">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+
+                    <button
+                        class="slick-next-projects absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-teal-blue-dark transition -mr-12">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+
+                    <!-- Slider Container -->
+                    <div class="projects-slider">
+                        <!-- Card 1 -->
+                        <div class="px-2 h-full">
+                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-white/5 group">
+                                <div class="aspect-[4/3] overflow-hidden relative">
+                                    <img src="assets/images/image-1.png" alt="Coral Triangle"
+                                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                </div>
+                                <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                                    <h3 class="text-white text-lg lg:text-xl font-bold font-calimate mb-2">
+                                        Wonder of Coral Triangle
+                                    </h3>
+                                    <p class="text-white/80 text-sm font-ttNorms flex-grow">
+                                        A hero's journey into marine biodiversity conservation through education and
+                                        awareness programs
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="px-2 h-full">
+                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-white/5 group">
+                                <div class="aspect-[4/3] overflow-hidden relative">
+                                    <img src="assets/images/image-2.png" alt="Octopus Series"
+                                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                </div>
+                                <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                                    <h3 class="text-white text-lg lg:text-xl font-bold font-calimate mb-2">
+                                        Octopus Series
+                                    </h3>
+                                    <p class="text-white/80 text-sm font-ttNorms flex-grow">
+                                        Developing innovative solutions for marine ecosystem protection and restoration
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="px-2 h-full">
+                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-white/5 group">
+                                <div class="aspect-[4/3] overflow-hidden relative">
+                                    <img src="assets/images/image-3.png" alt="Oceana Scar"
+                                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                </div>
+                                <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                                    <h3 class="text-white text-lg lg:text-xl font-bold font-calimate mb-2">
+                                        Oceana Scar
+                                    </h3>
+                                    <p class="text-white/80 text-sm font-ttNorms flex-grow">
+                                        Combining art and science to express the beauty and fragility of ocean waves
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="px-2 h-full">
+                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-white/5 group">
+                                <div class="aspect-[4/3] overflow-hidden relative">
+                                    <img src="assets/images/image-4.png" alt="Marine Cleanup"
+                                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                </div>
+                                <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                                    <h3 class="text-white text-lg lg:text-xl font-bold font-calimate mb-2">
+                                        Marine Cleanup
+                                    </h3>
+                                    <p class="text-white/80 text-sm font-ttNorms flex-grow">
+                                        Community-driven efforts to remove plastic waste from coastal areas
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="px-2 h-full">
+                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-white/5 group">
+                                <div class="aspect-[4/3] overflow-hidden relative">
+                                    <img src="assets/images/image-5.png" alt="Turtle Conservation"
+                                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                </div>
+                                <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                                    <h3 class="text-white text-lg lg:text-xl font-bold font-calimate mb-2">
+                                        Turtle Conservation
+                                    </h3>
+                                    <p class="text-white/80 text-sm font-ttNorms flex-grow">
+                                        Protecting endangered sea turtles through habitat preservation
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 6 -->
+                        <div class="px-2 h-full">
+                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-white/5 group">
+                                <div class="aspect-[4/3] overflow-hidden relative">
+                                    <img src="assets/images/image-6.png" alt="Coral Restoration"
+                                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                </div>
+                                <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                                    <h3 class="text-white text-lg lg:text-xl font-bold font-calimate mb-2">
+                                        Coral Restoration
+                                    </h3>
+                                    <p class="text-white/80 text-sm font-ttNorms flex-grow">
+                                        Regrowing damaged coral reefs through innovative techniques
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- New Section: Social Currents -->
-    <section class="relative bg-[url('/public/assets/images/francesco-ungaro.png')] bg-cover bg-center pt-32 pb-16 px-6 sm:pt-36 sm:pb-20 md:pt-40 md:pb-24 lg:pt-44 lg:pb-28 xl:pt-48 xl:pb-32 -mt-[100px] z-10" style="padding-top: 200px;">
+    <section
+        class="relative bg-[url('/public/assets/images/francesco-ungaro.png')] bg-cover bg-center pt-32 pb-16 px-6 sm:pt-36 sm:pb-20 md:pt-40 md:pb-24 lg:pt-44 lg:pb-28 xl:pt-48 xl:pb-32 -mt-[100px] z-10"
+        style="padding-top: 200px;">
         <!-- Teal-blue overlay with opacity -->
         <div class="absolute inset-0 bg-teal-blue/70"></div>
 
         <div class="max-w-6xl mx-auto relative z-10">
             <!-- Section Title -->
-            <h2 class="text-3xl font-bold sm:text-4xl md:text-5xl tracking-wide font-calimate mb-12 text-center lg:text-left">
+            <h2
+                class="text-3xl font-bold sm:text-4xl md:text-5xl tracking-wide font-calimate mb-12 text-center lg:text-left">
                 <span class="text-raspberry-pink">Social</span><br>
                 <span class="text-golden-yellow">Currents.</span>
             </h2>
@@ -294,58 +476,72 @@
                 <!-- Left Column - Text Content (narrower) -->
                 <div class="lg:w-2/5">
                     <p class="text-base sm:text-lg md:text-xl font-ttNorms text-white mb-6 max-w-md">
-                        The ocean moves, and so do we! Stay connected with the latest stories, moments, and impact straight from our Instagram.
+                        The ocean moves, and so do we! Stay connected with the latest stories, moments, and impact
+                        straight from our Instagram.
                     </p>
-                    
+
                     <div class="mb-8">
-                        <a href="#" class="px-6 py-2 text-sm sm:text-base bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms inline-flex items-center">
+                        <a href="#"
+                            class="px-6 py-2 text-sm sm:text-base bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms inline-flex items-center">
                             Follow the Waves
                             <i class="fas fa-arrow-right ml-2 me-2"></i>
                             Explore More
                         </a>
                     </div>
                 </div>
-                
+
                 <!-- Right Column - Instagram Photos (wider) -->
                 <div class="lg:w-3/5">
                     <div class="relative h-full flex items-center">
                         <!-- Main Slider Container -->
                         <div class="w-full px-8 relative">
                             <!-- Navigation Buttons -->
-                            <button class="slick-prev-instagram absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue/80 text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-teal-blue transition -ml-4">
+                            <button
+                                class="slick-prev-projects absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#014951] transition -ml-12">
                                 <i class="fas fa-chevron-left"></i>
                             </button>
-                            
-                            <button class="slick-next-instagram absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue/80 text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-teal-blue transition -mr-4">
+
+                            <button
+                                class="slick-next-projects absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#014951] transition -mr-12">
                                 <i class="fas fa-chevron-right"></i>
                             </button>
-                    
+
                             <!-- Instagram Slider -->
                             <div class="instagram-slider">
                                 <!-- Instagram Photos 1-5 -->
                                 <div class="px-1"> <!-- Reduced padding between slides -->
-                                    <div class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
-                                        <img src="/assets/images/image-1.png" alt="Instagram photo" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                    <div
+                                        class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        <img src="/assets/images/image-1.png" alt="Instagram photo"
+                                            class="w-full h-full object-cover hover:scale-105 transition duration-300">
                                     </div>
                                 </div>
                                 <div class="px-1"> <!-- Reduced padding between slides -->
-                                    <div class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
-                                        <img src="/assets/images/image-2.png" alt="Instagram photo" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                    <div
+                                        class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        <img src="/assets/images/image-2.png" alt="Instagram photo"
+                                            class="w-full h-full object-cover hover:scale-105 transition duration-300">
                                     </div>
                                 </div>
                                 <div class="px-1"> <!-- Reduced padding between slides -->
-                                    <div class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
-                                        <img src="/assets/images/image-3.png" alt="Instagram photo" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                    <div
+                                        class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        <img src="/assets/images/image-3.png" alt="Instagram photo"
+                                            class="w-full h-full object-cover hover:scale-105 transition duration-300">
                                     </div>
                                 </div>
                                 <div class="px-1"> <!-- Reduced padding between slides -->
-                                    <div class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
-                                        <img src="/assets/images/image-4.png" alt="Instagram photo" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                    <div
+                                        class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        <img src="/assets/images/image-4.png" alt="Instagram photo"
+                                            class="w-full h-full object-cover hover:scale-105 transition duration-300">
                                     </div>
                                 </div>
                                 <div class="px-1"> <!-- Reduced padding between slides -->
-                                    <div class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
-                                        <img src="/assets/images/image-5.png" alt="Instagram photo" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                    <div
+                                        class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        <img src="/assets/images/image-5.png" alt="Instagram photo"
+                                            class="w-full h-full object-cover hover:scale-105 transition duration-300">
                                     </div>
                                 </div>
                             </div>
@@ -363,7 +559,7 @@
         $(document).ready(function() {
             $('.stats-slider').slick({
                 dots: true,
-                arrows: false, // Matikan default arrows dari Slick
+                arrows: false,
                 infinite: true,
                 speed: 300,
                 slidesToShow: 3,
@@ -372,14 +568,14 @@
                         breakpoint: 1024,
                         settings: {
                             slidesToShow: 2,
-                            arrows: false // Di layar kecil, hilangkan tombol
+                            arrows: false
                         }
                     },
                     {
                         breakpoint: 768,
                         settings: {
                             slidesToShow: 1,
-                            arrows: false // Di layar kecil, hilangkan tombol
+                            arrows: false
                         }
                     }
                 ]
@@ -395,7 +591,42 @@
             });
         });
 
-        $(document).ready(function(){
+        $(document).ready(function() {
+            $('.projects-slider').slick({
+                dots: false,
+                arrows: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            infinite: true
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            infinite: true
+                        }
+                    }
+                ]
+            });
+
+            // Custom arrow navigation
+            $('.slick-prev-projects').click(function() {
+                $('.projects-slider').slick('slickPrev');
+            });
+
+            $('.slick-next-projects').click(function() {
+                $('.projects-slider').slick('slickNext');
+            });
+        });
+
+        $(document).ready(function() {
             $('.instagram-slider').slick({
                 dots: false,
                 arrows: false,
@@ -406,8 +637,7 @@
                 centerMode: true,
                 centerPadding: '60px',
                 focusOnSelect: true,
-                responsive: [
-                    {
+                responsive: [{
                         breakpoint: 1024,
                         settings: {
                             centerPadding: '40px'
@@ -424,11 +654,11 @@
             });
 
             // Custom arrow navigation
-            $('.slick-prev-instagram').click(function(){
+            $('.slick-prev-instagram').click(function() {
                 $('.instagram-slider').slick('slickPrev');
             });
-            
-            $('.slick-next-instagram').click(function(){
+
+            $('.slick-next-instagram').click(function() {
                 $('.instagram-slider').slick('slickNext');
             });
         });

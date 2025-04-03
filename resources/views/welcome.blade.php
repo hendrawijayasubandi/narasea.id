@@ -479,12 +479,12 @@
                         <div class="w-full px-8 relative">
                             <!-- Navigation Buttons -->
                             <button
-                                class="slick-prev-projects absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition -ml-8 sm:-ml-12">
+                                class="slick-prev-instagram absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition -ml-8 sm:-ml-12">
                                 <i class="fas fa-chevron-left text-sm sm:text-base"></i>
                             </button>
 
                             <button
-                                class="slick-next-projects absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition -mr-8 sm:-mr-12">
+                                class="slick-next-instagram absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition -mr-8 sm:-mr-12">
                                 <i class="fas fa-chevron-right text-sm sm:text-base"></i>
                             </button>
 

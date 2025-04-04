@@ -15,6 +15,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <style>
+        .group {
+            position: relative;
+        }
+
+        .group:hover .overlay-description {
+            transform: translateY(0);
+        }
+
+        .overlay-description {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(222, 49, 99, 0.9);
+            /* Warna raspberry pink dengan opacity */
+            color: white;
+            padding: 20px;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+
         /* Custom dot styling */
         .slick-dots {
             bottom: -40px;
@@ -158,26 +179,40 @@
 
             <!-- Right Side - Cards Slider -->
             <div class="lg:w-2/3 w-full relative">
+                <!-- Custom Navigation Buttons -->
+                <div class="hidden lg:flex justify-between absolute top-1/2 left-0 right-0 z-10 -translate-y-1/2 px-4">
+                    <button
+                        class="slick-prev-custom bg-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-gray-100 transition">
+                        <i class="fas fa-chevron-left text-gray-700"></i>
+                    </button>
+                    <button
+                        class="slick-next-custom bg-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-gray-100 transition">
+                        <i class="fas fa-chevron-right text-gray-700"></i>
+                    </button>
+                </div>
                 <!-- Slider Container -->
                 <div class="stats-slider">
                     <!-- Card 1 -->
                     <div class="px-2 h-full group">
-                        <div class="flex flex-col min-h-[300px] max-h-[500px] relative overflow-hidden rounded-2xl">
-                            <!-- Image -->
-                            <div class="overflow-hidden rounded-t-2xl h-full">
-                                <img src="assets/images/image-1.png" alt="Community"
-                                    class="w-full h-full object-cover transition-all duration-500 ease-in-out">
+                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                            <!-- Gambar dan judul -->
+                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
+                                <img src="assets/images/image-1.png" alt="Education"
+                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                </div>
+                            </div>
+                            <div
+                                class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative">
+                                <p class="text-white text-base lg:text-lg font-calimate">10+ coastal communities
+                                    empowered.</p>
                             </div>
 
-                            <!-- Blue Section (Rises on Hover) -->
+                            <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex flex-col items-start justify-end absolute bottom-0 left-0 w-full h-1/3 group-hover:h-full transition-all duration-500 ease-[cubic-bezier(0.33,1,0.68,1)] rounded-2xl group-hover:rounded-2xl">
-                                <p
-                                    class="text-white text-base lg:text-lg font-calimate absolute bottom-6 left-6 transition-all duration-500 ease-[cubic-bezier(0.33,1,0.68,1)] group-hover:bottom-auto group-hover:top-6 group-hover:left-6">
-                                    10+ coastal communities empowered.
-                                </p>
-                                <p
-                                    class="text-white text-sm font-ttNorms opacity-0 absolute left-6 transition-all duration-500 ease-[cubic-bezier(0.33,1,0.68,1)] group-hover:opacity-100 group-hover:top-1/2 transform group-hover:-translate-y-1/2 w-[calc(100%-3rem)] leading-relaxed">
+                                class="absolute inset-0 bg-teal-blue bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                                <p class="text-white text-sm lg:text-base text-center">
                                     Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
                                 </p>
                             </div>
@@ -185,43 +220,85 @@
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="px-2 h-full">
-                        <div class="flex flex-col h-full">
-                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl">
-                                <img src="assets/images/image-1.png" alt="Education" class="w-full h-full object-cover">
+                    <div class="px-2 h-full group">
+                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                            <!-- Gambar dan judul -->
+                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
+                                <img src="assets/images/image-1.png" alt="Education"
+                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                </div>
                             </div>
                             <div
-                                class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center">
+                                class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative">
                                 <p class="text-white text-base lg:text-lg font-calimate">500+ people educated on ocean
                                     literacy</p>
+                            </div>
+
+                            <!-- Deskripsi yang muncul saat hover -->
+                            <div
+                                class="absolute inset-0 bg-raspberry-pink bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                                <p class="text-white text-sm lg:text-base text-center">
+                                    Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
+                                    bisa menambahkan detail tentang program, manfaat, dan dampaknya.
+                                </p>
                             </div>
                         </div>
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="px-2 h-full">
-                        <div class="flex flex-col h-full">
-                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl">
-                                <img src="assets/images/image-1.png" alt="Media" class="w-full h-full object-cover">
+                    <div class="px-2 h-full group">
+                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                            <!-- Gambar dan judul -->
+                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
+                                <img src="assets/images/image-1.png" alt="Education"
+                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                </div>
                             </div>
                             <div
-                                class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center">
+                                class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative">
                                 <p class="text-white text-base lg:text-lg font-calimate">100K+ media impressions through
                                     digital storytelling</p>
+                            </div>
+
+                            <!-- Deskripsi yang muncul saat hover -->
+                            <div
+                                class="absolute inset-0 bg-peachy-orange bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                                <p class="text-white text-sm lg:text-base text-center">
+                                    Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
+                                    bisa menambahkan detail tentang program, manfaat, dan dampaknya.
+                                </p>
                             </div>
                         </div>
                     </div>
 
                     <!-- Card 4 -->
-                    <div class="px-2 h-full">
-                        <div class="flex flex-col h-full">
-                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl">
-                                <img src="assets/images/image-1.png" alt="Community" class="w-full h-full object-cover">
+                    <div class="px-2 h-full group">
+                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                            <!-- Gambar dan judul -->
+                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
+                                <img src="assets/images/image-1.png" alt="Education"
+                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                </div>
                             </div>
                             <div
-                                class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center">
-                                <p class="text-white text-base lg:text-lg font-calimate">10+ coastal communities
-                                    empowered</p>
+                                class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative">
+                                <p class="text-white text-base lg:text-lg font-calimate">100K+ media impressions through
+                                    digital storytelling</p>
+                            </div>
+
+                            <!-- Deskripsi yang muncul saat hover -->
+                            <div
+                                class="absolute inset-0 bg-peachy-orange bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                                <p class="text-white text-sm lg:text-base text-center">
+                                    Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
+                                    bisa menambahkan detail tentang program, manfaat, dan dampaknya.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -329,7 +406,8 @@
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="p-4 lg:p-6 flex flex-col flex-grow">
-                                    <h3 class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                    <h3
+                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
                                         Wonder of Coral Triangle
                                     </h3>
                                     <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">

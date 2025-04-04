@@ -117,6 +117,13 @@
             }
         }
 
+        @media (max-width: 640px) {
+        .slick-prev-instagram,
+        .slick-next-instagram {
+            display: none !important;
+        }
+    }
+
         /* Ensure all cards in slider have equal height */
         .projects-slider {
             display: flex;
@@ -363,7 +370,7 @@
     <!-- Projects & Partnership Section -->
     <section
         class="relative bg-black py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-32 rounded-bl-[50px] rounded-br-[50px] -mt-[50px] z-20">
-        <div class="max-w-6xl mx-auto">
+        <div class="max-w-6xl mx-auto" style="padding-top: 50px;">
             <!-- Section Header -->
             <div class="mb-8 lg:mb-12 px-4 sm:px-6">
                 <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-raspberry-pink mb-2 font-calimate">Protect.
@@ -520,14 +527,14 @@
 
     <!-- New Section: Social Currents -->
     <section
-        class="relative bg-[url('/public/assets/images/francesco-ungaro.png')] bg-cover bg-center py-16 px-4 sm:py-20 md:py-24 lg:py-28 xl:py-32 -mt-[50px] z-10">
+        class="relative bg-[url('/public/assets/images/francesco-ungaro_compressed.jpg')] bg-cover bg-center py-16 px-4 sm:py-20 md:py-24 lg:py-28 xl:py-32 -mt-[50px] z-10">
         <!-- Teal-blue overlay with opacity -->
         <div class="absolute inset-0 bg-teal-blue/70"></div>
 
         <div class="max-w-6xl mx-auto relative z-10">
             <!-- Section Title -->
             <h2
-                class="text-3xl font-bold sm:text-4xl md:text-5xl tracking-wide font-calimate mb-8 lg:mb-12 text-center lg:text-left">
+                class="text-3xl font-bold sm:text-4xl md:text-5xl tracking-wide font-calimate mb-8 lg:mb-12 lg:text-left">
                 <span class="text-raspberry-pink">Social</span><br>
                 <span class="text-golden-yellow">Currents.</span>
             </h2>
@@ -608,6 +615,84 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Grid Section -->
+    <section class="relative bg-black">
+        <div class="h-24 sm:h-32 md:h-40 w-full overflow-hidden">
+            <img src="assets/images/grid-1.png" alt="Ocean grid pattern top"
+                class="w-full h-full object-cover opacity-70">
+        </div>
+    </section>
+
+    <!-- Main Contact Section -->
+    <section class="relative bg-black py-16 px-4 sm:py-20 md:py-24 lg:py-28">
+        <div class="max-w-4xl mx-auto text-center">
+            <!-- Title -->
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 font-calimate text-white">
+                Sea Needs You. Get in Touch.
+            </h2>
+
+            <!-- Text -->
+            <div class="max-w-xs sm:max-w-sm md:max-w-md mx-auto mb-8">
+                <p class="text-white/80 text-base sm:text-lg md:text-xl font-ttNorms">
+                    Every action counts in protecting our oceans.<br>
+                    Whether you're looking to collaborate, support, or simply learn more, we'd love to connect!
+                </p>
+            </div>
+
+            <!-- Centered Circle Button -->
+            <button
+                class="w-12 h-12 flex items-center justify-center bg-peachy-orange text-black rounded-full 
+                          hover:bg-teal-blue-dark transition duration-200 mx-auto">
+                <i class="fas fa-comment-dots text-xl"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Bottom Grid Section -->
+    <section class="relative bg-black">
+        <div class="h-24 sm:h-32 md:h-40 w-full overflow-hidden">
+            <img src="assets/images/grid-2.png" alt="Ocean grid pattern bottom"
+                class="w-full h-full object-cover opacity-70">
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="relative bg-[url('/public/assets/images/francesco-ungaro_compressed.jpg')] bg-cover bg-center py-12 px-4 sm:py-16 md:py-20">
+        <!-- Dark overlay -->
+
+        
+        <div class="max-w-6xl mx-auto relative z-10">
+            <!-- Left-aligned content container -->
+            <div class="max-w-md">
+                <!-- Newsletter heading -->
+                <h3 class="text-2xl sm:text-3xl font-bold text-white mb-2 font-calimate">
+                    Subscribe to our newsletter.
+                </h3>
+                <p class="text-white/80 mb-6 font-ttNorms">
+                    Stay updated with our fresh news!
+                </p>
+
+                <!-- Email form -->
+                <form class="space-y-3">
+                    <div class="flex flex-col gap-3">
+                        <input 
+                            type="email" 
+                            placeholder="Your email address" 
+                            class="w-full px-4 py-3 bg-white text-black placeholder-black/50 border border-white/20 rounded-full focus:outline-none focus:ring-2 focus:ring-peachy-orange font-ttNorms"
+                            required
+                        >
+                        <button 
+                            type="submit"
+                            class="w-full px-6 py-3 bg-peachy-orange text-white rounded-full font-bold hover:bg-teal-blue-dark transition duration-200 font-ttNorms"
+                        >
+                            SUBSCRIBE
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>

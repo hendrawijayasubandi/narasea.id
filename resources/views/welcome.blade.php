@@ -252,6 +252,7 @@
 
         /* Sembunyikan tombol di layar kecil */
         @media (max-width: 1024px) {
+
             .slick-prev-custom,
             .slick-next-custom {
                 display: none !important;
@@ -259,6 +260,7 @@
         }
 
         @media (max-width: 640px) {
+
             .slick-prev-instagram,
             .slick-next-instagram {
                 display: none !important;
@@ -287,6 +289,54 @@
         .projects-slider img {
             transition: transform 0.5s ease;
             will-change: transform;
+        }
+
+        /* Animation for the button expansion */
+        .contact-sub-btn {
+            transition: all 0.3s, color 0.1s !important;
+        }
+
+        /* Active state when main button is clicked */
+        .contact-buttons-active #contact-main-btn {
+            background-color: white;
+            color: black;
+        }
+
+        .contact-buttons-active .contact-sub-btn:nth-child(2) {
+            /* WhatsApp */
+            opacity: 1;
+            transform: translateY(-50px) scale(1);
+            --delay: 1;
+        }
+
+        .contact-buttons-active .contact-sub-btn:nth-child(3) {
+            /* Email */
+            opacity: 1;
+            transform: translate(40px, 25px) scale(1);
+            --delay: 2;
+        }
+
+        .contact-buttons-active .contact-sub-btn:nth-child(4) {
+            /* Instagram */
+            opacity: 1;
+            transform: translate(-40px, 25px) scale(1);
+            --delay: 3;
+        }
+
+        /* Hover colors for each button */
+        .contact-buttons-active .contact-sub-btn:hover:nth-child(2) {
+            background-color: #25D366;
+            color: white;
+        }
+
+        .contact-buttons-active .contact-sub-btn:hover:nth-child(3) {
+            background-color: #EA4335;
+            color: white;
+        }
+
+        .contact-buttons-active .contact-sub-btn:hover:nth-child(4) {
+            background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+            color: white;
         }
     </style>
 </head>
@@ -494,7 +544,8 @@
                             </div>
                             <div
                                 class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative">
-                                <p class="text-white text-base lg:text-lg font-calimate">100K+ media impressions through
+                                <p class="text-white text-base lg:text-lg font-calimate">100K+ media impressions
+                                    through
                                     digital storytelling</p>
                             </div>
 
@@ -612,7 +663,8 @@
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="p-4 lg:p-6 flex flex-col flex-grow">
-                                    <h3 class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                    <h3
+                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
                                         Wonder of Coral Triangle
                                     </h3>
                                     <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
@@ -631,7 +683,8 @@
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="p-4 lg:p-6 flex flex-col flex-grow">
-                                    <h3 class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                    <h3
+                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
                                         Octopus Series
                                     </h3>
                                     <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
@@ -649,7 +702,8 @@
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="p-4 lg:p-6 flex flex-col flex-grow">
-                                    <h3 class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                    <h3
+                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
                                         Oceana Scar
                                     </h3>
                                     <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
@@ -667,7 +721,8 @@
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="p-4 lg:p-6 flex flex-col flex-grow">
-                                    <h3 class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                    <h3
+                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
                                         Marine Cleanup
                                     </h3>
                                     <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
@@ -685,7 +740,8 @@
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="p-4 lg:p-6 flex flex-col flex-grow">
-                                    <h3 class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                    <h3
+                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
                                         Turtle Conservation
                                     </h3>
                                     <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
@@ -703,7 +759,8 @@
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="p-4 lg:p-6 flex flex-col flex-grow">
-                                    <h3 class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                    <h3
+                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
                                         Coral Restoration
                                     </h3>
                                     <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
@@ -836,11 +893,32 @@
                 </p>
             </div>
 
-            <!-- Centered Circle Button -->
-            <button class="w-12 h-12 flex items-center justify-center bg-peachy-orange text-black rounded-full 
-                          hover:bg-teal-blue-dark transition duration-200 mx-auto">
-                <i class="fas fa-comment-dots text-xl"></i>
-            </button>
+            <!-- Enhanced Animated Button Container -->
+            <div class="relative h-32 flex items-center justify-center">
+                <!-- Main Button -->
+                <button id="contact-main-btn"
+                    class="absolute w-12 h-12 flex items-center justify-center bg-peachy-orange text-black rounded-full hover:bg-teal-blue-dark transition-all duration-300 z-10 focus:outline-none">
+                    <i class="fas fa-comment-dots text-xl"></i>
+                </button>
+
+                <!-- WhatsApp Button -->
+                <a href="https://wa.me/yournumber" target="_blank"
+                    class="contact-sub-btn absolute bg-white text-black rounded-full w-10 h-10 flex items-center justify-center opacity-0 transform scale-50 transition-all duration-300 hover:scale-110 hover:shadow-lg">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <!-- Email Button -->
+                <a href="mailto:your@email.com"
+                    class="contact-sub-btn absolute bg-white text-black rounded-full w-10 h-10 flex items-center justify-center opacity-0 transform scale-50 transition-all duration-300 hover:scale-110 hover:shadow-lg">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+                <!-- Instagram Button -->
+                <a href="https://instagram.com/yourprofile" target="_blank"
+                    class="contact-sub-btn absolute bg-white text-black rounded-full w-10 h-10 flex items-center justify-center opacity-0 transform scale-50 transition-all duration-300 hover:scale-110 hover:shadow-lg">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -896,14 +974,14 @@
                 $('.navbar').removeClass('scrolled');
             }
         });
-        
+
         // Offcanvas menu toggle
         $('#hamburger-btn').click(function() {
             $('#offcanvas-menu').addClass('show');
             $('#offcanvas-overlay').addClass('show');
             $('body').css('overflow', 'hidden');
         });
-        
+
         $('#close-btn, #offcanvas-overlay').click(function() {
             $('#offcanvas-menu').removeClass('show');
             $('#offcanvas-overlay').removeClass('show');
@@ -1014,6 +1092,27 @@
 
             $('.slick-next-instagram').click(function() {
                 $('.instagram-slider').slick('slickNext');
+            });
+        });
+
+        // Button interaction logic
+        const contactContainer = document.querySelector('.relative.h-32');
+        const mainButton = document.getElementById('contact-main-btn');
+
+        mainButton.addEventListener('click', function(e) {
+            e.stopPropagation();
+            contactContainer.classList.toggle('contact-buttons-active');
+        });
+
+        // Close when clicking outside
+        document.addEventListener('click', function() {
+            contactContainer.classList.remove('contact-buttons-active');
+        });
+
+        // Prevent closing when clicking on buttons
+        document.querySelectorAll('.contact-sub-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
             });
         });
     </script>

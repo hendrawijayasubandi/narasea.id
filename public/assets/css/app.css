@@ -1,0 +1,323 @@
+/* Navbar Styles */
+.navbar {
+    transition: all 0.3s ease;
+    height: 70px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.navbar.scrolled {
+    background-color: #083c75 !important;
+}
+
+.hamburger-circle,
+.close-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.hamburger-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    outline: 2px solid white;
+    outline-offset: 2px;
+    background-color: transparent;
+}
+
+.hamburger-circle:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.close-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    outline: 2px solid #019AAA;
+    outline-offset: 2px;
+    background-color: transparent;
+    color: #019AAA;
+}
+
+.close-circle:hover {
+    background-color: rgba(1, 154, 170, 0.1);
+}
+
+.offcanvas-menu {
+    width: 300px;
+    background-color: white;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    border-bottom-left-radius: 40px;
+    top: 0;
+    bottom: 20px;
+    height: auto;
+}
+
+.offcanvas-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-bottom-left-radius: 40px;
+}
+
+.offcanvas-menu.show {
+    transform: translateX(0);
+}
+
+.offcanvas-overlay {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.offcanvas-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.offcanvas-menu ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.offcanvas-menu li {
+    margin-bottom: 1.5rem;
+}
+
+.menu-link {
+    display: flex;
+    align-items: center;
+    color: #1a1a1a;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+.menu-link:hover {
+    color: #019AAA;
+}
+
+.icon-wrapper {
+    width: 24px;
+    height: 24px;
+    background-color: #019AAA;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    transition: all 0.2s ease;
+}
+
+.menu-link:hover .icon-wrapper {
+    transform: translateX(3px);
+    background-color: #017a8a;
+}
+
+.arrow-icon {
+    color: white;
+    font-size: 0.7rem;
+}
+
+.offcanvas-content {
+    overflow-x: hidden;
+}
+
+.group {
+    position: relative;
+}
+
+.group:hover .overlay-description {
+    transform: translateY(0);
+}
+
+.overlay-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(222, 49, 99, 0.9);
+    color: white;
+    padding: 20px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+/* Custom dot styling */
+.slick-dots {
+    bottom: -40px;
+}
+
+.slick-dots li button:before {
+    color: #019AAA;
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #FF864A;
+    opacity: 1;
+}
+
+.stats-slider .slick-slide {
+    display: flex;
+    align-items: stretch;
+}
+
+.stats-slider .slick-slide>div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.stats-slider .slick-slide .flex {
+    flex-grow: 1;
+}
+
+.stats-slider img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.slick-prev-custom,
+.slick-next-custom {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #019AAA;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.slick-prev-custom {
+    left: -60px;
+}
+
+.slick-next-custom {
+    right: -60px;
+}
+
+.slick-prev-custom:hover,
+.slick-next-custom:hover {
+    background-color: #017C89;
+}
+
+/* Sembunyikan tombol di layar kecil */
+@media (max-width: 1024px) {
+
+    .slick-prev-custom,
+    .slick-next-custom {
+        display: none !important;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .slick-prev-instagram,
+    .slick-next-instagram {
+        display: none !important;
+    }
+}
+
+/* Ensure all cards in slider have equal height */
+.projects-slider {
+    display: flex;
+}
+
+.projects-slider .slick-track {
+    display: flex;
+    align-items: stretch;
+}
+
+.projects-slider .slick-slide {
+    height: auto;
+}
+
+.projects-slider .slick-slide>div {
+    height: 100%;
+}
+
+/* Image zoom effect */
+.projects-slider img {
+    transition: transform 0.5s ease;
+    will-change: transform;
+}
+
+/* Animation for the button expansion */
+.contact-sub-btn {
+    transition: all 0.3s, color 0.1s !important;
+}
+
+/* Active state when main button is clicked */
+.contact-buttons-active #contact-main-btn {
+    background-color: white;
+    color: black;
+}
+
+.contact-buttons-active .contact-sub-btn:nth-child(2) {
+    /* WhatsApp */
+    opacity: 1;
+    transform: translateY(-50px) scale(1);
+    --delay: 1;
+}
+
+.contact-buttons-active .contact-sub-btn:nth-child(3) {
+    /* Email */
+    opacity: 1;
+    transform: translate(40px, 25px) scale(1);
+    --delay: 2;
+}
+
+.contact-buttons-active .contact-sub-btn:nth-child(4) {
+    /* Instagram */
+    opacity: 1;
+    transform: translate(-40px, 25px) scale(1);
+    --delay: 3;
+}
+
+/* Hover colors for each button */
+.contact-buttons-active .contact-sub-btn:hover:nth-child(2) {
+    background-color: #25D366;
+    color: white;
+}
+
+.contact-buttons-active .contact-sub-btn:hover:nth-child(3) {
+    background-color: #EA4335;
+    color: white;
+}
+
+.contact-buttons-active .contact-sub-btn:hover:nth-child(4) {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    color: white;
+}

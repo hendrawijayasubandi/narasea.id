@@ -2,9 +2,40 @@
 <html>
 
 <head>
+    <!-- Meta Tag Umum -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Narasea Indonesia - Platform Edukasi & Advokasi Konservasi Laut</title>
+
+    <!-- Meta SEO -->
+    <meta name="description"
+        content="Narasea Indonesia: Bersuara untuk Laut, Bergerak untuk Perubahan! Edukasi, Advokasi, dan Aksi Nyata untuk konservasi laut Indonesia.">
+    <meta name="keywords"
+        content="Narasea Indonesia, konservasi laut, edukasi lingkungan, advokasi laut, aksi nyata, lingkungan, laut Indonesia">
+    <meta name="author" content="Narasea Indonesia Team">
+    <meta name="robots" content="index, follow">
+
+    <!-- Meta Open Graph (untuk Facebook, LinkedIn, dll.) -->
+    <meta property="og:title" content="Narasea Indonesia - Bersuara untuk Laut, Bergerak untuk Perubahan!">
+    <meta property="og:description"
+        content="Edukasi, Advokasi, dan Aksi Nyata untuk konservasi laut Indonesia. Bergabunglah bersama kami dalam menjaga kelestarian laut.">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon untuk browser -->
+    <link rel="icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/favicon/favicon.svg" type="image/svg+xml">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+
+    <!-- Android Manifest -->
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <meta name="theme-color" content="#083C75">
+
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="/assets/css/fonts.css">
 
@@ -136,7 +167,8 @@
                             </div>
                             <div
                                 class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative">
-                                <p class="text-white text-base lg:text-lg font-calimate">100K+ media impressions through
+                                <p class="text-white text-base lg:text-lg font-calimate">100K+ media impressions
+                                    through
                                     digital storytelling</p>
                             </div>
 

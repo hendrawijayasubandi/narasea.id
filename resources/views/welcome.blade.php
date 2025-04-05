@@ -15,6 +15,97 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <style>
+        /* Navbar Styles */
+        .navbar {
+            transition: all 0.3s ease;
+            height: 70px;
+            padding-left: 1.5rem; /* 24px padding kiri */
+            padding-right: 1.5rem; /* 24px padding kanan */
+        }
+        
+        .navbar.scrolled {
+            background-color: #083c75 !important;
+        }
+        
+        .hamburger-circle, .close-circle {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        
+        .hamburger-circle {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            outline: 2px solid white; /* White outline only */
+            outline-offset: 2px;
+            background-color: transparent; /* No background */
+        }
+        
+        .hamburger-circle:hover {
+            background-color: rgba(255, 255, 255, 0.1); /* Slight hover effect */
+        }
+        
+        .close-circle {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            outline: 2px solid #019AAA; /* Teal outline only */
+            outline-offset: 2px;
+            background-color: transparent; /* No background */
+            color: #019AAA; /* Dark blue for X icon */
+        }
+        
+        .close-circle:hover {
+            background-color: rgba(1, 154, 170, 0.1); /* Slight teal hover */
+        }
+        
+        .offcanvas-menu {
+            width: 300px;
+            background-color: white;
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+            border-bottom-left-radius: 40px; /* Larger radius */
+            top: 0; /* Stick to top */
+            bottom: 20px; /* Space at bottom */
+            height: auto;
+        }
+        
+        .offcanvas-content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            border-bottom-left-radius: 40px; /* Match container */
+        }
+        
+        .offcanvas-menu.show {
+            transform: translateX(0);
+        }
+        
+        .offcanvas-overlay {
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        
+        .offcanvas-overlay.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
         .group {
             position: relative;
         }
@@ -151,6 +242,49 @@
 </head>
 
 <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-3 bg-transparent">
+        <!-- Logo -->
+        <div class="w-40 ml-4">
+            <img src="assets/images/logo-narasea-id.svg" alt="Narasea Logo" class="h-8">
+        </div>
+        
+        <!-- Hamburger Button with white outline only -->
+        <button id="hamburger-btn" class="hamburger-circle focus:outline-none mr-4">
+            <i class="fas fa-bars text-white"></i>
+        </button>
+    </nav>
+
+    <!-- Offcanvas Overlay -->
+    <div id="offcanvas-overlay" class="offcanvas-overlay fixed inset-0 bg-black bg-opacity-50 z-50"></div>
+    
+    <!-- Offcanvas Menu -->
+    <div id="offcanvas-menu" class="offcanvas-menu fixed top-0 right-0 z-50 shadow-lg">
+        <div class="offcanvas-content p-6 flex flex-col">
+            <!-- Close Button with teal outline only -->
+            <div class="flex justify-end mb-8">
+                <button id="close-btn" class="close-circle focus:outline-none">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <!-- Menu Items -->
+            <div class="flex-grow overflow-y-auto">
+                <ul class="space-y-6">
+                    <li>
+                        <a href="#" class="text-gray-800 hover:text-teal-blue text-lg font-medium">See (Our Ocean)</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-800 hover:text-teal-blue text-lg font-medium">Share (Raise the Tide)</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-800 hover:text-teal-blue text-lg font-medium">Sea (Discover Narasea)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <!-- Hero Section -->
     <section
         class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/landing-page-1.png')] bg-cover bg-center flex flex-col justify-center items-start px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:px-24 lg:py-28 xl:px-32">
@@ -701,6 +835,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
     <script>
+        // Navbar scroll effect
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 50) {
+                $('.navbar').addClass('scrolled');
+            } else {
+                $('.navbar').removeClass('scrolled');
+            }
+        });
+        
+        // Offcanvas menu toggle
+        $('#hamburger-btn').click(function() {
+            $('#offcanvas-menu').addClass('show');
+            $('#offcanvas-overlay').addClass('show');
+            $('body').css('overflow', 'hidden');
+        });
+        
+        $('#close-btn, #offcanvas-overlay').click(function() {
+            $('#offcanvas-menu').removeClass('show');
+            $('#offcanvas-overlay').removeClass('show');
+            $('body').css('overflow', 'auto');
+        });
+
         $(document).ready(function() {
             $('.stats-slider').slick({
                 dots: true,

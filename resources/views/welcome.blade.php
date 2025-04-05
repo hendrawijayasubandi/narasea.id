@@ -20,9 +20,7 @@
             transition: all 0.3s ease;
             height: 70px;
             padding-left: 1.5rem;
-            /* 24px padding kiri */
             padding-right: 1.5rem;
-            /* 24px padding kanan */
         }
 
         .navbar.scrolled {
@@ -49,15 +47,12 @@
             justify-content: center;
             transition: all 0.3s ease;
             outline: 2px solid white;
-            /* White outline only */
             outline-offset: 2px;
             background-color: transparent;
-            /* No background */
         }
 
         .hamburger-circle:hover {
             background-color: rgba(255, 255, 255, 0.1);
-            /* Slight hover effect */
         }
 
         .close-circle {
@@ -69,17 +64,13 @@
             justify-content: center;
             transition: all 0.3s ease;
             outline: 2px solid #019AAA;
-            /* Teal outline only */
             outline-offset: 2px;
             background-color: transparent;
-            /* No background */
             color: #019AAA;
-            /* Dark blue for X icon */
         }
 
         .close-circle:hover {
             background-color: rgba(1, 154, 170, 0.1);
-            /* Slight teal hover */
         }
 
         .offcanvas-menu {
@@ -88,11 +79,8 @@
             transform: translateX(100%);
             transition: transform 0.3s ease;
             border-bottom-left-radius: 40px;
-            /* Larger radius */
             top: 0;
-            /* Stick to top */
             bottom: 20px;
-            /* Space at bottom */
             height: auto;
         }
 
@@ -102,7 +90,6 @@
             flex-direction: column;
             overflow: hidden;
             border-bottom-left-radius: 40px;
-            /* Match container */
         }
 
         .offcanvas-menu.show {
@@ -168,7 +155,6 @@
             font-size: 0.7rem;
         }
 
-        /* Ensure no horizontal scroll */
         .offcanvas-content {
             overflow-x: hidden;
         }
@@ -187,7 +173,6 @@
             left: 0;
             right: 0;
             background-color: rgba(222, 49, 99, 0.9);
-            /* Warna raspberry pink dengan opacity */
             color: white;
             padding: 20px;
             transform: translateY(100%);
@@ -223,7 +208,6 @@
 
         .stats-slider .slick-slide .flex {
             flex-grow: 1;
-            /* Pastikan card bisa mengikuti tinggi maksimal */
         }
 
         .stats-slider img {
@@ -268,7 +252,6 @@
 
         /* Sembunyikan tombol di layar kecil */
         @media (max-width: 1024px) {
-
             .slick-prev-custom,
             .slick-next-custom {
                 display: none !important;
@@ -276,7 +259,6 @@
         }
 
         @media (max-width: 640px) {
-
             .slick-prev-instagram,
             .slick-next-instagram {
                 display: none !important;
@@ -317,7 +299,7 @@
             <img src="assets/images/logo-narasea-id.svg" alt="Narasea Logo" class="h-8">
         </div>
 
-        <!-- Hamburger Button with white outline only -->
+        <!-- Hamburger Button -->
         <button id="hamburger-btn" class="hamburger-circle focus:outline-none mr-4">
             <i class="fas fa-bars text-white"></i>
         </button>
@@ -875,7 +857,6 @@
         class="relative bg-[url('/public/assets/images/francesco-ungaro_compressed.jpg')] bg-cover bg-center py-12 px-4 sm:py-16 md:py-20">
         <!-- Dark overlay -->
 
-
         <div class="max-w-6xl mx-auto relative z-10">
             <!-- Left-aligned content container -->
             <div class="max-w-md">
@@ -954,7 +935,7 @@
                 ]
             });
 
-            // Fungsi untuk tombol navigasi di desktop
+            // Custom arrow navigation
             $('.slick-prev-custom').click(function() {
                 $('.stats-slider').slick('slickPrev');
             });

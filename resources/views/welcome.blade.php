@@ -586,7 +586,7 @@
     <section
         class="relative bg-[url('/public/assets/images/francesco-ungaro_compressed.jpg')] bg-cover bg-center py-12 px-4 sm:py-16 md:py-20">
 
-        @include('components.footer')
+        @include('components.subscribe')
     </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

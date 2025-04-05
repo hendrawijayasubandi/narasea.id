@@ -19,41 +19,17 @@
         .navbar {
             transition: all 0.3s ease;
             height: 70px;
-            padding-left: 1.5rem; /* 24px padding kiri */
-            padding-right: 1.5rem; /* 24px padding kanan */
+            padding-left: 1.5rem;
+            /* 24px padding kiri */
+            padding-right: 1.5rem;
+            /* 24px padding kanan */
         }
-        
+
         .navbar.scrolled {
             background-color: #083c75 !important;
         }
-        
-        .hamburger-circle, .close-circle {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.3s ease;
-        }
-        
-        .hamburger-circle {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.3s ease;
-            outline: 2px solid white; /* White outline only */
-            outline-offset: 2px;
-            background-color: transparent; /* No background */
-        }
-        
-        .hamburger-circle:hover {
-            background-color: rgba(255, 255, 255, 0.1); /* Slight hover effect */
-        }
-        
+
+        .hamburger-circle,
         .close-circle {
             width: 40px;
             height: 40px;
@@ -62,50 +38,141 @@
             align-items: center;
             justify-content: center;
             transition: all 0.3s ease;
-            outline: 2px solid #019AAA; /* Teal outline only */
+        }
+
+        .hamburger-circle {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            outline: 2px solid white;
+            /* White outline only */
             outline-offset: 2px;
-            background-color: transparent; /* No background */
-            color: #019AAA; /* Dark blue for X icon */
+            background-color: transparent;
+            /* No background */
         }
-        
+
+        .hamburger-circle:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            /* Slight hover effect */
+        }
+
+        .close-circle {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            outline: 2px solid #019AAA;
+            /* Teal outline only */
+            outline-offset: 2px;
+            background-color: transparent;
+            /* No background */
+            color: #019AAA;
+            /* Dark blue for X icon */
+        }
+
         .close-circle:hover {
-            background-color: rgba(1, 154, 170, 0.1); /* Slight teal hover */
+            background-color: rgba(1, 154, 170, 0.1);
+            /* Slight teal hover */
         }
-        
+
         .offcanvas-menu {
             width: 300px;
             background-color: white;
             transform: translateX(100%);
             transition: transform 0.3s ease;
-            border-bottom-left-radius: 40px; /* Larger radius */
-            top: 0; /* Stick to top */
-            bottom: 20px; /* Space at bottom */
+            border-bottom-left-radius: 40px;
+            /* Larger radius */
+            top: 0;
+            /* Stick to top */
+            bottom: 20px;
+            /* Space at bottom */
             height: auto;
         }
-        
+
         .offcanvas-content {
             height: 100%;
             display: flex;
             flex-direction: column;
             overflow: hidden;
-            border-bottom-left-radius: 40px; /* Match container */
+            border-bottom-left-radius: 40px;
+            /* Match container */
         }
-        
+
         .offcanvas-menu.show {
             transform: translateX(0);
         }
-        
+
         .offcanvas-overlay {
             opacity: 0;
             visibility: hidden;
             transition: opacity 0.3s ease, visibility 0.3s ease;
         }
-        
+
         .offcanvas-overlay.show {
             opacity: 1;
             visibility: visible;
         }
-        
+
+        .offcanvas-menu ul {
+            padding-left: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .offcanvas-menu li {
+            margin-bottom: 1.5rem;
+        }
+
+        .menu-link {
+            display: flex;
+            align-items: center;
+            color: #1a1a1a;
+            font-size: 1.125rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            padding: 0.5rem 0;
+            width: 100%;
+        }
+
+        .menu-link:hover {
+            color: #019AAA;
+        }
+
+        .icon-wrapper {
+            width: 24px;
+            height: 24px;
+            background-color: #019AAA;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            transition: all 0.2s ease;
+        }
+
+        .menu-link:hover .icon-wrapper {
+            transform: translateX(3px);
+            background-color: #017a8a;
+        }
+
+        .arrow-icon {
+            color: white;
+            font-size: 0.7rem;
+        }
+
+        /* Ensure no horizontal scroll */
+        .offcanvas-content {
+            overflow-x: hidden;
+        }
+
         .group {
             position: relative;
         }
@@ -209,11 +276,12 @@
         }
 
         @media (max-width: 640px) {
-        .slick-prev-instagram,
-        .slick-next-instagram {
-            display: none !important;
+
+            .slick-prev-instagram,
+            .slick-next-instagram {
+                display: none !important;
+            }
         }
-    }
 
         /* Ensure all cards in slider have equal height */
         .projects-slider {
@@ -248,7 +316,7 @@
         <div class="w-40 ml-4">
             <img src="assets/images/logo-narasea-id.svg" alt="Narasea Logo" class="h-8">
         </div>
-        
+
         <!-- Hamburger Button with white outline only -->
         <button id="hamburger-btn" class="hamburger-circle focus:outline-none mr-4">
             <i class="fas fa-bars text-white"></i>
@@ -257,28 +325,43 @@
 
     <!-- Offcanvas Overlay -->
     <div id="offcanvas-overlay" class="offcanvas-overlay fixed inset-0 bg-black bg-opacity-50 z-50"></div>
-    
+
     <!-- Offcanvas Menu -->
     <div id="offcanvas-menu" class="offcanvas-menu fixed top-0 right-0 z-50 shadow-lg">
         <div class="offcanvas-content p-6 flex flex-col">
-            <!-- Close Button with teal outline only -->
+            <!-- Close Button -->
             <div class="flex justify-end mb-8">
                 <button id="close-btn" class="close-circle focus:outline-none">
                     <i class="fas fa-times"></i>
                 </button>
             </div>
-            
-            <!-- Menu Items -->
+
+            <!-- Menu Items with circular arrow icons -->
             <div class="flex-grow overflow-y-auto">
-                <ul class="space-y-6">
+                <ul>
                     <li>
-                        <a href="#" class="text-gray-800 hover:text-teal-blue text-lg font-medium">See (Our Ocean)</a>
+                        <a href="#" class="menu-link">
+                            <span class="icon-wrapper">
+                                <i class="fas fa-arrow-right arrow-icon"></i>
+                            </span>
+                            <span>See (Our Ocean)</span>
+                        </a>
                     </li>
                     <li>
-                        <a href="#" class="text-gray-800 hover:text-teal-blue text-lg font-medium">Share (Raise the Tide)</a>
+                        <a href="#" class="menu-link">
+                            <span class="icon-wrapper">
+                                <i class="fas fa-arrow-right arrow-icon"></i>
+                            </span>
+                            <span>Share (Raise the Tide)</span>
+                        </a>
                     </li>
                     <li>
-                        <a href="#" class="text-gray-800 hover:text-teal-blue text-lg font-medium">Sea (Discover Narasea)</a>
+                        <a href="#" class="menu-link">
+                            <span class="icon-wrapper">
+                                <i class="fas fa-arrow-right arrow-icon"></i>
+                            </span>
+                            <span>Sea (Discover Narasea)</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -547,8 +630,7 @@
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="p-4 lg:p-6 flex flex-col flex-grow">
-                                    <h3
-                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                    <h3 class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
                                         Wonder of Coral Triangle
                                     </h3>
                                     <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
@@ -567,8 +649,7 @@
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="p-4 lg:p-6 flex flex-col flex-grow">
-                                    <h3
-                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                    <h3 class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
                                         Octopus Series
                                     </h3>
                                     <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
@@ -586,8 +667,7 @@
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="p-4 lg:p-6 flex flex-col flex-grow">
-                                    <h3
-                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                    <h3 class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
                                         Oceana Scar
                                     </h3>
                                     <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
@@ -605,8 +685,7 @@
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="p-4 lg:p-6 flex flex-col flex-grow">
-                                    <h3
-                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                    <h3 class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
                                         Marine Cleanup
                                     </h3>
                                     <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
@@ -624,8 +703,7 @@
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="p-4 lg:p-6 flex flex-col flex-grow">
-                                    <h3
-                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                    <h3 class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
                                         Turtle Conservation
                                     </h3>
                                     <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
@@ -643,8 +721,7 @@
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="p-4 lg:p-6 flex flex-col flex-grow">
-                                    <h3
-                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                    <h3 class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
                                         Coral Restoration
                                     </h3>
                                     <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
@@ -778,8 +855,7 @@
             </div>
 
             <!-- Centered Circle Button -->
-            <button
-                class="w-12 h-12 flex items-center justify-center bg-peachy-orange text-black rounded-full 
+            <button class="w-12 h-12 flex items-center justify-center bg-peachy-orange text-black rounded-full 
                           hover:bg-teal-blue-dark transition duration-200 mx-auto">
                 <i class="fas fa-comment-dots text-xl"></i>
             </button>
@@ -795,10 +871,11 @@
     </section>
 
     <!-- Newsletter Section -->
-    <section class="relative bg-[url('/public/assets/images/francesco-ungaro_compressed.jpg')] bg-cover bg-center py-12 px-4 sm:py-16 md:py-20">
+    <section
+        class="relative bg-[url('/public/assets/images/francesco-ungaro_compressed.jpg')] bg-cover bg-center py-12 px-4 sm:py-16 md:py-20">
         <!-- Dark overlay -->
 
-        
+
         <div class="max-w-6xl mx-auto relative z-10">
             <!-- Left-aligned content container -->
             <div class="max-w-md">
@@ -813,16 +890,11 @@
                 <!-- Email form -->
                 <form class="space-y-3">
                     <div class="flex flex-col gap-3">
-                        <input 
-                            type="email" 
-                            placeholder="Your email address" 
+                        <input type="email" placeholder="Your email address"
                             class="w-full px-4 py-3 bg-white text-black placeholder-black/50 border border-white/20 rounded-full focus:outline-none focus:ring-2 focus:ring-peachy-orange font-ttNorms"
-                            required
-                        >
-                        <button 
-                            type="submit"
-                            class="w-full px-6 py-3 bg-peachy-orange text-white rounded-full font-bold hover:bg-teal-blue-dark transition duration-200 font-ttNorms"
-                        >
+                            required>
+                        <button type="submit"
+                            class="w-full px-6 py-3 bg-peachy-orange text-white rounded-full font-bold hover:bg-teal-blue-dark transition duration-200 font-ttNorms">
                             SUBSCRIBE
                         </button>
                     </div>

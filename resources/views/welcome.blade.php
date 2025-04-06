@@ -111,8 +111,8 @@
                                 </div>
                             </div>
                             <div
-                                class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative">
-                                <p class="text-white text-base lg:text-lg font-calimate">10+ coastal communities
+                                class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
+                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">10+ coastal communities
                                     empowered.</p>
                             </div>
 
@@ -138,8 +138,8 @@
                                 </div>
                             </div>
                             <div
-                                class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative">
-                                <p class="text-white text-base lg:text-lg font-calimate">500+ people educated on ocean
+                                class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
+                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">500+ people educated on ocean
                                     literacy</p>
                             </div>
 
@@ -166,8 +166,8 @@
                                 </div>
                             </div>
                             <div
-                                class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative">
-                                <p class="text-white text-base lg:text-lg font-calimate">100K+ media impressions
+                                class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
+                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">100K+ media impressions
                                     through
                                     digital storytelling</p>
                             </div>
@@ -195,8 +195,8 @@
                                 </div>
                             </div>
                             <div
-                                class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative">
-                                <p class="text-white text-base lg:text-lg font-calimate">100K+ media impressions
+                                class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
+                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">100K+ media impressions
                                     through
                                     digital storytelling</p>
                             </div>

@@ -16,7 +16,7 @@
                     class="w-full px-4 py-3 bg-white text-black placeholder-black/50 border border-white/20 rounded-full focus:outline-none focus:ring-2 focus:ring-peachy-orange font-ttNorms"
                     required>
                 <button type="submit"
-                    class="w-full px-6 py-3 bg-peachy-orange text-white rounded-full font-bold hover:bg-teal-blue-dark transition duration-200 font-ttNorms">
+                    class="w-full px-6 py-3 bg-peachy-orange text-white rounded-full font-bold hover:bg-[#D96630] transition duration-200 font-ttNorms">
                     SUBSCRIBE
                 </button>
             </div>

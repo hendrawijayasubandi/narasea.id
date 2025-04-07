@@ -68,7 +68,7 @@
 
         <!-- Responsive CTA Button -->
         <button
-            class="px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-[#FF864A] text-white rounded-full font-bold uppercase tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
+            class="px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-peachy-orange text-white rounded-full font-bold uppercase tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
             Be The Change
         </button>
     </section>
@@ -112,7 +112,8 @@
                             </div>
                             <div
                                 class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">10+ coastal communities
+                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">10+ coastal
+                                    communities
                                     empowered.</p>
                             </div>
 
@@ -139,7 +140,8 @@
                             </div>
                             <div
                                 class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">500+ people educated on ocean
+                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">500+ people
+                                    educated on ocean
                                     literacy</p>
                             </div>
 
@@ -167,7 +169,8 @@
                             </div>
                             <div
                                 class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">100K+ media impressions
+                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">100K+ media
+                                    impressions
                                     through
                                     digital storytelling</p>
                             </div>
@@ -196,7 +199,8 @@
                             </div>
                             <div
                                 class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">100K+ media impressions
+                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">100K+ media
+                                    impressions
                                     through
                                     digital storytelling</p>
                             </div>
@@ -296,12 +300,12 @@
                 <div class="lg:w-2/3 relative mt-6 lg:mt-0">
                     <!-- Navigation Buttons -->
                     <button
-                        class="slick-prev-projects absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-teal-blue-dark transition -ml-4 sm:-ml-6">
+                        class="slick-prev-projects absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition-all duration-200 -ml-4 sm:-ml-6">
                         <i class="fas fa-chevron-left text-sm sm:text-base"></i>
                     </button>
 
                     <button
-                        class="slick-next-projects absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-teal-blue-dark transition -mr-4 sm:-mr-6">
+                        class="slick-next-projects absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition-all duration-200 -mr-4 sm:-mr-6">
                         <i class="fas fa-chevron-right text-sm sm:text-base"></i>
                     </button>
 
@@ -549,7 +553,7 @@
             <div class="relative h-32 flex items-center justify-center">
                 <!-- Main Button -->
                 <button id="contact-main-btn"
-                    class="absolute w-12 h-12 flex items-center justify-center bg-peachy-orange text-black rounded-full hover:bg-teal-blue-dark transition-all duration-300 z-10 focus:outline-none">
+                    class="absolute w-12 h-12 flex items-center justify-center bg-peachy-orange text-black rounded-full hover:bg-[#D96630] transition-all duration-300 z-10 focus:outline-none">
                     <i class="fas fa-comment-dots text-xl"></i>
                 </button>
 

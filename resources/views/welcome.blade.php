@@ -68,7 +68,7 @@
 
         <!-- Responsive CTA Button -->
         <button
-            class="px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-peachy-orange text-white rounded-full font-bold uppercase tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
+            class="px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
             Be The Change
         </button>
     </section>
@@ -450,8 +450,6 @@
                         <a href="#"
                             class="px-5 py-1.5 text-xs sm:text-sm bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms inline-flex items-center">
                             Follow the Waves
-                            <i class="fas fa-arrow-right ml-2 me-2"></i>
-                            Explore More
                         </a>
                     </div>
                 </div>

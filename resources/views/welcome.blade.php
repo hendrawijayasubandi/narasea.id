@@ -438,16 +438,15 @@
         <div class="absolute inset-0 bg-teal-blue/70"></div>
 
         <div class="max-w-6xl mx-auto relative z-10">
-            <!-- Section Title -->
-            <h2
-                class="text-3xl font-bold sm:text-4xl md:text-5xl tracking-wide font-calimate mb-8 lg:mb-12 lg:text-left">
-                <span class="text-raspberry-pink">Social</span><br>
-                <span class="text-golden-yellow">Currents.</span>
-            </h2>
-
             <div class="flex flex-col lg:flex-row gap-6 lg:gap-8">
                 <!-- Left Column - Text Content (narrower) -->
                 <div class="lg:w-2/5">
+                    <!-- Section Title -->
+                    <h2
+                        class="text-3xl font-bold sm:text-4xl md:text-5xl tracking-wide font-calimate mb-8 lg:mb-12 lg:text-left">
+                        <span class="text-raspberry-pink">Social</span><br>
+                        <span class="text-golden-yellow">Currents.</span>
+                    </h2>
                     <p class="text-sm sm:text-base md:text-lg font-ttNorms text-white mb-6 max-w-md">
                         The ocean moves, and so do we! Stay connected with the latest stories, moments, and impact
                         straight from our Instagram.
@@ -467,15 +466,15 @@
                 <div class="lg:w-3/5">
                     <div class="relative h-full flex items-center">
                         <!-- Main Slider Container -->
-                        <div class="w-full px-8 relative">
+                        <div class="w-full px-4 sm:px-8 relative">
                             <!-- Navigation Buttons -->
                             <button
-                                class="slick-prev-instagram absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition -ml-8 sm:-ml-12">
+                                class="slick-prev-instagram absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition">
                                 <i class="fas fa-chevron-left text-sm sm:text-base"></i>
                             </button>
 
                             <button
-                                class="slick-next-instagram absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition -mr-8 sm:-mr-12">
+                                class="slick-next-instagram absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition">
                                 <i class="fas fa-chevron-right text-sm sm:text-base"></i>
                             </button>
 

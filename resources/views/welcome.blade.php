@@ -273,9 +273,9 @@
         <div class="max-w-6xl mx-auto" style="padding-top: 50px;">
             <!-- Section Header -->
             <div class="mb-8 lg:mb-12 px-4 sm:px-6">
-                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-raspberry-pink mb-2 font-calimate">Protect.
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 font-calimate">Protect.
                     Educate. Empower.</h1>
-                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-golden-yellow font-calimate">Our Projects &
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-teal-blue font-calimate">Our Projects &
                     Partnership</h2>
             </div>
 

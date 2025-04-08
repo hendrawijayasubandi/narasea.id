@@ -113,7 +113,8 @@
                             </div>
                             <div
                                 class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">10+ coastal communities empowered.</p>
+                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">10+ coastal
+                                    communities empowered.</p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
@@ -273,24 +274,24 @@
         class="relative bg-black py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-32 rounded-bl-[50px] rounded-br-[50px] -mt-[50px] z-20">
         <div class="max-w-6xl mx-auto" style="padding-top: 50px;">
             <!-- Section Header -->
-            <div class="mb-8 lg:mb-12 px-4 sm:px-6">
+            <div class="px-4 sm:px-6">
                 <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 font-calimate">Protect.
                     Educate. Empower.</h1>
-                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-teal-blue font-calimate">Our Projects &
-                    Partnership</h2>
             </div>
 
             <!-- Two Column Layout -->
             <div class="flex flex-col lg:flex-row gap-8 lg:gap-12 px-4 sm:px-6">
                 <!-- Left Column - Text Content -->
-                <div class="lg:w-1/3 flex flex-col justify-center">
-                    <p class="text-white text-sm sm:text-base md:text-lg font-ttNorms leading-relaxed">
+                <div class="lg:w-1/3 flex-col justify-center gap-0">
+                    <h2 class="whitespace-nowrap text-xl sm:text-2xl md:text-3xl font-bold text-teal-blue font-calimate mb-4">
+                        Our Projects & Partnership
+                    </h2>
+                    <p class="text-white text-sm sm:text-base md:text-lg font-ttNorms leading-relaxed mt-4">
                         At Narasea, every wave carries a story, and every initiative is a step toward protecting our
                         marine heritage. Through collaborations with passionate organizations, we bring education,
                         sustainability, and community empowerment to life.
                     </p>
                 </div>
-
                 <!-- Right Column - Image Cards Slider -->
                 <div class="lg:w-2/3 relative mt-6 lg:mt-0">
                     <!-- Navigation Buttons -->
@@ -308,7 +309,8 @@
                     <div class="projects-slider">
                         <!-- Card 1 -->
                         <div class="px-2 h-full">
-                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-golden-yellow group">
+                            <div
+                                class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-golden-yellow group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="assets/images/image-1.png" alt="Coral Triangle"
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -328,7 +330,8 @@
 
                         <!-- Card 2 -->
                         <div class="px-2 h-full">
-                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-raspberry-pink group">
+                            <div
+                                class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-raspberry-pink group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="assets/images/image-2.png" alt="Octopus Series"
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -366,7 +369,8 @@
 
                         <!-- Card 4 -->
                         <div class="px-2 h-full">
-                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-peachy-orange group">
+                            <div
+                                class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-peachy-orange group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="assets/images/image-4.png" alt="Marine Cleanup"
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">

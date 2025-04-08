@@ -75,10 +75,10 @@
 
     <!-- Impact Section with Side-by-Side Cards -->
     <section class="bg-white py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-28 rounded-bl-[50px] rounded-br-[50px]">
-        <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-6 lg:gap-8">
+        <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-6 lg:gap-8 items-stretch">
             <!-- Left Side - Title -->
-            <div class="lg:w-1/3">
-                <h2 class="text-3xl font-bold sm:text-4xl md:text-5xl tracking-wide font-calimate">
+            <div class="lg:w-1/3 flex items-center">
+                <h2 class="text-3xl font-extrabold sm:text-4xl md:text-5xl tracking-wide font-calimate leading-tight">
                     <span class="text-blue">Tides of</span>
                     <span class="text-teal-blue">Impact.</span>
                 </h2>

@@ -112,15 +112,13 @@
                             </div>
                             <div
                                 class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">10+ coastal
-                                    communities
-                                    empowered.</p>
+                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">10+ coastal communities empowered.</p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
                                 class="absolute inset-0 bg-teal-blue bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center">
+                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
                                     Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
                                 </p>
                             </div>
@@ -148,7 +146,7 @@
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
                                 class="absolute inset-0 bg-raspberry-pink bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center">
+                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
                                     Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
                                     bisa menambahkan detail tentang program, manfaat, dan dampaknya.
                                 </p>
@@ -170,15 +168,13 @@
                             <div
                                 class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
                                 <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">100K+ media
-                                    impressions
-                                    through
-                                    digital storytelling</p>
+                                    impressions through digital storytelling</p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
                                 class="absolute inset-0 bg-peachy-orange bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center">
+                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
                                     Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
                                     bisa menambahkan detail tentang program, manfaat, dan dampaknya.
                                 </p>
@@ -198,17 +194,15 @@
                                 </div>
                             </div>
                             <div
-                                class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">100K+ media
-                                    impressions
-                                    through
-                                    digital storytelling</p>
+                                class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
+                                <p class="text-black text-base lg:text-lg font-calimate min-h-[60px]">500M+ media
+                                    impressions through digital storytelling</p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 bg-peachy-orange bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center">
+                                class="absolute inset-0 bg-golden-yellow bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                                <p class="text-black text-sm lg:text-base text-center font-ttNorms">
                                     Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
                                     bisa menambahkan detail tentang program, manfaat, dan dampaknya.
                                 </p>

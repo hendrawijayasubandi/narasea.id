@@ -447,10 +447,10 @@
                     </p>
 
                     <div class="mb-6">
-                        <a href="#"
-                            class="px-5 py-1.5 text-xs sm:text-sm bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms inline-flex items-center">
+                        <button
+                            class="px-5 py-1.5 text-xs sm:text-sm md:text-base bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
                             Follow the Waves
-                        </a>
+                        </button>
                     </div>
                 </div>
 

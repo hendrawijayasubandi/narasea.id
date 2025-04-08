@@ -307,17 +307,17 @@
                     <div class="projects-slider">
                         <!-- Card 1 -->
                         <div class="px-2 h-full">
-                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-white/5 group">
+                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-golden-yellow group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="assets/images/image-1.png" alt="Coral Triangle"
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="p-4 lg:p-6 flex flex-col flex-grow">
                                     <h3
-                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                        class="text-black text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
                                         Wonder of Coral Triangle
                                     </h3>
-                                    <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
+                                    <p class="text-black/80 text-xs sm:text-sm font-ttNorms flex-grow">
                                         A hero's journey into marine biodiversity conservation through education and
                                         awareness programs
                                     </p>
@@ -327,7 +327,7 @@
 
                         <!-- Card 2 -->
                         <div class="px-2 h-full">
-                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-white/5 group">
+                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-raspberry-pink group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="assets/images/image-2.png" alt="Octopus Series"
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -346,7 +346,7 @@
 
                         <!-- Card 3 -->
                         <div class="px-2 h-full">
-                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-white/5 group">
+                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-blue group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="assets/images/image-3.png" alt="Oceana Scar"
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -365,7 +365,7 @@
 
                         <!-- Card 4 -->
                         <div class="px-2 h-full">
-                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-white/5 group">
+                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-peachy-orange group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="assets/images/image-4.png" alt="Marine Cleanup"
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -384,7 +384,7 @@
 
                         <!-- Card 5 -->
                         <div class="px-2 h-full">
-                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-white/5 group">
+                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-teal-blue group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="assets/images/image-5.png" alt="Turtle Conservation"
                                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">

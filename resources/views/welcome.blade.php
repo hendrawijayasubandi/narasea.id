@@ -62,13 +62,14 @@
 
         <!-- Subtitle with responsive sizing and spacing -->
         <p
-            class="text-base max-w-md mb-8 leading-normal sm:text-lg sm:max-w-lg sm:mb-9 md:text-xl md:max-w-xl md:mb-10 lg:text-2xl lg:leading-relaxed font-ttNorms text-white">
-            Through education, action, and storytelling, we empower communities to protect our seas.
+            class="text-base mb-8 leading-normal sm:text-lg sm:mb-9 md:text-xl md:mb-10 lg:text-2xl lg:leading-relaxed font-ttNorms text-white max-w-[42ch]">
+            Through education, action, and storytelling, we empower
+            communities to protect our seas.
         </p>
 
         <!-- Responsive CTA Button -->
         <button
-            class="px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
+            class="mt-2 px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
             Be The Change
         </button>
     </section>

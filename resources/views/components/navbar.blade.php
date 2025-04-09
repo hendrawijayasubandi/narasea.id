@@ -27,7 +27,7 @@
         <div class="flex-grow overflow-y-auto">
             <ul>
                 <li>
-                    <a href="#" class="menu-link">
+                    <a href="/" class="menu-link">
                         <span class="icon-wrapper">
                             <i class="fas fa-arrow-right arrow-icon"></i>
                         </span>
@@ -35,7 +35,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="menu-link">
+                    <a href="{{ route('share') }}" class="menu-link">
                         <span class="icon-wrapper">
                             <i class="fas fa-arrow-right arrow-icon"></i>
                         </span>

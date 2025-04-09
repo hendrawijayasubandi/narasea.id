@@ -313,9 +313,9 @@
     </section>
 
     <!-- Section Dive Into Learning & Action - Empower Communities. -->
-    <section class="bg-teal-blue py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-28 rounded-bl-[50px] rounded-br-[50px] z-20 relative overflow-hidden">
-        <!-- Underwater image decoration -->
-        <img src="assets/images/under-the-sea.png" alt="Underwater scene" class="absolute left-0 bottom-0 w-1/3 max-w-xs z-0">
+    <section class="relative px-4 py-12 sm:py-16 md:py-20 lg:py-24 xl:py-28 bg-teal-blue bg-[url('assets/images/under-the-sea.png')] bg-no-repeat bg-left-bottom bg-contain lg:bg-[size:30%] rounded-bl-[50px] rounded-br-[50px] z-20 overflow-hidden">
+        <!-- Semi-transparent overlay -->
+        <div class="absolute inset-0 bg-teal-blue/80 z-0"></div>
         
         <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 items-stretch relative z-10">
             <!-- Left Side - Text -->
@@ -338,17 +338,14 @@
                     <!-- Card 1 -->
                     <div class="h-full group">
                         <div class="flex flex-col h-full relative overflow-hidden rounded-2xl shadow-lg">
-                            <!-- 2:1 Aspect Ratio Image Container -->
                             <div class="aspect-[2/1] overflow-hidden relative">
                                 <img src="assets/images/image-1.png" alt="Coastal Community"
                                     class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
                                 <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300"></div>
                             </div>
-                            <!-- Fixed Height Text Area -->
                             <div class="bg-blue p-5 h-[120px] flex items-center justify-center">
                                 <p class="text-white text-lg font-calimate text-center">Sponsor a Coastal Community</p>
                             </div>
-                            <!-- Hover Overlay -->
                             <div class="absolute inset-0 bg-blue bg-opacity-90 p-5 flex flex-col justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                                 <p class="text-white text-sm lg:text-base text-center font-ttNorms">
                                     Support local initiatives that protect marine ecosystems and livelihoods.

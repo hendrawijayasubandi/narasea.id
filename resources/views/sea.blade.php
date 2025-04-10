@@ -117,16 +117,176 @@
     <!-- Section Our Mission -->
     <section class="z-50 bg-blue py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
         style="margin-top: -50px;">
+
+
     </section>
 
     <!-- Section The Values We Live -->
     <section class="relative z-40 bg-white py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
         style="margin-top: -50px;">
+
+        <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-6 lg:gap-8 items-stretch">
+            <!-- Left Side - Title -->
+            <div class="lg:w-1/3 flex items-center">
+                <div>
+                    <h2
+                        class="text-3xl font-extrabold sm:text-4xl md:text-5xl tracking-wide font-calimate leading-tight">
+                        <span class="text-blue">The </span>
+                        <span class="text-teal-blue">Values</span><br>
+                        <span class="text-blue">We Live By :</span>
+                    </h2>
+                </div>
+            </div>
+
+            <!-- Right Side - Cards Slider -->
+            <div class="lg:w-2/3 w-full">
+                <!-- Slider Container -->
+                <div class="stats-slider">
+                    <!-- Card 1 -->
+                    <div class="px-2 h-full group">
+                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                            <!-- Gambar dan judul -->
+                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
+                                <img src="assets/images/image-1.png" alt="Education"
+                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                </div>
+                            </div>
+                            <div class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex relative h-[150px]">
+                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate min-h-[60px]">
+                                    Connection.</p>
+                            </div>
+
+                            <!-- Deskripsi yang muncul saat hover -->
+                            <div
+                                class="absolute inset-0 bg-teal-blue bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                    Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="px-2 h-full group">
+                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                            <!-- Gambar dan judul -->
+                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
+                                <img src="assets/images/image-1.png" alt="Education"
+                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                </div>
+                            </div>
+                            <div class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex relative h-[150px]">
+                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate min-h-[60px]">
+                                    Empowerment.</p>
+                            </div>
+
+                            <!-- Deskripsi yang muncul saat hover -->
+                            <div
+                                class="absolute inset-0 bg-peachy-orange bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                    Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
+                                    bisa menambahkan detail tentang program, manfaat, dan dampaknya.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="px-2 h-full group">
+                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                            <!-- Gambar dan judul -->
+                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
+                                <img src="assets/images/image-1.png" alt="Education"
+                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                </div>
+                            </div>
+                            <div class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex relative h-[150px]">
+                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate min-h-[60px]">
+                                    Storytelling for
+                                    Impact.</p>
+                            </div>
+
+                            <!-- Deskripsi yang muncul saat hover -->
+                            <div
+                                class="absolute inset-0 bg-raspberry-pink bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                    Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
+                                    bisa menambahkan detail tentang program, manfaat, dan dampaknya.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="px-2 h-full group">
+                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                            <!-- Gambar dan judul -->
+                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
+                                <img src="assets/images/image-1.png" alt="Education"
+                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                </div>
+                            </div>
+                            <div class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex relative h-[150px]">
+                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate min-h-[60px]">
+                                    Sustainability.
+                                </p>
+                            </div>
+
+                            <!-- Deskripsi yang muncul saat hover -->
+                            <div
+                                class="absolute inset-0 bg-golden-yellow bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                    Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
+                                    bisa menambahkan detail tentang program, manfaat, dan dampaknya.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="px-2 h-full group">
+                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                            <!-- Gambar dan judul -->
+                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
+                                <img src="assets/images/image-1.png" alt="Education"
+                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                <div
+                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                </div>
+                            </div>
+                            <div class="bg-black p-4 lg:p-6 rounded-b-2xl flex-grow flex relative h-[150px]">
+                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate min-h-[60px]">
+                                    Innovation.</p>
+                            </div>
+
+                            <!-- Deskripsi yang muncul saat hover -->
+                            <div
+                                class="absolute inset-0 bg-black bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                    Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
+                                    bisa menambahkan detail tentang program, manfaat, dan dampaknya.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Section The Lighthouse Advisory and Ocean Trustees -->
     <section class="relative z-30 bg-teal-blue py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
         style="margin-top: -50px;">
+
+
     </section>
 
     <!-- Section The Ocean’s Story is Still Being Written – Be Part of It -->

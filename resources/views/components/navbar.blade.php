@@ -43,7 +43,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="menu-link">
+                    <a href="{{ route('sea') }}" class="menu-link">
                         <span class="icon-wrapper">
                             <i class="fas fa-arrow-right arrow-icon"></i>
                         </span>

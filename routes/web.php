@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/share', function () {
     return view('share');
 })->name('share');
+
+Route::get('/sea', function () {
+    return view('sea');
+})->name('sea');

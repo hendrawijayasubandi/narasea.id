@@ -307,10 +307,82 @@
     </section>
 
     <!-- Section The Lighthouse Advisory and Ocean Trustees -->
-    <section class="relative z-20 bg-teal-blue py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
-        style="margin-top: -50px;">
+    <section
+        class="relative z-20 bg-teal-blue py-[200px] px-4 md:px-16 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-16">
+            <!-- Text Area -->
+            <div class="md:w-1/2 text-white">
+                <h3 class="text-peachy-orange text-xl md:text-2xl font-bold font-calimate mb-2">Together for the Ocean
+                </h3>
+                <p class="font-ttNorms text-sm md:text-base mb-12">
+                    Every wave of change starts with passionate people.<br>
+                    Meet the dedicated team behind Narasea.
+                </p>
+                <h2 class="text-3xl md:text-4xl font-bold font-calimate">
+                    <span class="text-peachy-orange">The Lighthouse Advisory</span><br>
+                    <span class="text-golden-yellow">and Ocean Trustees</span>
+                </h2>
+            </div>
 
+            <!-- Cards Area -->
+            <div class="md:w-1/2 flex gap-6 items-end overflow-x-auto"
+                style="scrollbar-width: none; -ms-overflow-style: none;">
+                <!-- Card 1 -->
+                <div class="w-[240px] h-[320px] px-2 flex-shrink-0">
+                    <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-black group">
+                        <div class="aspect-[4/3] overflow-hidden relative">
+                            <img src="assets/images/image-1.png" alt="Wiro Nur Wirandi"
+                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                            <h3 class="text-white text-base sm:text-lg font-bold font-calimate mb-1">
+                                Wiro Nur Wirandi
+                            </h3>
+                            <p class="text-white/80 text-xs font-ttNorms">
+                                Chairman of Trustee
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Card 2 -->
+                <div class="w-[190px] h-[260px] px-2 flex-shrink-0">
+                    <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-navy group">
+                        <div class="aspect-[4/3] overflow-hidden relative">
+                            <img src="assets/images/image-1.png" alt="Ahmad Baihaqi"
+                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                            <h3 class="text-white text-base sm:text-lg font-bold font-calimate mb-1">
+                                Ahmad Baihaqi
+                            </h3>
+                            <p class="text-white/80 text-xs font-ttNorms">
+                                Advisor Member of Trustee
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="w-[150px] h-[210px] px-2 flex-shrink-0">
+                    <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-golden-yellow group">
+                        <div class="aspect-[4/3] overflow-hidden relative">
+                            <img src="assets/images/image-1.png" alt="Dr. Tries Budi"
+                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                            <h3 class="text-black text-base sm:text-lg font-bold font-calimate mb-1">
+                                Dr. Tries Budi
+                            </h3>
+                            <p class="text-black/80 text-xs font-ttNorms">
+                                Supervisor of Trustee
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </section>
 
     <!-- Section The Ocean’s Story is Still Being Written – Be Part of It -->

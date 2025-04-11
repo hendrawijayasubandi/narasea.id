@@ -115,14 +115,13 @@
     </section>
 
     <!-- Section Our Mission -->
-    <section class="z-50 bg-blue py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
+    <section class="relative z-40 bg-blue py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
         style="margin-top: -50px;">
-
 
     </section>
 
     <!-- Section The Values We Live -->
-    <section class="relative z-40 bg-white py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
+    <section class="relative z-30 bg-white py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
         style="margin-top: -50px;">
 
         <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-6 lg:gap-8 items-stretch">
@@ -283,14 +282,14 @@
     </section>
 
     <!-- Section The Lighthouse Advisory and Ocean Trustees -->
-    <section class="relative z-30 bg-teal-blue py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
+    <section class="relative z-20 bg-teal-blue py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
         style="margin-top: -50px;">
 
 
     </section>
 
     <!-- Section The Ocean’s Story is Still Being Written – Be Part of It -->
-    <section class="relative z-20 bg-black py-12 px-4 sm:py-16 md:py-20 -mt-[50px]">
+    <section class="relative z-10 bg-black py-12 px-4 sm:py-16 md:py-20 -mt-[50px]">
     </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

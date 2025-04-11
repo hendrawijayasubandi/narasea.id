@@ -290,6 +290,52 @@
 
     <!-- Section The Ocean’s Story is Still Being Written – Be Part of It -->
     <section class="relative z-10 bg-black py-12 px-4 sm:py-16 md:py-20 -mt-[50px]">
+        <div class="max-w-4xl mx-auto text-center" style="margin-top: 50px;">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold font-calimate text-white mb-6">
+                The Ocean's Story is Still Being Written - Be Part of It
+            </h2>
+
+            <p class="font-ttNorms text-lg sm:text-xl text-white mb-8 max-w-3xl mx-auto">
+                Every ripple starts with a single drop. At Narasea,<br>
+                we believe that education, action, and storytelling can create<br>
+                waves of change for our oceans. Together, we can protect marine ecosystems,<br>
+                uplift coastal communities, and amplify the voices of the sea.
+            </p>
+        </div>
+
+        <!-- Buttons Wrapper as 2-column grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-10 w-full max-w-[700px] mx-auto"
+            style="margin-top: 100px;">
+            <!-- Button 1 -->
+            <div class="flex justify-start">
+                <a href="#"
+                    class="group relative flex items-center justify-center bg-peachy-orange text-white font-semibold font-calimate rounded-full overflow-hidden h-12 w-12 hover:w-[260px] transition-[width] duration-300 ease-in-out">
+                    <span
+                        class="absolute left-5 flex items-center gap-2 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out group-hover:text-black text-sm">
+                        Learn More About Our Work
+                        <i class="fas fa-arrow-right text-sm"></i>
+                    </span>
+                    <span class="group-hover:opacity-0 transition-opacity duration-300 ease-in-out">
+                        <i class="fas fa-arrow-right text-sm"></i>
+                    </span>
+                </a>
+            </div>
+
+            <!-- Button 2 -->
+            <div class="flex justify-start md:pl-[150px]">
+                <a href="#"
+                    class="group relative flex items-center justify-center bg-peachy-orange text-white font-calimate font-semibold rounded-full overflow-hidden h-12 w-12 hover:w-[200px] transition-[width] duration-300 ease-in-out pl-4 pr-4">
+                    <span
+                        class="absolute left-4 flex items-center gap-2 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out group-hover:text-black text-sm">
+                        Join the Movement
+                        <i class="fas fa-arrow-right text-sm"></i>
+                    </span>
+                    <span class="group-hover:opacity-0 transition-opacity duration-300 ease-in-out">
+                        <i class="fas fa-arrow-right text-sm"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

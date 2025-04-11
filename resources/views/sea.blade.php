@@ -117,7 +117,32 @@
     <!-- Section Our Mission -->
     <section class="relative z-40 bg-blue py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
         style="margin-top: -50px;">
+        <div class="max-w-full mx-auto flex flex-col md:flex-row gap-16 px-6 md:px-16">
+            <!-- Text Area -->
+            <div class="md:w-1/2 text-white">
+                <h2 class="font-calimate text-5xl md:text-6xl font-bold mb-4">Our Mission :</h2>
+                <p class="font-ttNorms text-xl md:text-2xl mb-6">Echoing the Ocean’s Call.</p>
+                <div class="space-y-4">
+                    <p class="font-ttNorms text-base md:text-lg leading-relaxed">
+                        We listen, we amplify, and we act — ensuring<br>
+                        that every ripple of change grows into a wave of<br>
+                        transformation for our oceans and coastal communities.
+                    </p>
+                </div>
+            </div>
 
+            <!-- Image Cards Area -->
+            <div class="md:w-1/2 overflow-hidden">
+                <div class="flex gap-8 items-end">
+                    <img src="assets/images/Rectangle 2.png" alt="Ocean Mission 1"
+                        class="w-[240px] h-[320px] object-cover rounded-3xl">
+                    <img src="assets/images/Rectangle 2.png" alt="Ocean Mission 2"
+                        class="w-[190px] h-[260px] object-cover rounded-3xl">
+                    <img src="assets/images/Rectangle 2.png" alt="Ocean Mission 3"
+                        class="w-[150px] h-[210px] object-cover rounded-3xl">
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Section The Values We Live -->

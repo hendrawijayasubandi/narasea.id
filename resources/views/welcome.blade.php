@@ -43,6 +43,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
 </head>
@@ -88,7 +89,7 @@
             <!-- Right Side - Cards Slider -->
             <div class="lg:w-2/3 w-full relative">
                 <!-- Custom Navigation Buttons -->
-                <div class="hidden lg:flex justify-between absolute top-1/2 left-0 right-0 z-10 -translate-y-1/2 px-4">
+                {{-- <div class="hidden lg:flex justify-between absolute top-1/2 left-0 right-0 z-10 -translate-y-1/2 px-4">
                     <button
                         class="slick-prev-custom bg-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-gray-100 transition">
                         <i class="fas fa-chevron-left text-gray-700"></i>
@@ -97,7 +98,7 @@
                         class="slick-next-custom bg-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-gray-100 transition">
                         <i class="fas fa-chevron-right text-gray-700"></i>
                     </button>
-                </div>
+                </div> --}}
                 <!-- Slider Container -->
                 <div class="stats-slider">
                     <!-- Card 1 -->
@@ -183,34 +184,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- Card 4 -->
-                    <div class="px-2 h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
-                            <!-- Gambar dan judul -->
-                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/image-1.png" alt="Education"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
-                                </div>
-                            </div>
-                            <div
-                                class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-black text-base lg:text-lg font-calimate min-h-[60px]">500M+ media
-                                    impressions through digital storytelling</p>
-                            </div>
-
-                            <!-- Deskripsi yang muncul saat hover -->
-                            <div
-                                class="absolute inset-0 bg-golden-yellow bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-black text-sm lg:text-base text-center font-ttNorms">
-                                    Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
-                                    bisa menambahkan detail tentang program, manfaat, dan dampaknya.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -283,7 +256,8 @@
             <div class="flex flex-col lg:flex-row gap-8 lg:gap-12 px-4 sm:px-6">
                 <!-- Left Column - Text Content -->
                 <div class="lg:w-1/3 flex-col justify-center gap-0">
-                    <h2 class="whitespace-nowrap text-xl sm:text-2xl md:text-3xl font-bold text-teal-blue font-calimate mb-4">
+                    <h2
+                        class="whitespace-nowrap text-xl sm:text-2xl md:text-3xl font-bold text-teal-blue font-calimate mb-4">
                         Our Projects & Partnership
                     </h2>
                     <p class="text-white text-sm sm:text-base md:text-lg font-ttNorms leading-relaxed mt-4">
@@ -433,20 +407,26 @@
     <!-- New Section: Social Currents -->
     <section
         class="relative bg-[url('/public/assets/images/francesco-ungaro_compressed.jpg')] bg-cover bg-center py-16 px-4 sm:py-20 md:py-24 lg:py-28 xl:py-32 -mt-[50px] z-10">
+
         <!-- Teal-blue overlay with opacity -->
         <div class="absolute inset-0 bg-teal-blue/70"></div>
 
         <div class="max-w-6xl mx-auto relative z-10">
+            <!-- Heading 'Social' at the top -->
+            <h2
+                class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-wide font-calimate text-peachy-orange">
+                Social
+            </h2>
+
             <div class="flex flex-col lg:flex-row gap-6 lg:gap-8">
-                <!-- Left Column - Text Content (narrower) -->
+                <!-- Left Column - Text Content -->
                 <div class="lg:w-2/5">
-                    <!-- Section Title -->
+                    <!-- 'Currents.' part only -->
                     <h2
-                        class="text-3xl font-bold sm:text-4xl md:text-5xl tracking-wide font-calimate mb-8 lg:mb-12 lg:text-left">
-                        <span class="text-raspberry-pink">Social</span><br>
+                        class="text-2xl font-bold sm:text-3xl md:text-4xl tracking-wide font-calimate mb-8 lg:text-left">
                         <span class="text-golden-yellow">Currents.</span>
                     </h2>
-                    <p class="text-sm sm:text-base md:text-lg font-ttNorms text-white mb-6 max-w-md">
+                    <p class="text-sm sm:text-base md:text-lg font-ttNorms text-white mb-2 max-w-md">
                         The ocean moves, and so do we! Stay connected with the latest stories, moments, and impact
                         straight from our Instagram.
                     </p>
@@ -591,6 +571,7 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="{{ asset('assets/js/app.js') }}"></script>
 </body>

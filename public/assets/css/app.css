@@ -346,3 +346,19 @@
     margin-left: 2px;
     -webkit-animation: blinkCursor 0.7s infinite;
 }
+
+.instagram-slider .slick-slide {
+    transform: scale(0.85);
+    transition: all 0.3s ease;
+    opacity: 0.8;
+        /* agak redup dikit aja */:;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.instagram-slider .slick-center {
+    transform: scale(1);
+    opacity: 1;
+}

@@ -80,29 +80,39 @@ $(document).ready(function () {
         dots: false,
         arrows: false,
         infinite: true,
-        speed: 300,
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
-        centerPadding: '60px',
+        centerPadding: '100px', // ↓ dari 200px → 100px
         focusOnSelect: true,
-        responsive: [{
+        responsive: [
+            {
+                breakpoint: 1280,
+                settings: {
+                    centerMode: true,
+                    centerPadding: '80px', // ↓ dari 180px
+                    slidesToShow: 1
+                }
+            },
+            {
                 breakpoint: 1024,
                 settings: {
-                    centerPadding: '40px'
+                    centerMode: true,
+                    centerPadding: '50px', // ↓ dari 120px
+                    slidesToShow: 1
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    centerPadding: '30px',
+                    centerMode: true,
+                    centerPadding: '20px', // ↓ dari 60px
                     slidesToShow: 1
                 }
             }
         ]
     });
 
-    // Custom arrow navigation
     $('.slick-prev-instagram').click(function () {
         $('.instagram-slider').slick('slickPrev');
     });

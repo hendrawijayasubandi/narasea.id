@@ -1,7 +1,9 @@
 <nav class="navbar fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-3 bg-transparent">
     <!-- Logo -->
     <div class="w-40 ml-4">
-        <img src="assets/images/logo-narasea-id.svg" alt="Narasea Logo" class="h-8">
+        <a href="/">
+            <img src="assets/images/logo-narasea-id.svg" alt="Narasea Logo" class="h-8">
+        </a>
     </div>
 
     <!-- Hamburger Button -->

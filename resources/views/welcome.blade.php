@@ -284,12 +284,12 @@
                 <div class="relative mt-6 lg:w-2/3 lg:mt-0">
                     <!-- Navigation Buttons -->
                     <button
-                        class="slick-prev-projects absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition-all duration-200 -ml-4 sm:-ml-6">
+                        class="slick-prev-projects absolute left-2 sm:left-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition-all duration-200">
                         <i class="text-sm fas fa-chevron-left sm:text-base"></i>
                     </button>
 
                     <button
-                        class="slick-next-projects absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition-all duration-200 -mr-4 sm:-mr-6">
+                        class="slick-next-projects absolute right-2 sm:right-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition-all duration-200">
                         <i class="text-sm fas fa-chevron-right sm:text-base"></i>
                     </button>
 
@@ -404,12 +404,14 @@
                 <!-- Left Column - Text Content -->
                 <div class="lg:w-2/5">
                     <!-- Heading 'Social' now inside Left Column -->
-                    <h2 class="text-4xl font-bold tracking-wide sm:text-5xl md:text-6xl lg:text-7xl font-calimate text-peachy-orange">
+                    <h2
+                        class="text-4xl font-bold tracking-wide sm:text-5xl md:text-6xl lg:text-7xl font-calimate text-peachy-orange">
                         Social
                     </h2>
 
                     <!-- 'Currents.' part only -->
-                    <h2 class="mb-4 text-2xl font-bold tracking-wide sm:text-3xl md:text-4xl font-calimate lg:text-left">
+                    <h2
+                        class="mb-4 text-2xl font-bold tracking-wide sm:text-3xl md:text-4xl font-calimate lg:text-left">
                         <span class="text-golden-yellow">Currents.</span>
                     </h2>
 

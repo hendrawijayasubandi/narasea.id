@@ -49,29 +49,49 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-    $('.projects-slider').slick({
+    const $slider = $('.projects-slider');
+
+    $slider.on('init', function (event, slick) {
+        if (slick.slideCount <= 1) {
+            $('.slick-prev-projects, .slick-next-projects').hide();
+        }
+    });
+
+    $slider.slick({
         dots: false,
         arrows: false,
         infinite: true,
         speed: 300,
         slidesToShow: 3,
         slidesToScroll: 1,
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                infinite: true
+        responsive: [
+            {
+                breakpoint: 1280, // xl dan di atasnya tetap 3
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 1024, // lg (1024px) dan tablet landscape
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768, // sm dan di bawahnya (mobile)
+                settings: {
+                    slidesToShow: 1,
+                }
             }
-        }]
+        ]
     });
 
-    // Custom arrow navigation
     $('.slick-prev-projects').click(function () {
-        $('.projects-slider').slick('slickPrev');
+        $slider.slick('slickPrev');
     });
 
     $('.slick-next-projects').click(function () {
-        $('.projects-slider').slick('slickNext');
+        $slider.slick('slickNext');
     });
 });
 

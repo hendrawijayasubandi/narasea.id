@@ -553,7 +553,7 @@
 
     <!-- Newsletter Section -->
     <section
-        class="relative bg-[url('/public/assets/images/francesco-ungaro_compressed.jpg')] bg-cover bg-center py-12 px-4 sm:py-16 md:py-20">
+        class="relative bg-[url('/public/assets/images/Footer.jpg')] bg-cover bg-center py-12 px-4 sm:py-16 md:py-20">
 
         @include('components.subscribe')
     </section>

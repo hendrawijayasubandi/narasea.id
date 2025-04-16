@@ -2,7 +2,7 @@
     <!-- Logo -->
     <div class="w-40 ml-4">
         <a href="/">
-            <img src="assets/images/logo-narasea-id.svg" alt="Narasea Logo" class="h-8">
+            <img src="assets/images/Narasea Logo_open files-06_new.svg" alt="Narasea Logo" class="h-10">
         </a>
     </div>
 

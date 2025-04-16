@@ -56,7 +56,7 @@
         class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/landing-page-2.png')] bg-cover bg-center flex flex-col justify-center items-center px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:px-24 lg:py-28 xl:px-32 relative">
         <h1
             class="text-3xl font-bold mb-4 sm:text-4xl sm:mb-5 md:text-5xl md:mb-6 lg:text-6xl tracking-wide font-calimate text-white text-center overflow-hidden">
-            <span id="changing-text" class="inline-block"></span><span class="typing-cursor">|</span>
+            <span id="changing-text" class="inline-block"></span>
         </h1>
 
         <p

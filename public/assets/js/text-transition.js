@@ -5,44 +5,25 @@ document.addEventListener('DOMContentLoaded', function () {
     ];
 
     const element = document.getElementById('changing-text');
-    const cursor = document.querySelector('.typing-cursor');
     let index = 0;
-    let isDeleting = false;
-    let currentText = '';
-    let typingSpeed = 100;
-    let pauseBetween = 2000;
 
-    function type() {
+    function changeText() {
         const fullText = texts[index].text + texts[index].colored;
 
-        if (isDeleting) {
-            currentText = fullText.substring(0, currentText.length - 1);
-        } else {
-            currentText = fullText.substring(0, currentText.length + 1);
-        }
+        element.innerHTML = `
+        <span class="text-slide">
+            ${texts[index].text}
+            <span style="color: ${texts[index].color === 'text-teal-blue' ? '#019AAA' : '#E84373'};">
+            ${texts[index].colored}
+            </span>
+        </span>
+        `;
 
-        // Update HTML with colored part
-        const coloredIndex = texts[index].text.length;
-        element.innerHTML =
-            currentText.substring(0, coloredIndex) +
-            `<span class="${texts[index].color}">${currentText.substring(coloredIndex)}</span>`;
-
-        // Adjust typing speed
-        typingSpeed = isDeleting ? 50 : 100;
-
-        // Check if complete
-        if (!isDeleting && currentText === fullText) {
-            typingSpeed = pauseBetween;
-            isDeleting = true;
-        } else if (isDeleting && currentText === '') {
-            isDeleting = false;
+        setTimeout(() => {
             index = (index + 1) % texts.length;
-            typingSpeed = 500;
-        }
-
-        setTimeout(type, typingSpeed);
+            changeText();
+        }, 3000);
     }
 
-    // Start typing
-    setTimeout(type, 1000);
+    setTimeout(changeText, 1000)
 });

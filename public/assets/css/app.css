@@ -324,27 +324,22 @@
 
 /* Page 2 */
 /* Landing Page 2 */
-@keyframes typing {
-    from {
-        width: 0
+@keyframes pushFromBottom {
+    0% {
+        transform: translateY(100%);
+        /* Mulai dari bawah */
     }
 
-    to {
-        width: 100%
-    }
-}
-
-@keyframes blinkCursor {
-    50% {
-        opacity: 0
+    100% {
+        transform: translateY(0);
+        /* Pindah ke posisi normal */
     }
 }
 
-.typing-cursor {
-    animation: blinkCursor 0.7s infinite;
+.text-slide {
     display: inline-block;
-    margin-left: 2px;
-    -webkit-animation: blinkCursor 0.7s infinite;
+    animation: pushFromBottom 1s ease-out forwards;
+    /* Durasi 1 detik */
 }
 
 .instagram-slider .slick-slide {

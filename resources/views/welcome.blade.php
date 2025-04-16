@@ -106,7 +106,7 @@
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/image-1.png" alt="Education"
+                                <img src="assets/images/Rectangle 2.png" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
                                     class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
@@ -133,7 +133,7 @@
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/image-1.png" alt="Education"
+                                <img src="assets/images/Rectangle 2.png" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
                                     class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
@@ -162,7 +162,7 @@
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/image-1.png" alt="Education"
+                                <img src="assets/images/Rectangle 2.png" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
                                     class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
@@ -300,7 +300,7 @@
                             <div
                                 class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-golden-yellow group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
-                                    <img src="assets/images/image-1.png" alt="Coral Triangle"
+                                    <img src="assets/images/Rectangle 2.png" alt="Coral Triangle"
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
@@ -322,7 +322,7 @@
                             <div
                                 class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-raspberry-pink group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
-                                    <img src="assets/images/image-2.png" alt="Octopus Series"
+                                    <img src="assets/images/Rectangle 2.png" alt="Octopus Series"
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
@@ -343,7 +343,7 @@
                         <div class="h-full px-2">
                             <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-blue group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
-                                    <img src="assets/images/image-3.png" alt="Oceana Scar"
+                                    <img src="assets/images/Rectangle 2.png" alt="Oceana Scar"
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
@@ -364,7 +364,7 @@
                             <div
                                 class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-peachy-orange group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
-                                    <img src="assets/images/image-4.png" alt="1000 Kebaikan untuk Nelayan "
+                                    <img src="assets/images/Rectangle 2.png" alt="1000 Kebaikan untuk Nelayan "
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">

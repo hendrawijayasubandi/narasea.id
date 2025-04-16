@@ -69,10 +69,10 @@
         </p>
 
         <!-- Responsive CTA Button -->
-        <button
+        <a href="https://wa.me/628112372277" target="_blank"
             class="mt-2 px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
             Be The Change
-        </button>
+        </a>
     </section>
 
     <!-- Impact Section with Side-by-Side Cards -->
@@ -245,10 +245,12 @@
                         their journey before it fades into history.
                     </p>
 
-                    <button
-                        class="px-5 py-1.5 text-xs sm:text-sm md:text-base bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
-                        Share What You See
-                    </button>
+                    <a href="mailto:naraseaid@gmail.com">
+                        <button
+                            class="px-5 py-1.5 text-xs sm:text-sm md:text-base bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
+                            Share What You See
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -444,10 +446,12 @@
                     </p>
 
                     <div class="mb-6">
-                        <button
-                            class="px-5 py-1.5 text-xs sm:text-sm md:text-base bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
-                            Follow the Waves
-                        </button>
+                        <a href="https://www.instagram.com/naraseaid/" target="_blank">
+                            <button
+                                class="px-5 py-1.5 text-xs sm:text-sm md:text-base bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
+                                Follow the Waves
+                            </button>
+                        </a>
                     </div>
                 </div>
 

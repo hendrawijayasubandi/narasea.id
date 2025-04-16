@@ -394,21 +394,26 @@
         <div class="absolute inset-0 bg-teal-blue/70"></div>
 
         <div class="relative z-10 max-w-6xl mx-auto">
-            <!-- Heading 'Social' at the top -->
+            {{-- <!-- Heading 'Social' at the top -->
             <h2
                 class="text-4xl font-bold tracking-wide sm:text-5xl md:text-6xl lg:text-7xl font-calimate text-peachy-orange">
                 Social
-            </h2>
+            </h2> --}}
 
             <div class="flex flex-col gap-6 lg:flex-row lg:gap-8">
                 <!-- Left Column - Text Content -->
                 <div class="lg:w-2/5">
+                    <!-- Heading 'Social' now inside Left Column -->
+                    <h2 class="text-4xl font-bold tracking-wide sm:text-5xl md:text-6xl lg:text-7xl font-calimate text-peachy-orange">
+                        Social
+                    </h2>
+
                     <!-- 'Currents.' part only -->
-                    <h2
-                        class="mb-8 text-2xl font-bold tracking-wide sm:text-3xl md:text-4xl font-calimate lg:text-left">
+                    <h2 class="mb-4 text-2xl font-bold tracking-wide sm:text-3xl md:text-4xl font-calimate lg:text-left">
                         <span class="text-golden-yellow">Currents.</span>
                     </h2>
-                    <p class="max-w-md mb-2 text-sm text-white sm:text-base md:text-lg font-ttNorms">
+
+                    <p class="max-w-md mb-6 text-sm text-white sm:text-base md:text-lg font-ttNorms">
                         The ocean moves, and so do we! Stay connected with the latest stories, moments, and impact
                         straight from our Instagram.
                     </p>

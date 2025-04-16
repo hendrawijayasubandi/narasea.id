@@ -522,7 +522,7 @@
     </section>
 
     <!-- Main Contact Section -->
-    <section class="relative px-4 py-16 bg-black sm:py-20 md:py-24 lg:py-28">
+    <section class="relative px-4 py-16 bg-teal-blue sm:py-20 md:py-24 lg:py-28">
         <div class="max-w-4xl mx-auto text-center">
             <!-- Title -->
             <h2 class="mb-6 text-3xl font-bold text-white sm:text-4xl md:text-5xl font-calimate">
@@ -546,19 +546,19 @@
                 </button>
 
                 <!-- WhatsApp Button -->
-                <a href="https://wa.me/yournumber" target="_blank"
+                <a href="https://wa.me/628112372277" target="_blank"
                     class="absolute flex items-center justify-center w-10 h-10 text-black transition-all duration-300 transform scale-50 bg-white rounded-full opacity-0 contact-sub-btn hover:scale-110 hover:shadow-lg">
                     <i class="fab fa-whatsapp"></i>
                 </a>
 
                 <!-- Email Button -->
-                <a href="mailto:your@email.com"
+                <a href="mailto:naraseaid@gmail.com"
                     class="absolute flex items-center justify-center w-10 h-10 text-black transition-all duration-300 transform scale-50 bg-white rounded-full opacity-0 contact-sub-btn hover:scale-110 hover:shadow-lg">
                     <i class="fas fa-envelope"></i>
                 </a>
 
                 <!-- Instagram Button -->
-                <a href="https://instagram.com/yourprofile" target="_blank"
+                <a href="https://www.instagram.com/naraseaid/" target="_blank"
                     class="absolute flex items-center justify-center w-10 h-10 text-black transition-all duration-300 transform scale-50 bg-white rounded-full opacity-0 contact-sub-btn hover:scale-110 hover:shadow-lg">
                     <i class="fab fa-instagram"></i>
                 </a>

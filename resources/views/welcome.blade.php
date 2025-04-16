@@ -309,8 +309,9 @@
                                         Wonder of Coral Triangle
                                     </h3>
                                     <p class="flex-grow text-xs text-black/80 sm:text-sm font-ttNorms">
-                                        A hero's journey into marine biodiversity conservation through education and
-                                        awareness programs
+                                        A hands-on educational journey into the heart of the Coral Triangle. Created in
+                                        collaboration with Color For Good, this workshop-based book inspires young minds
+                                        to protect our oceans.
                                     </p>
                                 </div>
                             </div>
@@ -330,7 +331,9 @@
                                         Octopus Series
                                     </h3>
                                     <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
-                                        Developing innovative solutions for marine ecosystem protection and restoration
+                                        A dynamic collaboration with various institutions and organizations, exploring
+                                        the intricate connections between marine life, conservation, and coastal
+                                        communities.
                                     </p>
                                 </div>
                             </div>
@@ -349,7 +352,8 @@
                                         Oceana Scar
                                     </h3>
                                     <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
-                                        Combining art and science to express the beauty and fragility of ocean waves
+                                        A meaningful fusion of fashion and impact, co-created with Donashion, where
+                                        every scarf supports ocean conservation efforts.
                                     </p>
                                 </div>
                             </div>
@@ -360,54 +364,18 @@
                             <div
                                 class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-peachy-orange group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
-                                    <img src="assets/images/image-4.png" alt="Marine Cleanup"
+                                    <img src="assets/images/image-4.png" alt="1000 Kebaikan untuk Nelayan "
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
                                         class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
-                                        Marine Cleanup
+                                        1000 Kebaikan untuk Nelayan
                                     </h3>
                                     <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
-                                        Community-driven efforts to remove plastic waste from coastal areas
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 5 -->
-                        <div class="h-full px-2">
-                            <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-teal-blue group">
-                                <div class="aspect-[4/3] overflow-hidden relative">
-                                    <img src="assets/images/image-5.png" alt="Turtle Conservation"
-                                        class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
-                                </div>
-                                <div class="flex flex-col flex-grow p-4 lg:p-6">
-                                    <h3
-                                        class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
-                                        Turtle Conservation
-                                    </h3>
-                                    <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
-                                        Protecting endangered sea turtles through habitat preservation
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 6 -->
-                        <div class="h-full px-2">
-                            <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-white/5 group">
-                                <div class="aspect-[4/3] overflow-hidden relative">
-                                    <img src="assets/images/image-6.png" alt="Coral Restoration"
-                                        class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
-                                </div>
-                                <div class="flex flex-col flex-grow p-4 lg:p-6">
-                                    <h3
-                                        class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
-                                        Coral Restoration
-                                    </h3>
-                                    <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
-                                        Regrowing damaged coral reefs through innovative techniques
+                                        In partnership with Sinergi Foundation, this initiative uplifts coastal
+                                        communities by providing essential support for local fishermen and their
+                                        families.
                                     </p>
                                 </div>
                             </div>

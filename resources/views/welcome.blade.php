@@ -57,7 +57,7 @@
         class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/landing-page-1.png')] bg-cover bg-center flex flex-col justify-center items-start px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:px-24 lg:py-28 xl:px-32">
         <!-- Main Title with responsive sizing and spacing -->
         <h1
-            class="text-3xl font-bold mb-4 sm:text-4xl sm:mb-5 md:text-5xl md:mb-6 lg:text-6xl tracking-wide font-calimate text-white">
+            class="mb-4 text-3xl font-bold tracking-wide text-white sm:text-4xl sm:mb-5 md:text-5xl md:mb-6 lg:text-6xl font-calimate">
             See, Share, Sea.
         </h1>
 
@@ -77,39 +77,39 @@
 
     <!-- Impact Section with Side-by-Side Cards -->
     <section class="bg-white py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-28 rounded-bl-[50px] rounded-br-[50px]">
-        <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-6 lg:gap-8 items-stretch">
+        <div class="flex flex-col items-stretch max-w-6xl gap-6 mx-auto lg:flex-row lg:gap-8">
             <!-- Left Side - Title -->
-            <div class="lg:w-1/3 flex items-center">
-                <h2 class="text-3xl font-extrabold sm:text-4xl md:text-5xl tracking-wide font-calimate leading-tight">
+            <div class="flex items-center lg:w-1/3">
+                <h2 class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate">
                     <span class="text-blue">Tides of</span>
                     <span class="text-teal-blue">Impact.</span>
                 </h2>
             </div>
 
             <!-- Right Side - Cards Slider -->
-            <div class="lg:w-2/3 w-full relative">
+            <div class="relative w-full lg:w-2/3">
                 <!-- Custom Navigation Buttons -->
-                {{-- <div class="hidden lg:flex justify-between absolute top-1/2 left-0 right-0 z-10 -translate-y-1/2 px-4">
+                {{-- <div class="absolute left-0 right-0 z-10 justify-between hidden px-4 -translate-y-1/2 lg:flex top-1/2">
                     <button
-                        class="slick-prev-custom bg-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-gray-100 transition">
-                        <i class="fas fa-chevron-left text-gray-700"></i>
+                        class="flex items-center justify-center w-10 h-10 transition bg-white rounded-full shadow-lg slick-prev-custom hover:bg-gray-100">
+                        <i class="text-gray-700 fas fa-chevron-left"></i>
                     </button>
                     <button
-                        class="slick-next-custom bg-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-gray-100 transition">
-                        <i class="fas fa-chevron-right text-gray-700"></i>
+                        class="flex items-center justify-center w-10 h-10 transition bg-white rounded-full shadow-lg slick-next-custom hover:bg-gray-100">
+                        <i class="text-gray-700 fas fa-chevron-right"></i>
                     </button>
                 </div> --}}
                 <!-- Slider Container -->
                 <div class="stats-slider">
                     <!-- Card 1 -->
-                    <div class="px-2 h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                    <div class="h-full px-2 group">
+                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
                                 <img src="assets/images/image-1.png" alt="Education"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div
@@ -120,8 +120,8 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 bg-teal-blue bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-teal-blue bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
                                     Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
                                 </p>
                             </div>
@@ -129,14 +129,14 @@
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="px-2 h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                    <div class="h-full px-2 group">
+                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
                                 <img src="assets/images/image-1.png" alt="Education"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div
@@ -148,8 +148,8 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 bg-raspberry-pink bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
                                     Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
                                     bisa menambahkan detail tentang program, manfaat, dan dampaknya.
                                 </p>
@@ -158,14 +158,14 @@
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="px-2 h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                    <div class="h-full px-2 group">
+                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
                                 <img src="assets/images/image-1.png" alt="Education"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div
@@ -176,8 +176,8 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 bg-peachy-orange bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-peachy-orange bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
                                     Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
                                     bisa menambahkan detail tentang program, manfaat, dan dampaknya.
                                 </p>
@@ -195,39 +195,51 @@
         <!-- Blue overlay -->
         <div class="absolute inset-0 bg-blue-900/70"></div>
 
-        <div class="max-w-6xl mx-auto relative z-10">
+        <div class="relative z-10 max-w-6xl mx-auto">
             <!-- Voice title with different colors -->
-            <h2 class="text-3xl font-bold sm:text-4xl md:text-5xl tracking-wide font-calimate mb-8 lg:mb-12">
+            <h2 class="mb-8 text-3xl font-bold tracking-wide sm:text-4xl md:text-5xl font-calimate lg:mb-12">
                 <span class="text-teal-blue">Voice from the</span>
                 <span class="text-white"> ocean.</span>
             </h2>
 
             <!-- Two-column content below -->
-            <div class="flex flex-col lg:flex-row gap-6 lg:gap-8">
+            <div class="flex flex-col gap-6 lg:flex-row lg:gap-8">
                 <!-- Left Column - YouTube Thumbnail -->
-                <div class="lg:w-1/2 w-full">
-                    <div
-                        class="aspect-video bg-black/30 rounded-xl border-2 border-white/20 flex items-center justify-center cursor-pointer transition hover:border-white/40">
-                        <div class="text-center">
-                            <i class="fas fa-play text-white text-4xl mb-2"></i>
-                            <p class="text-white font-ttNorms">Watch the story</p>
+                <div class="w-full lg:w-1/2">
+                    <a href="https://www.youtube.com/watch?v=boI4un-fyBU&t=109s" target="_blank"
+                        rel="noopener noreferrer">
+                        <div
+                            class="relative overflow-hidden transition border-2 cursor-pointer aspect-video rounded-xl border-white/20 group hover:border-white/40">
+                            <!-- Thumbnail -->
+                            <img src="https://img.youtube.com/vi/boI4un-fyBU/hqdefault.jpg" alt="YouTube Thumbnail"
+                                class="absolute inset-0 object-cover w-full h-full transition duration-300 opacity-80 group-hover:opacity-90">
+
+                            <!-- Overlay gelap agar play icon tetap jelas -->
+                            <div class="absolute inset-0 transition duration-300 bg-black/30 group-hover:bg-black/40">
+                            </div>
+
+                            <!-- Play icon dan text -->
+                            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center">
+                                <i class="mb-2 text-4xl text-white fas fa-play"></i>
+                                <p class="text-white font-ttNorms">Watch the story</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <!-- Right Column - Text Content -->
-                <div class="lg:w-1/2 w-full rounded-2xl p-4 sm:p-6">
-                    <p class="text-lg sm:text-xl md:text-2xl font-bold mb-3 font-calimate text-white">
+                <div class="w-full p-4 lg:w-1/2 rounded-2xl sm:p-6">
+                    <p class="mb-3 text-lg font-bold text-white sm:text-xl md:text-2xl font-calimate">
                         The Fading Fishermen of Pulau Sabira.
                     </p>
 
-                    <p class="mb-4 text-sm sm:text-base leading-relaxed font-ttNorms text-white">
+                    <p class="mb-4 text-sm leading-relaxed text-white sm:text-base font-ttNorms">
                         Once a thriving haven for traditional fishermen, Pulau Sabira now
                         faces a quiet transformation. As the younger generation drifts away
                         from the sea, the island's rich fishing heritage stands at a crossroads.
                     </p>
 
-                    <p class="mb-6 text-sm sm:text-base leading-relaxed font-ttNorms text-white">
+                    <p class="mb-6 text-sm leading-relaxed text-white sm:text-base font-ttNorms">
                         NPM Fikom Unpad and Narasea Indonesia set sail to uncover the
                         stories of Sabira's fishermen—learning, listening, and capturing
                         their journey before it fades into history.
@@ -248,53 +260,53 @@
         <div class="max-w-6xl mx-auto" style="padding-top: 50px;">
             <!-- Section Header -->
             <div class="px-4 sm:px-6">
-                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 font-calimate">Protect.
+                <h1 class="mb-2 text-3xl font-bold text-white sm:text-4xl md:text-5xl font-calimate">Protect.
                     Educate. Empower.</h1>
             </div>
 
             <!-- Two Column Layout -->
-            <div class="flex flex-col lg:flex-row gap-8 lg:gap-12 px-4 sm:px-6">
+            <div class="flex flex-col gap-8 px-4 lg:flex-row lg:gap-12 sm:px-6">
                 <!-- Left Column - Text Content -->
-                <div class="lg:w-1/3 flex-col justify-center gap-0">
+                <div class="flex-col justify-center gap-0 lg:w-1/3">
                     <h2
-                        class="whitespace-nowrap text-xl sm:text-2xl md:text-3xl font-bold text-teal-blue font-calimate mb-4">
+                        class="mb-4 text-xl font-bold whitespace-nowrap sm:text-2xl md:text-3xl text-teal-blue font-calimate">
                         Our Projects & Partnership
                     </h2>
-                    <p class="text-white text-sm sm:text-base md:text-lg font-ttNorms leading-relaxed mt-4">
+                    <p class="mt-4 text-sm leading-relaxed text-white sm:text-base md:text-lg font-ttNorms">
                         At Narasea, every wave carries a story, and every initiative is a step toward protecting our
                         marine heritage. Through collaborations with passionate organizations, we bring education,
                         sustainability, and community empowerment to life.
                     </p>
                 </div>
                 <!-- Right Column - Image Cards Slider -->
-                <div class="lg:w-2/3 relative mt-6 lg:mt-0">
+                <div class="relative mt-6 lg:w-2/3 lg:mt-0">
                     <!-- Navigation Buttons -->
                     <button
                         class="slick-prev-projects absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition-all duration-200 -ml-4 sm:-ml-6">
-                        <i class="fas fa-chevron-left text-sm sm:text-base"></i>
+                        <i class="text-sm fas fa-chevron-left sm:text-base"></i>
                     </button>
 
                     <button
                         class="slick-next-projects absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition-all duration-200 -mr-4 sm:-mr-6">
-                        <i class="fas fa-chevron-right text-sm sm:text-base"></i>
+                        <i class="text-sm fas fa-chevron-right sm:text-base"></i>
                     </button>
 
                     <!-- Slider Container -->
                     <div class="projects-slider">
                         <!-- Card 1 -->
-                        <div class="px-2 h-full">
+                        <div class="h-full px-2">
                             <div
-                                class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-golden-yellow group">
+                                class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-golden-yellow group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="assets/images/image-1.png" alt="Coral Triangle"
-                                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                        class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
-                                <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                                <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
-                                        class="text-black text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                        class="mb-2 text-base font-bold text-black sm:text-lg lg:text-xl font-calimate">
                                         Wonder of Coral Triangle
                                     </h3>
-                                    <p class="text-black/80 text-xs sm:text-sm font-ttNorms flex-grow">
+                                    <p class="flex-grow text-xs text-black/80 sm:text-sm font-ttNorms">
                                         A hero's journey into marine biodiversity conservation through education and
                                         awareness programs
                                     </p>
@@ -303,19 +315,19 @@
                         </div>
 
                         <!-- Card 2 -->
-                        <div class="px-2 h-full">
+                        <div class="h-full px-2">
                             <div
-                                class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-raspberry-pink group">
+                                class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-raspberry-pink group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="assets/images/image-2.png" alt="Octopus Series"
-                                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                        class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
-                                <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                                <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
-                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                        class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
                                         Octopus Series
                                     </h3>
-                                    <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
+                                    <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
                                         Developing innovative solutions for marine ecosystem protection and restoration
                                     </p>
                                 </div>
@@ -323,18 +335,18 @@
                         </div>
 
                         <!-- Card 3 -->
-                        <div class="px-2 h-full">
-                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-blue group">
+                        <div class="h-full px-2">
+                            <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-blue group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="assets/images/image-3.png" alt="Oceana Scar"
-                                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                        class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
-                                <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                                <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
-                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                        class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
                                         Oceana Scar
                                     </h3>
-                                    <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
+                                    <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
                                         Combining art and science to express the beauty and fragility of ocean waves
                                     </p>
                                 </div>
@@ -342,19 +354,19 @@
                         </div>
 
                         <!-- Card 4 -->
-                        <div class="px-2 h-full">
+                        <div class="h-full px-2">
                             <div
-                                class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-peachy-orange group">
+                                class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-peachy-orange group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="assets/images/image-4.png" alt="Marine Cleanup"
-                                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                        class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
-                                <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                                <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
-                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                        class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
                                         Marine Cleanup
                                     </h3>
-                                    <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
+                                    <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
                                         Community-driven efforts to remove plastic waste from coastal areas
                                     </p>
                                 </div>
@@ -362,18 +374,18 @@
                         </div>
 
                         <!-- Card 5 -->
-                        <div class="px-2 h-full">
-                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-teal-blue group">
+                        <div class="h-full px-2">
+                            <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-teal-blue group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="assets/images/image-5.png" alt="Turtle Conservation"
-                                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                        class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
-                                <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                                <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
-                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                        class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
                                         Turtle Conservation
                                     </h3>
-                                    <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
+                                    <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
                                         Protecting endangered sea turtles through habitat preservation
                                     </p>
                                 </div>
@@ -381,18 +393,18 @@
                         </div>
 
                         <!-- Card 6 -->
-                        <div class="px-2 h-full">
-                            <div class="flex flex-col h-full rounded-2xl overflow-hidden shadow-lg bg-white/5 group">
+                        <div class="h-full px-2">
+                            <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-white/5 group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="assets/images/image-6.png" alt="Coral Restoration"
-                                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                        class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
-                                <div class="p-4 lg:p-6 flex flex-col flex-grow">
+                                <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
-                                        class="text-white text-base sm:text-lg lg:text-xl font-bold font-calimate mb-2">
+                                        class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
                                         Coral Restoration
                                     </h3>
-                                    <p class="text-white/80 text-xs sm:text-sm font-ttNorms flex-grow">
+                                    <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
                                         Regrowing damaged coral reefs through innovative techniques
                                     </p>
                                 </div>
@@ -411,22 +423,22 @@
         <!-- Teal-blue overlay with opacity -->
         <div class="absolute inset-0 bg-teal-blue/70"></div>
 
-        <div class="max-w-6xl mx-auto relative z-10">
+        <div class="relative z-10 max-w-6xl mx-auto">
             <!-- Heading 'Social' at the top -->
             <h2
-                class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-wide font-calimate text-peachy-orange">
+                class="text-4xl font-bold tracking-wide sm:text-5xl md:text-6xl lg:text-7xl font-calimate text-peachy-orange">
                 Social
             </h2>
 
-            <div class="flex flex-col lg:flex-row gap-6 lg:gap-8">
+            <div class="flex flex-col gap-6 lg:flex-row lg:gap-8">
                 <!-- Left Column - Text Content -->
                 <div class="lg:w-2/5">
                     <!-- 'Currents.' part only -->
                     <h2
-                        class="text-2xl font-bold sm:text-3xl md:text-4xl tracking-wide font-calimate mb-8 lg:text-left">
+                        class="mb-8 text-2xl font-bold tracking-wide sm:text-3xl md:text-4xl font-calimate lg:text-left">
                         <span class="text-golden-yellow">Currents.</span>
                     </h2>
-                    <p class="text-sm sm:text-base md:text-lg font-ttNorms text-white mb-2 max-w-md">
+                    <p class="max-w-md mb-2 text-sm text-white sm:text-base md:text-lg font-ttNorms">
                         The ocean moves, and so do we! Stay connected with the latest stories, moments, and impact
                         straight from our Instagram.
                     </p>
@@ -441,18 +453,18 @@
 
                 <!-- Right Column - Instagram Photos (wider) -->
                 <div class="lg:w-3/5">
-                    <div class="relative h-full flex items-center">
+                    <div class="relative flex items-center h-full">
                         <!-- Main Slider Container -->
-                        <div class="w-full px-4 sm:px-8 relative">
+                        <div class="relative w-full px-4 sm:px-8">
                             <!-- Navigation Buttons -->
                             <button
                                 class="slick-prev-instagram absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition">
-                                <i class="fas fa-chevron-left text-sm sm:text-base"></i>
+                                <i class="text-sm fas fa-chevron-left sm:text-base"></i>
                             </button>
 
                             <button
                                 class="slick-next-instagram absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition">
-                                <i class="fas fa-chevron-right text-sm sm:text-base"></i>
+                                <i class="text-sm fas fa-chevron-right sm:text-base"></i>
                             </button>
 
                             <!-- Instagram Slider -->
@@ -460,37 +472,37 @@
                                 <!-- Instagram Photos 1-5 -->
                                 <div class="px-1">
                                     <div
-                                        class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
                                         <img src="/assets/images/image-1.png" alt="Instagram photo"
-                                            class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                            class="object-cover w-full h-full transition duration-300 hover:scale-105">
                                     </div>
                                 </div>
                                 <div class="px-1">
                                     <div
-                                        class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
                                         <img src="/assets/images/image-2.png" alt="Instagram photo"
-                                            class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                            class="object-cover w-full h-full transition duration-300 hover:scale-105">
                                     </div>
                                 </div>
                                 <div class="px-1">
                                     <div
-                                        class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
                                         <img src="/assets/images/image-3.png" alt="Instagram photo"
-                                            class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                            class="object-cover w-full h-full transition duration-300 hover:scale-105">
                                     </div>
                                 </div>
                                 <div class="px-1">
                                     <div
-                                        class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
                                         <img src="/assets/images/image-4.png" alt="Instagram photo"
-                                            class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                            class="object-cover w-full h-full transition duration-300 hover:scale-105">
                                     </div>
                                 </div>
                                 <div class="px-1">
                                     <div
-                                        class="aspect-square rounded-xl overflow-hidden border-2 border-white/20 shadow-lg">
+                                        class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
                                         <img src="/assets/images/image-5.png" alt="Instagram photo"
-                                            class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                                            class="object-cover w-full h-full transition duration-300 hover:scale-105">
                                     </div>
                                 </div>
                             </div>
@@ -503,51 +515,51 @@
 
     <!-- Top Grid Section -->
     <section class="relative bg-black">
-        <div class="h-24 sm:h-32 md:h-40 w-full overflow-hidden">
+        <div class="w-full h-24 overflow-hidden sm:h-32 md:h-40">
             <img src="assets/images/grid-1.png" alt="Ocean grid pattern top"
-                class="w-full h-full object-cover opacity-70">
+                class="object-cover w-full h-full opacity-70">
         </div>
     </section>
 
     <!-- Main Contact Section -->
-    <section class="relative bg-black py-16 px-4 sm:py-20 md:py-24 lg:py-28">
+    <section class="relative px-4 py-16 bg-black sm:py-20 md:py-24 lg:py-28">
         <div class="max-w-4xl mx-auto text-center">
             <!-- Title -->
-            <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 font-calimate text-white">
+            <h2 class="mb-6 text-3xl font-bold text-white sm:text-4xl md:text-5xl font-calimate">
                 Sea Needs You. Get in Touch.
             </h2>
 
             <!-- Text -->
-            <div class="max-w-xs sm:max-w-sm md:max-w-md mx-auto mb-8">
-                <p class="text-white/80 text-base sm:text-lg md:text-xl font-ttNorms">
+            <div class="max-w-xs mx-auto mb-8 sm:max-w-sm md:max-w-md">
+                <p class="text-base text-white/80 sm:text-lg md:text-xl font-ttNorms">
                     Every action counts in protecting our oceans.<br>
                     Whether you're looking to collaborate, support, or simply learn more, we'd love to connect!
                 </p>
             </div>
 
             <!-- Enhanced Animated Button Container -->
-            <div class="relative h-32 flex items-center justify-center">
+            <div class="relative flex items-center justify-center h-32">
                 <!-- Main Button -->
                 <button id="contact-main-btn"
                     class="absolute w-12 h-12 flex items-center justify-center bg-peachy-orange text-black rounded-full hover:bg-[#D96630] transition-all duration-300 z-10 focus:outline-none">
-                    <i class="fas fa-comment-dots text-xl"></i>
+                    <i class="text-xl fas fa-comment-dots"></i>
                 </button>
 
                 <!-- WhatsApp Button -->
                 <a href="https://wa.me/yournumber" target="_blank"
-                    class="contact-sub-btn absolute bg-white text-black rounded-full w-10 h-10 flex items-center justify-center opacity-0 transform scale-50 transition-all duration-300 hover:scale-110 hover:shadow-lg">
+                    class="absolute flex items-center justify-center w-10 h-10 text-black transition-all duration-300 transform scale-50 bg-white rounded-full opacity-0 contact-sub-btn hover:scale-110 hover:shadow-lg">
                     <i class="fab fa-whatsapp"></i>
                 </a>
 
                 <!-- Email Button -->
                 <a href="mailto:your@email.com"
-                    class="contact-sub-btn absolute bg-white text-black rounded-full w-10 h-10 flex items-center justify-center opacity-0 transform scale-50 transition-all duration-300 hover:scale-110 hover:shadow-lg">
+                    class="absolute flex items-center justify-center w-10 h-10 text-black transition-all duration-300 transform scale-50 bg-white rounded-full opacity-0 contact-sub-btn hover:scale-110 hover:shadow-lg">
                     <i class="fas fa-envelope"></i>
                 </a>
 
                 <!-- Instagram Button -->
                 <a href="https://instagram.com/yourprofile" target="_blank"
-                    class="contact-sub-btn absolute bg-white text-black rounded-full w-10 h-10 flex items-center justify-center opacity-0 transform scale-50 transition-all duration-300 hover:scale-110 hover:shadow-lg">
+                    class="absolute flex items-center justify-center w-10 h-10 text-black transition-all duration-300 transform scale-50 bg-white rounded-full opacity-0 contact-sub-btn hover:scale-110 hover:shadow-lg">
                     <i class="fab fa-instagram"></i>
                 </a>
             </div>
@@ -556,9 +568,9 @@
 
     <!-- Bottom Grid Section -->
     <section class="relative bg-black">
-        <div class="h-24 sm:h-32 md:h-40 w-full overflow-hidden">
+        <div class="w-full h-24 overflow-hidden sm:h-32 md:h-40">
             <img src="assets/images/grid-2.png" alt="Ocean grid pattern bottom"
-                class="w-full h-full object-cover opacity-70">
+                class="object-cover w-full h-full opacity-70">
         </div>
     </section>
 

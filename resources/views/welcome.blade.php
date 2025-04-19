@@ -54,34 +54,38 @@
 
     <!-- Hero Section -->
     <section
-        class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/landing-page-1.png')] bg-cover bg-center flex flex-col justify-center items-start px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:px-24 lg:py-28 xl:px-32">
-        <!-- Main Title with responsive sizing and spacing -->
-        <h1
-            class="mb-4 text-3xl font-bold tracking-wide text-white sm:text-4xl sm:mb-5 md:text-5xl md:mb-6 lg:text-6xl font-calimate">
+        class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/home-1.png')] bg-cover bg-center flex flex-col justify-center items-start px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:px-24 lg:py-28 xl:px-32">
+
+        <!-- Main Title -->
+        <h1 class="text-3xl font-bold tracking-wide text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate mb-0">
             See, Share, Sea.
         </h1>
 
-        <!-- Subtitle with responsive sizing and spacing -->
+        <!-- Subtitle -->
         <p
-            class="text-base mb-8 leading-normal sm:text-lg sm:mb-9 md:text-xl md:mb-10 lg:text-2xl lg:leading-relaxed font-ttNorms text-white max-w-[42ch]">
+            class="text-base leading-normal sm:text-lg md:text-xl lg:text-2xl lg:leading-relaxed font-ttNorms text-white max-w-[42ch] mb-2">
             Through education, action, and storytelling, we empower
             communities to protect our seas.
         </p>
 
-        <!-- Responsive CTA Button -->
+        <!-- CTA Button -->
         <a href="https://wa.me/628112372277" target="_blank"
-            class="mt-2 px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
+            class="z-10 px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-peachy-orange text-white rounded-3xl font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms mt-0">
             Be The Change
         </a>
     </section>
 
     <!-- Impact Section with Side-by-Side Cards -->
-    <section class="bg-white py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-28 rounded-bl-[50px] rounded-br-[50px]">
+    <section
+        class="relative bg-blue bg-[url('/public/assets/images/ASdaf%202.png')] bg-cover rounded-bl-[50px] rounded-br-[50px] z-30 py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 px-4">
+        <!-- Blue overlay -->
+        <div class="absolute inset-0 bg-blue-900/70"></div>
+
         <div class="flex flex-col items-stretch max-w-6xl gap-6 mx-auto lg:flex-row lg:gap-8">
             <!-- Left Side - Title -->
             <div class="flex items-center lg:w-1/3">
                 <h2 class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate">
-                    <span class="text-blue">Tides of</span>
+                    <span class="text-white">Tides of</span>
                     <span class="text-teal-blue">Impact.</span>
                 </h2>
             </div>
@@ -114,14 +118,15 @@
                             </div>
                             <div
                                 class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">10+ coastal
+                                <p class="text-white text-base lg:text-2xl font-calimate font-bold min-h-[60px]">10+
+                                    coastal
                                     communities empowered.</p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
                                 class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-teal-blue bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
+                                <p class="text-sm text-white lg:text-base font-ttNorms">
                                     Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
                                 </p>
                             </div>
@@ -141,17 +146,15 @@
                             </div>
                             <div
                                 class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">500+ people
-                                    educated on ocean
-                                    literacy</p>
+                                <p class="text-wine-red text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                    500+ people educated on ocean literacy.</p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
                                 class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
-                                    Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
-                                    bisa menambahkan detail tentang program, manfaat, dan dampaknya.
+                                <p class="text-sm text-wine-red lg:text-base font-ttNorms">
+                                    See how our programs are shaping future ocean advocates at Sikola Pomore.
                                 </p>
                             </div>
                         </div>
@@ -170,16 +173,16 @@
                             </div>
                             <div
                                 class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">100K+ media
-                                    impressions through digital storytelling</p>
+                                <p class="text-cocoa-brown text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                    100K+ media impressions through digital storytelling.
+                                </p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
                                 class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-peachy-orange bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
-                                    Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
-                                    bisa menambahkan detail tentang program, manfaat, dan dampaknya.
+                                <p class="text-sm text-cocoa-brown lg:text-base font-ttNorms">
+                                    Amplifying unheard voices from coastal communities.
                                 </p>
                             </div>
                         </div>
@@ -191,15 +194,13 @@
 
     <!-- New Storytelling Section -->
     <section
-        class="relative px-4 py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-blue bg-[url('/public/assets/images/ASdaf%202.png')] bg-cover bg-[position:center_30%] lg:bg-center rounded-bl-[50px] rounded-br-[50px] z-30">
-        <!-- Blue overlay -->
-        <div class="absolute inset-0 bg-blue-900/70"></div>
+        class="relative px-4 py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-white rounded-bl-[50px] rounded-br-[50px] z-30">
 
         <div class="relative z-10 max-w-6xl mx-auto">
             <!-- Voice title with different colors -->
             <h2 class="mb-8 text-3xl font-bold tracking-wide sm:text-4xl md:text-5xl font-calimate lg:mb-12">
                 <span class="text-teal-blue">Voice from the</span>
-                <span class="text-white"> ocean.</span>
+                <span class="text-blue"> ocean.</span>
             </h2>
 
             <!-- Two-column content below -->
@@ -208,8 +209,8 @@
                 <div class="w-full lg:w-1/2">
                     <a href="https://www.youtube.com/watch?v=boI4un-fyBU&t=109s" target="_blank"
                         rel="noopener noreferrer">
-                        <div
-                            class="relative overflow-hidden transition border-2 cursor-pointer aspect-video rounded-xl border-white/20 group hover:border-white/40">
+                        <div class="relative overflow-hidden transition border-2 cursor-pointer aspect-video rounded-xl border-white/20 group hover:border-white/40"
+                            style="border-radius: 2rem;">
                             <!-- Thumbnail -->
                             <img src="https://img.youtube.com/vi/boI4un-fyBU/hqdefault.jpg" alt="YouTube Thumbnail"
                                 class="absolute inset-0 object-cover w-full h-full transition duration-300 opacity-80 group-hover:opacity-90">
@@ -229,17 +230,17 @@
 
                 <!-- Right Column - Text Content -->
                 <div class="w-full p-4 lg:w-1/2 rounded-2xl sm:p-6">
-                    <p class="mb-3 text-lg font-bold text-white sm:text-xl md:text-2xl font-calimate">
+                    <p class="mb-3 text-lg font-bold text-black sm:text-xl md:text-2xl font-calimate">
                         The Fading Fishermen of Pulau Sabira.
                     </p>
 
-                    <p class="mb-4 text-sm leading-relaxed text-white sm:text-base font-ttNorms">
+                    <p class="mb-4 text-sm leading-relaxed text-black sm:text-base font-ttNorms">
                         Once a thriving haven for traditional fishermen, Pulau Sabira now
                         faces a quiet transformation. As the younger generation drifts away
                         from the sea, the island's rich fishing heritage stands at a crossroads.
                     </p>
 
-                    <p class="mb-6 text-sm leading-relaxed text-white sm:text-base font-ttNorms">
+                    <p class="mb-6 text-sm leading-relaxed text-black sm:text-base font-ttNorms">
                         NPM Fikom Unpad and Narasea Indonesia set sail to uncover the
                         stories of Sabira's fishermen—learning, listening, and capturing
                         their journey before it fades into history.
@@ -247,7 +248,7 @@
 
                     <a href="mailto:naraseaid@gmail.com">
                         <button
-                            class="px-5 py-1.5 text-xs sm:text-sm md:text-base bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
+                            class="px-5 py-1.5 text-xs sm:text-sm md:text-base bg-blue text-white rounded-3xl font-bold tracking-wider hover:bg-[#062B54] transition duration-200 font-ttNorms">
                             Share What You See
                         </button>
                     </a>
@@ -423,7 +424,7 @@
                     <div class="mb-6">
                         <a href="https://www.instagram.com/naraseaid/" target="_blank">
                             <button
-                                class="px-5 py-1.5 text-xs sm:text-sm md:text-base bg-peachy-orange text-white rounded-full font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
+                                class="px-5 py-1.5 text-xs sm:text-sm md:text-base bg-peachy-orange text-white rounded-3xl font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
                                 Follow the Waves
                             </button>
                         </a>

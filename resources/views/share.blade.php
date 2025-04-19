@@ -25,24 +25,25 @@
     <meta property="og:type" content="website">
 
     <!-- Favicon untuk browser -->
-    <link rel="icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/assets/favicon/favicon.svg" type="image/svg+xml">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+    <link rel="icon" href="{{ asset('/assets/favicon/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('/assets/favicon/favicon.svg') }}" type="image/svg+xml">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('/assets/favicon/favicon-96x96.png') }}">
 
     <!-- Apple Touch Icon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('/assets/favicon/apple-touch-icon.png') }}">
 
     <!-- Android Manifest -->
-    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="manifest" href="{{ asset('/assets/favicon/site.webmanifest') }}">
     <meta name="theme-color" content="#083C75">
 
     @vite('resources/css/app.css')
-    <link rel="stylesheet" href="/assets/css/fonts.css">
+    <link rel="stylesheet" href="{{ asset('/assets/css/fonts.css') }}">
 
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
 </head>

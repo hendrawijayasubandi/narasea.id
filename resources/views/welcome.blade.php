@@ -25,19 +25,19 @@
     <meta property="og:type" content="website">
 
     <!-- Favicon untuk browser -->
-    <link rel="icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/assets/favicon/favicon.svg" type="image/svg+xml">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+    <link rel="icon" href="{{ asset('/assets/favicon/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('/assets/favicon/favicon.svg') }}" type="image/svg+xml">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('/assets/favicon/favicon-96x96.png') }}">
 
     <!-- Apple Touch Icon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('/assets/favicon/apple-touch-icon.png') }}">
 
     <!-- Android Manifest -->
-    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="manifest" href="{{ asset('/assets/favicon/site.webmanifest') }}">
     <meta name="theme-color" content="#083C75">
 
     @vite('resources/css/app.css')
-    <link rel="stylesheet" href="/assets/css/fonts.css">
+    <link rel="stylesheet" href="{{ asset('/assets/css/fonts.css') }}">
 
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
@@ -110,7 +110,7 @@
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/Rectangle 2.png" alt="Education"
+                                <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
                                     class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
@@ -138,7 +138,7 @@
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/Rectangle 2.png" alt="Education"
+                                <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
                                     class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
@@ -165,7 +165,7 @@
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/Rectangle 2.png" alt="Education"
+                                <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
                                     class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
@@ -301,7 +301,7 @@
                             <div
                                 class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-golden-yellow group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
-                                    <img src="assets/images/Rectangle 2.png" alt="Coral Triangle"
+                                    <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Coral Triangle"
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
@@ -323,7 +323,7 @@
                             <div
                                 class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-raspberry-pink group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
-                                    <img src="assets/images/Rectangle 2.png" alt="Octopus Series"
+                                    <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Octopus Series"
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
@@ -344,7 +344,7 @@
                         <div class="h-full px-2">
                             <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-blue group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
-                                    <img src="assets/images/Rectangle 2.png" alt="Oceana Scar"
+                                    <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Oceana Scar"
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
@@ -365,7 +365,7 @@
                             <div
                                 class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-peachy-orange group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
-                                    <img src="assets/images/Rectangle 2.png" alt="1000 Kebaikan untuk Nelayan "
+                                    <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="1000 Kebaikan untuk Nelayan "
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
@@ -496,7 +496,7 @@
     <!-- Top Grid Section -->
     <section class="relative bg-black">
         <div class="w-full h-24 overflow-hidden sm:h-32 md:h-40">
-            <img src="assets/images/grid-1.png" alt="Ocean grid pattern top"
+            <img src="{{ asset('assets/images/grid-1.png') }}" alt="Ocean grid pattern top"
                 class="object-cover w-full h-full opacity-70">
         </div>
     </section>
@@ -549,7 +549,7 @@
     <!-- Bottom Grid Section -->
     <section class="relative bg-black">
         <div class="w-full h-24 overflow-hidden sm:h-32 md:h-40">
-            <img src="assets/images/grid-2.png" alt="Ocean grid pattern bottom"
+            <img src="{{ asset('assets/images/grid-2.png') }}" alt="Ocean grid pattern bottom"
                 class="object-cover w-full h-full opacity-70">
         </div>
     </section>

@@ -259,7 +259,7 @@
 
     <!-- Projects & Partnership Section -->
     <section
-        class="relative bg-black py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-32 rounded-bl-[50px] rounded-br-[50px] -mt-[50px] z-20">
+        class="relative bg-[url('/public/assets/images/under-the-sea-2-new.png')] bg-cover bg-center py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-32 rounded-bl-[50px] rounded-br-[50px] -mt-[50px] z-20">
         <div class="ml-[1rem] mr-[1rem]" style="padding-top: 50px;">
             <!-- Section Header -->
             {{-- <div class="px-4 sm:px-6">

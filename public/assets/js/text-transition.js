@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const texts = [
-        { text: "Make ", colored: "Waves,", color: "text-teal-blue" },
-        { text: "Create ", colored: "Impact,", color: "text-raspberry-pink" }
+        { text: "MAKE ", colored: "WAVES,", color: "text-peachy-orange" },
+        { text: "CREATE ", colored: "IMPACT,", color: "text-raspberry-pink" }
     ];
 
     const element = document.getElementById('changing-text');
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         element.innerHTML = `
         <span class="text-slide">
             ${texts[index].text}
-            <span style="color: ${texts[index].color === 'text-teal-blue' ? '#019AAA' : '#E84373'};">
+            <span style="color: ${texts[index].color === 'text-peachy-orange' ? '#FF864A' : '#E84373'};">
             ${texts[index].colored}
             </span>
         </span>

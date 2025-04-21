@@ -70,7 +70,7 @@
 
         <!-- CTA Button -->
         <a href="https://wa.me/628112372277" target="_blank"
-            class="z-10 px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-peachy-orange text-white rounded-3xl font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms mt-0">
+            class="z-10 px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-peachy-orange text-white rounded-2xl font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms mt-0">
             Be The Change
         </a>
     </section>
@@ -248,7 +248,7 @@
 
                     <a href="mailto:naraseaid@gmail.com">
                         <button
-                            class="px-5 py-1.5 text-xs sm:text-sm md:text-base bg-blue text-white rounded-3xl font-bold tracking-wider hover:bg-[#062B54] transition duration-200 font-ttNorms">
+                            class="px-7 py-2 text-xs sm:text-sm md:text-base bg-blue text-white rounded-2xl font-bold tracking-wider hover:bg-[#062B54] transition duration-200 font-ttNorms">
                             Share What You See
                         </button>
                     </a>

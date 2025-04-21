@@ -54,10 +54,10 @@
 
     <!-- Hero Section -->
     <section
-        class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/home-1.png')] bg-cover bg-center flex flex-col justify-center items-start px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:px-24 lg:py-28 xl:px-32">
+        class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/home-1.png')] bg-cover bg-center flex flex-col justify-center items-start px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:py-28">
 
         <!-- Main Title -->
-        <h1 class="text-3xl font-bold tracking-wide text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate mb-0">
+        <h1 class="mb-0 text-3xl font-bold tracking-wide text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
             See, Share, Sea.
         </h1>
 
@@ -262,25 +262,26 @@
         class="relative bg-black py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-32 rounded-bl-[50px] rounded-br-[50px] -mt-[50px] z-20">
         <div class="max-w-6xl mx-auto" style="padding-top: 50px;">
             <!-- Section Header -->
-            <div class="px-4 sm:px-6">
+            {{-- <div class="px-4 sm:px-6">
                 <h1 class="mb-2 text-3xl font-bold text-white sm:text-4xl md:text-5xl font-calimate">Protect.
                     Educate. Empower.</h1>
-            </div>
+            </div> --}}
 
             <!-- Two Column Layout -->
             <div class="flex flex-col gap-8 px-4 lg:flex-row lg:gap-12 sm:px-6">
                 <!-- Left Column - Text Content -->
                 <div class="flex-col justify-center gap-0 lg:w-1/3">
-                    <h2
-                        class="mb-4 text-xl font-bold whitespace-nowrap sm:text-2xl md:text-3xl text-teal-blue font-calimate">
-                        Our Projects & Partnership
-                    </h2>
+                    <!-- H1 dipindahkan ke sini -->
+                    <h1 class="mb-2 text-3xl font-bold text-white sm:text-4xl md:text-5xl font-calimate">
+                        Protect, Educate, Empower.
+                    </h1>
                     <p class="mt-4 text-sm leading-relaxed text-white sm:text-base md:text-lg font-ttNorms">
                         At Narasea, every wave carries a story, and every initiative is a step toward protecting our
                         marine heritage. Through collaborations with passionate organizations, we bring education,
                         sustainability, and community empowerment to life.
                     </p>
                 </div>
+
                 <!-- Right Column - Image Cards Slider -->
                 <div class="relative mt-6 lg:w-2/3 lg:mt-0">
                     <!-- Navigation Buttons -->

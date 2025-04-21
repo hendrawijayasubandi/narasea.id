@@ -100,7 +100,7 @@ $(document).ready(function () {
         dots: false,
         arrows: false,
         infinite: true,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: '100px', // ↓ dari 200px → 100px

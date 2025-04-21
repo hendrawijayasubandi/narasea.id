@@ -366,7 +366,8 @@
                             <div
                                 class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-peachy-orange group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
-                                    <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="1000 Kebaikan untuk Nelayan "
+                                    <img src="{{ asset('assets/images/Rectangle 2.png') }}"
+                                        alt="1000 Kebaikan untuk Nelayan "
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
@@ -389,105 +390,76 @@
     </section>
 
     <!-- New Section: Social Currents -->
-    <section
-        class="relative bg-[url('/public/assets/images/francesco-ungaro_compressed.jpg')] bg-cover bg-center py-16 px-4 sm:py-20 md:py-24 lg:py-28 xl:py-32 -mt-[50px] z-10">
-
-        <!-- Teal-blue overlay with opacity -->
-        <div class="absolute inset-0 bg-teal-blue/70"></div>
-
+    <section class="relative bg-black py-16 px-4 sm:py-20 md:py-24 lg:py-28 xl:py-32 -mt-[50px] z-10">
         <div class="relative z-10 ml-[2rem] mr-[2rem]">
-            {{-- <!-- Heading 'Social' at the top -->
-            <h2
-                class="text-4xl font-bold tracking-wide sm:text-5xl md:text-6xl lg:text-7xl font-calimate text-peachy-orange">
-                Social
-            </h2> --}}
+            <div class="flex flex-col items-center gap-6 text-center lg:gap-8">
+                <!-- Main Slider Container -->
+                <div class="relative w-full px-4 sm:px-8">
+                    <!-- Navigation Buttons -->
+                    <button
+                        class="slick-prev-instagram absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition">
+                        <i class="text-sm fas fa-chevron-left sm:text-base"></i>
+                    </button>
 
-            <div class="flex flex-col gap-6 lg:flex-row lg:gap-8">
+                    <button
+                        class="slick-next-instagram absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition">
+                        <i class="text-sm fas fa-chevron-right sm:text-base"></i>
+                    </button>
+
+                    <!-- Instagram Slider -->
+                    <div class="instagram-slider">
+                        <!-- Instagram Photos 1-5 -->
+                        <div class="px-1">
+                            <div class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
+                                <img src="/assets/images/image-1.png" alt="Instagram photo"
+                                    class="object-cover w-full h-full transition duration-300 hover:scale-105">
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
+                                <img src="/assets/images/image-2.png" alt="Instagram photo"
+                                    class="object-cover w-full h-full transition duration-300 hover:scale-105">
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
+                                <img src="/assets/images/image-3.png" alt="Instagram photo"
+                                    class="object-cover w-full h-full transition duration-300 hover:scale-105">
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
+                                <img src="/assets/images/image-4.png" alt="Instagram photo"
+                                    class="object-cover w-full h-full transition duration-300 hover:scale-105">
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
+                                <img src="/assets/images/image-5.png" alt="Instagram photo"
+                                    class="object-cover w-full h-full transition duration-300 hover:scale-105">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Left Column - Text Content -->
-                <div class="lg:w-2/5">
-                    <!-- Heading 'Social' now inside Left Column -->
-                    <h2
-                        class="text-4xl font-bold tracking-wide sm:text-5xl md:text-6xl lg:text-7xl font-calimate text-peachy-orange">
-                        Social
+                <div>
+                    <h2 class="text-4xl font-bold tracking-wide sm:text-5xl md:text-6xl font-calimate text-teal-blue">
+                        Social Currents.</span>
                     </h2>
 
-                    <!-- 'Currents.' part only -->
-                    <h2
-                        class="mb-4 text-2xl font-bold tracking-wide sm:text-3xl md:text-4xl font-calimate lg:text-left">
-                        <span class="text-golden-yellow">Currents.</span>
-                    </h2>
-
-                    <p class="max-w-md mb-6 text-sm text-white sm:text-base md:text-lg font-ttNorms">
-                        The ocean moves, and so do we! Stay connected with the latest stories, moments, and impact
-                        straight from our Instagram.
+                    <p class="max-w-2xl mx-auto mt-4 mb-6 text-sm text-white sm:text-base md:text-lg font-ttNorms">
+                        The ocean moves, and so do we! Stay connected with the latest stories,
+                        moments, and impact straight from our Instagram.
                     </p>
 
                     <div class="mb-6">
                         <a href="https://www.instagram.com/naraseaid/" target="_blank">
                             <button
-                                class="px-5 py-1.5 text-xs sm:text-sm md:text-base bg-peachy-orange text-white rounded-3xl font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms">
+                                class="px-9 py-2 text-xs sm:text-sm md:text-base bg-raspberry-pink text-white rounded-2xl font-bold tracking-wider hover:bg-[#C12F5A] transition duration-200 font-ttNorms">
                                 Follow the Waves
                             </button>
                         </a>
-                    </div>
-                </div>
-
-                <!-- Right Column - Instagram Photos (wider) -->
-                <div class="lg:w-3/5">
-                    <div class="relative flex items-center h-full">
-                        <!-- Main Slider Container -->
-                        <div class="relative w-full px-4 sm:px-8">
-                            <!-- Navigation Buttons -->
-                            <button
-                                class="slick-prev-instagram absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition">
-                                <i class="text-sm fas fa-chevron-left sm:text-base"></i>
-                            </button>
-
-                            <button
-                                class="slick-next-instagram absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition">
-                                <i class="text-sm fas fa-chevron-right sm:text-base"></i>
-                            </button>
-
-                            <!-- Instagram Slider -->
-                            <div class="instagram-slider">
-                                <!-- Instagram Photos 1-5 -->
-                                <div class="px-1">
-                                    <div
-                                        class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
-                                        <img src="/assets/images/image-1.png" alt="Instagram photo"
-                                            class="object-cover w-full h-full transition duration-300 hover:scale-105">
-                                    </div>
-                                </div>
-                                <div class="px-1">
-                                    <div
-                                        class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
-                                        <img src="/assets/images/image-2.png" alt="Instagram photo"
-                                            class="object-cover w-full h-full transition duration-300 hover:scale-105">
-                                    </div>
-                                </div>
-                                <div class="px-1">
-                                    <div
-                                        class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
-                                        <img src="/assets/images/image-3.png" alt="Instagram photo"
-                                            class="object-cover w-full h-full transition duration-300 hover:scale-105">
-                                    </div>
-                                </div>
-                                <div class="px-1">
-                                    <div
-                                        class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
-                                        <img src="/assets/images/image-4.png" alt="Instagram photo"
-                                            class="object-cover w-full h-full transition duration-300 hover:scale-105">
-                                    </div>
-                                </div>
-                                <div class="px-1">
-                                    <div
-                                        class="overflow-hidden border-2 shadow-lg aspect-square rounded-xl border-white/20">
-                                        <img src="/assets/images/image-5.png" alt="Instagram photo"
-                                            class="object-cover w-full h-full transition duration-300 hover:scale-105">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -503,7 +475,7 @@
     </section>
 
     <!-- Main Contact Section -->
-    <section class="relative px-4 py-16 bg-teal-blue sm:py-20 md:py-24 lg:py-28">
+    <section class="relative px-4 py-16 bg-black sm:py-20 md:py-24">
         <div class="max-w-4xl mx-auto text-center">
             <!-- Title -->
             <h2 class="mb-6 text-3xl font-bold text-white sm:text-4xl md:text-5xl font-calimate">
@@ -511,10 +483,10 @@
             </h2>
 
             <!-- Text -->
-            <div class="max-w-xs mx-auto mb-8 sm:max-w-sm md:max-w-md">
+            <div class="max-w-2xl mx-auto mb-8">
                 <p class="text-base text-white/80 sm:text-lg md:text-xl font-ttNorms">
-                    Every action counts in protecting our oceans.<br>
-                    Whether you're looking to collaborate, support, or simply learn more, we'd love to connect!
+                    Every action counts in protecting our oceans. Whether you're looking to
+                    collaborate, support, or simply learn more, we'd love to connect!
                 </p>
             </div>
 
@@ -547,19 +519,52 @@
         </div>
     </section>
 
-    <!-- Bottom Grid Section -->
-    <section class="relative bg-black">
-        <div class="w-full h-24 overflow-hidden sm:h-32 md:h-40">
-            <img src="{{ asset('assets/images/grid-2.png') }}" alt="Ocean grid pattern bottom"
-                class="object-cover w-full h-full opacity-70">
-        </div>
-    </section>
-
     <!-- Newsletter Section -->
-    <section
-        class="relative bg-[url('/public/assets/images/Footer.jpg')] bg-cover bg-center py-12 px-4 sm:py-16 md:py-20">
+    <section class="relative px-4 py-12 bg-black sm:py-16 md:py-20">
+        <div class="grid grid-cols-1 gap-12 mx-auto max-w-7xl md:grid-cols-2">
+            <!-- Left: Subscribe Component -->
+            <div>
+                @include('components.subscribe')
+            </div>
 
-        @include('components.subscribe')
+            <!-- Right: Footer Navigation -->
+            <div class="grid grid-cols-1 gap-8 text-white sm:grid-cols-3">
+                <!-- See Our Ocean -->
+                <div>
+                    <h3 class="text-lg font-semibold">See Our Ocean</h3>
+                    <ul class="mt-4 space-y-2 text-sm text-gray-300">
+                        <li><a href="#" class="hover:text-white">Tides of Impact</a></li>
+                        <li><a href="#" class="hover:text-white">Voice From The Ocean</a></li>
+                        <li><a href="#" class="hover:text-white">Protect, Educate, Empower</a></li>
+                        <li><a href="#" class="hover:text-white">Social Current</a></li>
+                    </ul>
+                </div>
+
+                <!-- Raise the Tide -->
+                <div>
+                    <h3 class="text-lg font-semibold">Raise the Tide</h3>
+                    <ul class="mt-4 space-y-2 text-sm text-gray-300">
+                        <li><a href="#" class="hover:text-white">Educate</a></li>
+                        <li><a href="#" class="hover:text-white">Support Marine Conservation</a></li>
+                        <li><a href="#" class="hover:text-white">Learning & Action</a></li>
+                        <li><a href="#" class="hover:text-white">Empower Communities</a></li>
+                        <li><a href="#" class="hover:text-white">Advocate & Amplify</a></li>
+                    </ul>
+                </div>
+
+                <!-- Discover Narasea -->
+                <div>
+                    <h3 class="text-lg font-semibold">Discover Narasea</h3>
+                    <ul class="mt-4 space-y-2 text-sm text-gray-300">
+                        <li><a href="#" class="hover:text-white">Who We Are</a></li>
+                        <li><a href="#" class="hover:text-white">Our Journey</a></li>
+                        <li><a href="#" class="hover:text-white">Our Vision, Mission, & Approach</a></li>
+                        <li><a href="#" class="hover:text-white">The Values We Live By</a></li>
+                        <li><a href="#" class="hover:text-white">Advocate & Amplify</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

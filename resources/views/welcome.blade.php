@@ -81,11 +81,11 @@
         <!-- Blue overlay -->
         <div class="absolute inset-0 bg-blue-900/70"></div>
 
-        <div class="flex flex-col items-stretch max-w-6xl gap-6 ml-[2rem] mr-[2rem] lg:flex-row lg:gap-8">
+        <div class="flex flex-col items-stretch gap-6 ml-[2rem] mr-[2rem] lg:flex-row">
             <!-- Left Side - Title -->
             <div class="flex items-center lg:w-1/3">
                 <h2 class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate">
-                    <span class="text-white">Tides of</span>
+                    <span class="text-white">Tides of</span><br>
                     <span class="text-teal-blue">Impact.</span>
                 </h2>
             </div>
@@ -196,7 +196,7 @@
     <section
         class="relative px-4 py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-white rounded-bl-[50px] rounded-br-[50px] z-30">
 
-        <div class="relative z-10 max-w-6xl mx-auto">
+        <div class="relative z-10 ml-[2rem] mr-[2rem]">
             <!-- Voice title with different colors -->
             <h2 class="mb-8 text-3xl font-bold tracking-wide sm:text-4xl md:text-5xl font-calimate lg:mb-12">
                 <span class="text-teal-blue">Voice from the</span>
@@ -260,7 +260,7 @@
     <!-- Projects & Partnership Section -->
     <section
         class="relative bg-black py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-32 rounded-bl-[50px] rounded-br-[50px] -mt-[50px] z-20">
-        <div class="max-w-6xl mx-auto" style="padding-top: 50px;">
+        <div class="ml-[1rem] mr-[1rem]" style="padding-top: 50px;">
             <!-- Section Header -->
             {{-- <div class="px-4 sm:px-6">
                 <h1 class="mb-2 text-3xl font-bold text-white sm:text-4xl md:text-5xl font-calimate">Protect.
@@ -395,7 +395,7 @@
         <!-- Teal-blue overlay with opacity -->
         <div class="absolute inset-0 bg-teal-blue/70"></div>
 
-        <div class="relative z-10 max-w-6xl mx-auto">
+        <div class="relative z-10 ml-[2rem] mr-[2rem]">
             {{-- <!-- Heading 'Social' at the top -->
             <h2
                 class="text-4xl font-bold tracking-wide sm:text-5xl md:text-6xl lg:text-7xl font-calimate text-peachy-orange">

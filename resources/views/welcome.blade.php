@@ -81,7 +81,7 @@
         <!-- Blue overlay -->
         <div class="absolute inset-0 bg-blue-900/70"></div>
 
-        <div class="flex flex-col items-stretch max-w-6xl gap-6 mx-auto lg:flex-row lg:gap-8">
+        <div class="flex flex-col items-stretch max-w-6xl gap-6 ml-[2rem] mr-[2rem] lg:flex-row lg:gap-8">
             <!-- Left Side - Title -->
             <div class="flex items-center lg:w-1/3">
                 <h2 class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate">

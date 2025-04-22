@@ -54,14 +54,14 @@
 
     <!-- Hero Section -->
     <section
-        class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/landing-page-2.png')] bg-cover bg-center flex flex-col justify-center items-center px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:px-24 lg:py-28 xl:px-32 relative">
+        class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/landing-page-2-new.png')] bg-cover bg-center flex flex-col justify-center items-center px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:px-24 lg:py-28 xl:px-32 relative">
         <h1
-            class="text-3xl font-bold mb-4 sm:text-4xl sm:mb-5 md:text-5xl md:mb-6 lg:text-6xl tracking-wide font-calimate text-white text-center overflow-hidden">
+            class="mb-4 overflow-hidden text-3xl font-bold tracking-wide text-center text-white sm:text-4xl sm:mb-5 md:text-5xl md:mb-6 lg:text-6xl font-calimate">
             <span id="changing-text" class="inline-block"></span>
         </h1>
 
         <p
-            class="text-base mb-6 leading-normal sm:text-lg sm:mb-7 md:text-xl md:mb-8 lg:text-2xl lg:leading-relaxed font-ttNorms text-white text-center w-full">
+            class="w-full mb-6 text-base leading-normal text-center text-white sm:text-lg sm:mb-7 md:text-xl md:mb-8 lg:text-2xl lg:leading-relaxed font-ttNorms">
             Narasea is built on five core pillars that connect people and the ocean.<br>
             Your support—whether through time, resources, or voice—makes all the difference.
         </p>

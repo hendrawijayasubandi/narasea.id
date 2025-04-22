@@ -69,18 +69,18 @@
 
     <!-- Section Educate: Empower Future Ocean Advocates.-->
     <section
-        class="bg-black py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-28 rounded-bl-[50px] rounded-br-[50px] overflow-hidden"
-        style="margin-bottom: 50px;">
+        class="bg-white py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-28 rounded-bl-[50px] rounded-br-[50px] z-40 relative overflow-hidden"
+            style="margin-bottom: 50px;">
 
         <!-- Content Container with relative positioning -->
         <div class="relative z-10">
             <!-- Title Section -->
-            <div class="max-w-6xl mx-auto mb-12 lg:mb-16 text-left">
+            <div class="max-w-6xl mx-auto mb-12 lg:mb-16 text-center">
                 <h2 class="text-3xl font-extrabold sm:text-4xl md:text-5xl tracking-wide font-calimate leading-tight">
-                    <span class="text-white">Educate:</span><br>
+                    <span class="text-blue">Educate:</span><br>
                     <span class="text-teal-blue">Empower Future Ocean Advocates.</span>
                 </h2>
-                <p class="text-white mt-4 text-lg max-w-3xl">
+                <p class="text-black font-ttNorms mt-4 text-lg max-w-3xl mx-auto text-center">
                     Knowledge is the first step to change.<br>
                     Help us inspire the next generation to protect our oceans.
                 </p>
@@ -203,19 +203,18 @@
     </section>
 
     <!-- Section Support Marine Conservation. -->
-    <section class="bg-white py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] relative z-40"
-        style="margin-top: -50px;">
+    <section class="bg-black py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] relative z-30"
+        style="margin-top: -150px;">
         <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-6 lg:gap-8 items-stretch">
             <!-- Left Side - Title -->
             <div class="lg:w-1/3 flex items-center">
                 <div>
-                    <h2
-                        class="text-3xl font-extrabold sm:text-4xl md:text-5xl tracking-wide font-calimate leading-tight">
-                        <span class="text-blue">Support </span>
-                        <span class="text-teal-blue">Marine</span><br>
-                        <span class="text-blue">Conservation</span>
+                    <h2 class="text-3xl font-extrabold sm:text-4xl md:text-5xl tracking-wide font-calimate leading-tight text-white">
+                        <span>Support </span>
+                        <span>Marine</span><br>
+                        <span>Conservation.</span>
                     </h2>
-                    <p class="mt-4 text-gray-600 font-ttNorms">
+                    <p class="mt-4 text-white font-ttNorms">
                         Be a driving force behind ocean protection. Your support fuels real impact.
                     </p>
                 </div>
@@ -313,11 +312,8 @@
     </section>
 
     <!-- Section Dive Into Learning & Action - Empower Communities. -->
-    <section
-        class="relative px-4 py-[200px] bg-teal-blue bg-[url('/public/assets/images/under-the-sea.png')] bg-no-repeat bg-left-bottom bg-contain lg:bg-[size:30%] rounded-bl-[50px] rounded-br-[50px] z-30 overflow-hidden"
+    <section class="relative px-4 py-[100px] bg-white rounded-bl-[50px] rounded-br-[50px] z-20 overflow-hidden"
         style="margin-top: -50px;">
-        <!-- Semi-transparent overlay -->
-        <div class="absolute inset-0 bg-teal-blue/80 z-0"></div>
 
         <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 items-stretch relative z-10">
             <!-- Left Side - Text -->
@@ -327,7 +323,7 @@
                         <span class="text-peachy-orange">Dive Into</span><br>
                         <span class="text-golden-yellow">Learning & Action.</span>
                     </h3>
-                    <p class="text-white font-ttNorms mb-4">
+                    <p class="text-black font-ttNorms mb-4">
                         Strong coastal communities mean a stronger ocean.
                         Be part of their journey.
                     </p>
@@ -434,7 +430,7 @@
                         <span class="text-golden-yellow">Empower</span><br>
                         <span class="text-peachy-orange">Communities.</span>
                     </h3>
-                    <p class="text-white font-ttNorms mb-4">
+                    <p class="text-black font-ttNorms mb-4">
                         Strong coastal communities mean a stronger ocean.
                         Be part of their journey.
                     </p>
@@ -444,8 +440,7 @@
     </section>
 
     <!-- Section Advocate & Amplify the Message. - Empower Communities. -->
-    <section
-        class="relative px-4 py-[200px] bg-blue bg-[url('/public/assets/images/under-the-sea-2.png')] bg-no-repeat bg-left-bottom bg-contain lg:bg-[size:30%] rounded-bl-[50px] rounded-br-[50px] z-20 overflow-hidden"
+    <section class="relative px-4 py-[100px] bg-blue bg-[url('/public/assets/images/under-the-sea-2.png')] bg-no-repeat bg-left-bottom bg-contain lg:bg-[size:30%] rounded-bl-[50px] rounded-br-[50px] z-10 overflow-hidden"
         style="margin-top: -50px;">
         <!-- Semi-transparent overlay -->
         <div class="absolute inset-0 bg-blue/80 z-0"></div>
@@ -482,7 +477,7 @@
     </section>
 
     <!-- Section Every Action Creates a Wave of Change. -->
-    <section class="relative px-4 py-[200px] bg-black rounded-bl-[50px] rounded-br-[50px] z-10 overflow-hidden"
+    <section class="relative px-4 py-[200px] bg-black rounded-bl-[50px] rounded-br-[50px] overflow-hidden"
         style="margin-top: -50px;">
         <!-- Semi-transparent overlay -->
         <div class="absolute inset-0 bg-black/80 z-0"></div>
@@ -548,7 +543,7 @@
     </section>
 
     <!-- Newsletter Section -->
-    <section class="relative bg-teal-blue py-12 px-4 sm:py-16 md:py-20" style="margin-top: -50px;">
+    <section class="relative py-12 px-4 sm:py-16 md:py-20" style="margin-top: -50px;">
         @include('components.subscribe')
     </section>
 

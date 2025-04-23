@@ -232,24 +232,22 @@
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="{{ asset('assets/images/toi-1.png') }}" alt="Education"
+                                <img src="{{ asset('assets/images/smc-1.png') }}" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
                                     class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div
-                                class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-2xl font-calimate font-bold min-h-[60px]">10+
-                                    coastal
-                                    communities empowered.</p>
+                                class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
+                                <p class="text-bronze text-base lg:text-2xl font-calimate font-bold min-h-[60px]">Become a Monthly Donor</p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-teal-blue bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-white lg:text-base font-ttNorms">
-                                    Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
+                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-golden-yellow bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-bronze lg:text-base font-ttNorms">
+                                    Provide ongoing support for conservation efforts.
                                 </p>
                             </div>
                         </div>
@@ -260,23 +258,23 @@
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="{{ asset('assets/images/toi-2.png') }}" alt="Education"
+                                <img src="{{ asset('assets/images/smc-2.png') }}" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
                                     class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div
-                                class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-wine-red text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
-                                    500+ people educated on ocean literacy.</p>
+                                class="bg-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
+                                <p class="text-white text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                    Fundraise for Ocean Health</p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-wine-red lg:text-base font-ttNorms">
-                                    See how our programs are shaping future ocean advocates at Sikola Pomore.
+                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-blue bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-white lg:text-base font-ttNorms">
+                                    Start a campaign for birthdays, challenges, or community events.
                                 </p>
                             </div>
                         </div>
@@ -287,23 +285,23 @@
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="{{ asset('assets/images/toi-3.png') }}" alt="Education"
+                                <img src="{{ asset('assets/images/smc-3.png') }}" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
                                     class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div
-                                class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-cocoa-brown text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
-                                    100K+ media impressions through digital storytelling.
+                                class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
+                                <p class="text-wine-red text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                    Sponsor a Program
                                 </p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-peachy-orange bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-cocoa-brown lg:text-base font-ttNorms">
+                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-wine-red lg:text-base font-ttNorms">
                                     Amplifying unheard voices from coastal communities.
                                 </p>
                             </div>
@@ -419,24 +417,24 @@
 
     <!-- Section Advocate & Amplify the Message. - Empower Communities. -->
     <section
-        class="relative px-4 py-[100px] bg-blue bg-[url('/public/assets/images/under-the-sea-2.png')] bg-no-repeat bg-left-bottom bg-contain overflow-hidden"
+        class="relative px-4 py-[100px] bg-blue bg-[url('/public/assets/images/under-the-sea-2.png')] bg-no-repeat bg-left-bottom bg-contain z-10 overflow-hidden"
         style="margin-top: -50px;">
 
         <!-- Content goes here -->
-        <div class="relative z-10 mx-auto text-center text-white max-w-7xl">
-            <h2 class="mb-4 text-5xl font-bold md:text-6xl lg:text-7xl font-calimate">
+        <div class="relative z-10 mx-auto text-center text-white max-w-7xl" style="margin-top: 50px;">
+            <h2 class="text-3xl font-bold sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-calimate">
                 Advocate & Amplify the Message.
             </h2>
             <p class="max-w-2xl mx-auto mb-8 text-lg font-ttNorms">
                 Your voice is a powerful tool for change. Help spread awareness and drive action.
             </p>
 
-            <div class="max-w-2xl mx-auto mt-8 overflow-hidden rounded-lg shadow-sm bg-peachy-orange backdrop-blur-sm">
+            <div class="max-w-2xl mx-auto mt-8 overflow-hidden shadow-sm rounded-2xl bg-peachy-orange backdrop-blur-sm">
                 <div class="flex flex-col md:flex-row">
                     <!-- Text content (left side - 50% width) -->
                     <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
                         <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Join the Conversation.</h2>
-                        <p class="text-sm font-ttNorms md:text-base">
+                        <p class="text-sm font-ttNorms md:text-lg">
                             Share Nanasea's content & inspire action on social media.
                         </p>
                     </div>
@@ -444,7 +442,7 @@
                     <!-- Image placeholder (right side - 50% width) -->
                     <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
                         <img src="{{ asset('assets/images/close-up-hands-making-heart-shape-sea-against-clear-sky 1.png') }}" alt="Share on Social"
-                            class="object-contain w-2/3 h-2/3">
+                            class="object-cover object-center w-full h-full" />
                     </div>
                 </div>
             </div>
@@ -454,7 +452,7 @@
         <div class="relative z-10 mx-auto max-w-7xl" style="margin-top: 150px;">
             <div class="flex items-start justify-start lg:w-2/4">
                 <div class="text-start">
-                    <h3 class="mb-4 text-5xl font-bold font-calimate">
+                    <h3 class="mb-4 text-3xl font-bold leading-snug sm:text-3xl md:text-4xl lg:text-5xl font-calimate">
                         <span class="text-white">Every Action Creates a<br>Wave of Change.</span>
                     </h3>
                     <p class="mb-4 text-white font-ttNorms">
@@ -509,13 +507,10 @@
         style="margin-top: -50px;">
         <!-- Semi-transparent overlay -->
         <div class="absolute inset-0 z-0 bg-black/80"></div>
-
-        
     </section> --}}
 
     <!-- Newsletter Section -->
     {{-- <section class="relative px-4 py-12 sm:py-16 md:py-20" style="margin-top: -50px;">
-        
     </section> --}}
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

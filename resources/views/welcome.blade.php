@@ -70,7 +70,7 @@
 
         <!-- CTA Button -->
         <a href="https://wa.me/628112372277" target="_blank"
-            class="z-10 px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-raspberry-pink text-white rounded-4xl font-bold tracking-wider hover:bg-[#C73761] transition duration-200 font-ttNorms mt-0">
+            class="z-10 px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-raspberry-pink text-white rounded-3xl font-bold tracking-wider hover:bg-[#C73761] transition duration-200 font-ttNorms mt-0">
             Be The Change
             <i class="ml-2 fas fa-arrow-right"></i>
         </a>

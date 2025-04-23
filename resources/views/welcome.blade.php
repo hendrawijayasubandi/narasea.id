@@ -78,7 +78,7 @@
 
     <!-- Impact Section with Side-by-Side Cards -->
     <section
-        class="relative bg-blue bg-[url('/public/assets/images/ASdaf%202.png')] bg-cover rounded-bl-[50px] rounded-br-[50px] z-30 py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 px-4">
+        class="relative bg-blue bg-[url('/public/assets/images/asset-4.png')] bg-cover bg-bottom rounded-bl-[50px] rounded-br-[50px] z-30 py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 px-4">
         <!-- Blue overlay -->
         <div class="absolute inset-0 bg-blue-900/70"></div>
 
@@ -485,7 +485,7 @@
             <div class="relative flex items-center justify-center h-32">
                 <!-- Main Button -->
                 <button id="contact-main-btn"
-                    class="absolute w-12 h-12 flex items-center justify-center bg-peachy-orange text-black rounded-full hover:bg-peachy-oranye-hover transition-all duration-300 z-10 focus:outline-none">
+                    class="absolute z-10 flex items-center justify-center w-12 h-12 text-black transition-all duration-300 rounded-full bg-peachy-orange hover:bg-peachy-oranye-hover focus:outline-none">
                     <i class="text-xl fas fa-comment-dots"></i>
                 </button>
 

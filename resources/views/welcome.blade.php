@@ -208,14 +208,14 @@
             <div class="flex flex-col gap-6 lg:flex-row lg:gap-8">
                 <!-- Left Column - YouTube Thumbnail -->
                 <div class="w-full lg:w-1/2">
-                    <div class="relative overflow-hidden transition border-2 cursor-pointer aspect-video rounded-xl border-white/20 group hover:border-white/40"
+                    <div class="relative overflow-hidden transition border-2 aspect-video rounded-xl border-white/20 group hover:border-white/40"
                         style="border-radius: 2rem;">
                         <iframe
                             class="absolute inset-0 w-full h-full rounded-xl"
-                            src="https://www.youtube.com/embed/boI4un-fyBU?start=109&autoplay=1&rel=0"
+                            src="https://www.youtube.com/embed/boI4un-fyBU?start=109&rel=0"
                             title="YouTube video player"
                             frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
                         </iframe>
                     </div>

@@ -54,7 +54,7 @@
 
     <!-- Hero Section -->
     <section
-        class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/home-1.png')] bg-cover bg-center flex flex-col justify-center items-start px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:py-28">
+        class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/home-1.png')] bg-cover bg-center flex flex-col justify-end items-start px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:py-28">
 
         <!-- Main Title -->
         <h1 class="mb-0 text-3xl font-bold tracking-wide text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
@@ -63,7 +63,7 @@
 
         <!-- Subtitle -->
         <p
-            class="text-base leading-normal sm:text-lg md:text-xl lg:text-2xl lg:leading-relaxed font-ttNorms text-white max-w-[42ch] mb-2">
+            class="text-sm leading-snug sm:text-base md:text-lg lg:text-xl lg:leading-normal font-ttNorms text-white max-w-[42ch] mb-2">
             Through education, action, and storytelling, we empower
             communities to protect our seas.
         </p>
@@ -72,6 +72,7 @@
         <a href="https://wa.me/628112372277" target="_blank"
             class="z-10 px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-peachy-orange text-white rounded-2xl font-bold tracking-wider hover:bg-[#D96630] transition duration-200 font-ttNorms mt-0">
             Be The Change
+            <i class="ml-2 fas fa-arrow-right"></i>
         </a>
     </section>
 
@@ -83,7 +84,7 @@
 
         <div class="flex flex-col items-stretch gap-6 ml-[2rem] mr-[2rem] lg:flex-row">
             <!-- Left Side - Title -->
-            <div class="flex items-center lg:w-1/3">
+            <div class="flex items-flex-start lg:w-1/3">
                 <h2 class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate">
                     <span class="text-white">Tides of</span><br>
                     <span class="text-teal-blue">Impact.</span>
@@ -207,25 +208,17 @@
             <div class="flex flex-col gap-6 lg:flex-row lg:gap-8">
                 <!-- Left Column - YouTube Thumbnail -->
                 <div class="w-full lg:w-1/2">
-                    <a href="https://www.youtube.com/watch?v=boI4un-fyBU&t=109s" target="_blank"
-                        rel="noopener noreferrer">
-                        <div class="relative overflow-hidden transition border-2 cursor-pointer aspect-video rounded-xl border-white/20 group hover:border-white/40"
-                            style="border-radius: 2rem;">
-                            <!-- Thumbnail -->
-                            <img src="https://img.youtube.com/vi/boI4un-fyBU/hqdefault.jpg" alt="YouTube Thumbnail"
-                                class="absolute inset-0 object-cover w-full h-full transition duration-300 opacity-80 group-hover:opacity-90">
-
-                            <!-- Overlay gelap agar play icon tetap jelas -->
-                            <div class="absolute inset-0 transition duration-300 bg-black/30 group-hover:bg-black/40">
-                            </div>
-
-                            <!-- Play icon dan text -->
-                            <div class="absolute inset-0 z-10 flex flex-col items-center justify-center">
-                                <i class="mb-2 text-4xl text-white fas fa-play"></i>
-                                <p class="text-white font-ttNorms">Watch the story</p>
-                            </div>
-                        </div>
-                    </a>
+                    <div class="relative overflow-hidden transition border-2 cursor-pointer aspect-video rounded-xl border-white/20 group hover:border-white/40"
+                        style="border-radius: 2rem;">
+                        <iframe
+                            class="absolute inset-0 w-full h-full rounded-xl"
+                            src="https://www.youtube.com/embed/boI4un-fyBU?start=109&autoplay=1&rel=0"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
                 </div>
 
                 <!-- Right Column - Text Content -->
@@ -467,12 +460,12 @@
     </section>
 
     <!-- Top Grid Section -->
-    <section class="relative bg-black">
+    {{-- <section class="relative bg-black">
         <div class="w-full h-24 overflow-hidden sm:h-32 md:h-40">
             <img src="{{ asset('assets/images/grid-1.png') }}" alt="Ocean grid pattern top"
                 class="object-cover w-full h-full opacity-70">
         </div>
-    </section>
+    </section> --}}
 
     <!-- Main Contact Section -->
     <section class="relative px-4 py-16 bg-black sm:py-20 md:py-24">

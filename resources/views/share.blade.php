@@ -419,14 +419,14 @@
 
     <!-- Section Advocate & Amplify the Message. - Empower Communities. -->
     <section
-        class="relative px-4 py-[100px] bg-blue bg-[url('/public/assets/images/under-the-sea-2.png')] bg-no-repeat bg-left-bottom bg-contain lg:bg-[size:30%] rounded-bl-[50px] rounded-br-[50px] z-10 overflow-hidden"
+        class="relative px-4 py-[100px] bg-blue bg-[url('/public/assets/images/under-the-sea-2.png')] bg-no-repeat bg-left-bottom bg-contain overflow-hidden"
         style="margin-top: -50px;">
-        <!-- Semi-transparent overlay -->
-        <div class="absolute inset-0 z-0 bg-blue/80"></div>
 
         <!-- Content goes here -->
         <div class="relative z-10 mx-auto text-center text-white max-w-7xl">
-            <h2 class="mb-4 text-3xl font-bold md:text-4xl font-calimate">Advocate & Amplify the Message.</h2>
+            <h2 class="mb-4 text-5xl font-bold md:text-6xl lg:text-7xl font-calimate">
+                Advocate & Amplify the Message.
+            </h2>
             <p class="max-w-2xl mx-auto mb-8 text-lg font-ttNorms">
                 Your voice is a powerful tool for change. Help spread awareness and drive action.
             </p>
@@ -443,30 +443,19 @@
 
                     <!-- Image placeholder (right side - 50% width) -->
                     <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
-                        <!-- SVG placeholder icon -->
-                        <svg class="w-12 h-12 text-white/50" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                        </svg>
+                        <img src="{{ asset('assets/images/close-up-hands-making-heart-shape-sea-against-clear-sky 1.png') }}" alt="Share on Social"
+                            class="object-contain w-2/3 h-2/3">
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Section Every Action Creates a Wave of Change. -->
-    <section class="relative px-4 py-[200px] bg-black rounded-bl-[50px] rounded-br-[50px] overflow-hidden"
-        style="margin-top: -50px;">
-        <!-- Semi-transparent overlay -->
-        <div class="absolute inset-0 z-0 bg-black/80"></div>
 
         <!-- Content goes here -->
-        <div class="relative z-10 mx-auto max-w-7xl">
-            <div class="flex items-start justify-start mb-12 lg:w-2/4">
+        <div class="relative z-10 mx-auto max-w-7xl" style="margin-top: 150px;">
+            <div class="flex items-start justify-start lg:w-2/4">
                 <div class="text-start">
-                    <h3 class="mb-4 text-2xl font-bold font-calimate">
-                        <span class="text-teal-blue">Every Action Creates a<br>Wave of Change.</span>
+                    <h3 class="mb-4 text-5xl font-bold font-calimate">
+                        <span class="text-white">Every Action Creates a<br>Wave of Change.</span>
                     </h3>
                     <p class="mb-4 text-white font-ttNorms">
                         The ocean gives us life—now it's our turn to give back. Whether you choose to volunteer,
@@ -480,51 +469,54 @@
                 </div>
             </div>
 
-            <!-- 6-photo horizontal grid (1x6) -->
-            <div class="grid grid-cols-2 gap-6 mx-auto md:grid-cols-3 lg:grid-cols-6 max-w-7xl">
-                <!-- Photo 1 -->
-                <div class="rounded-xl overflow-hidden aspect-[3/4]">
-                    <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Volunteer"
-                        class="object-cover w-full h-full transition-transform duration-300 hover:scale-105">
-                </div>
+            <!-- 3 styled buttons aligned to the left -->
+            <div class="flex flex-wrap justify-start gap-4 mx-auto">
+                <!-- Button 1 -->
+                <button
+                    class="py-2 text-xs font-bold tracking-wider text-white transition duration-200 px-7 sm:text-sm md:text-base bg-raspberry-pink rounded-2xl hover:bg-raspberry-pink-hover font-ttNorms">
+                    Donate Now
+                </button>
 
-                <!-- Photo 2 -->
-                <div class="rounded-xl overflow-hidden aspect-[3/4]">
-                    <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Donate"
-                        class="object-cover w-full h-full transition-transform duration-300 hover:scale-105">
-                </div>
+                <!-- Button 2 -->
+                <button
+                    class="py-2 text-xs font-bold tracking-wider text-white transition duration-200 px-7 sm:text-sm md:text-base bg-teal-blue rounded-2xl hover:bg-teal-blue-hover font-ttNorms">
+                    Collaborate
+                </button>
 
-                <!-- Photo 3 -->
-                <div class="rounded-xl overflow-hidden aspect-[3/4]">
-                    <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Educate"
-                        class="object-cover w-full h-full transition-transform duration-300 hover:scale-105">
-                </div>
+                <!-- Button 3 -->
+                <button
+                    class="py-2 text-xs font-bold tracking-wider text-white transition duration-200 px-7 sm:text-sm md:text-base bg-peachy-orange rounded-2xl hover:bg-peachy-oranye-hover font-ttNorms">
+                    Message Us
+                </button>
+            </div>
+        </div>
 
-                <!-- Photo 4 -->
-                <div class="rounded-xl overflow-hidden aspect-[3/4]">
-                    <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Advocate"
-                        class="object-cover w-full h-full transition-transform duration-300 hover:scale-105">
-                </div>
+        <div class="grid grid-cols-1 gap-12 mx-auto max-w-7xl md:grid-cols-2" style="margin-top: 150px;">
+            <!-- Left: Subscribe Component -->
+            <div>
+                @include('components.subscribe')
+            </div>
 
-                <!-- Photo 5 -->
-                <div class="rounded-xl overflow-hidden aspect-[3/4]">
-                    <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Share"
-                        class="object-cover w-full h-full transition-transform duration-300 hover:scale-105">
-                </div>
-
-                <!-- Photo 6 -->
-                <div class="rounded-xl overflow-hidden aspect-[3/4]">
-                    <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Join"
-                        class="object-cover w-full h-full transition-transform duration-300 hover:scale-105">
-                </div>
+            <!-- Right: Footer Navigation -->
+            <div>
+                @include('components.footer')
             </div>
         </div>
     </section>
 
+    <!-- Section Every Action Creates a Wave of Change. -->
+    {{-- <section class="relative px-4 py-[200px] bg-black rounded-bl-[50px] rounded-br-[50px] overflow-hidden"
+        style="margin-top: -50px;">
+        <!-- Semi-transparent overlay -->
+        <div class="absolute inset-0 z-0 bg-black/80"></div>
+
+        
+    </section> --}}
+
     <!-- Newsletter Section -->
-    <section class="relative px-4 py-12 sm:py-16 md:py-20" style="margin-top: -50px;">
-        @include('components.subscribe')
-    </section>
+    {{-- <section class="relative px-4 py-12 sm:py-16 md:py-20" style="margin-top: -50px;">
+        
+    </section> --}}
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>

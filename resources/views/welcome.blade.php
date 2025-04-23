@@ -485,7 +485,7 @@
             <div class="relative flex items-center justify-center h-32">
                 <!-- Main Button -->
                 <button id="contact-main-btn"
-                    class="absolute w-12 h-12 flex items-center justify-center bg-peachy-orange text-black rounded-full hover:bg-[#D96630] transition-all duration-300 z-10 focus:outline-none">
+                    class="absolute w-12 h-12 flex items-center justify-center bg-peachy-orange text-black rounded-full hover:bg-peachy-oranye-hover transition-all duration-300 z-10 focus:outline-none">
                     <i class="text-xl fas fa-comment-dots"></i>
                 </button>
 

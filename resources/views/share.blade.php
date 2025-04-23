@@ -70,46 +70,46 @@
     <!-- Section Educate: Empower Future Ocean Advocates.-->
     <section
         class="bg-white py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-28 rounded-bl-[50px] rounded-br-[50px] z-40 relative overflow-hidden"
-            style="margin-bottom: 50px;">
+        style="margin-bottom: 50px;">
 
         <!-- Content Container with relative positioning -->
         <div class="relative z-10">
             <!-- Title Section -->
-            <div class="max-w-6xl mx-auto mb-12 lg:mb-16 text-center">
-                <h2 class="text-3xl font-extrabold sm:text-4xl md:text-5xl tracking-wide font-calimate leading-tight">
+            <div class="max-w-6xl mx-auto mb-12 text-center lg:mb-16">
+                <h2 class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate">
                     <span class="text-blue">Educate:</span><br>
                     <span class="text-teal-blue">Empower Future Ocean Advocates.</span>
                 </h2>
-                <p class="text-black font-ttNorms mt-4 text-lg max-w-3xl mx-auto text-center">
+                <p class="max-w-3xl mx-auto mt-4 text-lg text-center text-black font-ttNorms">
                     Knowledge is the first step to change.<br>
                     Help us inspire the next generation to protect our oceans.
                 </p>
             </div>
 
             <!-- Cards Slider Section -->
-            <div class="max-w-6xl mx-auto relative">
+            <div class="relative max-w-6xl mx-auto">
                 <!-- Custom Navigation Buttons -->
-                <div class="hidden lg:flex justify-between absolute top-1/2 left-0 right-0 z-10 -translate-y-1/2 px-4">
+                <div class="absolute left-0 right-0 z-10 justify-between hidden px-4 -translate-y-1/2 lg:flex top-1/2">
                     <button
-                        class="slick-prev-custom bg-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-gray-100 transition">
-                        <i class="fas fa-chevron-left text-gray-700"></i>
+                        class="flex items-center justify-center w-10 h-10 transition bg-white rounded-full shadow-lg slick-prev-custom hover:bg-gray-100">
+                        <i class="text-gray-700 fas fa-chevron-left"></i>
                     </button>
                     <button
-                        class="slick-next-custom bg-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-gray-100 transition">
-                        <i class="fas fa-chevron-right text-gray-700"></i>
+                        class="flex items-center justify-center w-10 h-10 transition bg-white rounded-full shadow-lg slick-next-custom hover:bg-gray-100">
+                        <i class="text-gray-700 fas fa-chevron-right"></i>
                     </button>
                 </div>
 
                 <!-- Slider Container -->
                 <div class="stats-slider">
                     <!-- Card 1 -->
-                    <div class="px-2 h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                    <div class="h-full px-2 group">
+                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
                                 <img src="assets/images/image-1.png" alt="Education"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div
@@ -118,8 +118,8 @@
                                     communities empowered.</p>
                             </div>
                             <div
-                                class="absolute inset-0 bg-teal-blue bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-teal-blue bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
                                     Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
                                 </p>
                             </div>
@@ -127,13 +127,13 @@
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="px-2 h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                    <div class="h-full px-2 group">
+                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
                                 <img src="assets/images/image-1.png" alt="Education"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div
@@ -142,8 +142,8 @@
                                     communities empowered.</p>
                             </div>
                             <div
-                                class="absolute inset-0 bg-teal-blue bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-teal-blue bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
                                     Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
                                 </p>
                             </div>
@@ -151,13 +151,13 @@
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="px-2 h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                    <div class="h-full px-2 group">
+                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
                                 <img src="assets/images/image-1.png" alt="Education"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div
@@ -166,8 +166,8 @@
                                     communities empowered.</p>
                             </div>
                             <div
-                                class="absolute inset-0 bg-teal-blue bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-teal-blue bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
                                     Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
                                 </p>
                             </div>
@@ -175,13 +175,13 @@
                     </div>
 
                     <!-- Card 4 -->
-                    <div class="px-2 h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                    <div class="h-full px-2 group">
+                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
                                 <img src="assets/images/image-1.png" alt="Education"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div
@@ -190,8 +190,8 @@
                                     communities empowered.</p>
                             </div>
                             <div
-                                class="absolute inset-0 bg-teal-blue bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-teal-blue bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
                                     Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
                                 </p>
                             </div>
@@ -205,11 +205,12 @@
     <!-- Section Support Marine Conservation. -->
     <section class="bg-black py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] relative z-30"
         style="margin-top: -150px;">
-        <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-6 lg:gap-8 items-stretch">
+        <div class="flex flex-col items-stretch max-w-6xl gap-6 mx-auto lg:flex-row lg:gap-8">
             <!-- Left Side - Title -->
-            <div class="lg:w-1/3 flex items-center">
+            <div class="flex items-center lg:w-1/3">
                 <div>
-                    <h2 class="text-3xl font-extrabold sm:text-4xl md:text-5xl tracking-wide font-calimate leading-tight text-white">
+                    <h2
+                        class="text-3xl font-extrabold leading-tight tracking-wide text-white sm:text-4xl md:text-5xl font-calimate">
                         <span>Support </span>
                         <span>Marine</span><br>
                         <span>Conservation.</span>
@@ -221,18 +222,18 @@
             </div>
 
             <!-- Right Side - Cards Slider -->
-            <div class="lg:w-2/3 w-full">
+            <div class="w-full lg:w-2/3">
                 <!-- Slider Container -->
                 <div class="stats-slider">
                     <!-- Card 1 -->
-                    <div class="px-2 h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                    <div class="h-full px-2 group">
+                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
                                 <img src="assets/images/image-1.png" alt="Education"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div
@@ -243,8 +244,8 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 bg-teal-blue bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-teal-blue bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
                                     Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
                                 </p>
                             </div>
@@ -252,14 +253,14 @@
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="px-2 h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                    <div class="h-full px-2 group">
+                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
                                 <img src="assets/images/image-1.png" alt="Education"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div
@@ -270,8 +271,8 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 bg-raspberry-pink bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
                                     Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
                                     bisa menambahkan detail tentang program, manfaat, dan dampaknya.
                                 </p>
@@ -280,14 +281,14 @@
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="px-2 h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl">
+                    <div class="h-full px-2 group">
+                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <!-- Gambar dan judul -->
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
                                 <img src="assets/images/image-1.png" alt="Education"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div
@@ -298,8 +299,8 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 bg-peachy-orange bg-opacity-90 p-6 flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-peachy-orange bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
                                     Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
                                     bisa menambahkan detail tentang program, manfaat, dan dampaknya.
                                 </p>
@@ -315,15 +316,15 @@
     <section class="relative px-4 py-[100px] bg-white rounded-bl-[50px] rounded-br-[50px] z-20 overflow-hidden"
         style="margin-top: -50px;">
 
-        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 items-stretch relative z-10">
+        <div class="relative z-10 flex flex-col items-stretch gap-8 mx-auto max-w-7xl lg:flex-row">
             <!-- Left Side - Text -->
-            <div class="lg:w-1/4 flex items-start justify-start">
+            <div class="flex items-start justify-start lg:w-1/4">
                 <div class="text-start">
-                    <h3 class="text-2xl font-bold mb-4 font-calimate">
+                    <h3 class="mb-4 text-2xl font-bold font-calimate">
                         <span class="text-peachy-orange">Dive Into</span><br>
                         <span class="text-golden-yellow">Learning & Action.</span>
                     </h3>
-                    <p class="text-black font-ttNorms mb-4">
+                    <p class="mb-4 text-black font-ttNorms">
                         Strong coastal communities mean a stronger ocean.
                         Be part of their journey.
                     </p>
@@ -331,24 +332,24 @@
             </div>
 
             <!-- Middle - 4 Cards Grid -->
-            <div class="lg:w-2/4 w-full">
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 h-full">
+            <div class="w-full lg:w-2/4">
+                <div class="grid h-full grid-cols-1 gap-4 sm:grid-cols-2">
                     <!-- Card 1 -->
                     <div class="h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl shadow-lg">
+                        <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
                             <div class="aspect-[2/1] overflow-hidden relative">
                                 <img src="assets/images/image-1.png" alt="Coastal Community"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div class="bg-blue p-5 h-[120px] flex items-center justify-center">
-                                <p class="text-white text-lg font-calimate text-center">Sponsor a Coastal Community</p>
+                                <p class="text-lg text-center text-white font-calimate">Sponsor a Coastal Community</p>
                             </div>
                             <div
-                                class="absolute inset-0 bg-blue bg-opacity-90 p-5 flex flex-col justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                class="absolute inset-0 flex flex-col justify-center p-5 transition-transform duration-300 transform translate-y-full bg-blue bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
                                     Support local initiatives that protect marine ecosystems and livelihoods.
                                 </p>
                             </div>
@@ -357,20 +358,20 @@
 
                     <!-- Card 2 -->
                     <div class="h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl shadow-lg">
+                        <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
                             <div class="aspect-[2/1] overflow-hidden relative">
                                 <img src="assets/images/image-1.png" alt="Speaker"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div class="bg-golden-yellow p-5 h-[120px] flex items-center justify-center">
-                                <p class="text-white text-lg font-calimate text-center">Request a Speaker</p>
+                                <p class="text-lg text-center text-white font-calimate">Request a Speaker</p>
                             </div>
                             <div
-                                class="absolute inset-0 bg-golden-yellow bg-opacity-90 p-5 flex flex-col justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                class="absolute inset-0 flex flex-col justify-center p-5 transition-transform duration-300 transform translate-y-full bg-golden-yellow bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
                                     Bring marine conservation experts to educate your organization or community.
                                 </p>
                             </div>
@@ -379,20 +380,20 @@
 
                     <!-- Card 3 -->
                     <div class="h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl shadow-lg">
+                        <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
                             <div class="aspect-[2/1] overflow-hidden relative">
                                 <img src="assets/images/image-1.png" alt="Volunteer"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div class="bg-raspberry-pink p-5 h-[120px] flex items-center justify-center">
-                                <p class="text-white text-lg font-calimate text-center">Become a Volunteer</p>
+                                <p class="text-lg text-center text-white font-calimate">Become a Volunteer</p>
                             </div>
                             <div
-                                class="absolute inset-0 bg-raspberry-pink bg-opacity-90 p-5 flex flex-col justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                class="absolute inset-0 flex flex-col justify-center p-5 transition-transform duration-300 transform translate-y-full bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
                                     Join hands-on conservation efforts in coastal areas and make a direct impact.
                                 </p>
                             </div>
@@ -401,20 +402,20 @@
 
                     <!-- Card 4 -->
                     <div class="h-full group">
-                        <div class="flex flex-col h-full relative overflow-hidden rounded-2xl shadow-lg">
+                        <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
                             <div class="aspect-[2/1] overflow-hidden relative">
                                 <img src="assets/images/image-1.png" alt="Empower Communities"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
-                                    class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300">
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                                 </div>
                             </div>
                             <div class="bg-peachy-orange p-5 h-[120px] flex items-center justify-center">
-                                <p class="text-white text-lg font-calimate text-center">Empower Communities</p>
+                                <p class="text-lg text-center text-white font-calimate">Empower Communities</p>
                             </div>
                             <div
-                                class="absolute inset-0 bg-peachy-orange bg-opacity-90 p-5 flex flex-col justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="text-white text-sm lg:text-base text-center font-ttNorms">
+                                class="absolute inset-0 flex flex-col justify-center p-5 transition-transform duration-300 transform translate-y-full bg-peachy-orange bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
                                     Strong coastal communities mean a stronger ocean. Be part of their journey.
                                 </p>
                             </div>
@@ -424,13 +425,13 @@
             </div>
 
             <!-- Right Side - Text -->
-            <div class="lg:w-1/4 flex items-end justify-end">
+            <div class="flex items-end justify-end lg:w-1/4">
                 <div class="text-right">
-                    <h3 class="text-2xl font-bold mb-4 font-calimate">
+                    <h3 class="mb-4 text-2xl font-bold font-calimate">
                         <span class="text-golden-yellow">Empower</span><br>
                         <span class="text-peachy-orange">Communities.</span>
                     </h3>
-                    <p class="text-black font-ttNorms mb-4">
+                    <p class="mb-4 text-black font-ttNorms">
                         Strong coastal communities mean a stronger ocean.
                         Be part of their journey.
                     </p>
@@ -440,30 +441,31 @@
     </section>
 
     <!-- Section Advocate & Amplify the Message. - Empower Communities. -->
-    <section class="relative px-4 py-[100px] bg-blue bg-[url('/public/assets/images/under-the-sea-2.png')] bg-no-repeat bg-left-bottom bg-contain lg:bg-[size:30%] rounded-bl-[50px] rounded-br-[50px] z-10 overflow-hidden"
+    <section
+        class="relative px-4 py-[100px] bg-blue bg-[url('/public/assets/images/under-the-sea-2.png')] bg-no-repeat bg-left-bottom bg-contain lg:bg-[size:30%] rounded-bl-[50px] rounded-br-[50px] z-10 overflow-hidden"
         style="margin-top: -50px;">
         <!-- Semi-transparent overlay -->
-        <div class="absolute inset-0 bg-blue/80 z-0"></div>
+        <div class="absolute inset-0 z-0 bg-blue/80"></div>
 
         <!-- Content goes here -->
-        <div class="max-w-7xl mx-auto relative z-10 text-white text-center">
-            <h2 class="text-3xl md:text-4xl font-bold font-calimate mb-4">Advocate & Amplify the Message.</h2>
-            <p class="text-lg font-ttNorms max-w-2xl mx-auto mb-8">
+        <div class="relative z-10 mx-auto text-center text-white max-w-7xl">
+            <h2 class="mb-4 text-3xl font-bold md:text-4xl font-calimate">Advocate & Amplify the Message.</h2>
+            <p class="max-w-2xl mx-auto mb-8 text-lg font-ttNorms">
                 Your voice is a powerful tool for change. Help spread awareness and drive action.
             </p>
 
-            <div class="mt-8 max-w-2xl mx-auto bg-peachy-orange backdrop-blur-sm rounded-lg overflow-hidden shadow-sm">
+            <div class="max-w-2xl mx-auto mt-8 overflow-hidden rounded-lg shadow-sm bg-peachy-orange backdrop-blur-sm">
                 <div class="flex flex-col md:flex-row">
                     <!-- Text content (left side - 50% width) -->
-                    <div class="p-5 md:p-6 w-full md:w-1/2 flex flex-col justify-center text-left">
-                        <h2 class="text-2xl md:text-3xl font-bold font-calimate mb-3">Join the Conversation.</h2>
+                    <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
+                        <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Join the Conversation.</h2>
                         <p class="text-sm font-ttNorms md:text-base">
                             Share Nanasea's content & inspire action on social media.
                         </p>
                     </div>
 
                     <!-- Image placeholder (right side - 50% width) -->
-                    <div class="aspect-square w-full md:w-1/2 bg-white/30 flex items-center justify-center">
+                    <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
                         <!-- SVG placeholder icon -->
                         <svg class="w-12 h-12 text-white/50" fill="none" stroke="currentColor"
                             viewBox="0 0 24 24">
@@ -480,70 +482,70 @@
     <section class="relative px-4 py-[200px] bg-black rounded-bl-[50px] rounded-br-[50px] overflow-hidden"
         style="margin-top: -50px;">
         <!-- Semi-transparent overlay -->
-        <div class="absolute inset-0 bg-black/80 z-0"></div>
+        <div class="absolute inset-0 z-0 bg-black/80"></div>
 
         <!-- Content goes here -->
-        <div class="max-w-7xl mx-auto relative z-10">
-            <div class="lg:w-2/4 flex items-start justify-start mb-12">
+        <div class="relative z-10 mx-auto max-w-7xl">
+            <div class="flex items-start justify-start mb-12 lg:w-2/4">
                 <div class="text-start">
-                    <h3 class="text-2xl font-bold mb-4 font-calimate">
+                    <h3 class="mb-4 text-2xl font-bold font-calimate">
                         <span class="text-teal-blue">Every Action Creates a<br>Wave of Change.</span>
                     </h3>
-                    <p class="text-white font-ttNorms mb-4">
+                    <p class="mb-4 text-white font-ttNorms">
                         The ocean gives us life—now it's our turn to give back. Whether you choose to volunteer,
                         donate, educate, or advocate, your efforts help protect marine ecosystems and empower coastal
                         communities.
                         Together, we can create a future where the ocean thrives for generations to come.
                     </p>
-                    <p class="text-golden-yellow font-ttNorms mb-8">
+                    <p class="mb-8 text-golden-yellow font-ttNorms">
                         Ready to make an impact? Choose how you want to take action:
                     </p>
                 </div>
             </div>
 
             <!-- 6-photo horizontal grid (1x6) -->
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 max-w-7xl mx-auto">
+            <div class="grid grid-cols-2 gap-6 mx-auto md:grid-cols-3 lg:grid-cols-6 max-w-7xl">
                 <!-- Photo 1 -->
                 <div class="rounded-xl overflow-hidden aspect-[3/4]">
                     <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Volunteer"
-                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        class="object-cover w-full h-full transition-transform duration-300 hover:scale-105">
                 </div>
 
                 <!-- Photo 2 -->
                 <div class="rounded-xl overflow-hidden aspect-[3/4]">
                     <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Donate"
-                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        class="object-cover w-full h-full transition-transform duration-300 hover:scale-105">
                 </div>
 
                 <!-- Photo 3 -->
                 <div class="rounded-xl overflow-hidden aspect-[3/4]">
                     <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Educate"
-                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        class="object-cover w-full h-full transition-transform duration-300 hover:scale-105">
                 </div>
 
                 <!-- Photo 4 -->
                 <div class="rounded-xl overflow-hidden aspect-[3/4]">
                     <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Advocate"
-                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        class="object-cover w-full h-full transition-transform duration-300 hover:scale-105">
                 </div>
 
                 <!-- Photo 5 -->
                 <div class="rounded-xl overflow-hidden aspect-[3/4]">
                     <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Share"
-                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        class="object-cover w-full h-full transition-transform duration-300 hover:scale-105">
                 </div>
 
                 <!-- Photo 6 -->
                 <div class="rounded-xl overflow-hidden aspect-[3/4]">
                     <img src="{{ asset('assets/images/Rectangle 2.png') }}" alt="Join"
-                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                        class="object-cover w-full h-full transition-transform duration-300 hover:scale-105">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Newsletter Section -->
-    <section class="relative py-12 px-4 sm:py-16 md:py-20" style="margin-top: -50px;">
+    <section class="relative px-4 py-12 sm:py-16 md:py-20" style="margin-top: -50px;">
         @include('components.subscribe')
     </section>
 

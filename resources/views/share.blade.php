@@ -76,10 +76,12 @@
         <div class="relative z-10">
             <!-- Title Section -->
             <div class="max-w-6xl mx-auto mb-12 text-center lg:mb-16">
-                <h2 class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate">
-                    <span class="text-blue">Educate:</span><br>
-                    <span class="text-teal-blue">Empower Future Ocean Advocates.</span>
+                <h2 class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate text-blue">
+                    Educate:
                 </h2>
+                <h5 class="mt-2 text-xl font-semibold sm:text-2xl md:text-3xl font-calimate text-teal-blue">
+                    Empower Future Ocean Advocates.
+                </h5>
                 <p class="max-w-3xl mx-auto mt-4 text-lg text-center text-black font-ttNorms">
                     Knowledge is the first step to change.<br>
                     Help us inspire the next generation to protect our oceans.
@@ -551,6 +553,7 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="{{ asset('assets/js/app.js') }}"></script>
     <script src="{{ asset('assets/js/text-transition.js') }}" defer></script>

@@ -210,11 +210,9 @@
                 <div class="w-full lg:w-1/2">
                     <div class="relative overflow-hidden transition border-2 aspect-video rounded-xl border-white/20 group hover:border-white/40"
                         style="border-radius: 2rem;">
-                        <iframe
-                            class="absolute inset-0 w-full h-full rounded-xl"
+                        <iframe class="absolute inset-0 w-full h-full rounded-xl"
                             src="https://www.youtube.com/embed/boI4un-fyBU?start=109&rel=0"
-                            title="YouTube video player"
-                            frameborder="0"
+                            title="YouTube video player" frameborder="0"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
                         </iframe>

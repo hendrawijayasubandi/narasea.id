@@ -1,11 +1,11 @@
-<div class="max-w-7xl mx-auto relative z-10">
+<div class="relative z-10 mx-auto max-w-7xl">
     <!-- Left-aligned content container -->
     <div class="max-w-xs">
         <!-- Newsletter heading -->
-        <h3 class="text-lg sm:text-xl font-bold text-white font-calimate">
+        <h3 class="text-lg font-bold text-white sm:text-xl font-calimate">
             Subscribe to our newsletter.
         </h3>
-        <p class="text-white/80 mb-6 font-ttNorms">
+        <p class="mb-6 text-white/80 font-ttNorms">
             Stay updated with our fresh news!
         </p>
 
@@ -17,7 +17,7 @@
                     required>
                 <button type="submit"
                     class="w-[90%] px-6 py-3 bg-peachy-orange text-white rounded-full font-bold hover:bg-[#D96630] transition duration-200 font-ttNorms">
-                    SUBSCRIBE
+                    Subscribe
                 </button>
             </div>
         </form>

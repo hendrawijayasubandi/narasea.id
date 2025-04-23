@@ -322,13 +322,12 @@
             <!-- Left Side - Text -->
             <div class="flex items-start justify-start lg:w-1/4">
                 <div class="text-start">
-                    <h3 class="mb-4 text-2xl font-bold font-calimate">
-                        <span class="text-peachy-orange">Dive Into</span><br>
-                        <span class="text-golden-yellow">Learning & Action.</span>
-                    </h3>
-                    <p class="mb-4 text-black font-ttNorms">
-                        Strong coastal communities mean a stronger ocean.
-                        Be part of their journey.
+                    <h2 class="mb-4 text-4xl font-bold lg:text-5xl font-calimate">
+                        <span class="text-teal-blue">Dive Into</span><br>
+                        <span class="text-blue">Learning & Action.</span>
+                    </h2>
+                    <p class="mb-4 text-base text-black font-ttNorms">
+                        Explore the depths of marine conservation through immersive experiences. Discover, engage, and make an impact.
                     </p>
                 </div>
             </div>
@@ -340,86 +339,63 @@
                     <div class="h-full group">
                         <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
                             <div class="aspect-[2/1] overflow-hidden relative">
-                                <img src="assets/images/image-1.png" alt="Coastal Community"
+                                <img src="assets/images/education.png" alt="Coastal Community"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-                                </div>
+                                <div class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30"></div>
                             </div>
-                            <div class="bg-blue p-5 h-[120px] flex items-center justify-center">
-                                <p class="text-lg text-center text-white font-calimate">Sponsor a Coastal Community</p>
+                            <div class="bg-blue p-5 h-[120px] flex">
+                                <p class="text-xl font-bold text-white font-calimate">Education Trips.</p>
                             </div>
-                            <div
-                                class="absolute inset-0 flex flex-col justify-center p-5 transition-transform duration-300 transform translate-y-full bg-blue bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
-                                    Support local initiatives that protect marine ecosystems and livelihoods.
-                                </p>
+                            <div class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-blue bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-white lg:text-base font-ttNorms">Hands-on experiences for students, professionals, and ocean enthusiasts.</p>
                             </div>
                         </div>
                     </div>
-
                     <!-- Card 2 -->
                     <div class="h-full group">
                         <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
                             <div class="aspect-[2/1] overflow-hidden relative">
-                                <img src="assets/images/image-1.png" alt="Speaker"
+                                <img src="assets/images/speaker.png" alt="Speaker"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-                                </div>
+                                <div class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30"></div>
                             </div>
-                            <div class="bg-golden-yellow p-5 h-[120px] flex items-center justify-center">
-                                <p class="text-lg text-center text-white font-calimate">Request a Speaker</p>
+                            <div class="bg-golden-yellow p-5 h-[120px] flex">
+                                <p class="text-xl font-bold text-bronze font-calimate">Request a Speaker.</p>
                             </div>
-                            <div
-                                class="absolute inset-0 flex flex-col justify-center p-5 transition-transform duration-300 transform translate-y-full bg-golden-yellow bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
-                                    Bring marine conservation experts to educate your organization or community.
-                                </p>
+                            <div class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-golden-yellow bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-bronze lg:text-base font-ttNorms">Bring marine conservation experts to educate your organization or community.</p>
                             </div>
                         </div>
                     </div>
-
                     <!-- Card 3 -->
                     <div class="h-full group">
                         <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
                             <div class="aspect-[2/1] overflow-hidden relative">
-                                <img src="assets/images/image-1.png" alt="Volunteer"
+                                <img src="assets/images/sponsor-a-coastal.png" alt="Volunteer"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-                                </div>
+                                <div class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30"></div>
                             </div>
-                            <div class="bg-raspberry-pink p-5 h-[120px] flex items-center justify-center">
-                                <p class="text-lg text-center text-white font-calimate">Become a Volunteer</p>
+                            <div class="bg-raspberry-pink p-5 h-[120px] flex">
+                                <p class="text-xl font-bold text-wine-red font-calimate">Sponsor a Coastal Community.</p>
                             </div>
-                            <div
-                                class="absolute inset-0 flex flex-col justify-center p-5 transition-transform duration-300 transform translate-y-full bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
-                                    Join hands-on conservation efforts in coastal areas and make a direct impact.
-                                </p>
+                            <div class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-wine-red lg:text-base font-ttNorms">Provide direct support for grassroots conservation initiatives.</p>
                             </div>
                         </div>
                     </div>
-
                     <!-- Card 4 -->
                     <div class="h-full group">
                         <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
                             <div class="aspect-[2/1] overflow-hidden relative">
-                                <img src="assets/images/image-1.png" alt="Empower Communities"
+                                <img src="assets/images/volunteer.png" alt="Empower Communities"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-                                </div>
+                                <div class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30"></div>
                             </div>
-                            <div class="bg-peachy-orange p-5 h-[120px] flex items-center justify-center">
-                                <p class="text-lg text-center text-white font-calimate">Empower Communities</p>
+                            <div class="bg-peachy-orange p-5 h-[120px] flex">
+                                <p class="text-xl font-bold text-cocoa-brown font-calimate">Become a Volunteer.</p>
                             </div>
-                            <div
-                                class="absolute inset-0 flex flex-col justify-center p-5 transition-transform duration-300 transform translate-y-full bg-peachy-orange bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
-                                    Strong coastal communities mean a stronger ocean. Be part of their journey.
-                                </p>
+                            <div class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-peachy-orange bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-cocoa-brown lg:text-base font-ttNorms">Strong coastal communities mean a stronger ocean. Be part of their journey.</p>
                             </div>
                         </div>
                     </div>
@@ -429,13 +405,12 @@
             <!-- Right Side - Text -->
             <div class="flex items-end justify-end lg:w-1/4">
                 <div class="text-right">
-                    <h3 class="mb-4 text-2xl font-bold font-calimate">
-                        <span class="text-golden-yellow">Empower</span><br>
-                        <span class="text-peachy-orange">Communities.</span>
-                    </h3>
-                    <p class="mb-4 text-black font-ttNorms">
-                        Strong coastal communities mean a stronger ocean.
-                        Be part of their journey.
+                    <h2 class="mb-4 text-4xl font-bold lg:text-5xl font-calimate">
+                        <span class="text-teal-blue">Empower</span><br>
+                        <span class="text-blue">Communities.</span>
+                    </h2>
+                    <p class="mb-4 text-base text-black font-ttNorms">
+                        Strong coastal communities mean a stronger ocean. Be part of their journey.
                     </p>
                 </div>
             </div>

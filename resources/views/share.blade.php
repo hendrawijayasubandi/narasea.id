@@ -417,7 +417,7 @@
 
     <!-- Section Advocate & Amplify the Message. - Empower Communities. -->
     <section
-        class="relative px-4 py-[100px] bg-blue bg-[url('/public/assets/images/under-the-sea-2.png')] bg-no-repeat bg-left-bottom bg-contain z-10 overflow-hidden"
+        class="relative px-4 py-[100px] bg-blue bg-[url('/public/assets/images/under-the-sea-1.png')] bg-cover bg-no-repeat bg-bottom z-10 overflow-hidden"
         style="margin-top: -50px;">
 
         <!-- Content goes here -->

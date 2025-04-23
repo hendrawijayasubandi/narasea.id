@@ -447,7 +447,7 @@
                     <div class="mb-6">
                         <a href="https://www.instagram.com/naraseaid/" target="_blank">
                             <button
-                                class="px-9 py-2 text-xs sm:text-sm md:text-base bg-raspberry-pink text-white rounded-2xl font-bold tracking-wider hover:bg-[#C12F5A] transition duration-200 font-ttNorms">
+                                class="px-9 py-2 text-xs sm:text-sm md:text-base bg-teal-blue text-white rounded-2xl font-bold tracking-wider hover:bg-[#C12F5A] transition duration-200 font-ttNorms">
                                 Follow the Waves
                             </button>
                         </a>

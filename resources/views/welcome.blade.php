@@ -70,7 +70,7 @@
 
         <!-- CTA Button -->
         <a href="https://wa.me/628112372277" target="_blank"
-            class="z-10 px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-raspberry-pink text-white rounded-3xl font-bold tracking-wider hover:bg-[#C73761] transition duration-200 font-ttNorms mt-0">
+            class="z-10 px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-raspberry-pink text-white rounded-3xl font-bold tracking-wider hover:bg-raspberry-pink-hover transition duration-200 font-ttNorms mt-0">
             Be The Change
             <i class="ml-2 fas fa-arrow-right"></i>
         </a>
@@ -239,7 +239,7 @@
 
                     <a href="mailto:naraseaid@gmail.com">
                         <button
-                            class="px-7 py-2 text-xs sm:text-sm md:text-base bg-blue text-white rounded-2xl font-bold tracking-wider hover:bg-[#062B54] transition duration-200 font-ttNorms">
+                            class="py-2 text-xs font-bold tracking-wider text-white transition duration-200 px-7 sm:text-sm md:text-base bg-blue rounded-2xl hover:bg-blue-hover font-ttNorms">
                             Share What You See
                         </button>
                     </a>
@@ -277,12 +277,12 @@
                 <div class="relative mt-6 lg:w-2/3 lg:mt-0">
                     <!-- Navigation Buttons -->
                     <button
-                        class="slick-prev-projects absolute left-2 sm:left-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition-all duration-200">
+                        class="absolute z-10 flex items-center justify-center w-8 h-8 text-white transition-all duration-200 -translate-y-1/2 rounded-full slick-prev-projects left-2 sm:left-0 top-1/2 bg-teal-blue sm:w-10 sm:h-10 hover:bg-teal-blue-hover">
                         <i class="text-sm fas fa-chevron-left sm:text-base"></i>
                     </button>
 
                     <button
-                        class="slick-next-projects absolute right-2 sm:right-0 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition-all duration-200">
+                        class="absolute z-10 flex items-center justify-center w-8 h-8 text-white transition-all duration-200 -translate-y-1/2 rounded-full slick-next-projects right-2 sm:right-0 top-1/2 bg-teal-blue sm:w-10 sm:h-10 hover:bg-teal-blue-hover">
                         <i class="text-sm fas fa-chevron-right sm:text-base"></i>
                     </button>
 
@@ -388,12 +388,12 @@
                 <div class="relative w-full px-4 sm:px-8">
                     <!-- Navigation Buttons -->
                     <button
-                        class="slick-prev-instagram absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition">
+                        class="absolute z-10 flex items-center justify-center w-8 h-8 text-white transition -translate-y-1/2 rounded-full slick-prev-instagram left-2 sm:left-4 top-1/2 bg-teal-blue sm:w-10 sm:h-10 hover:bg-teal-blue-hover">
                         <i class="text-sm fas fa-chevron-left sm:text-base"></i>
                     </button>
 
                     <button
-                        class="slick-next-instagram absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 bg-teal-blue text-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center hover:bg-[#014951] transition">
+                        class="absolute z-10 flex items-center justify-center w-8 h-8 text-white transition -translate-y-1/2 rounded-full slick-next-instagram right-2 sm:right-4 top-1/2 bg-teal-blue sm:w-10 sm:h-10 hover:bg-teal-blue-hover">
                         <i class="text-sm fas fa-chevron-right sm:text-base"></i>
                     </button>
 
@@ -447,7 +447,7 @@
                     <div class="mb-6">
                         <a href="https://www.instagram.com/naraseaid/" target="_blank">
                             <button
-                                class="px-9 py-2 text-xs sm:text-sm md:text-base bg-teal-blue text-white rounded-2xl font-bold tracking-wider hover:bg-[#017C85] transition duration-200 font-ttNorms">
+                                class="py-2 text-xs font-bold tracking-wider text-white transition duration-200 px-9 sm:text-sm md:text-base bg-teal-blue rounded-2xl hover:bg-teal-blue-hover font-ttNorms">
                                 Follow the Waves
                             </button>
                         </a>

@@ -195,7 +195,7 @@
 
     <!-- New Storytelling Section -->
     <section
-        class="relative px-4 py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-white rounded-bl-[50px] rounded-br-[50px] z-30">
+        class="relative bg-[url('/public/assets/images/educate.png')] bg-contain bg-no-repeat bg-bottom px-4 py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-white rounded-bl-[50px] rounded-br-[50px] z-30">
 
         <div class="relative z-10 ml-[2rem] mr-[2rem]">
             <!-- Voice title with different colors -->
@@ -211,8 +211,8 @@
                     <div class="relative overflow-hidden transition border-2 aspect-video rounded-xl border-white/20 group hover:border-white/40"
                         style="border-radius: 2rem;">
                         <iframe class="absolute inset-0 w-full h-full rounded-xl"
-                            src="https://www.youtube.com/embed/boI4un-fyBU?rel=0"
-                            title="YouTube video player" frameborder="0"
+                            src="https://www.youtube.com/embed/boI4un-fyBU?rel=0" title="YouTube video player"
+                            frameborder="0"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
                         </iframe>
@@ -386,7 +386,7 @@
             <div class="flex flex-col items-center gap-6 text-center lg:gap-8">
                 <!-- Main Slider Container -->
                 <div class="relative w-full px-4 sm:px-8">
-                    <!-- Navigation Buttons -->
+                    {{-- <!-- Navigation Buttons -->
                     <button
                         class="absolute z-10 flex items-center justify-center w-8 h-8 text-white transition -translate-y-1/2 rounded-full slick-prev-instagram left-2 sm:left-4 top-1/2 bg-teal-blue sm:w-10 sm:h-10 hover:bg-teal-blue-hover">
                         <i class="text-sm fas fa-chevron-left sm:text-base"></i>
@@ -430,7 +430,27 @@
                                     class="object-cover w-full h-full transition duration-300 hover:scale-105">
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
+
+                    <div class="embedsocial-hashtag" data-ref="c98b125846a706cd2e6192a40cddf7fb53e8c8b1"> <a
+                            class="feed-powered-by-es feed-powered-by-es-slider-img es-widget-branding"
+                            href="https://embedsocial.com/social-media-aggregator/" target="_blank"
+                            title="Instagram widget"> <img
+                                src="https://embedsocial.com/cdn/icon/embedsocial-logo.webp" alt="EmbedSocial">
+                            <div class="es-widget-branding-text">Instagram widget</div>
+                        </a> </div>
+                    <script>
+                        (function(d, s, id) {
+                            var js;
+                            if (d.getElementById(id)) {
+                                return;
+                            }
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = "https://embedsocial.com/cdn/ht.js";
+                            d.getElementsByTagName("head")[0].appendChild(js);
+                        }(document, "script", "EmbedSocialHashtagScript"));
+                    </script>
                 </div>
 
                 <!-- Left Column - Text Content -->

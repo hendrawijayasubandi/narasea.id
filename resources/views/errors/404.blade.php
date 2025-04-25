@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>404 Not Found | Narasea Indonesia - Platform Edukasi & Advokasi Konservasi Laut</title>
+  <link rel="stylesheet" href="{{ asset('/assets/css/fonts.css') }}">
   <style>
     * {
       margin: 0;
@@ -20,6 +21,10 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
+    }
+
+    .message, .description {
+      font-family: 'TTNorms', serif;
     }
 
     .container {
@@ -65,6 +70,7 @@
       font-size: 1rem;
       cursor: pointer;
       transition: background-color 0.3s;
+      font-family: 'Calimate', serif;
     }
 
     .btn:hover {

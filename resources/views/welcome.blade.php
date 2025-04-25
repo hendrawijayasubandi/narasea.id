@@ -381,7 +381,7 @@
     </section>
 
     <!-- New Section: Social Currents -->
-    <section class="relative bg-black py-16 px-4 sm:py-20 md:py-24 lg:py-28 xl:py-32 -mt-[50px] z-10">
+    <section class="relative bg-[url('/public/assets/images/social-current.png')] bg-cover bg-no-repeat bg-top bg-black py-16 px-4 sm:py-20 md:py-24 lg:py-28 xl:py-32 -mt-[50px] z-10">
         <div class="relative z-10 ml-[2rem] mr-[2rem]">
             <div class="flex flex-col items-center gap-6 text-center lg:gap-8">
                 <!-- Main Slider Container -->
@@ -486,7 +486,7 @@
     </section> --}}
 
     <!-- Main Contact Section -->
-    <section class="relative px-4 py-16 bg-black sm:py-20 md:py-24">
+    <section class="relative bg-[url('/public/assets/images/fish-wave.png')] bg-cover bg-no-repeat bg-center px-4 py-16 bg-black sm:py-20 md:py-28">
         <div class="max-w-4xl mx-auto text-center">
             <!-- Title -->
             <h2 class="mb-6 text-3xl font-bold text-white sm:text-4xl md:text-5xl font-calimate">
@@ -531,7 +531,7 @@
     </section>
 
     <!-- Newsletter Section -->
-    <section class="relative px-4 py-12 bg-black sm:py-16 md:py-20">
+    <section class="relative px-4 py-12 bg-[url('/public/assets/images/fish-wave-footer.png')] bg-contain bg-no-repeat bg-left bg-black sm:py-16 md:py-20">
         <div class="grid grid-cols-1 gap-12 mx-auto max-w-7xl md:grid-cols-2">
             <!-- Left: Subscribe Component -->
             <div>

@@ -91,20 +91,8 @@
 
             <!-- Cards Slider Section -->
             <div class="relative max-w-6xl mx-auto">
-                <!-- Custom Navigation Buttons -->
-                <div class="absolute left-0 right-0 z-10 justify-between hidden px-4 -translate-y-1/2 lg:flex top-1/2">
-                    <button
-                        class="flex items-center justify-center w-10 h-10 transition bg-white rounded-full shadow-lg slick-prev-custom hover:bg-gray-100">
-                        <i class="text-gray-700 fas fa-chevron-left"></i>
-                    </button>
-                    <button
-                        class="flex items-center justify-center w-10 h-10 transition bg-white rounded-full shadow-lg slick-next-custom hover:bg-gray-100">
-                        <i class="text-gray-700 fas fa-chevron-right"></i>
-                    </button>
-                </div>
-
                 <!-- Slider Container -->
-                <div class="stats-slider">
+                <div class="educate-slider flex flex-col gap-4 lg:grid lg:grid-cols-3">
                     <!-- Card 1 -->
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
@@ -154,30 +142,6 @@
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="h-full px-2 group">
-                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
-                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/image-1.png" alt="Education"
-                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-                                </div>
-                            </div>
-                            <div
-                                class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">10+ coastal
-                                    communities empowered.</p>
-                            </div>
-                            <div
-                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-teal-blue bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
-                                    Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 4 -->
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">

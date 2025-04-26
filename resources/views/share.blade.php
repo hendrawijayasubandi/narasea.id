@@ -97,13 +97,13 @@
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/image-1.png" alt="Education"
+                                <img src="assets/images/educate-card-1.png" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                             </div>
                             <div
-                                class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">10+ coastal
-                                    communities empowered.</p>
+                                class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
+                                <p class="text-bronze text-base font-bold lg:text-xl font-calimate min-h-[60px]">Join hands-on workshops on climate change & sustainable living
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -112,13 +112,13 @@
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/image-1.png" alt="Education"
+                                <img src="assets/images/educate-card-2.png" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                             </div>
                             <div
-                                class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">10+ coastal
-                                    communities empowered.</p>
+                                class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
+                                <p class="text-cocoa-brown text-base font-bold lg:text-xl font-calimate min-h-[60px]">Collaborate with universities
+                                    & research centers for deeper impact</p>
                             </div>
                         </div>
                     </div>
@@ -127,13 +127,13 @@
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/image-1.png" alt="Education"
+                                <img src="assets/images/educate-card-3.png" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                             </div>
                             <div
-                                class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-lg font-calimate min-h-[60px]">10+ coastal
-                                    communities empowered.</p>
+                                class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
+                                <p class="text-wine-red text-base font-bold lg:text-xl font-calimate min-h-[60px]">Support marine literacy
+                                    programs for students & coastal communities</p>
                             </div>
                         </div>
                     </div>

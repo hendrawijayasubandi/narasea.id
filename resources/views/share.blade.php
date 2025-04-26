@@ -467,7 +467,7 @@
                 </div>
             </div>
 
-            <!-- Card 2 -->
+            <!-- Card 3 -->
             <div class="max-w-2xl mx-auto mt-8 overflow-hidden shadow-sm rounded-2xl bg-raspberry-pink text-wine-red backdrop-blur-sm">
                 <div class="flex flex-col md:flex-row">
                     <!-- Text content (left side - 50% width) -->
@@ -522,7 +522,7 @@
 
                 <!-- Button 3 -->
                 <button
-                    class="py-2 text-xs font-bold tracking-wider text-white transition duration-200 px-7 sm:text-sm md:text-base bg-peachy-orange rounded-2xl hover:bg-peachy-oranye-hover font-ttNorms">
+                    class="py-2 text-xs font-bold tracking-wider text-white transition duration-200 px-7 sm:text-sm md:text-base bg-peachy-orange rounded-2xl hover:bg-peachy-orange-hover font-ttNorms">
                     Message Us
                 </button>
             </div>

@@ -25,7 +25,7 @@ export default {
       'cocoa-brown': '#7D3612',
       'bronze': '#A75831',
       'peachy-orange': '#FF864A',
-      'peachy-oranye-hover': '#D96630',
+      'peachy-orange-hover': '#D96630',
       'golden-yellow': '#FFD039',
     },
     fontFamily: {

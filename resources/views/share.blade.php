@@ -76,7 +76,8 @@
         <div class="relative z-10">
             <!-- Title Section -->
             <div class="max-w-6xl mx-auto mb-12 text-center lg:mb-16">
-                <h2 class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate text-blue">
+                <h2
+                    class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate text-blue">
                     Educate:
                 </h2>
                 <h5 class="mt-2 text-xl font-semibold sm:text-2xl md:text-3xl font-calimate text-teal-blue">
@@ -240,7 +241,8 @@
                             </div>
                             <div
                                 class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
-                                <p class="text-bronze text-base lg:text-2xl font-calimate font-bold min-h-[60px]">Become a Monthly Donor</p>
+                                <p class="text-bronze text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                    Become a Monthly Donor</p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
@@ -325,7 +327,8 @@
                         <span class="text-blue">Learning & Action.</span>
                     </h2>
                     <p class="mb-4 text-base text-black font-ttNorms">
-                        Explore the depths of marine conservation through immersive experiences. Discover, engage, and make an impact.
+                        Explore the depths of marine conservation through immersive experiences. Discover, engage, and
+                        make an impact.
                     </p>
                 </div>
             </div>
@@ -339,13 +342,17 @@
                             <div class="aspect-[2/1] overflow-hidden relative">
                                 <img src="assets/images/education.png" alt="Coastal Community"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30"></div>
+                                <div
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
+                                </div>
                             </div>
                             <div class="bg-blue p-5 h-[120px] flex">
                                 <p class="text-xl font-bold text-white font-calimate">Education Trips.</p>
                             </div>
-                            <div class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-blue bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-white lg:text-base font-ttNorms">Hands-on experiences for students, professionals, and ocean enthusiasts.</p>
+                            <div
+                                class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-blue bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-white lg:text-base font-ttNorms">Hands-on experiences for
+                                    students, professionals, and ocean enthusiasts.</p>
                             </div>
                         </div>
                     </div>
@@ -355,13 +362,17 @@
                             <div class="aspect-[2/1] overflow-hidden relative">
                                 <img src="assets/images/speaker.png" alt="Speaker"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30"></div>
+                                <div
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
+                                </div>
                             </div>
                             <div class="bg-golden-yellow p-5 h-[120px] flex">
                                 <p class="text-xl font-bold text-bronze font-calimate">Request a Speaker.</p>
                             </div>
-                            <div class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-golden-yellow bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-bronze lg:text-base font-ttNorms">Bring marine conservation experts to educate your organization or community.</p>
+                            <div
+                                class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-golden-yellow bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-bronze lg:text-base font-ttNorms">Bring marine conservation
+                                    experts to educate your organization or community.</p>
                             </div>
                         </div>
                     </div>
@@ -371,13 +382,18 @@
                             <div class="aspect-[2/1] overflow-hidden relative">
                                 <img src="assets/images/sponsor-a-coastal.png" alt="Volunteer"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30"></div>
+                                <div
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
+                                </div>
                             </div>
                             <div class="bg-raspberry-pink p-5 h-[120px] flex">
-                                <p class="text-xl font-bold text-wine-red font-calimate">Sponsor a Coastal Community.</p>
+                                <p class="text-xl font-bold text-wine-red font-calimate">Sponsor a Coastal Community.
+                                </p>
                             </div>
-                            <div class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-wine-red lg:text-base font-ttNorms">Provide direct support for grassroots conservation initiatives.</p>
+                            <div
+                                class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-wine-red lg:text-base font-ttNorms">Provide direct support for
+                                    grassroots conservation initiatives.</p>
                             </div>
                         </div>
                     </div>
@@ -387,13 +403,17 @@
                             <div class="aspect-[2/1] overflow-hidden relative">
                                 <img src="assets/images/volunteer.png" alt="Empower Communities"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30"></div>
+                                <div
+                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
+                                </div>
                             </div>
                             <div class="bg-peachy-orange p-5 h-[120px] flex">
                                 <p class="text-xl font-bold text-cocoa-brown font-calimate">Become a Volunteer.</p>
                             </div>
-                            <div class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-peachy-orange bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-cocoa-brown lg:text-base font-ttNorms">Strong coastal communities mean a stronger ocean. Be part of their journey.</p>
+                            <div
+                                class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-peachy-orange bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-cocoa-brown lg:text-base font-ttNorms">Strong coastal
+                                    communities mean a stronger ocean. Be part of their journey.</p>
                             </div>
                         </div>
                     </div>
@@ -429,59 +449,70 @@
                 Your voice is a powerful tool for change. Help spread awareness and drive action.
             </p>
 
-            <!-- Card 1 -->
-            <div class="max-w-2xl mx-auto mt-8 overflow-hidden shadow-sm rounded-2xl bg-peachy-orange backdrop-blur-sm">
-                <div class="flex flex-col md:flex-row">
-                    <!-- Text content (left side - 50% width) -->
-                    <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
-                        <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Join the Conversation.</h2>
-                        <p class="text-sm font-ttNorms md:text-lg">
-                            Share Nanasea's content & inspire action on social media.
-                        </p>
-                    </div>
-
-                    <!-- Image placeholder (right side - 50% width) -->
-                    <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
-                        <img src="{{ asset('assets/images/close-up-hands-making-heart-shape-sea-against-clear-sky 1.png') }}" alt="Share on Social"
-                            class="object-cover object-center w-full h-full" />
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="max-w-2xl mx-auto mt-8 overflow-hidden shadow-sm rounded-2xl bg-teal-blue backdrop-blur-sm">
-                <div class="flex flex-col md:flex-row">
-                    <!-- Image placeholder (left side - 50% width) -->
-                    <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
-                        <img src="{{ asset('assets/images/aceppp1.png') }}" alt="Share on Social"
-                            class="object-cover object-center w-full h-full" />
-                    </div>
-
-                    <!-- Text content (right side - 50% width) -->
-                    <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
-                        <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Support Digital Storytelling.</h2>
-                        <p class="text-sm font-ttNorms md:text-lg">
-                            Fund community-led documentaries, podcasts, and campaigns.
-                        </p>
+            <div x-data="{
+                activeCard: 0,
+                cards: [0, 1, 2],
+                nextCard() {
+                    this.activeCard = (this.activeCard + 1) % this.cards.length;
+                }
+            }"
+            x-init="setInterval(() => nextCard(), 4000)" 
+            class="max-w-2xl mx-auto mt-8 relative min-h-[380px] md:min-h-[320px] mb-12">
+                <!-- Card 1 -->
+                <div x-show="activeCard === 0" x-transition.opacity.duration.500ms class="absolute inset-0">
+                    <div class="overflow-hidden shadow-sm rounded-2xl bg-peachy-orange backdrop-blur-sm">
+                        <div class="flex flex-col md:flex-row">
+                            <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
+                                <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Join the Conversation.
+                                </h2>
+                                <p class="text-sm font-ttNorms md:text-lg">
+                                    Share Nanasea's content & inspire action on social media.
+                                </p>
+                            </div>
+                            <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
+                                <img src="{{ asset('assets/images/close-up-hands-making-heart-shape-sea-against-clear-sky 1.png') }}"
+                                    alt="Share on Social" class="object-cover object-center w-full h-full" />
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Card 3 -->
-            <div class="max-w-2xl mx-auto mt-8 overflow-hidden shadow-sm rounded-2xl bg-raspberry-pink text-wine-red backdrop-blur-sm">
-                <div class="flex flex-col md:flex-row">
-                    <!-- Text content (left side - 50% width) -->
-                    <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
-                        <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Collaborate with Content Creators.</h2>
-                        <p class="text-sm font-ttNorms md:text-lg">
-                            Work with journalists, influencers, and filmmakers to amplify marine issues.
-                        </p>
+                <!-- Card 2 -->
+                <div x-show="activeCard === 1" x-transition.opacity.duration.500ms class="absolute inset-0">
+                    <div class="overflow-hidden shadow-sm rounded-2xl bg-teal-blue backdrop-blur-sm">
+                        <div class="flex flex-col md:flex-row">
+                            <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
+                                <img src="{{ asset('assets/images/aceppp1.png') }}" alt="Share on Social"
+                                    class="object-cover object-center w-full h-full" />
+                            </div>
+                            <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
+                                <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Support Digital
+                                    Storytelling.</h2>
+                                <p class="text-sm font-ttNorms md:text-lg">
+                                    Fund community-led documentaries, podcasts, and campaigns.
+                                </p>
+                            </div>
+                        </div>
                     </div>
+                </div>
 
-                    <!-- Image placeholder (right side - 50% width) -->
-                    <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
-                        <img src="{{ asset('assets/images/product-slide-4-from-image-stock-1.png') }}" alt="Share on Social"
-                            class="object-cover object-center w-full h-full" />
+                <!-- Card 3 -->
+                <div x-show="activeCard === 2" x-transition.opacity.duration.500ms class="absolute inset-0">
+                    <div
+                        class="overflow-hidden shadow-sm rounded-2xl bg-raspberry-pink text-wine-red backdrop-blur-sm">
+                        <div class="flex flex-col md:flex-row">
+                            <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
+                                <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Collaborate with Content
+                                    Creators.</h2>
+                                <p class="text-sm font-ttNorms md:text-lg">
+                                    Work with journalists, influencers, and filmmakers to amplify marine issues.
+                                </p>
+                            </div>
+                            <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
+                                <img src="{{ asset('assets/images/product-slide-4-from-image-stock-1.png') }}"
+                                    alt="Share on Social" class="object-cover object-center w-full h-full" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -552,6 +583,7 @@
     {{-- <section class="relative px-4 py-12 sm:py-16 md:py-20" style="margin-top: -50px;">
     </section> --}}
 
+    <script src="//unpkg.com/alpinejs" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

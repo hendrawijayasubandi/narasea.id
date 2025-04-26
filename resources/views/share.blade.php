@@ -69,9 +69,8 @@
 
     <!-- Section Educate: Empower Future Ocean Advocates.-->
     <section
-        class="bg-white py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-28 rounded-bl-[50px] rounded-br-[50px] z-40 relative overflow-hidden"
+        class="relative bg-[url('/public/assets/images/educate.png')] bg-contain bg-no-repeat bg-bottom bg-white py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-28 rounded-bl-[50px] rounded-br-[50px] z-40 overflow-hidden"
         style="margin-bottom: 50px;">
-
         <!-- Content Container with relative positioning -->
         <div class="relative z-10">
             <!-- Title Section -->
@@ -102,7 +101,9 @@
                             </div>
                             <div
                                 class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-cocoa-brown text-base font-bold lg:text-xl font-calimate min-h-[60px]">Join hands-on workshops on climate change & sustainable living
+                                <p class="text-cocoa-brown text-base font-bold lg:text-xl font-calimate min-h-[60px]">
+                                    Join hands-on workshops on climate change
+                                    & sustainable living
                                 </p>
                             </div>
                         </div>
@@ -117,8 +118,10 @@
                             </div>
                             <div
                                 class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-bronze text-base font-bold lg:text-xl font-calimate min-h-[60px]">Collaborate with universities
-                                    & research centers for deeper impact</p>
+                                <p class="text-bronze text-base font-bold lg:text-xl font-calimate min-h-[60px]">
+                                    Collaborate with universities
+                                    & research centers for deeper impact
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -132,8 +135,10 @@
                             </div>
                             <div
                                 class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-wine-red text-base font-bold lg:text-xl font-calimate min-h-[60px]">Support marine literacy
-                                    programs for students & coastal communities</p>
+                                <p class="text-wine-red text-base font-bold lg:text-xl font-calimate min-h-[60px]">
+                                    Support marine literacy
+                                    programs for students & coastal communities
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -392,9 +397,8 @@
                 nextCard() {
                     this.activeCard = (this.activeCard + 1) % this.cards.length;
                 }
-            }"
-            x-init="setInterval(() => nextCard(), 4000)" 
-            class="max-w-2xl mx-auto mt-8 relative min-h-[380px] md:min-h-[320px] mb-12">
+            }" x-init="setInterval(() => nextCard(), 4000)"
+                class="max-w-2xl mx-auto mt-8 relative min-h-[380px] md:min-h-[320px] mb-12">
                 <!-- Card 1 -->
                 <div x-show="activeCard === 0" x-transition.opacity.duration.500ms class="absolute inset-0">
                     <div class="overflow-hidden shadow-sm rounded-2xl bg-peachy-orange backdrop-blur-sm">

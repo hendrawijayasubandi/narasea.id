@@ -105,7 +105,7 @@
                     </button>
                 </div> --}}
                 <!-- Slider Container -->
-                <div class="stats-slider">
+                <div class="stats-slider flex flex-col lg:grid lg:grid-cols-3">
                     <!-- Card 1 -->
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">

@@ -95,7 +95,7 @@
                     <!-- Card 1 -->
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
-                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
+                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative bg-gray">
                                 <img src="{{ asset('assets/images/educate-card-1.png') }}" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                             </div>
@@ -112,7 +112,7 @@
                     <!-- Card 2 -->
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
-                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
+                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative bg-gray">
                                 <img src="{{ asset('assets/images/educate-card-2.png') }}" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                             </div>
@@ -129,7 +129,7 @@
                     <!-- Card 3 -->
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
-                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
+                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative bg-gray">
                                 <img src="{{ asset('assets/images/educate-card-3.png') }}" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                             </div>
@@ -169,7 +169,7 @@
             <!-- Right Side - Cards Slider -->
             <div class="relative w-full lg:w-2/3">
                 <!-- Slider Container -->
-                <div class="stats-slider">
+                <div class="stats-slider flex flex-col lg:grid lg:grid-cols-3">
                     <!-- Card 1 -->
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">

@@ -14,6 +14,7 @@ export default {
     },
     colors: {
       'white': '#FAFEFF',
+      'gray': '#D9D9D9',
       'black': '#111111',
       'blue': '#083C75',
       'blue-hover': '#062B54',

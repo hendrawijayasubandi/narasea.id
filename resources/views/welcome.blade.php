@@ -259,7 +259,7 @@
             </div> --}}
 
             <!-- Two Column Layout -->
-            <div class="flex flex-col gap-8 px-4 lg:flex-row lg:gap-12 sm:px-6">
+            <div class="flex flex-col gap-8 px-4 lg:flex-row sm:px-6">
                 <!-- Left Column - Text Content -->
                 <div class="flex-col justify-center gap-0 lg:w-1/3">
                     <!-- H1 dipindahkan ke sini -->
@@ -287,7 +287,7 @@
                     </button>
 
                     <!-- Slider Container -->
-                    <div class="projects-slider">
+                    <div class="projects-slider grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                         <!-- Card 1 -->
                         <div class="h-full px-2">
                             <div

@@ -429,6 +429,7 @@
                 Your voice is a powerful tool for change. Help spread awareness and drive action.
             </p>
 
+            <!-- Card 1 -->
             <div class="max-w-2xl mx-auto mt-8 overflow-hidden shadow-sm rounded-2xl bg-peachy-orange backdrop-blur-sm">
                 <div class="flex flex-col md:flex-row">
                     <!-- Text content (left side - 50% width) -->
@@ -442,6 +443,44 @@
                     <!-- Image placeholder (right side - 50% width) -->
                     <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
                         <img src="{{ asset('assets/images/close-up-hands-making-heart-shape-sea-against-clear-sky 1.png') }}" alt="Share on Social"
+                            class="object-cover object-center w-full h-full" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="max-w-2xl mx-auto mt-8 overflow-hidden shadow-sm rounded-2xl bg-teal-blue backdrop-blur-sm">
+                <div class="flex flex-col md:flex-row">
+                    <!-- Image placeholder (left side - 50% width) -->
+                    <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
+                        <img src="{{ asset('assets/images/aceppp1.png') }}" alt="Share on Social"
+                            class="object-cover object-center w-full h-full" />
+                    </div>
+
+                    <!-- Text content (right side - 50% width) -->
+                    <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
+                        <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Support Digital Storytelling.</h2>
+                        <p class="text-sm font-ttNorms md:text-lg">
+                            Fund community-led documentaries, podcasts, and campaigns.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="max-w-2xl mx-auto mt-8 overflow-hidden shadow-sm rounded-2xl bg-raspberry-pink text-wine-red backdrop-blur-sm">
+                <div class="flex flex-col md:flex-row">
+                    <!-- Text content (left side - 50% width) -->
+                    <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
+                        <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Collaborate with Content Creators.</h2>
+                        <p class="text-sm font-ttNorms md:text-lg">
+                            Work with journalists, influencers, and filmmakers to amplify marine issues.
+                        </p>
+                    </div>
+
+                    <!-- Image placeholder (right side - 50% width) -->
+                    <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
+                        <img src="{{ asset('assets/images/product-slide-4-from-image-stock-1.png') }}" alt="Share on Social"
                             class="object-cover object-center w-full h-full" />
                     </div>
                 </div>

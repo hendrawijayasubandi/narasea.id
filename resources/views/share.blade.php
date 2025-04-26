@@ -97,12 +97,12 @@
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/educate-card-1.png" alt="Education"
+                                <img src="{{ asset('assets/images/educate-card-1.png') }}" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                             </div>
                             <div
                                 class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-bronze text-base font-bold lg:text-xl font-calimate min-h-[60px]">Join hands-on workshops on climate change & sustainable living
+                                <p class="text-cocoa-brown text-base font-bold lg:text-xl font-calimate min-h-[60px]">Join hands-on workshops on climate change & sustainable living
                                 </p>
                             </div>
                         </div>
@@ -112,12 +112,12 @@
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/educate-card-2.png" alt="Education"
+                                <img src="{{ asset('assets/images/educate-card-2.png') }}" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                             </div>
                             <div
                                 class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-cocoa-brown text-base font-bold lg:text-xl font-calimate min-h-[60px]">Collaborate with universities
+                                <p class="text-bronze text-base font-bold lg:text-xl font-calimate min-h-[60px]">Collaborate with universities
                                     & research centers for deeper impact</p>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                             <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/educate-card-3.png" alt="Education"
+                                <img src="{{ asset('assets/images/educate-card-3.png') }}" alt="Education"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                             </div>
                             <div
@@ -277,7 +277,7 @@
                     <div class="h-full group">
                         <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
                             <div class="aspect-[2/1] overflow-hidden relative">
-                                <img src="assets/images/education.png" alt="Coastal Community"
+                                <img src="{{ asset('assets/images/education.png') }}" alt="Coastal Community"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
                                     class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
@@ -297,7 +297,7 @@
                     <div class="h-full group">
                         <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
                             <div class="aspect-[2/1] overflow-hidden relative">
-                                <img src="assets/images/speaker.png" alt="Speaker"
+                                <img src="{{ asset('assets/images/speaker.png') }}" alt="Speaker"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
                                     class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
@@ -317,7 +317,7 @@
                     <div class="h-full group">
                         <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
                             <div class="aspect-[2/1] overflow-hidden relative">
-                                <img src="assets/images/sponsor-a-coastal.png" alt="Volunteer"
+                                <img src="{{ asset('assets/images/sponsor-a-coastal.png') }}" alt="Volunteer"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
                                     class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
@@ -338,7 +338,7 @@
                     <div class="h-full group">
                         <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
                             <div class="aspect-[2/1] overflow-hidden relative">
-                                <img src="assets/images/volunteer.png" alt="Empower Communities"
+                                <img src="{{ asset('assets/images/volunteer.png') }}" alt="Empower Communities"
                                     class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 <div
                                     class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">

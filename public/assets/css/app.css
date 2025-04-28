@@ -146,6 +146,64 @@ html {
     overflow-x: hidden;
 }
 
+/* Font menu */
+.menu-item>.menu-link {
+    font-family: 'Calimate', sans-serif;
+}
+
+/* Font submenu */
+.menu-item .submenu a {
+    font-family: 'TTNorms', sans-serif;
+}
+
+.menu-item .submenu {
+    display: none;
+}
+
+.menu-item.show-submenu .submenu {
+    display: block;
+}
+
+/* Hover effect for menu item active */
+.menu-item.active>.menu-link {
+    color: #019AAA;
+}
+
+.menu-item.active .icon-wrapper {
+    background-color: #017a8a;
+    transform: translateX(3px);
+}
+
+
+/* Submenu Styles */
+.submenu {
+    display: none;
+    padding-left: 20px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.submenu li {
+    margin-bottom: 1rem;
+    padding-left: 40px;
+}
+
+.submenu a {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.submenu a:hover {
+    color: #019AAA;
+}
+
+/* Add smooth hover effects for submenu links */
+.submenu a:hover {
+    transform: translateX(5px);
+    transition: all 0.2s ease;
+}
+
 .group {
     position: relative;
 }

@@ -77,7 +77,7 @@
     </section>
 
     <!-- Impact Section with Side-by-Side Cards -->
-    <section
+    <section id="tides-of-impact"
         class="relative bg-blue bg-[url('/public/assets/images/asset-4.png')] bg-cover bg-bottom rounded-bl-[50px] rounded-br-[50px] z-30 py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 px-4">
         <!-- Blue overlay -->
         <div class="absolute inset-0 bg-blue-900/70"></div>
@@ -194,7 +194,7 @@
     </section>
 
     <!-- New Storytelling Section -->
-    <section
+    <section id="voice-from-the-ocean"
         class="relative bg-[url('/public/assets/images/educate.png')] bg-contain bg-no-repeat bg-bottom px-4 py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-white rounded-bl-[50px] rounded-br-[50px] z-30">
 
         <div class="relative z-10 ml-[2rem] mr-[2rem]">
@@ -249,7 +249,7 @@
     </section>
 
     <!-- Projects & Partnership Section -->
-    <section
+    <section id="protect-educate-empower"
         class="relative bg-[url('/public/assets/images/under-the-sea-2-new.png')] bg-cover bg-center py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-32 rounded-bl-[50px] rounded-br-[50px] -mt-[50px] z-20">
         <div class="ml-[1rem] mr-[1rem]" style="padding-top: 50px;">
             <!-- Section Header -->
@@ -403,7 +403,7 @@
     </section>
 
     <!-- New Section: Social Currents -->
-    <section class="relative bg-[url('/public/assets/images/social-current.png')] bg-cover bg-no-repeat bg-top bg-black py-16 px-4 sm:py-20 md:py-24 lg:py-28 xl:py-32 -mt-[50px] z-10">
+    <section id="social-current" class="relative bg-[url('/public/assets/images/social-current.png')] bg-cover bg-no-repeat bg-top bg-black py-16 px-4 sm:py-20 md:py-24 lg:py-28 xl:py-32 -mt-[50px] z-10">
         <div class="relative z-10 ml-[2rem] mr-[2rem]">
             <div class="flex flex-col items-center gap-6 text-center lg:gap-8">
                 <!-- Main Slider Container -->

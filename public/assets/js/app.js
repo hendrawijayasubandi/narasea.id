@@ -20,6 +20,34 @@ $('#close-btn, #offcanvas-overlay').click(function () {
     $('body').css('overflow', 'auto');
 });
 
+// Logic Menu Link and Sub Menu Link
+$('.menu-item > .menu-link').click(function (e) {
+    var $menuItem = $(this).parent();
+
+    if ($menuItem.find('.submenu').length > 0) {
+        if (!$menuItem.hasClass('show-submenu')) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            $('.menu-item').not($menuItem).removeClass('show-submenu active');
+
+            $menuItem.addClass('show-submenu active');
+        }
+    }
+});
+
+$('.submenu a').click(function () {
+    $('#offcanvas-menu').removeClass('show');
+    $('#offcanvas-overlay').removeClass('show');
+    $('body').css('overflow', 'auto');
+});
+
+$(document).click(function (e) {
+    if (!$(e.target).closest('.menu-item').length) {
+        $('.menu-item').removeClass('show-submenu active');
+    }
+});
+
 $(document).ready(function () {
     $('.stats-slider').slick({
         dots: false,

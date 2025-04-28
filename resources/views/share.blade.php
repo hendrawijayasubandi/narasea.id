@@ -68,7 +68,7 @@
     </section>
 
     <!-- Section Educate: Empower Future Ocean Advocates.-->
-    <section
+    <section id="srt-educate"
         class="relative bg-[url('/public/assets/images/educate.png')] bg-contain bg-no-repeat bg-bottom bg-white py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-28 rounded-bl-[50px] rounded-br-[50px] z-40 overflow-hidden"
         style="margin-bottom: 50px;">
         <!-- Content Container with relative positioning -->
@@ -94,7 +94,7 @@
                 <div class="swiper educate-slider">
                     <div class="swiper-wrapper">
                         <!-- Card 1 -->
-                        <div class="swiper-slide h-full px-2 group">
+                        <div class="h-full px-2 swiper-slide group">
                             <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                                 <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative bg-gray">
                                     <img src="{{ asset('assets/images/educate-card-1.png') }}" alt="Education"
@@ -111,7 +111,7 @@
                         </div>
 
                         <!-- Card 2 -->
-                        <div class="swiper-slide h-full px-2 group">
+                        <div class="h-full px-2 swiper-slide group">
                             <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                                 <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative bg-gray">
                                     <img src="{{ asset('assets/images/educate-card-2.png') }}" alt="Education"
@@ -127,7 +127,7 @@
                         </div>
 
                         <!-- Card 3 -->
-                        <div class="swiper-slide h-full px-2 group">
+                        <div class="h-full px-2 swiper-slide group">
                             <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                                 <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative bg-gray">
                                     <img src="{{ asset('assets/images/educate-card-3.png') }}" alt="Education"
@@ -148,7 +148,8 @@
     </section>
 
     <!-- Section Support Marine Conservation. -->
-    <section class="bg-black py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] relative z-30"
+    <section id="support-marine-conservation"
+        class="bg-black py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] relative z-30"
         style="margin-top: -150px;">
         <div class="flex flex-col items-stretch gap-6 ml-[2rem] mr-[2rem] lg:flex-row">
             <!-- Left Side - Title -->
@@ -169,7 +170,7 @@
             <!-- Right Side - Cards Slider -->
             <div class="relative w-full lg:w-2/3">
                 <!-- Slider Container -->
-                <div class="stats-slider flex flex-col lg:grid lg:grid-cols-3">
+                <div class="flex flex-col stats-slider lg:grid lg:grid-cols-3">
                     <!-- Card 1 -->
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
@@ -257,7 +258,8 @@
     </section>
 
     <!-- Section Dive Into Learning & Action - Empower Communities. -->
-    <section class="relative px-4 py-[100px] bg-white rounded-bl-[50px] rounded-br-[50px] z-20 overflow-hidden"
+    <section id="learning-action"
+        class="relative px-4 py-[100px] bg-white rounded-bl-[50px] rounded-br-[50px] z-20 overflow-hidden"
         style="margin-top: -50px;">
 
         <div class="relative z-10 flex flex-col items-stretch gap-8 mx-auto max-w-7xl lg:flex-row">
@@ -363,7 +365,7 @@
             </div>
 
             <!-- Right Side - Text -->
-            <div class="flex items-end justify-end lg:w-1/4">
+            <div id="empower-communitites" class="flex items-end justify-end lg:w-1/4">
                 <div class="text-right">
                     <h2 class="mb-4 text-4xl font-bold lg:text-5xl font-calimate">
                         <span class="text-teal-blue">Empower</span><br>
@@ -378,7 +380,7 @@
     </section>
 
     <!-- Section Advocate & Amplify the Message. - Empower Communities. -->
-    <section
+    <section id="advocate-amplify"
         class="relative px-4 py-[100px] bg-blue bg-[url('/public/assets/images/under-the-sea-1.png')] bg-cover bg-no-repeat bg-bottom z-10 overflow-hidden"
         style="margin-top: -50px;">
 

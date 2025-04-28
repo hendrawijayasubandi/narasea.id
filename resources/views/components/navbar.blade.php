@@ -38,9 +38,9 @@
                     </a>
                     <ul class="submenu">
                         <li><a href="{{ url('/#tides-of-impact') }}">Tides of Impact</a></li>
-                        <li><a href="{{ url('#voice-from-the-ocean') }}">Voice From The Ocean</a></li>
-                        <li><a href="{{ url('#protect-educate-empower') }}">Protect, Educate, Empower</a></li>
-                        <li><a href="{{ url('#social-current') }}">Social Current</a></li>
+                        <li><a href="{{ url('/#voice-from-the-ocean') }}">Voice From The Ocean</a></li>
+                        <li><a href="{{ url('/#protect-educate-empower') }}">Protect, Educate, Empower</a></li>
+                        <li><a href="{{ url('/#social-current') }}">Social Current</a></li>
                     </ul>
                 </li>
 
@@ -53,11 +53,11 @@
                         <span>Share to Raise the Tide</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="{{ url('#srt-educate') }}">Educate</a></li>
-                        <li><a href="{{ url('#support-marine-conservation') }}">Support Marine Conservation</a></li>
-                        <li><a href="{{ url('#learning-action') }}">Learning & Action</a></li>
-                        <li><a href="{{ url('#empower-communitites') }}">Empower Communities</a></li>
-                        <li><a href="{{ url('#advocate-amplify')}} ">Advocate & Amplify</a></li>
+                        <li><a href="{{ url('/share#srt-educate') }}">Educate</a></li>
+                        <li><a href="{{ url('/share#support-marine-conservation') }}">Support Marine Conservation</a></li>
+                        <li><a href="{{ url('/share#learning-action') }}">Learning & Action</a></li>
+                        <li><a href="{{ url('/share#empower-communitites') }}">Empower Communities</a></li>
+                        <li><a href="{{ url('/share#advocate-amplify')}}">Advocate & Amplify</a></li>
                     </ul>
                 </li>
 
@@ -70,11 +70,11 @@
                         <span>Discover Narasea</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="{{ url('#who-we-are') }}">Who We Are</a></li>
-                        <li><a href="{{ url('#our-journey') }}">Our Journey</a></li>
-                        <li><a href="{{ url('#our-vision-mission-approach') }}">Our Vision Mission & Approach</a></li>
-                        <li><a href="{{ url('#the-values-we-live-by')}} ">The Values We Live By</a></li>
-                        <li><a href="{{ url('#dc-advocate-amplify') }}">Advocate & Amplify</a></li>
+                        <li><a href="{{ url('/sea#who-we-are') }}">Who We Are</a></li>
+                        <li><a href="{{ url('/sea#our-journey') }}">Our Journey</a></li>
+                        <li><a href="{{ url('/sea#our-vision-mission-approach') }}">Our Vision Mission & Approach</a></li>
+                        <li><a href="{{ url('/sea#the-values-we-live-by')}}">The Values We Live By</a></li>
+                        <li><a href="{{ url('/sea#dc-advocate-amplify') }}">Advocate & Amplify</a></li>
                     </ul>
                 </li>
             </ul>

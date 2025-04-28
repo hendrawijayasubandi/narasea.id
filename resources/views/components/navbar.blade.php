@@ -1,23 +1,23 @@
-<nav class="navbar fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-3 bg-transparent">
+<nav class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-3 bg-transparent navbar">
     <!-- Logo -->
     <div class="w-40 ml-4">
         <a href="/">
-            <img src="assets/images/Narasea Logo_open files-06_new.svg" alt="Narasea Logo" class="h-10">
+            <img src="{{ asset('assets/images/Narasea Logo_open files-06_new.svg') }}" alt="Narasea Logo" class="h-10">
         </a>
     </div>
 
     <!-- Hamburger Button -->
-    <button id="hamburger-btn" class="hamburger-circle focus:outline-none mr-4">
-        <i class="fas fa-bars text-white"></i>
+    <button id="hamburger-btn" class="mr-4 hamburger-circle focus:outline-none">
+        <i class="text-white fas fa-bars"></i>
     </button>
 </nav>
 
 <!-- Offcanvas Overlay -->
-<div id="offcanvas-overlay" class="offcanvas-overlay fixed inset-0 bg-black bg-opacity-50 z-50"></div>
+<div id="offcanvas-overlay" class="fixed inset-0 z-50 bg-black bg-opacity-50 offcanvas-overlay"></div>
 
 <!-- Offcanvas Menu -->
-<div id="offcanvas-menu" class="offcanvas-menu fixed top-0 right-0 z-50 shadow-lg">
-    <div class="offcanvas-content p-6 flex flex-col">
+<div id="offcanvas-menu" class="fixed top-0 right-0 z-50 shadow-lg offcanvas-menu">
+    <div class="flex flex-col p-6 offcanvas-content">
         <!-- Close Button -->
         <div class="flex justify-end mb-8">
             <button id="close-btn" class="close-circle focus:outline-none">
@@ -33,7 +33,7 @@
                         <span class="icon-wrapper">
                             <i class="fas fa-arrow-right arrow-icon"></i>
                         </span>
-                        <span>See (Our Ocean)</span>
+                        <span>See Our Ocean</span>
                     </a>
                 </li>
                 <li>
@@ -41,7 +41,7 @@
                         <span class="icon-wrapper">
                             <i class="fas fa-arrow-right arrow-icon"></i>
                         </span>
-                        <span>Share (Raise the Tide)</span>
+                        <span>Share Raise the Tide</span>
                     </a>
                 </li>
                 <li>
@@ -49,7 +49,7 @@
                         <span class="icon-wrapper">
                             <i class="fas fa-arrow-right arrow-icon"></i>
                         </span>
-                        <span>Sea (Discover Narasea)</span>
+                        <span>Discover Narasea</span>
                     </a>
                 </li>
             </ul>

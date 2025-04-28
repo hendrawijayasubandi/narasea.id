@@ -36,6 +36,20 @@ $('.menu-item > .menu-link').click(function (e) {
     }
 });
 
+$(document).ready(function () {
+    $('.menu-item .submenu a').click(function (e) {
+        var targetHref = $(this).attr('href');
+        var targetId = targetHref.split('#')[1];
+
+        var targetElement = document.getElementById(targetId);
+        if (targetElement) {
+
+            e.preventDefault();
+            window.location.hash = targetId;
+        }
+    });
+});
+
 $('.submenu a').click(function () {
     $('#offcanvas-menu').removeClass('show');
     $('#offcanvas-overlay').removeClass('show');

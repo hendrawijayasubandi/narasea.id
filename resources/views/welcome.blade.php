@@ -105,7 +105,7 @@
                     </button>
                 </div> --}}
                 <!-- Slider Container -->
-                <div class="stats-slider flex flex-col lg:grid lg:grid-cols-3">
+                <div class="flex flex-col stats-slider lg:grid lg:grid-cols-3">
                     <!-- Card 1 -->
                     <div class="h-full px-2 group">
                         <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
@@ -118,16 +118,16 @@
                                 </div>
                             </div>
                             <div
-                                class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-2xl font-calimate font-bold min-h-[60px]">10+
+                                class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
+                                <p class="text-bronze text-base lg:text-xl font-calimate font-bold min-h-[60px]">10+
                                     coastal
                                     communities empowered.</p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-teal-blue bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-white lg:text-base font-ttNorms">
+                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-golden-yellow bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-bronze lg:text-base font-ttNorms">
                                     Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
                                 </p>
                             </div>
@@ -146,14 +146,14 @@
                                 </div>
                             </div>
                             <div
-                                class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-wine-red text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
+                                <p class="text-wine-red text-base lg:text-xl font-calimate font-bold min-h-[60px]">
                                     500+ people educated on ocean literacy.</p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
+                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
                                 <p class="text-sm text-wine-red lg:text-base font-ttNorms">
                                     See how our programs are shaping future ocean advocates at Sikola Pomore.
                                 </p>
@@ -173,16 +173,16 @@
                                 </div>
                             </div>
                             <div
-                                class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                <p class="text-cocoa-brown text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
+                                <p class="text-white text-base lg:text-xl font-calimate font-bold min-h-[60px]">
                                     100K+ media impressions through digital storytelling.
                                 </p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-peachy-orange bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-cocoa-brown lg:text-base font-ttNorms">
+                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-teal-blue bg-opacity-90 group-hover:translate-y-0">
+                                <p class="text-sm text-white lg:text-base font-ttNorms">
                                     Amplifying unheard voices from coastal communities.
                                 </p>
                             </div>
@@ -240,7 +240,7 @@
                     <a href="mailto:naraseaid@gmail.com">
                         <button
                             class="py-2 text-xs font-bold tracking-wider text-white transition duration-200 px-7 sm:text-sm md:text-base bg-blue rounded-2xl hover:bg-blue-hover font-ttNorms">
-                            Share What You See
+                            Dive Into The Sea
                         </button>
                     </a>
                 </div>
@@ -287,7 +287,7 @@
                     </button>
 
                     <!-- Slider Container -->
-                    <div class="projects-slider grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                    <div class="grid grid-cols-1 gap-3 projects-slider sm:grid-cols-2 lg:grid-cols-3">
                         <!-- Card 1 -->
                         <div class="h-full px-2">
                             <div
@@ -298,10 +298,10 @@
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
-                                        class="mb-2 text-base font-bold text-black sm:text-lg lg:text-xl font-calimate">
-                                        Wonder of Coral Triangle
+                                        class="mb-2 text-base font-bold text-bronze sm:text-lg lg:text-xl font-calimate">
+                                        The Wonderful of Coral
                                     </h3>
-                                    <p class="flex-grow text-xs text-black/80 sm:text-sm font-ttNorms">
+                                    <p class="flex-grow text-xs text-bronze/80 sm:text-sm font-ttNorms">
                                         A hands-on educational journey into the heart of the Coral Triangle. Created in
                                         collaboration with Color For Good, this workshop-based book inspires young minds
                                         to protect our oceans.
@@ -313,7 +313,7 @@
                         <!-- Card 2 -->
                         <div class="h-full px-2">
                             <div
-                                class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-raspberry-pink group">
+                                class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-blue group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="{{ asset('assets/images/pee-2.png') }}" alt="Octopus Series"
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
@@ -321,12 +321,10 @@
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
                                         class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
-                                        Octopus Series
+                                        Oceana Scarf
                                     </h3>
                                     <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
-                                        A dynamic collaboration with various institutions and organizations, exploring
-                                        the intricate connections between marine life, conservation, and coastal
-                                        communities.
+                                        A meaningful fusion of fashion and impact, co-created with Donashion, where every scarf supports ocean conservation efforts.
                                     </p>
                                 </div>
                             </div>
@@ -334,19 +332,20 @@
 
                         <!-- Card 3 -->
                         <div class="h-full px-2">
-                            <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-blue group">
+                            <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-raspberry-pink group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="{{ asset('assets/images/pee-3.png') }}" alt="Oceana Scar"
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
-                                        class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
-                                        Oceana Scar
+                                        class="mb-2 text-base font-bold text-wine-red sm:text-lg lg:text-xl font-calimate">
+                                        Wilah Card x Sea Tote Bag
                                     </h3>
-                                    <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
-                                        A meaningful fusion of fashion and impact, co-created with Donashion, where
-                                        every scarf supports ocean conservation efforts.
+                                    <p class="flex-grow text-xs text-wine-red/80 sm:text-sm font-ttNorms">
+                                        In partnership with Game4Change, The Wilah Card and Narasea Tote Bag are
+                                        part of a gamified experience that empowers youth to understand and 
+                                        take action on waste management.
                                     </p>
                                 </div>
                             </div>
@@ -358,6 +357,29 @@
                                 class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-peachy-orange group">
                                 <div class="aspect-[4/3] overflow-hidden relative">
                                     <img src="{{ asset('assets/images/pee-4.png') }}"
+                                        alt="1000 Kebaikan untuk Nelayan "
+                                        class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
+                                </div>
+                                <div class="flex flex-col flex-grow p-4 lg:p-6">
+                                    <h3
+                                        class="mb-2 text-base font-bold text-cocoa-brown sm:text-lg lg:text-xl font-calimate">
+                                        Octopus Series
+                                    </h3>
+                                    <p class="flex-grow text-xs text-cocoa-brown/80 sm:text-sm font-ttNorms">
+                                        A dynamic collaboration with various institutions and organizations,
+                                        exploring the intricate connections between marine life, conservation,
+                                        and coastal communities.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="h-full px-2">
+                            <div
+                                class="flex flex-col h-full overflow-hidden bg-black shadow-lg rounded-2xl group">
+                                <div class="aspect-[4/3] overflow-hidden relative">
+                                    <img src="{{ asset('assets/images/pee-5.png') }}"
                                         alt="1000 Kebaikan untuk Nelayan "
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
@@ -505,13 +527,13 @@
             <div class="relative flex items-center justify-center h-32">
                 <!-- Main Button -->
                 <button id="contact-main-btn"
-                    class="absolute z-10 flex items-center justify-center w-12 h-12 text-black transition-all duration-300 rounded-full bg-peachy-orange hover:bg-peachy-orange-hover focus:outline-none">
+                    class="absolute z-10 flex items-center justify-center w-12 h-12 text-white transition-all duration-300 rounded-full bg-raspberry-pink hover:bg-raspberry-pink-hover focus:outline-none">
                     <i class="text-xl fas fa-comment-dots"></i>
                 </button>
 
                 <!-- WhatsApp Button -->
                 <a href="https://wa.me/628112372277" target="_blank"
-                    class="absolute flex items-center justify-center w-10 h-10 text-black transition-all duration-300 transform scale-50 bg-white rounded-full opacity-0 contact-sub-btn hover:scale-110 hover:shadow-lg">
+                    class="absolute flex items-center justify-center w-10 h-10 text-[#25D366] transition-all duration-300 transform scale-50 bg-white rounded-full opacity-0 contact-sub-btn hover:scale-110 hover:shadow-lg">
                     <i class="fab fa-whatsapp"></i>
                 </a>
 
@@ -523,7 +545,7 @@
 
                 <!-- Instagram Button -->
                 <a href="https://www.instagram.com/naraseaid/" target="_blank"
-                    class="absolute flex items-center justify-center w-10 h-10 text-black transition-all duration-300 transform scale-50 bg-white rounded-full opacity-0 contact-sub-btn hover:scale-110 hover:shadow-lg">
+                    class="absolute flex items-center justify-center w-10 h-10 transition-all duration-300 transform scale-50 bg-white rounded-full opacity-0 text-raspberry-pink contact-sub-btn hover:scale-110 hover:shadow-lg">
                     <i class="fab fa-instagram"></i>
                 </a>
             </div>

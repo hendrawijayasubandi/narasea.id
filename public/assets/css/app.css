@@ -282,27 +282,27 @@
 /* Active state when main button is clicked */
 .contact-buttons-active #contact-main-btn {
     background-color: white;
-    color: black;
+    color: #E84373;
 }
 
 .contact-buttons-active .contact-sub-btn:nth-child(2) {
-    /* WhatsApp */
+    /*WhatsApp*/
     opacity: 1;
-    transform: translateY(-50px) scale(1);
+    transform: translateY(100px) scale(1);
     --delay: 1;
 }
 
 .contact-buttons-active .contact-sub-btn:nth-child(3) {
-    /* Email */
+    /*Email*/
     opacity: 1;
-    transform: translate(40px, 25px) scale(1);
+    transform: translate(70px, 55px) scale(1);
     --delay: 2;
 }
 
 .contact-buttons-active .contact-sub-btn:nth-child(4) {
-    /* Instagram */
+    /*Instagram*/
     opacity: 1;
-    transform: translate(-40px, 25px) scale(1);
+    transform: translate(-70px, 55px) scale(1);
     --delay: 3;
 }
 

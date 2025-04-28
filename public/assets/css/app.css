@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navbar Styles */
 .navbar {
     transition: all 0.3s ease;

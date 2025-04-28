@@ -85,7 +85,7 @@
         <div class="flex flex-col items-stretch gap-6 ml-[2rem] mr-[2rem] lg:flex-row">
             <!-- Left Side - Title -->
             <div class="flex items-flex-start lg:w-1/3">
-                <h2 class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate">
+                <h2 class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl md:text-6xl font-calimate">
                     <span class="text-white">Tides of</span><br>
                     <span class="text-teal-blue">Impact.</span>
                 </h2>
@@ -199,7 +199,7 @@
 
         <div class="relative z-10 ml-[2rem] mr-[2rem]">
             <!-- Voice title with different colors -->
-            <h2 class="mb-8 text-3xl font-bold tracking-wide sm:text-4xl md:text-5xl font-calimate lg:mb-12">
+            <h2 class="mb-8 text-3xl font-bold tracking-wide sm:text-4xl md:text-5xl lg:text-6xl font-calimate lg:mb-12">
                 <span class="text-teal-blue">Voice from the</span>
                 <span class="text-blue"> ocean.</span>
             </h2>
@@ -220,18 +220,18 @@
                 </div>
 
                 <!-- Right Column - Text Content -->
-                <div class="w-full p-4 lg:w-1/2 rounded-2xl sm:p-6">
-                    <p class="mb-3 text-lg font-bold text-black sm:text-xl md:text-2xl font-calimate">
+                <div class="w-full p-4 lg:w-1/2 rounded-2xl">
+                    <p class="mb-3 text-lg font-bold text-black sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-calimate">
                         The Fading Fishermen of Pulau Sabira.
                     </p>
 
-                    <p class="mb-4 text-sm leading-relaxed text-black sm:text-base font-ttNorms">
+                    <p class="mb-4 text-sm leading-relaxed text-black sm:text-base md:text-lg lg:text-xl font-ttNorms">
                         Once a thriving haven for traditional fishermen, Pulau Sabira now
                         faces a quiet transformation. As the younger generation drifts away
                         from the sea, the island's rich fishing heritage stands at a crossroads.
                     </p>
 
-                    <p class="mb-6 text-sm leading-relaxed text-black sm:text-base font-ttNorms">
+                    <p class="mb-6 text-sm leading-relaxed text-black sm:text-base md:text-lg lg:text-xl font-ttNorms">
                         NPM Fikom Unpad and Narasea Indonesia set sail to uncover the
                         stories of Sabira's fishermen—learning, listening, and capturing
                         their journey before it fades into history.
@@ -263,7 +263,7 @@
                 <!-- Left Column - Text Content -->
                 <div class="flex-col justify-center gap-0 lg:w-1/3">
                     <!-- H1 dipindahkan ke sini -->
-                    <h1 class="mb-2 text-3xl font-bold text-white sm:text-4xl md:text-5xl font-calimate">
+                    <h1 class="mb-2 text-5xl font-bold text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
                         Protect, Educate, Empower.
                     </h1>
                     <p class="mt-4 text-sm leading-relaxed text-white sm:text-base md:text-lg font-ttNorms">
@@ -500,18 +500,18 @@
     </section>
 
     <!-- Top Grid Section -->
-    {{-- <section class="relative bg-black">
+    <section class="relative bg-black">
         <div class="w-full h-24 overflow-hidden sm:h-32 md:h-40">
             <img src="{{ asset('assets/images/grid-1.png') }}" alt="Ocean grid pattern top"
                 class="object-cover w-full h-full opacity-70">
         </div>
-    </section> --}}
+    </section>
 
     <!-- Main Contact Section -->
     <section class="relative bg-[url('/public/assets/images/fish-wave.png')] bg-cover bg-no-repeat bg-center px-4 py-16 bg-black sm:py-20 md:py-28">
         <div class="max-w-4xl mx-auto text-center">
             <!-- Title -->
-            <h2 class="mb-6 text-3xl font-bold text-white sm:text-4xl md:text-5xl font-calimate">
+            <h2 class="mb-6 text-3xl font-bold text-white sm:text-4xl md:text-5xl md:text-6xl font-calimate">
                 Sea Needs You. Get in Touch.
             </h2>
 

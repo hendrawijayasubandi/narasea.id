@@ -116,35 +116,81 @@
     </section>
 
     <!-- Section Our Mission -->
-    <section class="relative bg-[url('/public/assets/images/fish-wave.png')] bg-cover bg-no-repeat bg-center z-40 bg-blue py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
-        style="margin-top: -50px;">
-        <div class="flex flex-col max-w-full gap-16 px-6 mx-auto md:flex-row">
+    <section x-data="missionSwitcher()" x-init="start()"
+        class="relative bg-[url('/public/assets/images/fish-wave.png')] bg-cover bg-no-repeat bg-center z-40 bg-blue py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]">
+        <div class="flex flex-col max-w-full px-6 mx-auto md:flex-row">
+
             <!-- Text Area -->
-            <div class="text-white md:w-1/2">
-                <h2 class="text-5xl font-bold font-calimate md:text-6xl">Our Mission :</h2>
-                <p class="mb-6 text-lg font-ttNorms md:text-lg">Echoing the Ocean’s Call.</p>
-                <div class="space-y-4">
-                    <p class="text-base leading-relaxed font-ttNorms md:text-lg">
-                        We listen, we amplify, and we act — ensuring<br>
-                        that every ripple of change grows into a wave of<br>
-                        transformation for our oceans and coastal communities.
-                    </p>
-                </div>
+            <div class="text-white md:w-1/2 relative min-h-[300px]">
+                <template x-for="(item, idx) in items" :key="idx">
+                    <div x-show="index === idx" x-transition:enter="transition ease-out duration-1000"
+                        x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
+                        x-transition:leave="transition ease-in duration-1000" x-transition:leave-start="opacity-100"
+                        x-transition:leave-end="opacity-0" class="absolute top-0 left-0 w-full">
+                        <h2 class="text-5xl font-bold font-calimate md:text-6xl" x-text="item.title"></h2>
+                        <p class="mb-6 text-lg font-ttNorms md:text-lg" x-text="item.subtitle"></p>
+                        <div class="space-y-4">
+                            <p class="text-base leading-relaxed font-ttNorms md:text-lg text-justify"
+                                x-html="item.description"></p>
+                        </div>
+                    </div>
+                </template>
             </div>
 
-            <!-- Image Cards Area -->
-            <div class="overflow-hidden md:w-1/2">
-                <div class="flex items-end gap-8">
-                    <img src="assets/images/Rectangle 2.png" alt="Ocean Mission 1"
-                        class="w-[240px] h-[320px] object-cover rounded-3xl">
-                    <img src="assets/images/Rectangle 2.png" alt="Ocean Mission 2"
-                        class="w-[190px] h-[260px] object-cover rounded-3xl">
-                    <img src="assets/images/Rectangle 2.png" alt="Ocean Mission 3"
-                        class="w-[150px] h-[210px] object-cover rounded-3xl">
-                </div>
+            <!-- Image Area -->
+            <div class="overflow-hidden md:w-1/2 flex justify-center items-center relative min-h-[400px]">
+                <template x-for="(item, idx) in items" :key="idx">
+                    <div x-show="index === idx" x-transition:enter="transition ease-out duration-1000"
+                        x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
+                        x-transition:leave="transition ease-in duration-1000" x-transition:leave-start="opacity-100"
+                        x-transition:leave-end="opacity-0"
+                        class="absolute top-0 left-0 w-full h-full flex justify-center items-center">
+                        <img :src="item.image" alt="Ocean Mission"
+                            class="w-[600px] h-[400px] object-cover rounded-3xl">
+                    </div>
+                </template>
             </div>
+
         </div>
     </section>
+
+    <script>
+        function missionSwitcher() {
+            return {
+                index: 0,
+                items: [{
+                        title: 'Our Mission :',
+                        subtitle: 'Echoing the Ocean\'s Call.',
+                        description: `We listen, we amplify, and we act — ensuring<br>
+                                      that every ripple of change grows into a wave of<br>
+                                      transformation for our oceans and coastal communities.`,
+                        image: "{{ asset('assets/images/mission.png') }}"
+                    },
+                    {
+                        title: 'Our Vision :',
+                        subtitle: 'A Thriving Future, Above and Below.',
+                        description: `We dream of a world where people and marine life coexist<br>
+                                      in harmony, powered by knowledge, sustainability, and the<br>
+                                      timeless art of storytelling.`,
+                        image: "{{ asset('assets/images/vision.png') }}"
+                    },
+                    {
+                        title: 'Our Approach :',
+                        subtitle: 'Turning Ideas into Impact.',
+                        description: `We don't just talk about conservation—we make it happen.<br>
+                                      Through education, real-world action, powerful storytelling,<br>
+                                      and innovative solutions, we bring the ocean's stories to life.`,
+                        image: "{{ asset('assets/images/our-approach 1.png') }}"
+                    },
+                ],
+                start() {
+                    setInterval(() => {
+                        this.index = (this.index + 1) % this.items.length;
+                    }, 5000); // 5 detik sekali berubah
+                }
+            }
+        }
+    </script>
 
     <!-- Section The Values We Live -->
     <section class="relative z-30 bg-white py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
@@ -168,25 +214,14 @@
                 <!-- Slider Container -->
                 <div class="stats-slider">
                     <!-- Card 1 -->
-                    <div class="h-full px-2 group">
-                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
-                            <!-- Gambar dan judul -->
-                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/image-1.png" alt="Education"
-                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-                                </div>
-                            </div>
-                            <div class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex relative h-[150px]">
-                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate min-h-[60px]">
-                                    Connection.</p>
-                            </div>
-
-                            <!-- Deskripsi yang muncul saat hover -->
+                    <div class="h-full px-2">
+                        <div class="relative flex flex-col h-full">
                             <div
-                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-teal-blue bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
+                                class="bg-teal-blue p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
+                                <p class="text-white text-xl lg:text-xl font-extrabold font-calimate text-left">
+                                    Connection.
+                                </p>
+                                <p class="text-sm text-white lg:text-sm font-ttNorms mt-2 text-left">
                                     Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
                                 </p>
                             </div>
@@ -194,25 +229,14 @@
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="h-full px-2 group">
-                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
-                            <!-- Gambar dan judul -->
-                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/image-1.png" alt="Education"
-                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-                                </div>
-                            </div>
-                            <div class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex relative h-[150px]">
-                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate min-h-[60px]">
-                                    Empowerment.</p>
-                            </div>
-
-                            <!-- Deskripsi yang muncul saat hover -->
+                    <div class="h-full px-2">
+                        <div class="relative flex flex-col h-full">
                             <div
-                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-peachy-orange bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
+                                class="bg-peachy-orange p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
+                                <p class="text-white text-xl lg:text-xl font-extrabold font-calimate text-left">
+                                    Empowerment.
+                                </p>
+                                <p class="text-sm text-white lg:text-sm font-ttNorms mt-2 text-left">
                                     Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
                                     bisa menambahkan detail tentang program, manfaat, dan dampaknya.
                                 </p>
@@ -221,26 +245,14 @@
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="h-full px-2 group">
-                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
-                            <!-- Gambar dan judul -->
-                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/image-1.png" alt="Education"
-                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-                                </div>
-                            </div>
-                            <div class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex relative h-[150px]">
-                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate min-h-[60px]">
-                                    Storytelling for
-                                    Impact.</p>
-                            </div>
-
-                            <!-- Deskripsi yang muncul saat hover -->
+                    <div class="h-full px-2">
+                        <div class="relative flex flex-col h-full">
                             <div
-                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
+                                class="bg-raspberry-pink p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
+                                <p class="text-white text-xl lg:text-xl font-extrabold font-calimate text-left">
+                                    Storytelling for Impact.
+                                </p>
+                                <p class="text-sm text-white lg:text-sm font-ttNorms mt-2 text-left">
                                     Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
                                     bisa menambahkan detail tentang program, manfaat, dan dampaknya.
                                 </p>
@@ -249,26 +261,14 @@
                     </div>
 
                     <!-- Card 4 -->
-                    <div class="h-full px-2 group">
-                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
-                            <!-- Gambar dan judul -->
-                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/image-1.png" alt="Education"
-                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-                                </div>
-                            </div>
-                            <div class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex relative h-[150px]">
-                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate min-h-[60px]">
+                    <div class="h-full px-2">
+                        <div class="relative flex flex-col h-full">
+                            <div
+                                class="bg-golden-yellow p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
+                                <p class="text-white text-xl lg:text-xl font-extrabold font-calimate text-left">
                                     Sustainability.
                                 </p>
-                            </div>
-
-                            <!-- Deskripsi yang muncul saat hover -->
-                            <div
-                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-golden-yellow bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
+                                <p class="text-sm text-white lg:text-sm font-ttNorms mt-2 text-left">
                                     Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
                                     bisa menambahkan detail tentang program, manfaat, dan dampaknya.
                                 </p>
@@ -277,25 +277,13 @@
                     </div>
 
                     <!-- Card 5 -->
-                    <div class="h-full px-2 group">
-                        <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
-                            <!-- Gambar dan judul -->
-                            <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative">
-                                <img src="assets/images/image-1.png" alt="Education"
-                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-                                </div>
-                            </div>
-                            <div class="bg-black p-4 lg:p-6 rounded-b-2xl flex-grow flex relative h-[150px]">
-                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate min-h-[60px]">
-                                    Innovation.</p>
-                            </div>
-
-                            <!-- Deskripsi yang muncul saat hover -->
-                            <div
-                                class="absolute inset-0 flex items-center justify-center p-6 transition-transform duration-300 transform translate-y-full bg-black bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-center text-white lg:text-base font-ttNorms">
+                    <div class="h-full px-2">
+                        <div class="relative flex flex-col h-full">
+                            <div class="bg-black p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
+                                <p class="text-white text-xl lg:text-xl font-extrabold font-calimate text-left">
+                                    Innovation.
+                                </p>
+                                <p class="text-sm text-white lg:text-sm font-ttNorms mt-2 text-left">
                                     Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
                                     bisa menambahkan detail tentang program, manfaat, dan dampaknya.
                                 </p>
@@ -308,87 +296,26 @@
     </section>
 
     <!-- Section The Lighthouse Advisory and Ocean Trustees -->
-    <section
-        class="relative z-20 bg-teal-blue py-[200px] px-4 md:px-16 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]">
-        <div class="flex flex-col gap-16 mx-auto max-w-7xl md:flex-row">
-            <!-- Text Area -->
-            <div class="text-white md:w-1/2">
-                <h3 class="mb-2 text-xl font-bold text-peachy-orange md:text-2xl font-calimate">Together for the Ocean
-                </h3>
-                <p class="mb-12 text-sm font-ttNorms md:text-base">
-                    Every wave of change starts with passionate people.<br>
-                    Meet the dedicated team behind Narasea.
-                </p>
-                <h2 class="text-3xl font-bold md:text-4xl font-calimate">
-                    <span class="text-peachy-orange">The Lighthouse Advisory</span><br>
-                    <span class="text-golden-yellow">and Ocean Trustees</span>
-                </h2>
-            </div>
-
-            <!-- Cards Area -->
-            <div class="flex items-end gap-6 overflow-x-auto md:w-1/2"
-                style="scrollbar-width: none; -ms-overflow-style: none;">
-                <!-- Card 1 -->
-                <div class="w-[240px] h-[320px] px-2 flex-shrink-0">
-                    <div class="flex flex-col h-full overflow-hidden bg-black shadow-lg rounded-2xl group">
-                        <div class="aspect-[4/3] overflow-hidden relative">
-                            <img src="assets/images/image-1.png" alt="Wiro Nur Wirandi"
-                                class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
-                        </div>
-                        <div class="flex flex-col flex-grow p-4 lg:p-6">
-                            <h3 class="mb-1 text-base font-bold text-white sm:text-lg font-calimate">
-                                Wiro Nur Wirandi
-                            </h3>
-                            <p class="text-xs text-white/80 font-ttNorms">
-                                Chairman of Trustee
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="w-[190px] h-[260px] px-2 flex-shrink-0">
-                    <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-navy group">
-                        <div class="aspect-[4/3] overflow-hidden relative">
-                            <img src="assets/images/image-1.png" alt="Ahmad Baihaqi"
-                                class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
-                        </div>
-                        <div class="flex flex-col flex-grow p-4 lg:p-6">
-                            <h3 class="mb-1 text-base font-bold text-white sm:text-lg font-calimate">
-                                Ahmad Baihaqi
-                            </h3>
-                            <p class="text-xs text-white/80 font-ttNorms">
-                                Advisor Member of Trustee
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="w-[150px] h-[210px] px-2 flex-shrink-0">
-                    <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-golden-yellow group">
-                        <div class="aspect-[4/3] overflow-hidden relative">
-                            <img src="assets/images/image-1.png" alt="Dr. Tries Budi"
-                                class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
-                        </div>
-                        <div class="flex flex-col flex-grow p-4 lg:p-6">
-                            <h3 class="mb-1 text-base font-bold text-black sm:text-lg font-calimate">
-                                Dr. Tries Budi
-                            </h3>
-                            <p class="text-xs text-black/80 font-ttNorms">
-                                Supervisor of Trustee
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="relative z-20 bg-teal-blue py-[100px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]">
+        <div class="max-w-7xl mx-auto flex flex-col items-center text-center space-y-12">
+            <!-- Heading -->
+            <h2 class="text-white text-[36px] md:text-[48px] font-calimate font-bold leading-tight max-w-[800px] bg-raspberry-pink px-20 py-4 rounded-[20px] rotate-[-0.62deg]">
+                Together for the Ocean
+            </h2>
+    
+            <!-- Paragraph -->
+            <p class="text-white text-base font-ttNorms md:text-lg leading-relaxed max-w-[700px] bg-blue px-24 py-3 rounded-[30px] rotate-[1.93deg]" style="margin-top: -5px; margin-left: 95px;">
+                Every wave of change starts with passionate people. <br>
+                Meet the dedicated team behind Naraese.
+            </p>
         </div>
     </section>
 
     <!-- Section The Ocean’s Story is Still Being Written – Be Part of It -->
-    <section class="relative bg-[url('/public/assets/images/coral.png')] bg-cover bg-no-repeat bg-bottom z-10 bg-teal-blue py-12 px-4 sm:py-16 md:py-20 -mt-[50px]">
+    <section
+        class="relative bg-[url('/public/assets/images/coral.png')] bg-cover bg-no-repeat bg-bottom z-10 bg-teal-blue py-12 px-4 sm:py-16 md:py-20 -mt-[50px]">
         <div class="mx-auto text-center" style="margin-top: 50px;">
-            <h2 class="mb-6 text-3xl font-bold text-white sm:text-4xl md:text-5xl font-calimate">
+            <h2 class="mb-6 text-3xl font-bold text-white sm:text-3xl md:text-4xl font-calimate">
                 The Ocean's Story is Still Being Written - Be Part of It
             </h2>
 
@@ -435,6 +362,7 @@
         </div>
     </section>
 
+    <script src="//unpkg.com/alpinejs" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 

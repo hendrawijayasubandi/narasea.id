@@ -89,6 +89,33 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    $('.values-slider').slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                arrows: false
+            }
+        }]
+    });
+
+    // Custom arrow navigation
+    $('.slick-prev-values').click(function () {
+        $('.stats-slider').slick('slickPrev');
+    });
+
+    $('.slick-next-values').click(function () {
+        $('.stats-slider').slick('slickNext');
+    });
+});
+
 
 $(document).ready(function () {
     const $slider = $('.projects-slider');

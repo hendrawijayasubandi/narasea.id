@@ -119,7 +119,6 @@
     <section x-data="missionSwitcher()" x-init="start()"
         class="relative bg-[url('/public/assets/images/fish-wave.png')] bg-cover bg-no-repeat bg-center z-40 bg-blue py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]">
         <div class="flex flex-col max-w-full px-6 mx-auto md:flex-row">
-
             <!-- Text Area -->
             <div class="text-white md:w-1/2 relative min-h-[300px]">
                 <template x-for="(item, idx) in items" :key="idx">
@@ -150,7 +149,6 @@
                     </div>
                 </template>
             </div>
-
         </div>
     </section>
 
@@ -211,55 +209,69 @@
 
             <!-- Right Side - Cards Slider -->
             <div class="w-full lg:w-2/3">
-                <!-- Slider Container -->
-                <div class="stats-slider flex flex-wrap -mx-2">
-                    <!-- Card -->
-                    <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
-                        <div class="bg-teal-blue p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
-                            <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">Connection.</p>
-                            <p class="text-md text-white lg:text-md font-ttNorms mt-2 text-left">
-                                Bridging people and the ocean through education, action, and storytelling.
-                            </p>
-                        </div>
+                <!-- Slider Container Wrapper (relative positioning) -->
+                <div class="relative">
+                    <!-- Custom Navigation Buttons -->
+                    <div class="absolute left-0 right-0 z-10 justify-between hidden px-4 -translate-y-1/2 lg:flex top-1/2">
+                        <button
+                            class="flex items-center justify-center w-10 h-10 transition bg-white rounded-full shadow-lg slick-prev-values hover:bg-gray-100">
+                            <i class="text-gray-700 fas fa-chevron-left"></i>
+                        </button>
+                        <button
+                            class="flex items-center justify-center w-10 h-10 transition bg-white rounded-full shadow-lg slick-next-values hover:bg-gray-100">
+                            <i class="text-gray-700 fas fa-chevron-right"></i>
+                        </button>
                     </div>
-
-                    <!-- Card 2 -->
-                    <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
-                        <div class="bg-peachy-orange p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
-                            <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">Empowerment.</p>
-                            <p class="text-md text-white lg:text-md font-ttNorms mt-2 text-left">
-                                Giving communities, youth,and change- makers the tools to protect marine ecosystems.
-                            </p>
+                    <!-- Slider Container -->
+                    <div class="stats-slider flex flex-wrap -mx-2">
+                        <!-- Card -->
+                        <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
+                            <div class="bg-teal-blue p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]" style="height: 400px;">
+                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">Connection.</p>
+                                <p class="text-md text-white lg:text-md font-ttNorms mt-2 text-left">
+                                    Bridging people and the ocean through education, action, and storytelling.
+                                </p>
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- Card 3 -->
-                    <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
-                        <div class="bg-raspberry-pink p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
-                            <p class="text-wine-red text-xl lg:text-2xl font-extrabold font-calimate text-left">Storytelling for Impact.</p>
-                            <p class="text-md text-wine-red lg:text-md font-ttNorms mt-2 text-left">
-                                Using media & advocacy to amplify unheard voices and drive change.
-                            </p>
+                        <!-- Card 2 -->
+                        <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
+                            <div class="bg-peachy-orange p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]" style="height: 400px;">
+                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">Empowerment.</p>
+                                <p class="text-md text-white lg:text-md font-ttNorms mt-2 text-left">
+                                    Giving communities, youth,and change- makers the tools to protect marine ecosystems.
+                                </p>
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- Card 4 -->
-                    <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
-                        <div class="bg-golden-yellow p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
-                            <p class="text-bronze text-xl lg:text-2xl font-extrabold font-calimate text-left">Sustainability.</p>
-                            <p class="text-md text-bronze lg:text-md font-ttNorms mt-2 text-left">
-                                Creating long-term, community-driven solutions for ocean conservation.
-                            </p>
+                        <!-- Card 3 -->
+                        <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
+                            <div class="bg-raspberry-pink p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]" style="height: 400px;">
+                                <p class="text-wine-red text-xl lg:text-2xl font-extrabold font-calimate text-left">Storytelling for Impact.</p>
+                                <p class="text-md text-wine-red lg:text-md font-ttNorms mt-2 text-left">
+                                    Using media & advocacy to amplify unheard voices and drive change.
+                                </p>
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- Card 5 -->
-                    <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
-                        <div class="bg-black p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
-                            <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">Innovation.</p>
-                            <p class="text-md text-white lg:text-md font-ttNorms mt-2 text-left">
-                                Combining science, local wisdom, and technology to build a better future.
-                            </p>
+                        <!-- Card 4 -->
+                        <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
+                            <div class="bg-golden-yellow p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]" style="height: 400px;">
+                                <p class="text-bronze text-xl lg:text-2xl font-extrabold font-calimate text-left">Sustainability.</p>
+                                <p class="text-md text-bronze lg:text-md font-ttNorms mt-2 text-left">
+                                    Creating long-term, community-driven solutions for ocean conservation.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
+                            <div class="bg-black p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]" style="height: 400px;">
+                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">Innovation.</p>
+                                <p class="text-md text-white lg:text-md font-ttNorms mt-2 text-left">
+                                    Combining science, local wisdom, and technology to build a better future.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -272,17 +284,18 @@
         <div class="max-w-7xl mx-auto flex flex-col items-center text-center space-y-12">
             <!-- Heading -->
             <h2
-                class="text-white text-[36px] md:text-[48px] font-calimate font-bold leading-tight max-w-[800px] bg-raspberry-pink px-20 py-4 rounded-[20px] rotate-[-0.62deg]">
+                class="text-white text-[36px] md:text-[48px] font-calimate font-bold leading-tight max-w-[800px] bg-raspberry-pink px-20 py-4 rounded-[20px] rotate-[-1.62deg]">
                 Together for the Ocean
             </h2>
 
             <!-- Paragraph -->
-            <p class="text-white text-base font-ttNorms md:text-lg leading-relaxed max-w-[700px] bg-blue px-20 py-2 rounded-[20px] rotate-[1.93deg]"
-                style="margin-top: -5px; margin-left: 95px;">
+            <p class="text-white text-base font-ttNorms leading-relaxed max-w-[700px] bg-blue px-16 py-2 rounded-[20px] rotate-[1.93deg]"
+                style="margin-top: -5px; margin-left: 100px;">
                 Every wave of change starts with passionate people. <br>
                 Meet the dedicated team behind Naraese.
             </p>
         </div>
+
     </section>
 
     <!-- Section The Ocean’s Story is Still Being Written – Be Part of It -->

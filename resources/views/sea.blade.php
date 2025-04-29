@@ -299,12 +299,14 @@
     <section class="relative z-20 bg-teal-blue py-[100px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]">
         <div class="max-w-7xl mx-auto flex flex-col items-center text-center space-y-12">
             <!-- Heading -->
-            <h2 class="text-white text-[36px] md:text-[48px] font-calimate font-bold leading-tight max-w-[800px] bg-raspberry-pink px-20 py-4 rounded-[20px] rotate-[-0.62deg]">
+            <h2
+                class="text-white text-[36px] md:text-[48px] font-calimate font-bold leading-tight max-w-[800px] bg-raspberry-pink px-20 py-4 rounded-[20px] rotate-[-0.62deg]">
                 Together for the Ocean
             </h2>
-    
+
             <!-- Paragraph -->
-            <p class="text-white text-base font-ttNorms md:text-lg leading-relaxed max-w-[700px] bg-blue px-24 py-3 rounded-[30px] rotate-[1.93deg]" style="margin-top: -5px; margin-left: 95px;">
+            <p class="text-white text-base font-ttNorms md:text-lg leading-relaxed max-w-[700px] bg-blue px-24 py-3 rounded-[30px] rotate-[1.93deg]"
+                style="margin-top: -5px; margin-left: 95px;">
                 Every wave of change starts with passionate people. <br>
                 Meet the dedicated team behind Naraese.
             </p>

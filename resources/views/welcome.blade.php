@@ -277,12 +277,12 @@
                 <div class="relative mt-6 lg:w-2/3 lg:mt-0">
                     <!-- Navigation Buttons -->
                     <button
-                        class="absolute z-10 flex items-center justify-center w-8 h-8 text-white transition-all duration-200 -translate-y-1/2 rounded-full slick-prev-projects left-2 sm:-left-2.5 top-1/2 bg-teal-blue sm:w-10 sm:h-10 hover:bg-teal-blue-hover">
+                        class="absolute z-10 flex items-center justify-center w-8 h-8 text-white transition-all duration-200 -translate-y-1/2 rounded-full slick-prev-projects -left-2 sm:-left-2.5 top-1/2 bg-teal-blue sm:w-10 sm:h-10 hover:bg-teal-blue-hover">
                         <i class="text-sm fas fa-chevron-left sm:text-base"></i>
                     </button>
 
                     <button
-                        class="absolute z-10 flex items-center justify-center w-8 h-8 text-white transition-all duration-200 -translate-y-1/2 rounded-full slick-next-projects right-2 sm:-right-2.5 top-1/2 bg-teal-blue sm:w-10 sm:h-10 hover:bg-teal-blue-hover">
+                        class="absolute z-10 flex items-center justify-center w-8 h-8 text-white transition-all duration-200 -translate-y-1/2 rounded-full slick-next-projects -right-2 sm:-right-2.5 top-1/2 bg-teal-blue sm:w-10 sm:h-10 hover:bg-teal-blue-hover">
                         <i class="text-sm fas fa-chevron-right sm:text-base"></i>
                     </button>
 

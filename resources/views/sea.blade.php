@@ -212,82 +212,54 @@
             <!-- Right Side - Cards Slider -->
             <div class="w-full lg:w-2/3">
                 <!-- Slider Container -->
-                <div class="stats-slider">
-                    <!-- Card 1 -->
-                    <div class="h-full px-2">
-                        <div class="relative flex flex-col h-full">
-                            <div
-                                class="bg-teal-blue p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
-                                <p class="text-white text-xl lg:text-xl font-extrabold font-calimate text-left">
-                                    Connection.
-                                </p>
-                                <p class="text-sm text-white lg:text-sm font-ttNorms mt-2 text-left">
-                                    Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
-                                </p>
-                            </div>
+                <div class="stats-slider flex flex-wrap -mx-2">
+                    <!-- Card -->
+                    <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
+                        <div class="bg-teal-blue p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
+                            <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">Connection.</p>
+                            <p class="text-md text-white lg:text-md font-ttNorms mt-2 text-left">
+                                Bridging people and the ocean through education, action, and storytelling.
+                            </p>
                         </div>
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="h-full px-2">
-                        <div class="relative flex flex-col h-full">
-                            <div
-                                class="bg-peachy-orange p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
-                                <p class="text-white text-xl lg:text-xl font-extrabold font-calimate text-left">
-                                    Empowerment.
-                                </p>
-                                <p class="text-sm text-white lg:text-sm font-ttNorms mt-2 text-left">
-                                    Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
-                                    bisa menambahkan detail tentang program, manfaat, dan dampaknya.
-                                </p>
-                            </div>
+                    <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
+                        <div class="bg-peachy-orange p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
+                            <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">Empowerment.</p>
+                            <p class="text-md text-white lg:text-md font-ttNorms mt-2 text-left">
+                                Giving communities, youth,and change- makers the tools to protect marine ecosystems.
+                            </p>
                         </div>
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="h-full px-2">
-                        <div class="relative flex flex-col h-full">
-                            <div
-                                class="bg-raspberry-pink p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
-                                <p class="text-white text-xl lg:text-xl font-extrabold font-calimate text-left">
-                                    Storytelling for Impact.
-                                </p>
-                                <p class="text-sm text-white lg:text-sm font-ttNorms mt-2 text-left">
-                                    Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
-                                    bisa menambahkan detail tentang program, manfaat, dan dampaknya.
-                                </p>
-                            </div>
+                    <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
+                        <div class="bg-raspberry-pink p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
+                            <p class="text-wine-red text-xl lg:text-2xl font-extrabold font-calimate text-left">Storytelling for Impact.</p>
+                            <p class="text-md text-wine-red lg:text-md font-ttNorms mt-2 text-left">
+                                Using media & advocacy to amplify unheard voices and drive change.
+                            </p>
                         </div>
                     </div>
 
                     <!-- Card 4 -->
-                    <div class="h-full px-2">
-                        <div class="relative flex flex-col h-full">
-                            <div
-                                class="bg-golden-yellow p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
-                                <p class="text-white text-xl lg:text-xl font-extrabold font-calimate text-left">
-                                    Sustainability.
-                                </p>
-                                <p class="text-sm text-white lg:text-sm font-ttNorms mt-2 text-left">
-                                    Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
-                                    bisa menambahkan detail tentang program, manfaat, dan dampaknya.
-                                </p>
-                            </div>
+                    <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
+                        <div class="bg-golden-yellow p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
+                            <p class="text-bronze text-xl lg:text-2xl font-extrabold font-calimate text-left">Sustainability.</p>
+                            <p class="text-md text-bronze lg:text-md font-ttNorms mt-2 text-left">
+                                Creating long-term, community-driven solutions for ocean conservation.
+                            </p>
                         </div>
                     </div>
 
                     <!-- Card 5 -->
-                    <div class="h-full px-2">
-                        <div class="relative flex flex-col h-full">
-                            <div class="bg-black p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
-                                <p class="text-white text-xl lg:text-xl font-extrabold font-calimate text-left">
-                                    Innovation.
-                                </p>
-                                <p class="text-sm text-white lg:text-sm font-ttNorms mt-2 text-left">
-                                    Deskripsi lengkap tentang program edukasi literasi laut akan muncul di sini. Anda
-                                    bisa menambahkan detail tentang program, manfaat, dan dampaknya.
-                                </p>
-                            </div>
+                    <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
+                        <div class="bg-black p-6 rounded-2xl flex flex-col justify-center h-full min-h-[300px]">
+                            <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">Innovation.</p>
+                            <p class="text-md text-white lg:text-md font-ttNorms mt-2 text-left">
+                                Combining science, local wisdom, and technology to build a better future.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -305,7 +277,7 @@
             </h2>
 
             <!-- Paragraph -->
-            <p class="text-white text-base font-ttNorms md:text-lg leading-relaxed max-w-[700px] bg-blue px-24 py-3 rounded-[30px] rotate-[1.93deg]"
+            <p class="text-white text-base font-ttNorms md:text-lg leading-relaxed max-w-[700px] bg-blue px-20 py-2 rounded-[20px] rotate-[1.93deg]"
                 style="margin-top: -5px; margin-left: 95px;">
                 Every wave of change starts with passionate people. <br>
                 Meet the dedicated team behind Naraese.

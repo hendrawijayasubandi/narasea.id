@@ -292,7 +292,7 @@
                         <div class="h-full px-2">
                             <div
                                 class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-golden-yellow group">
-                                <div class="aspect-[4/3] overflow-hidden relative">
+                                <div class="aspect-[4/3] overflow-hidden relative bg-[#FBE9AE]">
                                     <img src="{{ asset('assets/images/pee-1.png') }}" alt="Coral Triangle"
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
@@ -314,7 +314,7 @@
                         <div class="h-full px-2">
                             <div
                                 class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-blue group">
-                                <div class="aspect-[4/3] overflow-hidden relative">
+                                <div class="aspect-[4/3] overflow-hidden relative bg-[#D6DCE4]">
                                     <img src="{{ asset('assets/images/pee-2.png') }}" alt="Octopus Series"
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
@@ -333,7 +333,7 @@
                         <!-- Card 3 -->
                         <div class="h-full px-2">
                             <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-raspberry-pink group">
-                                <div class="aspect-[4/3] overflow-hidden relative">
+                                <div class="aspect-[4/3] overflow-hidden relative bg-[#F1D7DE]">
                                     <img src="{{ asset('assets/images/pee-3.png') }}" alt="Oceana Scar"
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
                                 </div>
@@ -355,7 +355,7 @@
                         <div class="h-full px-2">
                             <div
                                 class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-peachy-orange group">
-                                <div class="aspect-[4/3] overflow-hidden relative">
+                                <div class="aspect-[4/3] overflow-hidden relative bg-[#FFE6DA]">
                                     <img src="{{ asset('assets/images/pee-4.png') }}"
                                         alt="1000 Kebaikan untuk Nelayan "
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
@@ -378,7 +378,7 @@
                         <div class="h-full px-2">
                             <div
                                 class="flex flex-col h-full overflow-hidden bg-black shadow-lg rounded-2xl group">
-                                <div class="aspect-[4/3] overflow-hidden relative">
+                                <div class="aspect-[4/3] overflow-hidden relative bg-[#C5C5C5]">
                                     <img src="{{ asset('assets/images/pee-5.png') }}"
                                         alt="1000 Kebaikan untuk Nelayan "
                                         class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">

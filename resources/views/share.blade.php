@@ -149,8 +149,7 @@
 
     <!-- Section Support Marine Conservation. -->
     <section id="support-marine-conservation"
-        class="bg-black py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] relative z-30"
-        style="margin-top: -150px;">
+        class="bg-black py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] relative z-30" style="margin-top: -150px;">
         <div class="flex flex-col items-stretch gap-6 ml-[2rem] mr-[2rem] lg:flex-row">
             <!-- Left Side - Title -->
             <div class="flex items-center lg:w-1/3">
@@ -261,13 +260,14 @@
     <section id="learning-action"
         class="relative px-4 py-[100px] bg-white rounded-bl-[50px] rounded-br-[50px] z-20 overflow-hidden"
         style="margin-top: -50px;">
+        <div class="relative z-10 flex flex-col gap-8 mx-auto max-w-7xl">
 
-        <div class="relative z-10 flex flex-col items-stretch gap-8 mx-auto max-w-7xl lg:flex-row">
-            <!-- Left Side - Text -->
-            <div class="flex items-start justify-start lg:w-1/4">
-                <div class="text-start">
+            <!-- Section Atas -->
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 items-stretch">
+                <!-- Teks Kiri -->
+                <div class="flex flex-col justify-start">
                     <h2 class="mb-4 text-4xl font-bold lg:text-5xl font-calimate">
-                        <span class="text-teal-blue">Dive Into</span><br>
+                        <span class="text-teal-blue">Dive Into</span>
                         <span class="text-blue">Learning & Action.</span>
                     </h2>
                     <p class="mb-4 text-base text-black font-ttNorms">
@@ -275,98 +275,96 @@
                         make an impact.
                     </p>
                 </div>
-            </div>
 
-            <!-- Middle - 4 Cards Grid -->
-            <div class="w-full lg:w-2/4">
-                <div class="grid h-full grid-cols-1 gap-4 sm:grid-cols-2">
-                    <!-- Card 1 -->
-                    <div class="h-full group">
-                        <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
-                            <div class="aspect-[2/1] overflow-hidden relative">
-                                <img src="{{ asset('assets/images/education.png') }}" alt="Coastal Community"
-                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-                                </div>
-                            </div>
-                            <div class="bg-blue p-5 h-[120px] flex">
-                                <p class="text-xl font-bold text-white font-calimate">Education Trips.</p>
-                            </div>
+                <!-- Card 1 -->
+                <div class="h-full group">
+                    <div class="relative flex flex-col overflow-hidden shadow-lg rounded-2xl">
+                        <div class="aspect-[2/1] overflow-hidden relative">
+                            <img src="{{ asset('assets/images/education.png') }}" alt="Coastal Community"
+                                class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                             <div
-                                class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-blue bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-white lg:text-base font-ttNorms">Hands-on experiences for
-                                    students, professionals, and ocean enthusiasts.</p>
+                                class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                             </div>
                         </div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="h-full group">
-                        <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
-                            <div class="aspect-[2/1] overflow-hidden relative">
-                                <img src="{{ asset('assets/images/speaker.png') }}" alt="Speaker"
-                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-                                </div>
-                            </div>
-                            <div class="bg-golden-yellow p-5 h-[120px] flex">
-                                <p class="text-xl font-bold text-bronze font-calimate">Request a Speaker.</p>
-                            </div>
-                            <div
-                                class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-golden-yellow bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-bronze lg:text-base font-ttNorms">Bring marine conservation
-                                    experts to educate your organization or community.</p>
-                            </div>
+                        <div class="bg-blue p-5 h-[120px] flex items-center">
+                            <p class="text-xl font-bold text-white font-calimate">Education Trips.</p>
+                        </div>
+                        <div
+                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-blue bg-opacity-90 group-hover:translate-y-0">
+                            <p class="text-sm text-white lg:text-base font-ttNorms">Hands-on experiences for students,
+                                professionals, and ocean enthusiasts.</p>
                         </div>
                     </div>
-                    <!-- Card 3 -->
-                    <div class="h-full group">
-                        <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
-                            <div class="aspect-[2/1] overflow-hidden relative">
-                                <img src="{{ asset('assets/images/sponsor-a-coastal.png') }}" alt="Volunteer"
-                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-                                </div>
-                            </div>
-                            <div class="bg-raspberry-pink p-5 h-[120px] flex">
-                                <p class="text-xl font-bold text-wine-red font-calimate">Sponsor a Coastal Community.
-                                </p>
-                            </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="h-full group">
+                    <div class="relative flex flex-col overflow-hidden shadow-lg rounded-2xl">
+                        <div class="aspect-[2/1] overflow-hidden relative">
+                            <img src="{{ asset('assets/images/speaker.png') }}" alt="Speaker"
+                                class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                             <div
-                                class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-wine-red lg:text-base font-ttNorms">Provide direct support for
-                                    grassroots conservation initiatives.</p>
+                                class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
                             </div>
                         </div>
-                    </div>
-                    <!-- Card 4 -->
-                    <div class="h-full group">
-                        <div class="relative flex flex-col h-full overflow-hidden shadow-lg rounded-2xl">
-                            <div class="aspect-[2/1] overflow-hidden relative">
-                                <img src="{{ asset('assets/images/volunteer.png') }}" alt="Empower Communities"
-                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
-                                <div
-                                    class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
-                                </div>
-                            </div>
-                            <div class="bg-peachy-orange p-5 h-[120px] flex">
-                                <p class="text-xl font-bold text-cocoa-brown font-calimate">Become a Volunteer.</p>
-                            </div>
-                            <div
-                                class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-peachy-orange bg-opacity-90 group-hover:translate-y-0">
-                                <p class="text-sm text-cocoa-brown lg:text-base font-ttNorms">Strong coastal
-                                    communities mean a stronger ocean. Be part of their journey.</p>
-                            </div>
+                        <div class="bg-golden-yellow p-5 h-[120px] flex items-center">
+                            <p class="text-xl font-bold text-bronze font-calimate">Request a Speaker.</p>
+                        </div>
+                        <div
+                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-golden-yellow bg-opacity-90 group-hover:translate-y-0">
+                            <p class="text-sm text-bronze lg:text-base font-ttNorms">Bring marine conservation experts
+                                to educate your organization or community.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Right Side - Text -->
-            <div id="empower-communitites" class="flex items-end justify-end lg:w-1/4">
-                <div class="text-right">
+            <!-- Section Bawah -->
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 items-stretch">
+                <!-- Card 3 -->
+                <div class="h-full group">
+                    <div class="relative flex flex-col overflow-hidden shadow-lg rounded-2xl">
+                        <div class="aspect-[2/1] overflow-hidden relative">
+                            <img src="{{ asset('assets/images/sponsor-a-coastal.png') }}" alt="Volunteer"
+                                class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
+                            <div
+                                class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
+                            </div>
+                        </div>
+                        <div class="bg-raspberry-pink p-5 h-[120px] flex items-center">
+                            <p class="text-xl font-bold text-wine-red font-calimate">Sponsor a Coastal Community.</p>
+                        </div>
+                        <div
+                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
+                            <p class="text-sm text-wine-red lg:text-base font-ttNorms">Provide direct support for
+                                grassroots conservation initiatives.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="h-full group">
+                    <div class="relative flex flex-col overflow-hidden shadow-lg rounded-2xl">
+                        <div class="aspect-[2/1] overflow-hidden relative">
+                            <img src="{{ asset('assets/images/volunteer.png') }}" alt="Empower Communities"
+                                class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
+                            <div
+                                class="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-30">
+                            </div>
+                        </div>
+                        <div class="bg-peachy-orange p-5 h-[120px] flex items-center">
+                            <p class="text-xl font-bold text-cocoa-brown font-calimate">Become a Volunteer.</p>
+                        </div>
+                        <div
+                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-peachy-orange bg-opacity-90 group-hover:translate-y-0">
+                            <p class="text-sm text-cocoa-brown lg:text-base font-ttNorms">Strong coastal communities
+                                mean a stronger ocean. Be part of their journey.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Teks Kanan -->
+                <div class="flex flex-col justify-end text-end">
                     <h2 class="mb-4 text-4xl font-bold lg:text-5xl font-calimate">
                         <span class="text-teal-blue">Empower</span><br>
                         <span class="text-blue">Communities.</span>

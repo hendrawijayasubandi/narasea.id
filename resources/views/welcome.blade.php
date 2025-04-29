@@ -85,7 +85,7 @@
         <div class="flex flex-col items-stretch gap-6 ml-[2rem] mr-[2rem] lg:flex-row">
             <!-- Left Side - Title -->
             <div class="flex items-flex-start lg:w-1/3">
-                <h2 class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl md:text-6xl font-calimate">
+                <h2 class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
                     <span class="text-white">Tides of</span><br>
                     <span class="text-teal-blue">Impact.</span>
                 </h2>
@@ -511,7 +511,7 @@
     <section class="relative bg-[url('/public/assets/images/fish-wave.png')] bg-cover bg-no-repeat bg-center px-4 py-16 bg-black sm:py-20 md:py-28">
         <div class="max-w-4xl mx-auto text-center">
             <!-- Title -->
-            <h2 class="mb-6 text-3xl font-bold text-white sm:text-4xl md:text-5xl md:text-6xl font-calimate">
+            <h2 class="mb-6 text-3xl font-bold text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
                 Sea Needs You. Get in Touch.
             </h2>
 

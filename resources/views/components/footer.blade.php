@@ -35,7 +35,7 @@
             <li><a href="{{ url('/sea#our-journey') }}" class="hover:text-teal-blue transition duration-300 ease-in-out">Our Journey</a></li>
             <li><a href="{{ url('/sea#our-vision-mission-approach') }}" class="hover:text-teal-blue transition duration-300 ease-in-out">Our Vision, Mission, & Approach</a></li>
             <li><a href="{{ url('/sea#the-values-we-live-by')}}" class="hover:text-teal-blue transition duration-300 ease-in-out">The Values We Live By</a></li>
-            <li><a href="{{ url('/sea#dc-advocate-amplify') }}" class="hover:text-teal-blue transition duration-300 ease-in-out">Advocate & Amplify</a></li>
+            <li><a href="{{ url('/sea#together-for-the-ocean') }}" class="hover:text-teal-blue transition duration-300 ease-in-out">Together for the Ocean</a></li>
         </ul>
     </div>
 </div>

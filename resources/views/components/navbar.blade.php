@@ -74,7 +74,7 @@
                         <li><a href="{{ url('/sea#our-journey') }}">Our Journey</a></li>
                         <li><a href="{{ url('/sea#our-vision-mission-approach') }}">Our Vision Mission & Approach</a></li>
                         <li><a href="{{ url('/sea#the-values-we-live-by')}}">The Values We Live By</a></li>
-                        <li><a href="{{ url('/sea#dc-advocate-amplify') }}">Advocate & Amplify</a></li>
+                        <li><a href="{{ url('/sea#together-for-the-ocean') }}">Together for the Ocean</a></li>
                     </ul>
                 </li>
             </ul>

@@ -65,7 +65,7 @@
     </section>
 
     <!-- Section Who We Are -->
-    <section class="px-4 py-12 bg-black sm:py-16 md:py-20 lg:py-24 xl:py-28">
+    <section id="who-we-are" class="px-4 py-12 bg-black sm:py-16 md:py-20 lg:py-24 xl:py-28">
         <div class="flex flex-col items-stretch ml-[2rem] mr-[2rem] gap-6 mx-auto lg:flex-row lg:gap-8">
             <!-- Left Side - Title -->
             <div class="flex items-center lg:w-2/4">
@@ -86,7 +86,7 @@
     </section>
 
     <!-- Section Our Journey -->
-    <section class="px-4 py-12 bg-black sm:py-16 md:py-20 lg:py-24 xl:py-28">
+    <section id="our-journey" class="px-4 py-12 bg-black sm:py-16 md:py-20 lg:py-24 xl:py-28">
         <div class="flex flex-col items-stretch ml-[2rem] mr-[2rem] gap-6 mx-auto lg:flex-row-reverse lg:gap-8">
             <!-- Right Side - Content -->
             <div class="flex items-center lg:w-2/4">
@@ -116,7 +116,7 @@
     </section>
 
     <!-- Section Our Mission -->
-    <section x-data="missionSwitcher()" x-init="start()"
+    <section id="our-vision-mission-approach" x-data="missionSwitcher()" x-init="start()"
         class="relative bg-[url('/public/assets/images/fish-wave.png')] bg-cover bg-no-repeat bg-center z-40 bg-blue py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]">
         <div class="flex flex-col max-w-full px-6 mx-auto md:flex-row">
             <!-- Text Area -->
@@ -191,7 +191,7 @@
     </script>
 
     <!-- Section The Values We Live -->
-    <section class="relative z-30 bg-white py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
+    <section id="the-values-we-live-by" class="relative z-30 bg-white py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]"
         style="margin-top: -50px;">
 
         <div class="flex flex-col items-stretch ml-[2rem] mr-[2rem] gap-6 mx-auto lg:flex-row lg:gap-8">
@@ -291,7 +291,7 @@
     </section>
 
     <!-- Section The Lighthouse Advisory and Ocean Trustees -->
-    <section class="relative z-20 bg-teal-blue py-[100px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]">
+    <section id="together-for-the-ocean" class="relative z-20 bg-teal-blue py-[100px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]">
         <div class="max-w-7xl mx-auto flex flex-col items-center text-center space-y-12">
             <!-- Heading -->
             <h2

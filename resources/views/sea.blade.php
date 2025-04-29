@@ -212,7 +212,8 @@
                 <!-- Slider Container Wrapper (relative positioning) -->
                 <div class="relative">
                     <!-- Custom Navigation Buttons -->
-                    <div class="absolute left-0 right-0 z-10 justify-between hidden px-4 -translate-y-1/2 lg:flex top-1/2">
+                    <div
+                        class="absolute left-0 right-0 z-10 justify-between hidden px-4 -translate-y-1/2 lg:flex top-1/2">
                         <button
                             class="flex items-center justify-center w-10 h-10 transition bg-white rounded-full shadow-lg slick-prev-values hover:bg-gray-100">
                             <i class="text-gray-700 fas fa-chevron-left"></i>
@@ -226,8 +227,10 @@
                     <div class="stats-slider flex flex-wrap -mx-2">
                         <!-- Card -->
                         <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
-                            <div class="bg-teal-blue p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]" style="height: 400px;">
-                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">Connection.</p>
+                            <div class="bg-teal-blue p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]"
+                                style="height: 400px;">
+                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">
+                                    Connection.</p>
                                 <p class="text-md text-white lg:text-md font-ttNorms mt-2 text-left">
                                     Bridging people and the ocean through education, action, and storytelling.
                                 </p>
@@ -236,8 +239,10 @@
 
                         <!-- Card 2 -->
                         <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
-                            <div class="bg-peachy-orange p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]" style="height: 400px;">
-                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">Empowerment.</p>
+                            <div class="bg-peachy-orange p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]"
+                                style="height: 400px;">
+                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">
+                                    Empowerment.</p>
                                 <p class="text-md text-white lg:text-md font-ttNorms mt-2 text-left">
                                     Giving communities, youth,and change- makers the tools to protect marine ecosystems.
                                 </p>
@@ -246,8 +251,10 @@
 
                         <!-- Card 3 -->
                         <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
-                            <div class="bg-raspberry-pink p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]" style="height: 400px;">
-                                <p class="text-wine-red text-xl lg:text-2xl font-extrabold font-calimate text-left">Storytelling for Impact.</p>
+                            <div class="bg-raspberry-pink p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]"
+                                style="height: 400px;">
+                                <p class="text-wine-red text-xl lg:text-2xl font-extrabold font-calimate text-left">
+                                    Storytelling for Impact.</p>
                                 <p class="text-md text-wine-red lg:text-md font-ttNorms mt-2 text-left">
                                     Using media & advocacy to amplify unheard voices and drive change.
                                 </p>
@@ -256,8 +263,10 @@
 
                         <!-- Card 4 -->
                         <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
-                            <div class="bg-golden-yellow p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]" style="height: 400px;">
-                                <p class="text-bronze text-xl lg:text-2xl font-extrabold font-calimate text-left">Sustainability.</p>
+                            <div class="bg-golden-yellow p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]"
+                                style="height: 400px;">
+                                <p class="text-bronze text-xl lg:text-2xl font-extrabold font-calimate text-left">
+                                    Sustainability.</p>
                                 <p class="text-md text-bronze lg:text-md font-ttNorms mt-2 text-left">
                                     Creating long-term, community-driven solutions for ocean conservation.
                                 </p>
@@ -266,8 +275,10 @@
 
                         <!-- Card 5 -->
                         <div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
-                            <div class="bg-black p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]" style="height: 400px;">
-                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">Innovation.</p>
+                            <div class="bg-black p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]"
+                                style="height: 400px;">
+                                <p class="text-white text-xl lg:text-2xl font-extrabold font-calimate text-left">
+                                    Innovation.</p>
                                 <p class="text-md text-white lg:text-md font-ttNorms mt-2 text-left">
                                     Combining science, local wisdom, and technology to build a better future.
                                 </p>
@@ -296,6 +307,257 @@
             </p>
         </div>
 
+        <!-- The Lighthouse Advisory -->
+        <div class="max-w-7xl mx-auto py-20 space-y-12">
+            <!-- Kolom 1: Heading & Paragraf -->
+            <div class="text-left space-y-1">
+                <h2 class="text-4xl md:text-5xl font-bold text-white font-calimate">The Lighthouse Advisory</h3>
+                    <p class="text-base text-white font-ttNorms mx-auto">
+                        Our guiding lighthouse, ensuring we stay on course.
+                    </p>
+            </div>
+
+            <!-- Kolom 2: 3 Card -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-[#D9D9D9] rounded-3xl shadow-md overflow-hidden flex flex-col h-full">
+                    <div class="relative">
+                        <div class="aspect-[2/1] overflow-hidden">
+                            <img src="{{ asset('assets/images/wiro.png') }}" alt="Wiro"
+                                class="w-[140%] h-full object-cover max-w-none">
+                        </div>
+                        <div class="px-5 -mt-[3.25rem] text-left">
+                            <h4 class="text-lg font-bold text-teal-700">Wiro Nur Wirandi</h4>
+                            <h5 class="text-md italic text-teal-500">Chairman of Trustee</h5>
+                        </div>
+                    </div>
+                    <div class="bg-black p-5 pt-3 text-left flex-grow">
+                        <p class="text-white text-sm">
+                            Wiro is a marine and fisheries expert with over 15 years of experience, currently leading
+                            sustainable sourcing
+                            and ecotourism initiatives at NCI to advance ecosystem preservation and community
+                            empowerment.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-[#D9D9D9] rounded-3xl shadow-md overflow-hidden flex flex-col h-full">
+                    <div class="relative">
+                        <div class="aspect-[2/1] overflow-hidden">
+                            <img src="{{ asset('assets/images/ahmad.png') }}" alt="Ahmad"
+                                class="w-[140%] h-full object-cover max-w-none">
+                        </div>
+                        <div class="px-5 -mt-[3.25rem] text-left">
+                            <h4 class="text-lg font-bold text-teal-700">Ahmad Baihaqi</h4>
+                            <h5 class="text-md italic text-teal-500">Advisor Member of Trustee</h5>
+                        </div>
+                    </div>
+                    <div class="bg-black p-5 pt-3 text-left flex-grow">
+                        <p class="text-white text-sm">
+                            Aki is an impact investment and sustainable finance expert with 20+ years of global
+                            experience, currently leading reef-positive initiatives at YKAN to advance blue economy
+                            solutions and empower coastal communities.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-[#D9D9D9] rounded-3xl shadow-md overflow-hidden flex flex-col h-full">
+                    <div class="relative">
+                        <div class="aspect-[2/1] overflow-hidden">
+                            <img src="{{ asset('assets/images/tries.png') }}" alt="Tries"
+                                class="w-[140%] h-full object-cover max-w-none">
+                        </div>
+                        <div class="px-5 -mt-[3.25rem] text-left">
+                            <h4 class="text-lg font-bold text-teal-700">Dr. Tries Blandine Razak</h4>
+                            <h5 class="text-md italic text-teal-500">Supervisor of the Foundation</h5>
+                        </div>
+                    </div>
+                    <div class="bg-black p-5 pt-3 text-left flex-grow">
+                        <p class="text-white text-sm">
+                            Dr. Tries Razak is a global expert in coral reef conservation with decades of research
+                            across Indonesia, holding a PhD from the University of Queensland and a distinguished
+                            academic background in marine science.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Lighthouse Keepers -->
+        <div class="max-w-7xl mx-auto py-20 space-y-12">
+            <!-- Kolom 1: Heading & Paragraf -->
+            <div class="text-left space-y-1">
+                <h2 class="text-4xl md:text-5xl font-bold text-white font-calimate">The Lighthouse Keepers</h3>
+                    <p class="text-base text-white font-ttNorms mx-auto">
+                        Our guiding lighthouse, ensuring we stay on course.
+                    </p>
+            </div>
+
+            <!-- Kolom 2: 4 Card -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-[#D9D9D9] rounded-3xl shadow-md overflow-hidden flex flex-col h-full">
+                    <div class="relative">
+                        <div class="aspect-[2/1] overflow-hidden">
+                            <img src="{{ asset('assets/images/bryan.png') }}" alt="Bryan"
+                                class="w-[140%] h-full object-cover max-w-none">
+                        </div>
+                        <div class="px-5 -mt-[3.25rem] text-blue text-left">
+                            <h4 class="text-lg font-bold text-teal-700">Bryan Auriol</h4>
+                            <h5 class="text-md italic text-teal-500">Founder & Managing Director</h5>
+                        </div>
+                    </div>
+                    <div class="bg-blue p-5 pt-3 text-left flex-grow">
+                        <p class="text-white text-sm">
+                            Bryan is the Founder and Managing Director of Narasea, combining marine science and
+                            storytelling to lead impactful ocean conservation efforts, while also managing projects that
+                            connect science, policy, and community voices across Indonesia.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-[#D9D9D9] rounded-3xl shadow-md overflow-hidden flex flex-col h-full">
+                    <div class="relative">
+                        <div class="aspect-[2/1] overflow-hidden">
+                            <img src="{{ asset('assets/images/acep.png') }}" alt="Acep"
+                                class="w-[140%] h-full object-cover max-w-none">
+                        </div>
+                        <div class="px-5 -mt-[3.25rem] text-blue text-left">
+                            <h4 class="text-lg font-bold text-teal-700">Acep Jaelani</h4>
+                            <h5 class="text-md italic text-teal-500">Founder and Deputy Director</h5>
+                        </div>
+                    </div>
+                    <div class="bg-blue p-5 pt-3 text-left flex-grow">
+                        <p class="text-white text-sm">
+                            Acep is a young ocean advocate and storyteller whose work in seagrass restoration,
+                            eco-tourism, and youth empowerment is amplified through his published books and passion for
+                            marine conservation.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-[#D9D9D9] rounded-3xl shadow-md overflow-hidden flex flex-col h-full">
+                    <div class="relative">
+                        <div class="aspect-[2/1] overflow-hidden">
+                            <img src="{{ asset('assets/images/aini.png') }}" alt="Aini"
+                                class="w-[140%] h-full object-cover max-w-none">
+                        </div>
+                        <div class="px-5 -mt-[3.25rem] text-blue text-left">
+                            <h4 class="text-lg font-bold text-teal-700">Aini Mutia</h4>
+                            <h5 class="text-md italic text-teal-500">Founder & Secretary</h5>
+                        </div>
+                    </div>
+                    <div class="bg-blue p-5 pt-3 text-left flex-grow">
+                        <p class="text-white text-sm">
+                            Aini is the Founder of Narasea and a strategic communicator who amplifies grassroots voices
+                            and drives sustainable impact through storytelling, public relations, and inclusive
+                            development initiatives.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-[#D9D9D9] rounded-3xl shadow-md overflow-hidden flex flex-col h-full">
+                    <div class="relative">
+                        <div class="aspect-[2/1] overflow-hidden">
+                            <img src="{{ asset('assets/images/alfina.png') }}" alt="Alfina"
+                                class="w-[140%] h-full object-cover max-w-none">
+                        </div>
+                        <div class="px-5 -mt-[3.25rem] text-blue text-left">
+                            <h4 class="text-lg font-bold text-teal-700">Alfinna Yebelanti</h4>
+                            <h5 class="text-md italic text-teal-500">Founder & Treasury</h5>
+                        </div>
+                    </div>
+                    <div class="bg-blue p-5 pt-3 text-left flex-grow">
+                        <p class="text-white text-sm">
+                            Yebe is a strategic communicator and partnership builder who connects academia, industry,
+                            and global organizations to advance blue economy initiatives and empower communities through
+                            collaboration.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Current Crew -->
+        <div class="max-w-7xl mx-auto py-20 space-y-12">
+            <!-- Kolom 1: Heading & Paragraf -->
+            <div class="text-left space-y-1">
+                <h2 class="text-4xl md:text-5xl font-bold text-white font-calimate">The Lighthouse Advisory</h3>
+                    <p class="text-base text-white font-ttNorms mx-auto">
+                        Our guiding lighthouse, ensuring we stay on course.
+                    </p>
+            </div>
+
+            <!-- Kolom 2: 3 Card -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-[#D9D9D9] rounded-3xl shadow-md overflow-hidden flex flex-col h-full">
+                    <div class="relative">
+                        <div class="aspect-[2/1] overflow-hidden">
+                            <img src="{{ asset('assets/images/hidayat.png') }}" alt="Hidayat"
+                                class="w-[140%] h-full object-cover max-w-none">
+                        </div>
+                        <div class="px-5 -mt-[3.25rem] text-raspberry-pink text-left">
+                            <h4 class="text-lg font-bold text-teal-700">Muchammad Hidayat</h4>
+                            <h5 class="text-md italic text-teal-500">Creative Campaign Strategist</h5>
+                        </div>
+                    </div>
+                    <div class="bg-raspberry-pink p-5 pt-3 text-left flex-grow">
+                        <p class="text-white text-sm">
+                            Ka Dayat is the Creative Campaign Strategist at Narasea, using design, storytelling, and
+                            visual strategy to turn ocean conservation messages into impactful movements that engage and
+                            inspire communities.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-[#D9D9D9] rounded-3xl shadow-md overflow-hidden flex flex-col h-full">
+                    <div class="relative">
+                        <div class="aspect-[2/1] overflow-hidden">
+                            <img src="{{ asset('assets/images/rindah.png') }}" alt="Rindah"
+                                class="w-[140%] h-full object-cover max-w-none">
+                        </div>
+                        <div class="px-5 -mt-[3.25rem] text-raspberry-pink text-left">
+                            <h4 class="text-lg font-bold text-teal-700">Rindah Talitha Vida</h4>
+                            <h5 class="text-md italic text-teal-500">Associate Marine Researcher</h5>
+                        </div>
+                    </div>
+                    <div class="bg-raspberry-pink p-5 pt-3 text-left flex-grow">
+                        <p class="text-white text-sm">
+                            Rindah is a marine researcher focused on coral reef restoration, specializing in underwater
+                            photogrammetry and 3D reef modeling to support innovative marine conservation efforts.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-[#D9D9D9] rounded-3xl shadow-md overflow-hidden flex flex-col h-full">
+                    <div class="relative">
+                        <div class="aspect-[2/1] overflow-hidden">
+                            <img src="{{ asset('assets/images/ramdan.png') }}" alt="Ramdan"
+                                class="w-[140%] h-full object-cover max-w-none">
+                        </div>
+                        <div class="px-5 -mt-[3.25rem] text-raspberry-pink text-left">
+                            <h4 class="text-lg font-bold text-teal-700">Ramdan Pahlevi</h4>
+                            <h5 class="text-md italic text-teal-500">Assistant Project Coordinator</h5>
+                        </div>
+                    </div>
+                    <div class="bg-raspberry-pink p-5 pt-3 text-left flex-grow">
+                        <p class="text-white text-sm">
+                            Ramdan is actively contributing to initiatives that protect marine ecosystems and empower
+                            coastal communities, and brings fresh perspectives and eagerness to learn and inspire change
+                            through collaboration as part of Narasea.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Section The Ocean’s Story is Still Being Written – Be Part of It -->

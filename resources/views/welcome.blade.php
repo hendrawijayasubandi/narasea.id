@@ -290,15 +290,12 @@
                     <div class="grid grid-cols-1 gap-3 projects-slider sm:grid-cols-2 lg:grid-cols-3">
                         <!-- Card 1 -->
                         <div class="h-full px-2">
-                            <div
-                                class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-golden-yellow group">
+                            <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-golden-yellow group">
                                 <div class="aspect-[4/3] overflow-hidden relative bg-[#FBE9AE]">
-                                    <img src="{{ asset('assets/images/pee-1.png') }}" alt="Coral Triangle"
-                                        class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
+                                    <img src="{{ asset('assets/images/pee-1.png') }}" alt="Coral Triangle" class="object-cover w-full h-full">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
-                                    <h3
-                                        class="mb-2 text-base font-bold text-bronze sm:text-lg lg:text-xl font-calimate">
+                                    <h3 class="mb-2 text-base font-bold text-bronze sm:text-lg lg:text-xl font-calimate">
                                         The Wonderful of Coral
                                     </h3>
                                     <p class="flex-grow text-xs text-bronze/80 sm:text-sm font-ttNorms">
@@ -309,18 +306,15 @@
                                 </div>
                             </div>
                         </div>
-
+                    
                         <!-- Card 2 -->
                         <div class="h-full px-2">
-                            <div
-                                class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-blue group">
+                            <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-blue group">
                                 <div class="aspect-[4/3] overflow-hidden relative bg-[#D6DCE4]">
-                                    <img src="{{ asset('assets/images/pee-2.png') }}" alt="Octopus Series"
-                                        class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
+                                    <img src="{{ asset('assets/images/pee-2.png') }}" alt="Octopus Series" class="object-cover w-full h-full">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
-                                    <h3
-                                        class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
+                                    <h3 class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
                                         Oceana Scarf
                                     </h3>
                                     <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
@@ -329,74 +323,61 @@
                                 </div>
                             </div>
                         </div>
-
+                    
                         <!-- Card 3 -->
                         <div class="h-full px-2">
                             <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-raspberry-pink group">
                                 <div class="aspect-[4/3] overflow-hidden relative bg-[#F1D7DE]">
-                                    <img src="{{ asset('assets/images/pee-3.png') }}" alt="Oceana Scar"
-                                        class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
+                                    <img src="{{ asset('assets/images/pee-3.png') }}" alt="Oceana Scar" class="object-cover w-full h-full">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
-                                    <h3
-                                        class="mb-2 text-base font-bold text-wine-red sm:text-lg lg:text-xl font-calimate">
+                                    <h3 class="mb-2 text-base font-bold text-wine-red sm:text-lg lg:text-xl font-calimate">
                                         Wilah Card x Sea Tote Bag
                                     </h3>
                                     <p class="flex-grow text-xs text-wine-red/80 sm:text-sm font-ttNorms">
-                                        In partnership with Game4Change, The Wilah Card and Narasea Tote Bag are
-                                        part of a gamified experience that empowers youth to understand and 
+                                        In partnership with Game4Change, The Wilah Card and Narasea Tote Bag are part of a gamified experience that empowers youth to understand and 
                                         take action on waste management.
                                     </p>
                                 </div>
                             </div>
                         </div>
-
+                    
                         <!-- Card 4 -->
                         <div class="h-full px-2">
-                            <div
-                                class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-peachy-orange group">
+                            <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-peachy-orange group">
                                 <div class="aspect-[4/3] overflow-hidden relative bg-[#FFE6DA]">
-                                    <img src="{{ asset('assets/images/pee-4.png') }}"
-                                        alt="1000 Kebaikan untuk Nelayan "
-                                        class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
+                                    <img src="{{ asset('assets/images/pee-4.png') }}" alt="1000 Kebaikan untuk Nelayan" class="object-cover w-full h-full">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
-                                    <h3
-                                        class="mb-2 text-base font-bold text-cocoa-brown sm:text-lg lg:text-xl font-calimate">
+                                    <h3 class="mb-2 text-base font-bold text-cocoa-brown sm:text-lg lg:text-xl font-calimate">
                                         Octopus Series
                                     </h3>
                                     <p class="flex-grow text-xs text-cocoa-brown/80 sm:text-sm font-ttNorms">
-                                        A dynamic collaboration with various institutions and organizations,
-                                        exploring the intricate connections between marine life, conservation,
+                                        A dynamic collaboration with various institutions and organizations, exploring the intricate connections between marine life, conservation,
                                         and coastal communities.
                                     </p>
                                 </div>
                             </div>
                         </div>
-
+                    
                         <!-- Card 5 -->
                         <div class="h-full px-2">
-                            <div
-                                class="flex flex-col h-full overflow-hidden bg-black shadow-lg rounded-2xl group">
+                            <div class="flex flex-col h-full overflow-hidden bg-black shadow-lg rounded-2xl group">
                                 <div class="aspect-[4/3] overflow-hidden relative bg-[#C5C5C5]">
-                                    <img src="{{ asset('assets/images/pee-5.png') }}"
-                                        alt="1000 Kebaikan untuk Nelayan "
-                                        class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105">
+                                    <img src="{{ asset('assets/images/pee-5.png') }}" alt="1000 Kebaikan untuk Nelayan" class="object-cover w-full h-full">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
-                                    <h3
-                                        class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
+                                    <h3 class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
                                         1000 Kebaikan untuk Nelayan
                                     </h3>
                                     <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
-                                        In partnership with Sinergi Foundation, this initiative uplifts coastal
-                                        communities by providing essential support for local fishermen and their
-                                        families.
+                                        In partnership with Sinergi Foundation, this initiative uplifts coastal communities by providing essential support for local fishermen and their families.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

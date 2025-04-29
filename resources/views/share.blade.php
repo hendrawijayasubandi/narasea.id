@@ -399,8 +399,11 @@
                 }
             }" x-init="setInterval(() => nextCard(), 4000)"
                 class="max-w-2xl mx-auto mt-8 relative min-h-[380px] md:min-h-[320px] mb-12">
+
                 <!-- Card 1 -->
-                <div x-show="activeCard === 0" x-transition.opacity.duration.500ms class="absolute inset-0">
+                <div x-show="true" x-transition.opacity.duration.500ms
+                    :class="{ 'z-30': activeCard === 0, 'z-10': activeCard !== 0 }"
+                    class="absolute inset-0 mt-0 transition-all">
                     <div class="overflow-hidden shadow-sm rounded-2xl bg-peachy-orange backdrop-blur-sm">
                         <div class="flex flex-col md:flex-row">
                             <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
@@ -419,7 +422,9 @@
                 </div>
 
                 <!-- Card 2 -->
-                <div x-show="activeCard === 1" x-transition.opacity.duration.500ms class="absolute inset-0">
+                <div x-show="activeCard !== 0" x-transition.opacity.duration.500ms
+                    :class="{ 'z-20': activeCard === 1, 'z-10': activeCard !== 1 }"
+                    class="absolute inset-0 mt-8 transition-all">
                     <div class="overflow-hidden shadow-sm rounded-2xl bg-teal-blue backdrop-blur-sm">
                         <div class="flex flex-col md:flex-row">
                             <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
@@ -438,7 +443,9 @@
                 </div>
 
                 <!-- Card 3 -->
-                <div x-show="activeCard === 2" x-transition.opacity.duration.500ms class="absolute inset-0">
+                <div x-show="activeCard === 2" x-transition.opacity.duration.500ms
+                    :class="{ 'z-30': activeCard === 2, 'z-10': activeCard !== 2 }"
+                    class="absolute inset-0 mt-16 transition-all">
                     <div
                         class="overflow-hidden shadow-sm rounded-2xl bg-raspberry-pink text-wine-red backdrop-blur-sm">
                         <div class="flex flex-col md:flex-row">

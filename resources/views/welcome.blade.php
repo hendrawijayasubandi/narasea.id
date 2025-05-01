@@ -9,8 +9,7 @@
     <title>Narasea Indonesia - Platform Edukasi & Advokasi Konservasi Laut</title>
 
     <!-- Meta SEO -->
-    <meta name="description"
-        content="Narasea Indonesia: Bersuara untuk Laut, Bergerak untuk Perubahan! Edukasi, Advokasi, dan Aksi Nyata untuk konservasi laut Indonesia.">
+    <meta name="description" content="Bercerita, Beraksi & Advokasi untuk Konservasi Laut Indonesia.">
     <meta name="keywords"
         content="Narasea Indonesia, konservasi laut, edukasi lingkungan, advokasi laut, aksi nyata, lingkungan, laut Indonesia">
     <meta name="author" content="Narasea Indonesia Team">
@@ -20,8 +19,8 @@
     <meta property="og:title" content="Narasea Indonesia - Bersuara untuk Laut, Bergerak untuk Perubahan!">
     <meta property="og:description"
         content="Edukasi, Advokasi, dan Aksi Nyata untuk konservasi laut Indonesia. Bergabunglah bersama kami dalam menjaga kelestarian laut.">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
+    <meta property="og:image" content="https://narasea.id/assets/images/Narasea%20Logo%20Official.png">
+    <meta property="og:url" content="https://narasea.id">
     <meta property="og:type" content="website">
 
     <!-- Favicon untuk browser -->
@@ -54,7 +53,7 @@
 
     <!-- Hero Section -->
     <section
-        class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/home-1.png')] bg-cover bg-center flex flex-col justify-end items-start px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:py-28">
+        class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/home-1.png')] bg-cover bg-center flex flex-col justify-end items-start px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:py-28 xl:py-48">
 
         <!-- Main Title -->
         <h1 class="mb-0 text-3xl font-bold tracking-wide text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
@@ -78,7 +77,7 @@
 
     <!-- Impact Section with Side-by-Side Cards -->
     <section id="tides-of-impact"
-        class="relative bg-blue bg-[url('/public/assets/images/asset-4.png')] bg-cover bg-bottom rounded-bl-[50px] rounded-br-[50px] z-30 py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 px-4">
+        class="relative bg-blue bg-[url('/public/assets/images/asset-4.png')] bg-contain bg-no-repeat bg-bottom rounded-bl-[50px] rounded-br-[50px] z-30 py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 px-4">
         <!-- Blue overlay -->
         <div class="absolute inset-0 bg-blue-900/70"></div>
 
@@ -201,7 +200,7 @@
             <!-- Voice title with different colors -->
             <h2 class="mb-8 text-3xl font-bold tracking-wide sm:text-4xl md:text-5xl lg:text-6xl font-calimate lg:mb-12">
                 <span class="text-teal-blue">Voice from the</span>
-                <span class="text-blue"> ocean.</span>
+                <span class="text-blue"> Sea.</span>
             </h2>
 
             <!-- Two-column content below -->
@@ -250,7 +249,7 @@
 
     <!-- Projects & Partnership Section -->
     <section id="protect-educate-empower"
-        class="relative bg-[url('/public/assets/images/under-the-sea-2-new.png')] bg-cover bg-center py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-32 rounded-bl-[50px] rounded-br-[50px] -mt-[50px] z-20">
+        class="relative bg-[url('/public/assets/images/under-the-sea-3-new.png')] bg-cover bg-no-repeat bg-bottom bg-teal-blue py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-32 rounded-bl-[50px] rounded-br-[50px] -mt-[50px] z-20">
         <div class="ml-[1rem] mr-[1rem]" style="padding-top: 50px;">
             <!-- Section Header -->
             {{-- <div class="px-4 sm:px-6">
@@ -266,9 +265,10 @@
                     <h1 class="mb-2 text-5xl font-bold text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
                         Protect, Educate, Empower.
                     </h1>
-                    <p class="mt-4 text-sm leading-relaxed text-white sm:text-base md:text-lg font-ttNorms">
+                    <p class="mt-4 text-sm leading-relaxed text-white sm:text-base md:text-lg font-ttNorms whitespace-pre-line">
                         At Narasea, every wave carries a story, and every initiative is a step toward protecting our
-                        marine heritage. Through collaborations with passionate organizations, we bring education,
+                        marine heritage.<br>
+                        Through collaborations with passionate organizations, we bring education,
                         sustainability, and community empowerment to life.
                     </p>
                 </div>
@@ -277,12 +277,12 @@
                 <div class="relative mt-6 lg:w-2/3 lg:mt-0">
                     <!-- Navigation Buttons -->
                     <button
-                        class="absolute z-10 flex items-center justify-center w-8 h-8 text-white transition-all duration-200 -translate-y-1/2 rounded-full slick-prev-projects -left-2 sm:-left-2.5 top-1/2 bg-teal-blue sm:w-10 sm:h-10 hover:bg-teal-blue-hover">
+                        class="absolute z-10 flex items-center justify-center w-8 h-8 text-white transition-all duration-200 -translate-y-1/2 rounded-full slick-prev-projects -left-2 sm:-left-2.5 top-1/2 bg-blue sm:w-10 sm:h-10 hover:bg-blue-hover">
                         <i class="text-sm fas fa-chevron-left sm:text-base"></i>
                     </button>
 
                     <button
-                        class="absolute z-10 flex items-center justify-center w-8 h-8 text-white transition-all duration-200 -translate-y-1/2 rounded-full slick-next-projects -right-2 sm:-right-2.5 top-1/2 bg-teal-blue sm:w-10 sm:h-10 hover:bg-teal-blue-hover">
+                        class="absolute z-10 flex items-center justify-center w-8 h-8 text-white transition-all duration-200 -translate-y-1/2 rounded-full slick-next-projects -right-2 sm:-right-2.5 top-1/2 bg-blue sm:w-10 sm:h-10 hover:bg-blue-hover">
                         <i class="text-sm fas fa-chevron-right sm:text-base"></i>
                     </button>
 
@@ -306,7 +306,7 @@
                                 </div>
                             </div>
                         </div>
-                    
+
                         <!-- Card 2 -->
                         <div class="h-full px-2">
                             <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-blue group">
@@ -323,7 +323,7 @@
                                 </div>
                             </div>
                         </div>
-                    
+
                         <!-- Card 3 -->
                         <div class="h-full px-2">
                             <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-raspberry-pink group">
@@ -341,7 +341,7 @@
                                 </div>
                             </div>
                         </div>
-                    
+
                         <!-- Card 4 -->
                         <div class="h-full px-2">
                             <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-peachy-orange group">
@@ -359,7 +359,7 @@
                                 </div>
                             </div>
                         </div>
-                    
+
                         <!-- Card 5 -->
                         <div class="h-full px-2">
                             <div class="flex flex-col h-full overflow-hidden bg-black shadow-lg rounded-2xl group">
@@ -377,7 +377,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -535,7 +535,7 @@
 
     <!-- Newsletter Section -->
     <section class="relative px-4 py-12 bg-[url('/public/assets/images/fish-wave-footer.png')] bg-contain bg-no-repeat bg-left bg-black sm:py-16 md:py-20">
-        <div class="grid grid-cols-1 gap-12 mx-auto max-w-7xl md:grid-cols-2">
+        <div class="grid grid-cols-1 gap-12 ml-[2rem] mr-[2rem] md:grid-cols-2">
             <!-- Left: Subscribe Component -->
             <div>
                 @include('components.subscribe')

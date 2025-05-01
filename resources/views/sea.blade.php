@@ -9,8 +9,7 @@
     <title>Narasea Indonesia - Platform Edukasi & Advokasi Konservasi Laut</title>
 
     <!-- Meta SEO -->
-    <meta name="description"
-        content="Narasea Indonesia: Bersuara untuk Laut, Bergerak untuk Perubahan! Edukasi, Advokasi, dan Aksi Nyata untuk konservasi laut Indonesia.">
+    <meta name="description" content="Bercerita, Beraksi & Advokasi untuk Konservasi Laut Indonesia.">
     <meta name="keywords"
         content="Narasea Indonesia, konservasi laut, edukasi lingkungan, advokasi laut, aksi nyata, lingkungan, laut Indonesia">
     <meta name="author" content="Narasea Indonesia Team">
@@ -20,8 +19,8 @@
     <meta property="og:title" content="Narasea Indonesia - Bersuara untuk Laut, Bergerak untuk Perubahan!">
     <meta property="og:description"
         content="Edukasi, Advokasi, dan Aksi Nyata untuk konservasi laut Indonesia. Bergabunglah bersama kami dalam menjaga kelestarian laut.">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
+    <meta property="og:image" content="https://narasea.id/assets/images/Narasea%20Logo%20Official.png">
+    <meta property="og:url" content="https://narasea.id">
     <meta property="og:type" content="website">
 
     <!-- Favicon untuk browser -->

@@ -9,8 +9,7 @@
     <title>Narasea Indonesia - Platform Edukasi & Advokasi Konservasi Laut</title>
 
     <!-- Meta SEO -->
-    <meta name="description"
-        content="Narasea Indonesia: Bersuara untuk Laut, Bergerak untuk Perubahan! Edukasi, Advokasi, dan Aksi Nyata untuk konservasi laut Indonesia.">
+    <meta name="description" content="Bercerita, Beraksi & Advokasi untuk Konservasi Laut Indonesia.">
     <meta name="keywords"
         content="Narasea Indonesia, konservasi laut, edukasi lingkungan, advokasi laut, aksi nyata, lingkungan, laut Indonesia">
     <meta name="author" content="Narasea Indonesia Team">
@@ -20,8 +19,8 @@
     <meta property="og:title" content="Narasea Indonesia - Bersuara untuk Laut, Bergerak untuk Perubahan!">
     <meta property="og:description"
         content="Edukasi, Advokasi, dan Aksi Nyata untuk konservasi laut Indonesia. Bergabunglah bersama kami dalam menjaga kelestarian laut.">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
+    <meta property="og:image" content="https://narasea.id/assets/images/Narasea%20Logo%20Official.png">
+    <meta property="og:url" content="https://narasea.id">
     <meta property="og:type" content="website">
 
     <!-- Favicon untuk browser -->
@@ -69,7 +68,7 @@
 
     <!-- Section Educate: Empower Future Ocean Advocates.-->
     <section id="srt-educate"
-        class="relative bg-[url('/public/assets/images/educate.png')] bg-contain bg-no-repeat bg-bottom bg-white py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-28 rounded-bl-[50px] rounded-br-[50px] z-40 overflow-hidden"
+        class="relative bg-[url('/public/assets/images/educate-share.png')] bg-contain bg-no-repeat bg-bottom bg-white py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-28 rounded-bl-[50px] rounded-br-[50px] z-40 overflow-hidden"
         style="margin-bottom: 50px;">
         <!-- Content Container with relative positioning -->
         <div class="relative z-10">
@@ -260,7 +259,7 @@
     <section id="learning-action"
         class="relative px-4 py-[100px] bg-white rounded-bl-[50px] rounded-br-[50px] z-20 overflow-hidden"
         style="margin-top: -50px;">
-        <div class="relative z-10 flex flex-col gap-8 mx-auto max-w-7xl">
+        <div class="relative z-10 flex flex-col gap-8 ml-[2rem] mr-[2rem]">
 
             <!-- Section Atas -->
             <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 items-stretch">
@@ -364,7 +363,7 @@
                 </div>
 
                 <!-- Teks Kanan -->
-                <div class="flex flex-col justify-end text-end">
+                <div id="empower-communitites" class="flex flex-col justify-end text-end">
                     <h2 class="mb-4 text-4xl font-bold lg:text-5xl font-calimate">
                         <span class="text-teal-blue">Empower</span><br>
                         <span class="text-blue">Communities.</span>
@@ -467,7 +466,7 @@
         </div>
 
         <!-- Content goes here -->
-        <div class="relative z-10 mx-auto max-w-7xl" style="margin-top: 150px;">
+        <div class="relative z-10 ml-[2rem] mr-[2rem]" style="margin-top: 150px;">
             <div class="flex items-start justify-start lg:w-2/4">
                 <div class="text-start">
                     <h3 class="mb-4 text-3xl font-bold leading-snug sm:text-3xl md:text-4xl lg:text-5xl font-calimate">
@@ -507,7 +506,7 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-1 gap-12 mx-auto max-w-7xl md:grid-cols-2" style="margin-top: 150px;">
+        <div class="grid grid-cols-1 gap-12 ml-[2rem] mr-[2rem] md:grid-cols-2" style="margin-top: 150px;">
             <!-- Left: Subscribe Component -->
             <div>
                 @include('components.subscribe')

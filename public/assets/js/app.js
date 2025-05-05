@@ -106,13 +106,12 @@ $(document).ready(function () {
         }]
     });
 
-    // Custom arrow navigation
     $('.slick-prev-values').click(function () {
-        $('.stats-slider').slick('slickPrev');
+        $('.values-slider').slick('slickPrev');
     });
 
     $('.slick-next-values').click(function () {
-        $('.stats-slider').slick('slickNext');
+        $('.values-slider').slick('slickNext');
     });
 });
 
@@ -133,25 +132,24 @@ $(document).ready(function () {
         speed: 300,
         slidesToShow: 3,
         slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1280, // xl dan di atasnya tetap 3
-                settings: {
-                    slidesToShow: 3,
-                }
-            },
-            {
-                breakpoint: 1024, // lg (1024px) dan tablet landscape
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 768, // sm dan di bawahnya (mobile)
-                settings: {
-                    slidesToShow: 1,
-                }
+        responsive: [{
+            breakpoint: 1280, // xl dan di atasnya tetap 3
+            settings: {
+                slidesToShow: 3,
             }
+        },
+        {
+            breakpoint: 1024, // lg (1024px) dan tablet landscape
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 768, // sm dan di bawahnya (mobile)
+            settings: {
+                slidesToShow: 1,
+            }
+        }
         ]
     });
 
@@ -174,31 +172,30 @@ $(document).ready(function () {
         centerMode: true,
         centerPadding: '100px', // ↓ dari 200px → 100px
         focusOnSelect: true,
-        responsive: [
-            {
-                breakpoint: 1280,
-                settings: {
-                    centerMode: true,
-                    centerPadding: '80px', // ↓ dari 180px
-                    slidesToShow: 1
-                }
-            },
-            {
-                breakpoint: 1024,
-                settings: {
-                    centerMode: true,
-                    centerPadding: '50px', // ↓ dari 120px
-                    slidesToShow: 1
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    centerMode: true,
-                    centerPadding: '20px', // ↓ dari 60px
-                    slidesToShow: 1
-                }
+        responsive: [{
+            breakpoint: 1280,
+            settings: {
+                centerMode: true,
+                centerPadding: '80px', // ↓ dari 180px
+                slidesToShow: 1
             }
+        },
+        {
+            breakpoint: 1024,
+            settings: {
+                centerMode: true,
+                centerPadding: '50px', // ↓ dari 120px
+                slidesToShow: 1
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                centerMode: true,
+                centerPadding: '20px', // ↓ dari 60px
+                slidesToShow: 1
+            }
+        }
         ]
     });
 

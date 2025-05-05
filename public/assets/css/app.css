@@ -317,7 +317,7 @@ html {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #019AAA;
+    background-color: #083C75;
     color: white;
     border: none;
     width: 50px;
@@ -343,7 +343,7 @@ html {
 
 .slick-prev-values:hover,
 .slick-next-values:hover {
-    background-color: #017C89;
+    background-color: #062B54;
 }
 
 /* Sembunyikan tombol di layar kecil */
@@ -371,6 +371,23 @@ html {
 
 .projects-slider .slick-slide>div {
     height: 100%;
+}
+
+/* Grid Picture */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-slide {
+    animation: slide 20s linear infinite;
+    display: flex;
+    width: max-content;
 }
 
 /* Image zoom effect */
@@ -498,5 +515,38 @@ html {
 @media (max-width: 480px) {
     .educate-slider .swiper-slide {
         width: 200px;
+    }
+}
+
+/* Page 3 */
+/* Our Section */
+.slick-dots {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.slick-dots li button:before {
+    color: white;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.slick-dots li.slick-active button:before {
+    color: white;
+    opacity: 1;
+}
+
+.slick-slide {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .slick-slide {
+        flex-direction: row !important;
+        align-items: flex-start;
     }
 }

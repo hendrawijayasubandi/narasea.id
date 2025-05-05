@@ -188,7 +188,7 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-golden-yellow bg-opacity-90 group-hover:translate-y-0">
+                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-golden-yellow group-hover:translate-y-0">
                                 <p class="text-sm text-bronze lg:text-base font-ttNorms">
                                     Provide ongoing support for conservation efforts.
                                 </p>
@@ -215,7 +215,7 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-blue bg-opacity-90 group-hover:translate-y-0">
+                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-blue group-hover:translate-y-0">
                                 <p class="text-sm text-white lg:text-base font-ttNorms">
                                     Start a campaign for birthdays, challenges, or community events.
                                 </p>
@@ -243,7 +243,7 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
+                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-raspberry-pink group-hover:translate-y-0">
                                 <p class="text-sm text-wine-red lg:text-base font-ttNorms">
                                     Amplifying unheard voices from coastal communities.
                                 </p>
@@ -289,7 +289,7 @@
                             <p class="text-xl font-bold text-white font-calimate">Education Trips.</p>
                         </div>
                         <div
-                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-blue bg-opacity-90 group-hover:translate-y-0">
+                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-blue group-hover:translate-y-0">
                             <p class="text-sm text-white lg:text-base font-ttNorms">Hands-on experiences for students,
                                 professionals, and ocean enthusiasts.</p>
                         </div>
@@ -310,7 +310,7 @@
                             <p class="text-xl font-bold text-bronze font-calimate">Request a Speaker.</p>
                         </div>
                         <div
-                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-golden-yellow bg-opacity-90 group-hover:translate-y-0">
+                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-golden-yellow group-hover:translate-y-0">
                             <p class="text-sm text-bronze lg:text-base font-ttNorms">Bring marine conservation experts
                                 to educate your organization or community.</p>
                         </div>
@@ -334,7 +334,7 @@
                             <p class="text-xl font-bold text-wine-red font-calimate">Sponsor a Coastal Community.</p>
                         </div>
                         <div
-                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
+                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-raspberry-pink group-hover:translate-y-0">
                             <p class="text-sm text-wine-red lg:text-base font-ttNorms">Provide direct support for
                                 grassroots conservation initiatives.</p>
                         </div>
@@ -355,7 +355,7 @@
                             <p class="text-xl font-bold text-cocoa-brown font-calimate">Become a Volunteer.</p>
                         </div>
                         <div
-                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-peachy-orange bg-opacity-90 group-hover:translate-y-0">
+                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-peachy-orange group-hover:translate-y-0">
                             <p class="text-sm text-cocoa-brown lg:text-base font-ttNorms">Strong coastal communities
                                 mean a stronger ocean. Be part of their journey.</p>
                         </div>
@@ -389,80 +389,80 @@
             <p class="max-w-2xl mx-auto mb-8 text-lg font-ttNorms">
                 Your voice is a powerful tool for change. Help spread awareness and drive action.
             </p>
-
             <div x-data="{
                 activeCard: 0,
                 cards: [0, 1, 2],
-                nextCard() {
+                setNextCard() {
                     this.activeCard = (this.activeCard + 1) % this.cards.length;
                 }
-            }" x-init="setInterval(() => nextCard(), 4000)"
-                class="max-w-2xl mx-auto mt-8 relative min-h-[380px] md:min-h-[320px] mb-12">
-
-                <!-- Card 1 -->
-                <div x-show="true" x-transition.opacity.duration.500ms
-                    :class="{ 'z-30': activeCard === 0, 'z-10': activeCard !== 0 }"
-                    class="absolute inset-0 mt-0 transition-all">
-                    <div class="overflow-hidden shadow-sm rounded-2xl bg-peachy-orange backdrop-blur-sm">
-                        <div class="flex flex-col md:flex-row">
-                            <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
-                                <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Join the Conversation.
-                                </h2>
-                                <p class="text-sm font-ttNorms md:text-lg">
-                                    Share Nanasea's content & inspire action on social media.
-                                </p>
-                            </div>
-                            <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
-                                <img src="{{ asset('assets/images/close-up-hands-making-heart-shape-sea-against-clear-sky 1.png') }}"
-                                    alt="Share on Social" class="object-cover object-center w-full h-full" />
-                            </div>
+            }" class="max-w-2xl mx-auto mt-8 relative min-h-[440px] mb-12">
+            
+    <template x-for="(card, index) in cards" :key="index">
+        <div
+            x-show="activeCard === index || (activeCard > index && activeCard !== 0)"
+            @click="setNextCard()"
+            :class="{
+                'z-30': activeCard === index,
+                'z-20': activeCard - 1 === index,
+                'z-10': activeCard - 2 === index
+            }"
+            class="absolute inset-0 transition-all duration-500 cursor-pointer"
+            :style="`transform: translateY(${index * 2}rem); opacity: ${activeCard === index ? 1 : 0.7};`"
+        >
+            <!-- Card Content -->
+            <template x-if="index === 0">
+                <div class="overflow-hidden shadow-sm rounded-2xl bg-peachy-orange backdrop-blur-sm">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
+                            <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Join the Conversation.</h2>
+                            <p class="text-sm font-ttNorms md:text-lg">
+                                Share Nanasea's content & inspire action on social media.
+                            </p>
+                        </div>
+                        <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
+                            <img src="{{ asset('assets/images/close-up-hands-making-heart-shape-sea-against-clear-sky 1.png') }}"
+                                 alt="Share on Social" class="object-cover object-center w-full h-full" />
                         </div>
                     </div>
                 </div>
+            </template>
 
-                <!-- Card 2 -->
-                <div x-show="activeCard !== 0" x-transition.opacity.duration.500ms
-                    :class="{ 'z-20': activeCard === 1, 'z-10': activeCard !== 1 }"
-                    class="absolute inset-0 mt-8 transition-all">
-                    <div class="overflow-hidden shadow-sm rounded-2xl bg-teal-blue backdrop-blur-sm">
-                        <div class="flex flex-col md:flex-row">
-                            <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
-                                <img src="{{ asset('assets/images/aceppp1.png') }}" alt="Share on Social"
-                                    class="object-cover object-center w-full h-full" />
-                            </div>
-                            <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
-                                <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Support Digital
-                                    Storytelling.</h2>
-                                <p class="text-sm font-ttNorms md:text-lg">
-                                    Fund community-led documentaries, podcasts, and campaigns.
-                                </p>
-                            </div>
+            <template x-if="index === 1">
+                <div class="overflow-hidden shadow-sm rounded-2xl bg-teal-blue backdrop-blur-sm">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
+                            <img src="{{ asset('assets/images/aceppp1.png') }}" alt="Support Digital"
+                                 class="object-cover object-center w-full h-full" />
+                        </div>
+                        <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
+                            <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Support Digital Storytelling.</h2>
+                            <p class="text-sm font-ttNorms md:text-lg">
+                                Fund community-led documentaries, podcasts, and campaigns.
+                            </p>
                         </div>
                     </div>
                 </div>
+            </template>
 
-                <!-- Card 3 -->
-                <div x-show="activeCard === 2" x-transition.opacity.duration.500ms
-                    :class="{ 'z-30': activeCard === 2, 'z-10': activeCard !== 2 }"
-                    class="absolute inset-0 mt-16 transition-all">
-                    <div
-                        class="overflow-hidden shadow-sm rounded-2xl bg-raspberry-pink text-wine-red backdrop-blur-sm">
-                        <div class="flex flex-col md:flex-row">
-                            <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
-                                <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Collaborate with Content
-                                    Creators.</h2>
-                                <p class="text-sm font-ttNorms md:text-lg">
-                                    Work with journalists, influencers, and filmmakers to amplify marine issues.
-                                </p>
-                            </div>
-                            <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
-                                <img src="{{ asset('assets/images/product-slide-4-from-image-stock-1.png') }}"
-                                    alt="Share on Social" class="object-cover object-center w-full h-full" />
-                            </div>
+            <template x-if="index === 2">
+                <div class="overflow-hidden shadow-sm rounded-2xl bg-raspberry-pink text-wine-red backdrop-blur-sm">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
+                            <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Collaborate with Content Creators.</h2>
+                            <p class="text-sm font-ttNorms md:text-lg">
+                                Work with journalists, influencers, and filmmakers to amplify marine issues.
+                            </p>
+                        </div>
+                        <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
+                            <img src="{{ asset('assets/images/product-slide-4-from-image-stock-1.png') }}"
+                                 alt="Collaborate with Content Creators" class="object-cover object-center w-full h-full" />
                         </div>
                     </div>
                 </div>
-            </div>
+            </template>
+        </div>
+    </template>
+</div>
         </div>
 
         <!-- Content goes here -->
@@ -529,6 +529,11 @@
     <!-- Newsletter Section -->
     {{-- <section class="relative px-4 py-12 sm:py-16 md:py-20" style="margin-top: -50px;">
     </section> --}}
+
+    <!-- Component Copyright -->
+    <div class="bg-blue text-white">
+        @include('components.copyright')
+    </div>
 
     <script src="//unpkg.com/alpinejs" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

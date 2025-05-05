@@ -84,7 +84,8 @@
         <div class="flex flex-col items-stretch gap-6 ml-[2rem] mr-[2rem] lg:flex-row">
             <!-- Left Side - Title -->
             <div class="flex items-flex-start lg:w-1/3">
-                <h2 class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
+                <h2
+                    class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
                     <span class="text-white">Tides of</span><br>
                     <span class="text-teal-blue">Impact.</span>
                 </h2>
@@ -125,7 +126,7 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-golden-yellow bg-opacity-90 group-hover:translate-y-0">
+                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-golden-yellow group-hover:translate-y-0">
                                 <p class="text-sm text-bronze lg:text-base font-ttNorms">
                                     Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
                                 </p>
@@ -152,7 +153,7 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-raspberry-pink bg-opacity-90 group-hover:translate-y-0">
+                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-raspberry-pink group-hover:translate-y-0">
                                 <p class="text-sm text-wine-red lg:text-base font-ttNorms">
                                     See how our programs are shaping future ocean advocates at Sikola Pomore.
                                 </p>
@@ -180,7 +181,7 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-teal-blue bg-opacity-90 group-hover:translate-y-0">
+                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-teal-blue group-hover:translate-y-0">
                                 <p class="text-sm text-white lg:text-base font-ttNorms">
                                     Amplifying unheard voices from coastal communities.
                                 </p>
@@ -198,7 +199,8 @@
 
         <div class="relative z-10 ml-[2rem] mr-[2rem]">
             <!-- Voice title with different colors -->
-            <h2 class="mb-8 text-3xl font-bold tracking-wide sm:text-4xl md:text-5xl lg:text-6xl font-calimate lg:mb-12">
+            <h2
+                class="mb-8 text-3xl font-bold tracking-wide sm:text-4xl md:text-5xl lg:text-6xl font-calimate lg:mb-12">
                 <span class="text-teal-blue">Voice from the</span>
                 <span class="text-blue"> Sea.</span>
             </h2>
@@ -220,7 +222,8 @@
 
                 <!-- Right Column - Text Content -->
                 <div class="w-full p-4 lg:w-1/2 rounded-2xl">
-                    <p class="mb-3 text-lg font-bold text-black sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-calimate">
+                    <p
+                        class="mb-3 text-lg font-bold text-black sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-calimate">
                         The Fading Fishermen of Pulau Sabira.
                     </p>
 
@@ -265,7 +268,8 @@
                     <h1 class="mb-2 text-5xl font-bold text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
                         Protect, Educate, Empower.
                     </h1>
-                    <p class="mt-4 text-sm leading-relaxed text-white sm:text-base md:text-lg font-ttNorms whitespace-pre-line">
+                    <p
+                        class="mt-4 text-sm leading-relaxed text-white whitespace-pre-line sm:text-base md:text-lg font-ttNorms">
                         At Narasea, every wave carries a story, and every initiative is a step toward protecting our
                         marine heritage.<br>
                         Through collaborations with passionate organizations, we bring education,
@@ -290,12 +294,15 @@
                     <div class="grid grid-cols-1 gap-3 projects-slider sm:grid-cols-2 lg:grid-cols-3">
                         <!-- Card 1 -->
                         <div class="h-full px-2">
-                            <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-golden-yellow group">
+                            <div
+                                class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-golden-yellow group">
                                 <div class="aspect-[4/3] overflow-hidden relative bg-[#FBE9AE]">
-                                    <img src="{{ asset('assets/images/pee-1.png') }}" alt="Coral Triangle" class="object-cover w-full h-full">
+                                    <img src="{{ asset('assets/images/pee-1.png') }}" alt="Coral Triangle"
+                                        class="object-cover w-full h-full">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
-                                    <h3 class="mb-2 text-base font-bold text-bronze sm:text-lg lg:text-xl font-calimate">
+                                    <h3
+                                        class="mb-2 text-base font-bold text-bronze sm:text-lg lg:text-xl font-calimate">
                                         The Wonderful of Coral
                                     </h3>
                                     <p class="flex-grow text-xs text-bronze/80 sm:text-sm font-ttNorms">
@@ -311,14 +318,17 @@
                         <div class="h-full px-2">
                             <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-blue group">
                                 <div class="aspect-[4/3] overflow-hidden relative bg-[#D6DCE4]">
-                                    <img src="{{ asset('assets/images/pee-2.png') }}" alt="Octopus Series" class="object-cover w-full h-full">
+                                    <img src="{{ asset('assets/images/pee-2.png') }}" alt="Octopus Series"
+                                        class="object-cover w-full h-full">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
-                                    <h3 class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
+                                    <h3
+                                        class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
                                         Oceana Scarf
                                     </h3>
                                     <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
-                                        A meaningful fusion of fashion and impact, co-created with Donashion, where every scarf supports ocean conservation efforts.
+                                        A meaningful fusion of fashion and impact, co-created with Donashion, where
+                                        every scarf supports ocean conservation efforts.
                                     </p>
                                 </div>
                             </div>
@@ -326,16 +336,20 @@
 
                         <!-- Card 3 -->
                         <div class="h-full px-2">
-                            <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-raspberry-pink group">
+                            <div
+                                class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-raspberry-pink group">
                                 <div class="aspect-[4/3] overflow-hidden relative bg-[#F1D7DE]">
-                                    <img src="{{ asset('assets/images/pee-3.png') }}" alt="Oceana Scar" class="object-cover w-full h-full">
+                                    <img src="{{ asset('assets/images/pee-3.png') }}" alt="Oceana Scar"
+                                        class="object-cover w-full h-full">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
-                                    <h3 class="mb-2 text-base font-bold text-wine-red sm:text-lg lg:text-xl font-calimate">
+                                    <h3
+                                        class="mb-2 text-base font-bold text-wine-red sm:text-lg lg:text-xl font-calimate">
                                         Wilah Card x Sea Tote Bag
                                     </h3>
                                     <p class="flex-grow text-xs text-wine-red/80 sm:text-sm font-ttNorms">
-                                        In partnership with Game4Change, The Wilah Card and Narasea Tote Bag are part of a gamified experience that empowers youth to understand and 
+                                        In partnership with Game4Change, The Wilah Card and Narasea Tote Bag are part of
+                                        a gamified experience that empowers youth to understand and
                                         take action on waste management.
                                     </p>
                                 </div>
@@ -344,16 +358,20 @@
 
                         <!-- Card 4 -->
                         <div class="h-full px-2">
-                            <div class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-peachy-orange group">
+                            <div
+                                class="flex flex-col h-full overflow-hidden shadow-lg rounded-2xl bg-peachy-orange group">
                                 <div class="aspect-[4/3] overflow-hidden relative bg-[#FFE6DA]">
-                                    <img src="{{ asset('assets/images/pee-4.png') }}" alt="1000 Kebaikan untuk Nelayan" class="object-cover w-full h-full">
+                                    <img src="{{ asset('assets/images/pee-4.png') }}"
+                                        alt="1000 Kebaikan untuk Nelayan" class="object-cover w-full h-full">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
-                                    <h3 class="mb-2 text-base font-bold text-cocoa-brown sm:text-lg lg:text-xl font-calimate">
+                                    <h3
+                                        class="mb-2 text-base font-bold text-cocoa-brown sm:text-lg lg:text-xl font-calimate">
                                         Octopus Series
                                     </h3>
                                     <p class="flex-grow text-xs text-cocoa-brown/80 sm:text-sm font-ttNorms">
-                                        A dynamic collaboration with various institutions and organizations, exploring the intricate connections between marine life, conservation,
+                                        A dynamic collaboration with various institutions and organizations, exploring
+                                        the intricate connections between marine life, conservation,
                                         and coastal communities.
                                     </p>
                                 </div>
@@ -364,14 +382,18 @@
                         <div class="h-full px-2">
                             <div class="flex flex-col h-full overflow-hidden bg-black shadow-lg rounded-2xl group">
                                 <div class="aspect-[4/3] overflow-hidden relative bg-[#C5C5C5]">
-                                    <img src="{{ asset('assets/images/pee-5.png') }}" alt="1000 Kebaikan untuk Nelayan" class="object-cover w-full h-full">
+                                    <img src="{{ asset('assets/images/pee-5.png') }}"
+                                        alt="1000 Kebaikan untuk Nelayan" class="object-cover w-full h-full">
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
-                                    <h3 class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
+                                    <h3
+                                        class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
                                         1000 Kebaikan untuk Nelayan
                                     </h3>
                                     <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
-                                        In partnership with Sinergi Foundation, this initiative uplifts coastal communities by providing essential support for local fishermen and their families.
+                                        In partnership with Sinergi Foundation, this initiative uplifts coastal
+                                        communities by providing essential support for local fishermen and their
+                                        families.
                                     </p>
                                 </div>
                             </div>
@@ -384,7 +406,8 @@
     </section>
 
     <!-- New Section: Social Currents -->
-    <section id="social-current" class="relative bg-[url('/public/assets/images/social-current.png')] bg-cover bg-no-repeat bg-top bg-black py-16 px-4 sm:py-20 md:py-24 lg:py-28 xl:py-32 -mt-[50px] z-10">
+    <section id="social-current"
+        class="relative bg-[url('/public/assets/images/social-current.png')] bg-cover bg-no-repeat bg-top bg-black py-16 px-4 sm:py-20 md:py-24 lg:py-28 xl:py-32 -mt-[50px] z-10">
         <div class="relative z-10 ml-[2rem] mr-[2rem]">
             <div class="flex flex-col items-center gap-6 text-center lg:gap-8">
                 <!-- Main Slider Container -->
@@ -481,15 +504,73 @@
     </section>
 
     <!-- Top Grid Section -->
-    <section class="relative bg-black">
-        <div class="w-full h-24 overflow-hidden sm:h-32 md:h-40">
-            <img src="{{ asset('assets/images/grid-1.png') }}" alt="Ocean grid pattern top"
-                class="object-cover w-full h-full opacity-70">
+    <section class="relative overflow-hidden bg-black">
+        <div class="flex animate-slide whitespace-nowrap">
+            <!-- Gambar 1–7 -->
+            <div class="flex-shrink-0 w-auto h-24 sm:h-32 md:h-40">
+                <img src="{{ asset('assets/images/img-stock-1.png') }}" alt="Stock 1"
+                    class="object-cover h-full opacity-70">
+            </div>
+            <div class="flex-shrink-0 w-auto h-24 sm:h-32 md:h-40">
+                <img src="{{ asset('assets/images/img-stock-2.png') }}" alt="Stock 2"
+                    class="object-cover h-full opacity-70">
+            </div>
+            <div class="flex-shrink-0 w-auto h-24 sm:h-32 md:h-40">
+                <img src="{{ asset('assets/images/img-stock-3.png') }}" alt="Stock 3"
+                    class="object-cover h-full opacity-70">
+            </div>
+            <div class="flex-shrink-0 w-auto h-24 sm:h-32 md:h-40">
+                <img src="{{ asset('assets/images/img-stock-4.png') }}" alt="Stock 4"
+                    class="object-cover h-full opacity-70">
+            </div>
+            <div class="flex-shrink-0 w-auto h-24 sm:h-32 md:h-40">
+                <img src="{{ asset('assets/images/img-stock-5.png') }}" alt="Stock 5"
+                    class="object-cover h-full opacity-70">
+            </div>
+            <div class="flex-shrink-0 w-auto h-24 sm:h-32 md:h-40">
+                <img src="{{ asset('assets/images/img-stock-6.png') }}" alt="Stock 6"
+                    class="object-cover h-full opacity-70">
+            </div>
+            <div class="flex-shrink-0 w-auto h-24 sm:h-32 md:h-40">
+                <img src="{{ asset('assets/images/img-stock-7.jpg') }}" alt="Stock 7"
+                    class="object-cover h-full opacity-70">
+            </div>
+
+            <!-- Duplikat untuk loop seamless -->
+            <div class="flex-shrink-0 w-auto h-24 sm:h-32 md:h-40">
+                <img src="{{ asset('assets/images/img-stock-1.png') }}" alt="Stock 1"
+                    class="object-cover h-full opacity-70">
+            </div>
+            <div class="flex-shrink-0 w-auto h-24 sm:h-32 md:h-40">
+                <img src="{{ asset('assets/images/img-stock-2.png') }}" alt="Stock 2"
+                    class="object-cover h-full opacity-70">
+            </div>
+            <div class="flex-shrink-0 w-auto h-24 sm:h-32 md:h-40">
+                <img src="{{ asset('assets/images/img-stock-3.png') }}" alt="Stock 3"
+                    class="object-cover h-full opacity-70">
+            </div>
+            <div class="flex-shrink-0 w-auto h-24 sm:h-32 md:h-40">
+                <img src="{{ asset('assets/images/img-stock-4.png') }}" alt="Stock 4"
+                    class="object-cover h-full opacity-70">
+            </div>
+            <div class="flex-shrink-0 w-auto h-24 sm:h-32 md:h-40">
+                <img src="{{ asset('assets/images/img-stock-5.png') }}" alt="Stock 5"
+                    class="object-cover h-full opacity-70">
+            </div>
+            <div class="flex-shrink-0 w-auto h-24 sm:h-32 md:h-40">
+                <img src="{{ asset('assets/images/img-stock-6.png') }}" alt="Stock 6"
+                    class="object-cover h-full opacity-70">
+            </div>
+            <div class="flex-shrink-0 w-auto h-24 sm:h-32 md:h-40">
+                <img src="{{ asset('assets/images/img-stock-7.jpg') }}" alt="Stock 7"
+                    class="object-cover h-full opacity-70">
+            </div>
         </div>
     </section>
 
     <!-- Main Contact Section -->
-    <section class="relative bg-[url('/public/assets/images/fish-wave.png')] bg-cover bg-no-repeat bg-center px-4 py-16 bg-black sm:py-20 md:py-28">
+    <section
+        class="relative bg-[url('/public/assets/images/fish-wave.png')] bg-cover bg-no-repeat bg-center px-4 py-16 bg-black sm:py-20 md:py-28">
         <div class="max-w-4xl mx-auto text-center">
             <!-- Title -->
             <h2 class="mb-6 text-3xl font-bold text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
@@ -534,7 +615,8 @@
     </section>
 
     <!-- Newsletter Section -->
-    <section class="relative px-4 py-12 bg-[url('/public/assets/images/fish-wave-footer.png')] bg-contain bg-no-repeat bg-left bg-black sm:py-16 md:py-20">
+    <section
+        class="relative px-4 py-12 bg-[url('/public/assets/images/fish-wave-footer.png')] bg-contain bg-no-repeat bg-left bg-black sm:py-16 md:py-20">
         <div class="grid grid-cols-1 gap-12 ml-[2rem] mr-[2rem] md:grid-cols-2">
             <!-- Left: Subscribe Component -->
             <div>
@@ -547,6 +629,11 @@
             </div>
         </div>
     </section>
+
+    <!-- Component Copyright -->
+    <div class="bg-black text-white">
+        @include('components.copyright')
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>

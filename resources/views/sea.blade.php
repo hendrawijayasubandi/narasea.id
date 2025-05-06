@@ -357,7 +357,7 @@
             <p class="text-white text-base font-ttNorms leading-relaxed max-w-[700px] bg-blue px-16 py-2 rounded-[20px] rotate-[1.93deg]"
                 style="margin-top: -5px; margin-left: 100px;">
                 Every wave of change starts with passionate people. <br>
-                Meet the dedicated team behind Naraese.
+                Meet the dedicated team behind Narasea:
             </p>
         </div>
 

@@ -4,9 +4,12 @@ $(document).ready(function () {
         arrows: false,
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 0,
         slidesToShow: 1,
         slidesToScroll: 1,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        draggable: false,
+        swipe: false,
+        touchMove: false
     });
 });

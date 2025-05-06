@@ -487,22 +487,22 @@
             <!-- 3 styled buttons aligned to the left -->
             <div class="flex flex-wrap justify-start gap-4 mx-auto">
                 <!-- Button 1 -->
-                <button
-                    class="py-2 text-xs font-bold tracking-wider text-white transition duration-200 px-7 sm:text-sm md:text-base bg-raspberry-pink rounded-2xl hover:bg-raspberry-pink-hover font-ttNorms">
+                <a href="#"
+                    class="py-2 text-xs font-bold tracking-wider text-white hover:text-white transition duration-200 px-7 sm:text-sm md:text-base bg-raspberry-pink rounded-2xl hover:bg-raspberry-pink-hover font-ttNorms">
                     Donate Now
-                </button>
-
+                </a>
+            
                 <!-- Button 2 -->
-                <button
-                    class="py-2 text-xs font-bold tracking-wider text-white transition duration-200 px-7 sm:text-sm md:text-base bg-teal-blue rounded-2xl hover:bg-teal-blue-hover font-ttNorms">
+                <a href="#"
+                    class="py-2 text-xs font-bold tracking-wider text-white hover:text-white transition duration-200 px-7 sm:text-sm md:text-base bg-teal-blue rounded-2xl hover:bg-teal-blue-hover font-ttNorms">
                     Collaborate
-                </button>
-
+                </a>
+            
                 <!-- Button 3 -->
-                <button
-                    class="py-2 text-xs font-bold tracking-wider text-white transition duration-200 px-7 sm:text-sm md:text-base bg-peachy-orange rounded-2xl hover:bg-peachy-orange-hover font-ttNorms">
+                <a href="#"
+                    class="py-2 text-xs font-bold tracking-wider text-white hover:text-white transition duration-200 px-7 sm:text-sm md:text-base bg-peachy-orange rounded-2xl hover:bg-peachy-orange-hover font-ttNorms">
                     Message Us
-                </button>
+                </a>
             </div>
         </div>
 

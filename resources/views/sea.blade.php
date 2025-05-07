@@ -451,7 +451,7 @@
             </div>
 
             <!-- Kolom 2: 4 Card Swiper -->
-            <div class="relative overflow-visible">
+            {{-- <div class="relative overflow-visible">
                 <div class="overflow-visible swiper myTheLighthouseKeepers">
                     <div class="swiper-wrapper">
                         <!-- Card 1 -->
@@ -558,6 +558,94 @@
                 <!-- Tombol Navigasi -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
+            </div> --}}
+
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-4">
+                <!-- Card 1 -->
+                <div class="relative">
+                    <div class="absolute inset-0 bg-[#D9D9D9] z-0 rounded-3xl shadow-md"></div>
+                    <img src="{{ asset('assets/images/bryan.png') }}" alt="Bryan"
+                        class="absolute top-[-40px] h-[242px] right-0 object-contain object-right z-10">
+                    <!-- Teks -->
+                    <div class="flex flex-col h-full pt-[150px] relative z-20 rounded-3xl overflow-hidden">
+                        <div class="px-5 text-left text-blue">
+                            <h4 class="text-xl font-bold text-teal-700">Bryan Auriol</h4>
+                            <h5 class="italic text-teal-500 text-md">Founder & Managing Director</h5>
+                        </div>
+                        <div class="flex-grow p-5 pt-3 text-left bg-blue rounded-b-3xl">
+                            <p class="text-sm text-white">
+                                Bryan is the Founder and Managing Director of Narasea, combining marine
+                                science and
+                                storytelling to lead impactful ocean conservation efforts, while also
+                                managing projects that
+                                connect science, policy, and community voices across Indonesia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="relative">
+                    <div class="absolute inset-0 bg-[#D9D9D9] z-0 rounded-3xl shadow-md"></div>
+                    <img src="{{ asset('assets/images/acep.png') }}" alt="Acep"
+                        class="absolute top-[-40px] h-[242px] right-0 object-contain object-right z-10">
+                    <!-- Teks -->
+                    <div class="flex flex-col h-full pt-[150px] relative z-20 rounded-3xl overflow-hidden">
+                        <div class="px-5 text-left text-blue">
+                            <h4 class="text-xl font-bold text-teal-700">Acep Jaelani</h4>
+                            <h5 class="italic text-teal-500 text-md">Founder and Deputy Director</h5>
+                        </div>
+                        <div class="flex-grow p-5 pt-3 text-left bg-blue rounded-b-3xl">
+                            <p class="text-sm text-white">
+                                Acep is a young ocean advocate and storyteller whose work in seagrass
+                                restoration, eco-tourism, and youth empowerment is amplified through his published books
+                                and passion for marine conservation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="relative">
+                    <div class="absolute inset-0 bg-[#D9D9D9] z-0 rounded-3xl shadow-md"></div>
+                    <img src="{{ asset('assets/images/aini.png') }}" alt="Aini"
+                        class="absolute top-[-40px] h-[242px] right-0 object-contain object-right z-10">
+                    <!-- Teks -->
+                    <div class="flex flex-col h-full pt-[150px] relative z-20 rounded-3xl overflow-hidden">
+                        <div class="px-5 text-left text-blue">
+                            <h4 class="text-xl font-bold text-teal-700">Aini Mutia</h4>
+                            <h5 class="italic text-teal-500 text-md">Founder & Secretary</h5>
+                        </div>
+                        <div class="flex-grow p-5 pt-3 text-left bg-blue rounded-b-3xl">
+                            <p class="text-sm text-white">
+                                Aini is the Founder of Narasea and a strategic communicator who amplifies
+                                grassroots voices and drives sustainable impact through storytelling, public relations, and
+                                inclusive development initiatives.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="relative">
+                    <div class="absolute inset-0 bg-[#D9D9D9] z-0 rounded-3xl shadow-md"></div>
+                    <img src="{{ asset('assets/images/alfina.png') }}" alt="Alfina"
+                        class="absolute top-[-40px] h-[242px] right-0 object-contain object-right z-10">
+                    <!-- Teks -->
+                    <div class="flex flex-col h-full pt-[150px] relative z-20 rounded-3xl overflow-hidden">
+                        <div class="px-5 text-left text-blue">
+                            <h4 class="text-xl font-bold text-teal-700">Alfinna Yebelanti</h4>
+                            <h5 class="italic text-teal-500 text-md">Founder & Treasury</h5>
+                        </div>
+                        <div class="flex-grow p-5 pt-3 text-left bg-blue rounded-b-3xl">
+                            <p class="text-sm text-white">
+                                Yebe is a strategic communicator and partnership builder who connects
+                                academia, industry, and global organizations to advance blue economy initiatives and empower
+                                communities through collaboration.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

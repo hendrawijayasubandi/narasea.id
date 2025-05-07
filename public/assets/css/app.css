@@ -2,6 +2,47 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Fullscreen Loader Container */
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #083C75;
+    transition: opacity 0.75s, visibility 0.75s;
+    z-index: 9999;
+}
+
+/* Hide Animation */
+.loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Wave Animation Loader */
+.loader::after {
+    content: "";
+    height: 30px;
+    aspect-ratio: 6;
+    --c: #0000 64%, #FAFEFF 66% 98%, #0000 101%;
+    background:
+        radial-gradient(35% 146% at 50% 159%, var(--c)) 0 0,
+        radial-gradient(35% 146% at 50% -59%, var(--c)) 25% 100%;
+    background-size: calc(100%/3) 50%;
+    background-repeat: repeat-x;
+    animation: l1 1s infinite linear;
+}
+
+@keyframes l1 {
+    to {
+        background-position: 50% 0, 75% 100%;
+    }
+}
+
 /* Navbar Styles */
 .navbar {
     transition: all 0.3s ease;

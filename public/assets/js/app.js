@@ -1,3 +1,15 @@
+window.addEventListener("load", () => {
+    const loader = document.querySelector(".loader");
+
+    loader.classList.add("loader--hidden");
+
+    loader.addEventListener("transitionend", () => {
+        if (loader.parentNode) {
+            document.body.removeChild(loader);
+        }
+    });
+});
+
 // Navbar scroll effect
 $(window).scroll(function () {
     if ($(this).scrollTop() > 50) {
@@ -95,7 +107,7 @@ $(document).ready(function () {
         arrows: false,
         infinite: true,
         speed: 300,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: '0',

@@ -48,6 +48,7 @@
 </head>
 
 <body>
+    <div class="loader"></div>
     <!-- Navbar -->
     @include('components.navbar')
 
@@ -631,7 +632,7 @@
     </section>
 
     <!-- Component Copyright -->
-    <div class="bg-black text-white">
+    <div class="text-white bg-black">
         @include('components.copyright')
     </div>
 

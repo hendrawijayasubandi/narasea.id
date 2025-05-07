@@ -45,13 +45,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
-    <style>
-        .myTheLighthouseKeepers,
-        .myTheLighthouseKeepers .swiper-wrapper,
-        .myTheLighthouseKeepers .swiper-slide {
-            overflow: visible;
-        }
-    </style>
 </head>
 
 <body>
@@ -60,7 +53,7 @@
 
     <!-- Combined Section: Hero + Who We Are + Our Journey -->
     <section
-        class="relative flex flex-col items-start justify-start min-h-screen gap-60 px-4 py-40 bg-[url('/public/assets/images/bg-diver.png')] bg-cover bg-center">
+        class="relative flex flex-col items-start justify-start min-h-screen gap-60 px-4 py-40 bg-[url('/public/assets/images/bg-diver.jpg')] bg-cover bg-center">
         <!-- Hero Content -->
         <div class="flex flex-col ml-[2rem] mr-[2rem] py-52">
             <h1

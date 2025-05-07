@@ -45,6 +45,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
+    <style>
+        .myTheLighthouseKeepers,
+        .myTheLighthouseKeepers .swiper-wrapper,
+        .myTheLighthouseKeepers .swiper-slide {
+            overflow: visible;
+        }
+    </style>
 </head>
 
 <body>
@@ -187,9 +194,9 @@
     <section id="our-vision-mission-approach"
         class="relative bg-[url('/public/assets/images/fish-wave.png')] bg-cover bg-no-repeat bg-center z-40 bg-blue py-[100px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px] overflow-hidden">
         <div class="px-4 md:px-0 md:ml-[2rem] md:mr-[2rem] space-y-24">
-            <div class="slick-slider-container w-full">
+            <div class="w-full slick-slider-container">
                 <!-- Our Mission -->
-                <div class="slick-slide flex flex-col md:flex-row items-start gap-10 w-full py-10">
+                <div class="flex flex-col items-start w-full gap-10 py-10 slick-slide md:flex-row">
                     <div class="text-white md:w-1/2">
                         <h2 class="text-5xl font-bold font-calimate md:text-6xl">Our Mission :</h2>
                         <p class="mb-20 text-lg font-ttNorms md:text-lg">Echoing the Ocean's Call.</p>
@@ -199,14 +206,14 @@
                             transformation for our oceans and coastal communities.
                         </p>
                     </div>
-                    <div class="md:w-1/2 flex justify-center relative">
+                    <div class="relative flex justify-center md:w-1/2">
                         <img src="{{ asset('assets/images/mission.png') }}" alt="Our Mission"
                             class="w-full max-w-[600px] h-auto object-cover rounded-3xl">
                     </div>
                 </div>
 
                 <!-- Our Vision -->
-                <div class="slick-slide flex flex-col md:flex-row items-start gap-10 w-full py-10">
+                <div class="flex flex-col items-start w-full gap-10 py-10 slick-slide md:flex-row">
                     <div class="text-white md:w-1/2">
                         <h2 class="text-5xl font-bold font-calimate md:text-6xl">Our Vision :</h2>
                         <p class="mb-20 text-lg font-ttNorms md:text-lg">A Thriving Future, Above and Below.</p>
@@ -216,14 +223,14 @@
                             timeless art of storytelling.
                         </p>
                     </div>
-                    <div class="md:w-1/2 flex justify-center relative">
+                    <div class="relative flex justify-center md:w-1/2">
                         <img src="{{ asset('assets/images/vision.png') }}" alt="Our Vision"
                             class="w-full max-w-[600px] h-auto object-cover rounded-3xl">
                     </div>
                 </div>
 
                 <!-- Our Approach -->
-                <div class="slick-slide flex flex-col md:flex-row items-start gap-10 w-full py-10">
+                <div class="flex flex-col items-start w-full gap-10 py-10 slick-slide md:flex-row">
                     <div class="text-white md:w-1/2">
                         <h2 class="text-5xl font-bold font-calimate md:text-6xl">Our Approach :</h2>
                         <p class="mb-20 text-lg font-ttNorms md:text-lg">Turning Ideas into Impact.</p>
@@ -233,7 +240,7 @@
                             and innovative solutions, we bring the ocean's stories to life.
                         </p>
                     </div>
-                    <div class="md:w-1/2 flex justify-center relative">
+                    <div class="relative flex justify-center md:w-1/2">
                         <img src="{{ asset('assets/images/our-approach 1.png') }}" alt="Our Approach"
                             class="w-full max-w-[600px] h-auto object-cover rounded-3xl">
                     </div>
@@ -384,7 +391,7 @@
                             <h4 class="text-xl font-bold text-teal-700">Wiro Nur Wirandi</h4>
                             <h5 class="italic text-teal-500 text-md">Chairman of Trustee</h5>
                         </div>
-                        <div class="flex-grow p-5 pt-3 bg-black text-left rounded-b-3xl">
+                        <div class="flex-grow p-5 pt-3 text-left bg-black rounded-b-3xl">
                             <p class="text-sm text-white">
                                 Wiro is a marine and fisheries expert with over 15 years of experience, currently
                                 leading
@@ -407,7 +414,7 @@
                             <h4 class="text-xl font-bold text-teal-700">Ahmad Baihaqi</h4>
                             <h5 class="italic text-teal-500 text-md">Advisor Member of Trustee</h5>
                         </div>
-                        <div class="flex-grow p-5 pt-3 bg-black text-left rounded-b-3xl">
+                        <div class="flex-grow p-5 pt-3 text-left bg-black rounded-b-3xl">
                             <p class="text-sm text-white">
                                 Aki is an impact investment and sustainable finance expert with 20+ years of global
                                 experience, currently leading reef-positive initiatives at YKAN to advance blue economy
@@ -428,7 +435,7 @@
                             <h4 class="text-xl font-bold text-teal-700">Dr. Tries Blandine Razak</h4>
                             <h5 class="italic text-teal-500 text-md">Supervisor of the Foundation</h5>
                         </div>
-                        <div class="flex-grow p-5 pt-3 bg-black text-left rounded-b-3xl">
+                        <div class="flex-grow p-5 pt-3 text-left bg-black rounded-b-3xl">
                             <p class="text-sm text-white">
                                 Dr. Tries Razak is a global expert in coral reef conservation with decades of research
                                 across Indonesia, holding a PhD from the University of Queensland and a distinguished
@@ -451,8 +458,8 @@
             </div>
 
             <!-- Kolom 2: 4 Card Swiper -->
-            <div class="relative">
-                <div class="swiper myTheLighthouseKeepers">
+            <div class="relative overflow-visible">
+                <div class="overflow-visible swiper myTheLighthouseKeepers">
                     <div class="swiper-wrapper">
                         <!-- Card 1 -->
                         <div class="swiper-slide">
@@ -466,7 +473,7 @@
                                         <h4 class="text-xl font-bold text-teal-700">Bryan Auriol</h4>
                                         <h5 class="italic text-teal-500 text-md">Founder & Managing Director</h5>
                                     </div>
-                                    <div class="flex-grow p-5 pt-3 bg-blue text-left rounded-b-3xl">
+                                    <div class="flex-grow p-5 pt-3 text-left bg-blue rounded-b-3xl">
                                         <p class="text-sm text-white">
                                             Bryan is the Founder and Managing Director of Narasea, combining marine
                                             science and
@@ -491,7 +498,7 @@
                                         <h4 class="text-xl font-bold text-teal-700">Acep Jaelani</h4>
                                         <h5 class="italic text-teal-500 text-md">Founder and Deputy Director</h5>
                                     </div>
-                                    <div class="flex-grow p-5 pt-3 bg-blue text-left rounded-b-3xl">
+                                    <div class="flex-grow p-5 pt-3 text-left bg-blue rounded-b-3xl">
                                         <p class="text-sm text-white">
                                             Acep is a young ocean advocate and storyteller whose work in seagrass
                                             restoration,
@@ -516,7 +523,7 @@
                                         <h4 class="text-xl font-bold text-teal-700">Aini Mutia</h4>
                                         <h5 class="italic text-teal-500 text-md">Founder & Secretary</h5>
                                     </div>
-                                    <div class="flex-grow p-5 pt-3 bg-blue text-left rounded-b-3xl">
+                                    <div class="flex-grow p-5 pt-3 text-left bg-blue rounded-b-3xl">
                                         <p class="text-sm text-white">
                                             Aini is the Founder of Narasea and a strategic communicator who amplifies
                                             grassroots voices
@@ -541,7 +548,7 @@
                                         <h4 class="text-xl font-bold text-teal-700">Alfinna Yebelanti</h4>
                                         <h5 class="italic text-teal-500 text-md">Founder & Treasury</h5>
                                     </div>
-                                    <div class="flex-grow p-5 pt-3 bg-blue text-left rounded-b-3xl">
+                                    <div class="flex-grow p-5 pt-3 text-left bg-blue rounded-b-3xl">
                                         <p class="text-sm text-white">
                                             Yebe is a strategic communicator and partnership builder who connects
                                             academia, industry,
@@ -585,7 +592,7 @@
                             <h4 class="text-xl font-bold text-teal-700">Muchammad Hidayat</h4>
                             <h5 class="italic text-teal-500 text-md">Creative Campaign Strategist</h5>
                         </div>
-                        <div class="flex-grow p-5 pt-3 bg-raspberry-pink text-left rounded-b-3xl">
+                        <div class="flex-grow p-5 pt-3 text-left bg-raspberry-pink rounded-b-3xl">
                             <p class="text-sm text-white">
                                 Ka Dayat is the Creative Campaign Strategist at Narasea, using design, storytelling, and
                                 visual strategy to turn ocean conservation messages into impactful movements that engage
@@ -607,7 +614,7 @@
                             <h4 class="text-xl font-bold text-teal-700">Rindah Talitha Vida</h4>
                             <h5 class="italic text-teal-500 text-md">Associate Marine Researcher</h5>
                         </div>
-                        <div class="flex-grow p-5 pt-3 bg-raspberry-pink text-left rounded-b-3xl">
+                        <div class="flex-grow p-5 pt-3 text-left bg-raspberry-pink rounded-b-3xl">
                             <p class="text-sm text-white">
                                 Rindah is a marine researcher focused on coral reef restoration, specializing in
                                 underwater
@@ -628,7 +635,7 @@
                             <h4 class="text-xl font-bold text-teal-700">Ramdan Pahlevi</h4>
                             <h5 class="italic text-teal-500 text-md">Assistant Project Coordinator</h5>
                         </div>
-                        <div class="flex-grow p-5 pt-3 bg-raspberry-pink text-left rounded-b-3xl">
+                        <div class="flex-grow p-5 pt-3 text-left bg-raspberry-pink rounded-b-3xl">
                             <p class="text-sm text-white">
                                 Ramdan is actively contributing to initiatives that protect marine ecosystems and
                                 empower
@@ -695,7 +702,7 @@
     </section>
 
     <!-- Component Copyright -->
-    <div class="bg-teal-blue text-white">
+    <div class="text-white bg-teal-blue">
         @include('components.copyright')
     </div>
 
@@ -706,73 +713,7 @@
 
     <script src="{{ asset('assets/js/app.js') }}"></script>
     <script src="{{ asset('assets/js/our.js') }}"></script>
-
-    <script>
-        const swiper = new Swiper(".myTheLighthouseKeepers", {
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-            grabCursor: true,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            grid: {
-                rows: 1,
-            },
-            breakpoints: {
-                768: {
-                    slidesPerView: 2,
-                },
-                1024: {
-                    slidesPerView: 3,
-                },
-            },
-            on: {
-                init: function() {
-                    adjustSlideHeight();
-                    toggleNavigation();
-                },
-                resize: function() {
-                    adjustSlideHeight();
-                    toggleNavigation();
-                }
-            }
-        });
-
-        // Function to adjust height of all slides
-        function adjustSlideHeight() {
-            const slides = document.querySelectorAll('.swiper-slide');
-            let maxHeight = 0;
-
-            // Find the tallest slide
-            slides.forEach(slide => {
-                slide.style.height = 'auto'; // Reset height first
-                maxHeight = Math.max(maxHeight, slide.offsetHeight); // Get max height
-            });
-
-            // Set all slides to the tallest height
-            slides.forEach(slide => {
-                slide.style.height = `${maxHeight}px`;
-            });
-        }
-
-        // Function to hide or show navigation based on number of slides
-        function toggleNavigation() {
-            const slides = document.querySelectorAll('.swiper-slide');
-            const prevButton = document.querySelector('.swiper-button-prev');
-            const nextButton = document.querySelector('.swiper-button-next');
-
-            // Hide navigation if there are 1-3 slides
-            if (slides.length <= 3) {
-                prevButton.style.display = 'none';
-                nextButton.style.display = 'none';
-            } else {
-                prevButton.style.display = 'block';
-                nextButton.style.display = 'block';
-            }
-        }
-    </script>
+    <script src="{{ asset('assets/js/keepers.js') }}"></script>
 </body>
 
 </html>

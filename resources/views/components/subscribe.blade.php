@@ -10,7 +10,7 @@
         </p>
 
         <!-- Email form -->
-        <form class="space-y-3">
+        <form class="space-y-3" method="POST" action="#">
             <div class="flex flex-col gap-3">
                 <input type="email" placeholder="name@yourmail.com"
                     class="w-[90%] px-4 py-3 bg-white text-black placeholder-black/50 border border-white/20 rounded-xl focus:outline-none focus:ring-2 focus:ring-peachy-orange font-ttNorms mb-1"
@@ -21,5 +21,12 @@
                 </button>
             </div>
         </form>
+
+        <!-- Success message -->
+        <div class="mt-2 hidden" id="success-message">
+            <p class="text-white font-ttNorms bg-green-600 py-3 rounded-xl">
+                You're subscribed! 🎉<br>Thank you for joining our newsletter.
+            </p>
+        </div>
     </div>
 </div>

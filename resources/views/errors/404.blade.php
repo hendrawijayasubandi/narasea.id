@@ -190,6 +190,11 @@
         <div class="bubble"></div>
         <div class="bubble"></div>
         <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -197,6 +202,20 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="{{ asset('assets/js/app.js') }}"></script>
+
+    <script>
+        const bubbleContainer = document.querySelector('.bubbles');
+
+        for (let i = 0; i < 30; i++) {
+            const bubble = document.createElement('div');
+            bubble.classList.add('bubble');
+            bubble.style.left = `${Math.random() * 100}%`;
+            bubble.style.animationDuration = `${5 + Math.random() * 5}s`;
+            bubble.style.width = `${10 + Math.random() * 20}px`;
+            bubble.style.height = bubble.style.width;
+            bubbleContainer.appendChild(bubble);
+        }
+    </script>
 </body>
 
 </html>

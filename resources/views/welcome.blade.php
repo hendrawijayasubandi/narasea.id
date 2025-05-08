@@ -70,7 +70,7 @@
 
         <!-- CTA Button -->
         <a href="https://wa.me/628112372277" target="_blank"
-            class="z-10 px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-raspberry-pink text-white rounded-3xl font-bold tracking-wider hover:bg-raspberry-pink-hover transition duration-200 font-ttNorms mt-0">
+            class="z-10 px-6 py-2 text-sm sm:px-7 sm:py-2.5 sm:text-base md:px-8 md:py-3 md:text-lg bg-raspberry-pink text-white hover:text-white rounded-3xl font-bold tracking-wider hover:bg-raspberry-pink-hover transition duration-200 font-ttNorms mt-0">
             Be The Change
             <i class="ml-2 fas fa-arrow-right"></i>
         </a>
@@ -127,7 +127,12 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-golden-yellow group-hover:translate-y-0">
+                                class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-golden-yellow group-hover:translate-y-0 space-y-2">
+                                <p class="text-bronze text-base lg:text-xl font-calimate font-bold min-h-[60px]">10+
+                                    coastal
+                                    communities empowered.
+                                </p>
+
                                 <p class="text-sm text-bronze lg:text-base font-ttNorms">
                                     Meet Our Fishers in Sidem Beach and Popoh Beach Tulungagung, East Java
                                 </p>
@@ -154,7 +159,10 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-raspberry-pink group-hover:translate-y-0">
+                                class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-raspberry-pink group-hover:translate-y-0 space-y-2">
+                                <p class="text-wine-red text-base lg:text-xl font-calimate font-bold min-h-[60px]">
+                                    500+ people educated on ocean literacy.
+                                </p>
                                 <p class="text-sm text-wine-red lg:text-base font-ttNorms">
                                     See how our programs are shaping future ocean advocates at Sikola Pomore.
                                 </p>
@@ -182,7 +190,10 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-teal-blue group-hover:translate-y-0">
+                                class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-teal-blue group-hover:translate-y-0 space-y-2">
+                                <p class="text-white text-base lg:text-xl font-calimate font-bold min-h-[60px]">
+                                    100K+ media impressions through digital storytelling.
+                                </p>
                                 <p class="text-sm text-white lg:text-base font-ttNorms">
                                     Amplifying unheard voices from coastal communities.
                                 </p>

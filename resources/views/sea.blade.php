@@ -48,6 +48,7 @@
 </head>
 
 <body>
+    <div class="loader"></div>
     <!-- Navbar -->
     @include('components.navbar')
 
@@ -110,80 +111,6 @@
     </section>
 
     <!-- Section Our Mission -->
-    {{-- <section id="our-vision-mission-approach" x-data="missionSwitcher()" x-init="start()"
-        class="relative bg-[url('/public/assets/images/fish-wave.png')] bg-cover bg-no-repeat bg-center z-40 bg-blue py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]">
-        <div class="flex flex-col max-w-full px-6 mx-auto md:flex-row">
-            <!-- Text Area -->
-            <div class="text-white md:w-1/2 relative min-h-[300px]">
-                <template x-for="(item, idx) in items" :key="idx">
-                    <div x-show="index === idx" x-transition:enter="transition ease-out duration-1000"
-                        x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
-                        x-transition:leave="transition ease-in duration-1000" x-transition:leave-start="opacity-100"
-                        x-transition:leave-end="opacity-0" class="absolute top-0 left-0 w-full">
-                        <h2 class="text-5xl font-bold font-calimate md:text-6xl" x-text="item.title"></h2>
-                        <p class="mb-6 text-lg font-ttNorms md:text-lg" x-text="item.subtitle"></p>
-                        <div class="space-y-4">
-                            <p class="text-base leading-relaxed text-justify font-ttNorms md:text-lg"
-                                x-html="item.description"></p>
-                        </div>
-                    </div>
-                </template>
-            </div>
-
-            <!-- Image Area -->
-            <div class="overflow-hidden md:w-1/2 flex justify-center items-center relative min-h-[400px]">
-                <template x-for="(item, idx) in items" :key="idx">
-                    <div x-show="index === idx" x-transition:enter="transition ease-out duration-1000"
-                        x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
-                        x-transition:leave="transition ease-in duration-1000" x-transition:leave-start="opacity-100"
-                        x-transition:leave-end="opacity-0"
-                        class="absolute top-0 left-0 flex items-center justify-center w-full h-full">
-                        <img :src="item.image" alt="Ocean Mission"
-                            class="w-[600px] h-[400px] object-cover rounded-3xl">
-                    </div>
-                </template>
-            </div>
-        </div>
-    </section>
-
-    <script>
-        function missionSwitcher() {
-            return {
-                index: 0,
-                items: [{
-                        title: 'Our Mission :',
-                        subtitle: 'Echoing the Ocean\'s Call.',
-                        description: `We listen, we amplify, and we act — ensuring<br>
-                                      that every ripple of change grows into a wave of<br>
-                                      transformation for our oceans and coastal communities.`,
-                        image: "{{ asset('assets/images/mission.png') }}"
-                    },
-                    {
-                        title: 'Our Vision :',
-                        subtitle: 'A Thriving Future, Above and Below.',
-                        description: `We dream of a world where people and marine life coexist<br>
-                                      in harmony, powered by knowledge, sustainability, and the<br>
-                                      timeless art of storytelling.`,
-                        image: "{{ asset('assets/images/vision.png') }}"
-                    },
-                    {
-                        title: 'Our Approach :',
-                        subtitle: 'Turning Ideas into Impact.',
-                        description: `We don't just talk about conservation—we make it happen.<br>
-                                      Through education, real-world action, powerful storytelling,<br>
-                                      and innovative solutions, we bring the ocean's stories to life.`,
-                        image: "{{ asset('assets/images/our-approach 1.png') }}"
-                    },
-                ],
-                start() {
-                    setInterval(() => {
-                        this.index = (this.index + 1) % this.items.length;
-                    }, 5000); // 5 detik sekali berubah
-                }
-            }
-        }
-    </script> --}}
-
     <section id="our-vision-mission-approach"
         class="relative bg-[url('/public/assets/images/fish-wave.png')] bg-cover bg-no-repeat bg-center z-40 bg-blue py-[100px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px] overflow-hidden">
         <div class="px-4 md:px-0 md:ml-[2rem] md:mr-[2rem] space-y-24">

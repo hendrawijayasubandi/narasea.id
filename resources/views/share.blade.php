@@ -48,6 +48,7 @@
 </head>
 
 <body>
+    <div class="loader"></div>
     <!-- Navbar -->
     @include('components.navbar')
 
@@ -183,12 +184,16 @@
                             <div
                                 class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
                                 <p class="text-bronze text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
-                                    Become a Monthly Donor</p>
+                                    Become a Monthly Donor
+                                </p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-golden-yellow group-hover:translate-y-0">
+                                class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-golden-yellow group-hover:translate-y-0 space-y-2">
+                                <p class="text-bronze text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                    Become a Monthly Donor
+                                </p>
                                 <p class="text-sm text-bronze lg:text-base font-ttNorms">
                                     Provide ongoing support for conservation efforts.
                                 </p>
@@ -210,12 +215,16 @@
                             <div
                                 class="bg-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
                                 <p class="text-white text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
-                                    Fundraise for Ocean Health</p>
+                                    Fundraise for Ocean Health
+                                </p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-blue group-hover:translate-y-0">
+                                class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-blue group-hover:translate-y-0 space-y-2">
+                                <p class="text-white text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                    Fundraise for Ocean Health
+                                </p>
                                 <p class="text-sm text-white lg:text-base font-ttNorms">
                                     Start a campaign for birthdays, challenges, or community events.
                                 </p>
@@ -243,7 +252,10 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex justify-center p-6 transition-transform duration-300 transform translate-y-full items-left bg-raspberry-pink group-hover:translate-y-0">
+                                class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-raspberry-pink group-hover:translate-y-0 space-y-2">
+                                <p class="text-wine-red text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                    Sponsor a Program
+                                </p>
                                 <p class="text-sm text-wine-red lg:text-base font-ttNorms">
                                     Amplifying unheard voices from coastal communities.
                                 </p>
@@ -289,9 +301,11 @@
                             <p class="text-xl font-bold text-white font-calimate">Education Trips.</p>
                         </div>
                         <div
-                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-blue group-hover:translate-y-0">
+                            class="absolute inset-0 flex flex-col justify-start p-5 transition-transform duration-300 transform translate-y-full items-start bg-blue group-hover:translate-y-0 space-y-2">
+                            <p class="text-xl font-bold text-white font-calimate">Education Trips.</p>
                             <p class="text-sm text-white lg:text-base font-ttNorms">Hands-on experiences for students,
-                                professionals, and ocean enthusiasts.</p>
+                                professionals, and ocean enthusiasts.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -310,9 +324,11 @@
                             <p class="text-xl font-bold text-bronze font-calimate">Request a Speaker.</p>
                         </div>
                         <div
-                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-golden-yellow group-hover:translate-y-0">
+                            class="absolute inset-0 flex flex-col justify-start p-5 transition-transform duration-300 transform translate-y-full items-start bg-golden-yellow group-hover:translate-y-0 space-y-2">
+                            <p class="text-xl font-bold text-bronze font-calimate">Request a Speaker.</p>
                             <p class="text-sm text-bronze lg:text-base font-ttNorms">Bring marine conservation experts
-                                to educate your organization or community.</p>
+                                to educate your organization or community.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -334,9 +350,11 @@
                             <p class="text-xl font-bold text-wine-red font-calimate">Sponsor a Coastal Community.</p>
                         </div>
                         <div
-                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-raspberry-pink group-hover:translate-y-0">
+                            class="absolute inset-0 flex flex-col justify-start p-5 transition-transform duration-300 transform translate-y-full items-start- bg-raspberry-pink group-hover:translate-y-0 space-y-2">
+                            <p class="text-xl font-bold text-wine-red font-calimate">Sponsor a Coastal Community.</p>
                             <p class="text-sm text-wine-red lg:text-base font-ttNorms">Provide direct support for
-                                grassroots conservation initiatives.</p>
+                                grassroots conservation initiatives.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -355,9 +373,11 @@
                             <p class="text-xl font-bold text-cocoa-brown font-calimate">Become a Volunteer.</p>
                         </div>
                         <div
-                            class="absolute inset-0 flex flex-col p-5 transition-transform duration-300 transform translate-y-full bg-peachy-orange group-hover:translate-y-0">
+                            class="absolute inset-0 flex flex-col justify-start p-5 transition-transform duration-300 transform translate-y-full items-start bg-peachy-orange group-hover:translate-y-0 space-y-2">
+                            <p class="text-xl font-bold text-cocoa-brown font-calimate">Become a Volunteer.</p>
                             <p class="text-sm text-cocoa-brown lg:text-base font-ttNorms">Strong coastal communities
-                                mean a stronger ocean. Be part of their journey.</p>
+                                mean a stronger ocean. Be part of their journey.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -491,13 +511,13 @@
                     class="py-2 text-xs font-bold tracking-wider text-white hover:text-white transition duration-200 px-7 sm:text-sm md:text-base bg-raspberry-pink rounded-2xl hover:bg-raspberry-pink-hover font-ttNorms">
                     Donate Now
                 </a>
-            
+
                 <!-- Button 2 -->
                 <a href="#"
                     class="py-2 text-xs font-bold tracking-wider text-white hover:text-white transition duration-200 px-7 sm:text-sm md:text-base bg-teal-blue rounded-2xl hover:bg-teal-blue-hover font-ttNorms">
                     Collaborate
                 </a>
-            
+
                 <!-- Button 3 -->
                 <a href="#"
                     class="py-2 text-xs font-bold tracking-wider text-white hover:text-white transition duration-200 px-7 sm:text-sm md:text-base bg-peachy-orange rounded-2xl hover:bg-peachy-orange-hover font-ttNorms">

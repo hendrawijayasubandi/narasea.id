@@ -1,8 +1,9 @@
 <style>
     a:hover {
-    color: #017C85;
-}
+        color: #017C85;
+    }
 </style>
+
 <div class="grid grid-cols-1 gap-8 text-white sm:grid-cols-3 font-calimate">
     <!-- See Our Ocean -->
     <div>

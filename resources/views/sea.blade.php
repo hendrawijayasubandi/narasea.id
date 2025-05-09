@@ -113,7 +113,7 @@
     <!-- Section Our Mission -->
     <section id="our-vision-mission-approach"
         class="relative bg-[url('/public/assets/images/fish-wave.png')] bg-cover bg-no-repeat bg-center z-40 bg-blue py-[100px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px] overflow-hidden">
-        <div class="px-4 md:px-0 md:ml-[2rem] md:mr-[2rem] space-y-24">
+        <div class="px-4 md:px-0 md:ml-[2rem] md:mr-[2rem]">
             <div class="w-full slick-slider-container">
                 <!-- Our Mission -->
                 <div class="flex flex-col items-start w-full gap-10 py-10 slick-slide md:flex-row">
@@ -165,6 +165,16 @@
                             class="w-full max-w-[600px] h-auto object-cover rounded-3xl">
                     </div>
                 </div>
+            </div>
+            <div class="slick-custom-nav flex justify-center gap-4 mt-4">
+                <button id="prevSlide"
+                    class="w-12 h-12 flex items-center justify-center text-white bg-teal-blue hover:bg-teal-blue-hover rounded-full shadow transition duration-200">
+                    <i class="fas fa-chevron-left text-xl"></i>
+                </button>
+                <button id="nextSlide"
+                    class="w-12 h-12 flex items-center justify-center text-white bg-teal-blue hover:bg-teal-blue-hover rounded-full shadow transition duration-200">
+                    <i class="fas fa-chevron-right text-xl"></i>
+                </button>
             </div>
         </div>
     </section>

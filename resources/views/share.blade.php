@@ -412,77 +412,76 @@
             <div x-data="{
                 activeCard: 0,
                 cards: [0, 1, 2],
-                setNextCard() {
+                nextCard() {
                     this.activeCard = (this.activeCard + 1) % this.cards.length;
                 }
-            }" class="max-w-2xl mx-auto mt-8 relative min-h-[440px] mb-12">
-            
-    <template x-for="(card, index) in cards" :key="index">
-        <div
-            x-show="activeCard === index || (activeCard > index && activeCard !== 0)"
-            @click="setNextCard()"
-            :class="{
-                'z-30': activeCard === index,
-                'z-20': activeCard - 1 === index,
-                'z-10': activeCard - 2 === index
-            }"
-            class="absolute inset-0 transition-all duration-500 cursor-pointer"
-            :style="`transform: translateY(${index * 2}rem); opacity: ${activeCard === index ? 1 : 0.7};`"
-        >
-            <!-- Card Content -->
-            <template x-if="index === 0">
-                <div class="overflow-hidden shadow-sm rounded-2xl bg-peachy-orange backdrop-blur-sm">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
-                            <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Join the Conversation.</h2>
-                            <p class="text-sm font-ttNorms md:text-lg">
-                                Share Nanasea's content & inspire action on social media.
-                            </p>
-                        </div>
-                        <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
-                            <img src="{{ asset('assets/images/close-up-hands-making-heart-shape-sea-against-clear-sky 1.png') }}"
-                                 alt="Share on Social" class="object-cover object-center w-full h-full" />
-                        </div>
-                    </div>
-                </div>
-            </template>
+            }" x-init="setInterval(() => nextCard(), 4000)"
+                class="max-w-2xl mx-auto mt-8 relative min-h-[380px] md:min-h-[320px] mb-12">
 
-            <template x-if="index === 1">
-                <div class="overflow-hidden shadow-sm rounded-2xl bg-teal-blue backdrop-blur-sm">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
-                            <img src="{{ asset('assets/images/aceppp1.png') }}" alt="Support Digital"
-                                 class="object-cover object-center w-full h-full" />
-                        </div>
-                        <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
-                            <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Support Digital Storytelling.</h2>
-                            <p class="text-sm font-ttNorms md:text-lg">
-                                Fund community-led documentaries, podcasts, and campaigns.
-                            </p>
+                <!-- Card 1 -->
+                <div x-show="true" x-transition.opacity.duration.500ms
+                    :class="{ 'z-30': activeCard === 0, 'z-10': activeCard !== 0 }"
+                    class="absolute inset-0 mt-0 transition-all">
+                    <div class="overflow-hidden shadow-sm rounded-2xl bg-peachy-orange backdrop-blur-sm">
+                        <div class="flex flex-col md:flex-row">
+                            <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
+                                <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Join the Conversation.
+                                </h2>
+                                <p class="text-sm font-ttNorms md:text-lg">
+                                    Share Nanasea's content & inspire action on social media.
+                                </p>
+                            </div>
+                            <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
+                                <img src="{{ asset('assets/images/close-up-hands-making-heart-shape-sea-against-clear-sky 1.png') }}"
+                                    alt="Share on Social" class="object-cover object-center w-full h-full" />
+                            </div>
                         </div>
                     </div>
                 </div>
-            </template>
 
-            <template x-if="index === 2">
-                <div class="overflow-hidden shadow-sm rounded-2xl bg-raspberry-pink text-wine-red backdrop-blur-sm">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
-                            <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Collaborate with Content Creators.</h2>
-                            <p class="text-sm font-ttNorms md:text-lg">
-                                Work with journalists, influencers, and filmmakers to amplify marine issues.
-                            </p>
-                        </div>
-                        <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
-                            <img src="{{ asset('assets/images/product-slide-4-from-image-stock-1.png') }}"
-                                 alt="Collaborate with Content Creators" class="object-cover object-center w-full h-full" />
+                <!-- Card 2 -->
+                <div x-show="activeCard !== 0" x-transition.opacity.duration.500ms
+                    :class="{ 'z-20': activeCard === 1, 'z-10': activeCard !== 1 }"
+                    class="absolute inset-0 mt-8 transition-all">
+                    <div class="overflow-hidden shadow-sm rounded-2xl bg-teal-blue backdrop-blur-sm">
+                        <div class="flex flex-col md:flex-row">
+                            <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
+                                <img src="{{ asset('assets/images/aceppp1.png') }}" alt="Share on Social"
+                                    class="object-cover object-center w-full h-full" />
+                            </div>
+                            <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
+                                <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Support Digital
+                                    Storytelling.</h2>
+                                <p class="text-sm font-ttNorms md:text-lg">
+                                    Fund community-led documentaries, podcasts, and campaigns.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </template>
-        </div>
-    </template>
-</div>
+
+                <!-- Card 3 -->
+                <div x-show="activeCard === 2" x-transition.opacity.duration.500ms
+                    :class="{ 'z-30': activeCard === 2, 'z-10': activeCard !== 2 }"
+                    class="absolute inset-0 mt-16 transition-all">
+                    <div
+                        class="overflow-hidden shadow-sm rounded-2xl bg-raspberry-pink text-wine-red backdrop-blur-sm">
+                        <div class="flex flex-col md:flex-row">
+                            <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
+                                <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Collaborate with Content
+                                    Creators.</h2>
+                                <p class="text-sm font-ttNorms md:text-lg">
+                                    Work with journalists, influencers, and filmmakers to amplify marine issues.
+                                </p>
+                            </div>
+                            <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
+                                <img src="{{ asset('assets/images/product-slide-4-from-image-stock-1.png') }}"
+                                    alt="Share on Social" class="object-cover object-center w-full h-full" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Content goes here -->

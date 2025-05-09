@@ -299,7 +299,7 @@
         </div>
 
         <!-- The Lighthouse Advisory -->
-        <div class="py-20 mx-auto space-y-12 max-w-7xl">
+        <div class="py-20 space-y-12 ml-[2rem] mr-[2rem]">
             <!-- Kolom 1: Heading & Paragraf -->
             <div class="space-y-1 text-left">
                 <h2 class="text-4xl font-bold text-white md:text-5xl font-calimate">The Lighthouse Advisory</h3>
@@ -378,7 +378,7 @@
         </div>
 
         <!-- The Lighthouse Keepers -->
-        <div class="py-20 mx-auto space-y-12 max-w-7xl">
+        <div class="py-20 space-y-12 ml-[2rem] mr-[2rem]">
             <!-- Kolom 1: Heading & Paragraf -->
             <div class="space-y-1 text-left">
                 <h2 class="text-4xl font-bold text-white md:text-5xl font-calimate">The Lighthouse Keepers</h2>
@@ -587,7 +587,7 @@
         </div>
 
         <!-- The Current Crew -->
-        <div class="py-20 mx-auto space-y-12 max-w-7xl">
+        <div class="py-20 space-y-12 ml-[2rem] mr-[2rem]">
             <!-- Kolom 1: Heading & Paragraf -->
             <div class="space-y-1 text-left">
                 <h2 class="text-4xl font-bold text-white md:text-5xl font-calimate">The Current Crew</h3>

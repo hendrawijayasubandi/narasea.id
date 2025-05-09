@@ -54,7 +54,7 @@
 
     <!-- Combined Section: Hero + Who We Are + Our Journey -->
     <section
-        class="relative flex flex-col items-start justify-start min-h-screen gap-60 px-4 py-40 bg-[url('/public/assets/images/bg-diver.jpg')] bg-cover bg-center">
+        class="relative flex flex-col items-start justify-start min-h-screen gap-60 py-40 bg-[url('/public/assets/images/bg-diver.jpg')] bg-cover bg-center">
         <!-- Hero Content -->
         <div class="flex flex-col ml-[2rem] mr-[2rem] py-52">
             <h1
@@ -282,7 +282,7 @@
 
     <!-- Section The Lighthouse Advisory and Ocean Trustees -->
     <section id="together-for-the-ocean"
-        class="relative z-20 bg-teal-blue py-[100px] px-4 rounded-bl-[50px] rounded-br-[50px] -mt-[50px]">
+        class="relative z-20 bg-teal-blue py-[100px] rounded-bl-[50px] rounded-br-[50px] -mt-[50px]">
         <div class="flex flex-col items-center mx-auto space-y-12 text-center max-w-7xl">
             <!-- Heading -->
             <h2
@@ -309,7 +309,7 @@
             </div>
 
             <!-- Kolom 2: 3 Card -->
-            <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                 <!-- Card 1 -->
                 <div class="relative">
                     <div class="absolute inset-0 bg-[#D9D9D9] z-0 rounded-3xl shadow-md"></div>
@@ -497,7 +497,7 @@
                 <div class="swiper-button-next"></div>
             </div> --}}
 
-            <div class="grid grid-cols-1 gap-8 md:grid-cols-4">
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 <!-- Card 1 -->
                 <div class="relative">
                     <div class="absolute inset-0 bg-[#D9D9D9] z-0 rounded-3xl shadow-md"></div>
@@ -598,7 +598,7 @@
             </div>
 
             <!-- Kolom 2: 3 Card -->
-            <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                 <!-- Card 1 -->
                 <div class="relative">
                     <div class="absolute inset-0 bg-[#D9D9D9] z-0 rounded-3xl shadow-md"></div>

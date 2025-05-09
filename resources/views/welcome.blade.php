@@ -54,7 +54,7 @@
 
     <!-- Hero Section -->
     <section
-        class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/home-1.png')] bg-cover bg-center flex flex-col justify-end items-start px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:py-28 xl:py-48">
+        class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/home-1.png')] bg-cover bg-center flex flex-col justify-end items-start px-8 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:py-28 xl:py-48">
 
         <!-- Main Title -->
         <h1 class="mb-0 text-3xl font-bold tracking-wide text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
@@ -239,13 +239,13 @@
                         The Fading Fishermen of Pulau Sabira.
                     </p>
 
-                    <p class="mb-4 text-sm leading-relaxed text-black sm:text-base md:text-lg lg:text-xl font-ttNorms">
+                    <p class="mb-4 text-sm leading-relaxed text-black sm:text-base md:text-lg xl:text-xl font-ttNorms">
                         Once a thriving haven for traditional fishermen, Pulau Sabira now
                         faces a quiet transformation. As the younger generation drifts away
                         from the sea, the island's rich fishing heritage stands at a crossroads.
                     </p>
 
-                    <p class="mb-6 text-sm leading-relaxed text-black sm:text-base md:text-lg lg:text-xl font-ttNorms">
+                    <p class="mb-6 text-sm leading-relaxed text-black sm:text-base md:text-lg xl:text-xl font-ttNorms">
                         NPM Fikom Unpad and Narasea Indonesia set sail to uncover the
                         stories of Sabira's fishermen—learning, listening, and capturing
                         their journey before it fades into history.

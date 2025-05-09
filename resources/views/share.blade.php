@@ -271,10 +271,10 @@
     <section id="learning-action"
         class="relative px-4 py-[100px] bg-white rounded-bl-[50px] rounded-br-[50px] z-20 overflow-hidden"
         style="margin-top: -50px;">
-        <div class="relative z-10 flex flex-col gap-8 ml-[2rem] mr-[2rem]">
+        <div class="relative z-10 flex flex-col gap-8 md:gap-4 ml-[2rem] mr-[2rem]">
 
             <!-- Section Atas -->
-            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 items-stretch">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 md:gap-4 items-stretch">
                 <!-- Teks Kiri -->
                 <div class="flex flex-col justify-start">
                     <h2 class="mb-4 text-4xl font-bold lg:text-5xl font-calimate">
@@ -335,7 +335,7 @@
             </div>
 
             <!-- Section Bawah -->
-            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 items-stretch">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 md:gap-4 items-stretch">
                 <!-- Card 3 -->
                 <div class="h-full group">
                     <div class="relative flex flex-col overflow-hidden shadow-lg rounded-2xl">
@@ -485,7 +485,7 @@
         </div>
 
         <!-- Content goes here -->
-        <div class="relative z-10 ml-[2rem] mr-[2rem]" style="margin-top: 150px;">
+        <div class="relative z-10 ml-[2rem] mr-[2rem]" style="margin-top: 200px;">
             <div class="flex items-start justify-start lg:w-2/4">
                 <div class="text-start">
                     <h3 class="mb-4 text-3xl font-bold leading-snug sm:text-3xl md:text-4xl lg:text-5xl font-calimate">

@@ -506,19 +506,43 @@
             <!-- 3 styled buttons aligned to the left -->
             <div class="flex flex-wrap justify-start gap-4 mx-auto">
                 <!-- Button 1 -->
-                <a href="#"
+                <button onclick="toggleModal(true)"
                     class="py-2 text-xs font-bold tracking-wider text-white hover:text-white transition duration-200 px-7 sm:text-sm md:text-base bg-raspberry-pink rounded-2xl hover:bg-raspberry-pink-hover font-ttNorms">
                     Donate Now
-                </a>
+                </button>
+
+                <!-- Modal Background -->
+                <div id="donateModal" class="fixed inset-0 z-[9999] flex items-center justify-center bg-black bg-opacity-50 hidden opacity-0 transition-opacity duration-300">
+                    <!-- Modal Content -->
+                    <div id="donateModalContent" class="bg-white w-11/12 max-w-lg max-h-[90vh] overflow-y-auto p-6 rounded-2xl shadow-xl relative transform scale-95 transition-all duration-300">
+                        <!-- Modal Header -->
+                        <div class="flex items-center justify-between mb-4">
+                            <!-- Modal Title -->
+                            <h2 class="text-xl font-bold text-gray-800">Donate Information</h2>
+
+                            <!-- Close Button -->
+                            <button onclick="toggleModal(false)" class="text-gray-500 text-xl hover:text-red-500">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+
+                        <!-- Modal Body -->
+                        <div class="space-y-4 text-sm text-gray-700">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in neque vitae justo convallis lacinia.</p>
+                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+                            <p>Donec euismod nisl sed turpis feugiat. Integer et nisi ut nulla ullamcorper convallis.</p>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Button 2 -->
-                <a href="#"
+                <a href="mailto:naraseaid@gmail.com"
                     class="py-2 text-xs font-bold tracking-wider text-white hover:text-white transition duration-200 px-7 sm:text-sm md:text-base bg-teal-blue rounded-2xl hover:bg-teal-blue-hover font-ttNorms">
                     Collaborate
                 </a>
 
                 <!-- Button 3 -->
-                <a href="#"
+                <a href="https://wa.me/628112372277" target="_blank"
                     class="py-2 text-xs font-bold tracking-wider text-white hover:text-white transition duration-200 px-7 sm:text-sm md:text-base bg-peachy-orange rounded-2xl hover:bg-peachy-orange-hover font-ttNorms">
                     Message Us
                 </a>
@@ -562,6 +586,39 @@
     <script src="{{ asset('assets/js/app.js') }}"></script>
     <script src="{{ asset('assets/js/text-transition.js') }}" defer></script>
     <script src="{{ asset('assets/js/educate.js') }}"></script>
+
+    <script>
+        function toggleModal(show) {
+            const modal = document.getElementById('donateModal');
+            const modalContent = document.getElementById('donateModalContent');
+
+            if (show) {
+                modal.classList.remove('hidden');
+                document.body.classList.add('overflow-hidden'); // ❗ Blok scroll
+                setTimeout(() => {
+                modal.classList.add('opacity-100');
+                modal.classList.remove('opacity-0');
+                modalContent.classList.add('scale-100');
+                modalContent.classList.remove('scale-95');
+                }, 10);
+            } else {
+                modal.classList.remove('opacity-100');
+                modal.classList.add('opacity-0');
+                modalContent.classList.remove('scale-100');
+                modalContent.classList.add('scale-95');
+                setTimeout(() => {
+                modal.classList.add('hidden');
+                document.body.classList.remove('overflow-hidden'); // ❗ Aktifkan scroll lagi
+                }, 300);
+            }
+        }
+
+        document.getElementById('donateModal').addEventListener('click', function (e) {
+          if (e.target.id === 'donateModal') {
+            toggleModal(false);
+          }
+        });
+    </script>
 </body>
 
 </html>

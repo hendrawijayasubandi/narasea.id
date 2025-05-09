@@ -689,7 +689,7 @@
             style="margin-top: 100px;">
             <!-- Button 1 -->
             <div class="flex justify-start">
-                <a href="#"
+                <a href="/"
                     class="group relative flex items-center justify-center bg-peachy-orange text-white font-semibold font-calimate rounded-full overflow-hidden h-12 w-12 hover:w-[260px] transition-[width] duration-300 ease-in-out">
                     <span
                         class="absolute flex items-center gap-2 text-sm transition-opacity duration-300 ease-in-out opacity-0 left-5 whitespace-nowrap group-hover:opacity-100 group-hover:text-black">
@@ -704,7 +704,7 @@
 
             <!-- Button 2 -->
             <div class="flex justify-start md:pl-[150px]">
-                <a href="#"
+                <a href="{{ route('share') }}"
                     class="group relative flex items-center justify-center bg-peachy-orange text-white font-calimate font-semibold rounded-full overflow-hidden h-12 w-12 hover:w-[200px] transition-[width] duration-300 ease-in-out pl-4 pr-4">
                     <span
                         class="absolute flex items-center gap-2 text-sm transition-opacity duration-300 ease-in-out opacity-0 left-4 whitespace-nowrap group-hover:opacity-100 group-hover:text-black">

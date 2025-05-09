@@ -594,7 +594,7 @@
 
             if (show) {
                 modal.classList.remove('hidden');
-                document.body.classList.add('overflow-hidden'); // ❗ Blok scroll
+                document.body.classList.add('overflow-hidden');
                 setTimeout(() => {
                 modal.classList.add('opacity-100');
                 modal.classList.remove('opacity-0');
@@ -608,15 +608,15 @@
                 modalContent.classList.add('scale-95');
                 setTimeout(() => {
                 modal.classList.add('hidden');
-                document.body.classList.remove('overflow-hidden'); // ❗ Aktifkan scroll lagi
+                document.body.classList.remove('overflow-hidden');
                 }, 300);
             }
         }
 
         document.getElementById('donateModal').addEventListener('click', function (e) {
-          if (e.target.id === 'donateModal') {
-            toggleModal(false);
-          }
+            if (e.target.id === 'donateModal') {
+                toggleModal(false);
+            }
         });
     </script>
 </body>

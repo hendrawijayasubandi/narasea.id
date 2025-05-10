@@ -86,7 +86,7 @@
             <!-- Left Side - Title -->
             <div class="flex items-flex-start lg:w-1/3">
                 <h2
-                    class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
+                    class="text-4xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
                     <span class="text-white">Tides of</span><br>
                     <span class="text-teal-blue">Impact.</span>
                 </h2>
@@ -120,7 +120,7 @@
                             </div>
                             <div
                                 class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
-                                <p class="text-bronze text-base lg:text-xl font-calimate font-bold min-h-[60px]">10+
+                                <p class="text-bronze text-2xl md:text-lg lg:text-xl font-calimate font-bold min-h-[60px]">10+
                                     coastal
                                     communities empowered.</p>
                             </div>
@@ -128,7 +128,7 @@
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
                                 class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-golden-yellow group-hover:translate-y-0 space-y-2">
-                                <p class="text-bronze text-base lg:text-xl font-calimate font-bold min-h-[60px]">10+
+                                <p class="text-bronze text-2xl md:text-lg lg:text-xl font-calimate font-bold min-h-[60px]">10+
                                     coastal
                                     communities empowered.
                                 </p>
@@ -153,14 +153,14 @@
                             </div>
                             <div
                                 class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
-                                <p class="text-wine-red text-base lg:text-xl font-calimate font-bold min-h-[60px]">
+                                <p class="text-wine-red text-2xl md:text-lg lg:text-xl font-calimate font-bold min-h-[60px]">
                                     500+ people educated on ocean literacy.</p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
                                 class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-raspberry-pink group-hover:translate-y-0 space-y-2">
-                                <p class="text-wine-red text-base lg:text-xl font-calimate font-bold min-h-[60px]">
+                                <p class="text-wine-red text-2xl md:text-lg lg:text-xl font-calimate font-bold min-h-[60px]">
                                     500+ people educated on ocean literacy.
                                 </p>
                                 <p class="text-sm text-wine-red lg:text-base font-ttNorms">
@@ -183,7 +183,7 @@
                             </div>
                             <div
                                 class="bg-teal-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-xl font-calimate font-bold min-h-[60px]">
+                                <p class="text-white text-2xl md:text-lg lg:text-xl font-calimate font-bold min-h-[60px]">
                                     100K+ media impressions through digital storytelling.
                                 </p>
                             </div>
@@ -191,7 +191,7 @@
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
                                 class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-teal-blue group-hover:translate-y-0 space-y-2">
-                                <p class="text-white text-base lg:text-xl font-calimate font-bold min-h-[60px]">
+                                <p class="text-white text-2xl md:text-lg lg:text-xl font-calimate font-bold min-h-[60px]">
                                     100K+ media impressions through digital storytelling.
                                 </p>
                                 <p class="text-sm text-white lg:text-base font-ttNorms">
@@ -212,7 +212,7 @@
         <div class="relative z-10 ml-[2rem] mr-[2rem]">
             <!-- Voice title with different colors -->
             <h2
-                class="mb-8 text-3xl font-bold tracking-wide sm:text-4xl md:text-5xl lg:text-6xl font-calimate lg:mb-12">
+                class="mb-8 text-4xl font-bold tracking-wide sm:text-4xl md:text-5xl lg:text-6xl font-calimate lg:mb-12">
                 <span class="text-teal-blue">Voice from the</span>
                 <span class="text-blue"> Sea.</span>
             </h2>
@@ -235,7 +235,7 @@
                 <!-- Right Column - Text Content -->
                 <div class="w-full p-4 lg:w-1/2 rounded-2xl">
                     <p
-                        class="mb-3 text-lg font-bold text-black sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-calimate">
+                        class="mb-3 text-xl font-bold text-black sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-calimate">
                         The Fading Fishermen of Pulau Sabira.
                     </p>
 
@@ -277,7 +277,7 @@
                 <!-- Left Column - Text Content -->
                 <div class="flex-col justify-center gap-0 lg:w-1/3">
                     <!-- H1 dipindahkan ke sini -->
-                    <h1 class="mb-2 text-5xl font-bold text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
+                    <h1 class="mb-2 text-4xl font-bold text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
                         Protect, Educate, Empower.
                     </h1>
                     <p
@@ -314,7 +314,7 @@
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
-                                        class="mb-2 text-base font-bold text-bronze sm:text-lg lg:text-xl font-calimate">
+                                        class="mb-2 text-xl font-bold text-bronze lg:text-xl font-calimate">
                                         The Wonderful of Coral
                                     </h3>
                                     <p class="flex-grow text-xs text-bronze/80 sm:text-sm font-ttNorms">
@@ -335,7 +335,7 @@
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
-                                        class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
+                                        class="mb-2 text-xl font-bold text-white sg:text-xl font-calimate">
                                         Oceana Scarf
                                     </h3>
                                     <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
@@ -356,7 +356,7 @@
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
-                                        class="mb-2 text-base font-bold text-wine-red sm:text-lg lg:text-xl font-calimate">
+                                        class="mb-2 text-xl font-bold text-wine-red lg:text-xl font-calimate">
                                         Wilah Card x Sea Tote Bag
                                     </h3>
                                     <p class="flex-grow text-xs text-wine-red/80 sm:text-sm font-ttNorms">
@@ -378,7 +378,7 @@
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
-                                        class="mb-2 text-base font-bold text-cocoa-brown sm:text-lg lg:text-xl font-calimate">
+                                        class="mb-2 text-xl font-bold text-cocoa-brown lg:text-xl font-calimate">
                                         Octopus Series
                                     </h3>
                                     <p class="flex-grow text-xs text-cocoa-brown/80 sm:text-sm font-ttNorms">
@@ -399,7 +399,7 @@
                                 </div>
                                 <div class="flex flex-col flex-grow p-4 lg:p-6">
                                     <h3
-                                        class="mb-2 text-base font-bold text-white sm:text-lg lg:text-xl font-calimate">
+                                        class="mb-2 text-xl font-bold text-white sg:text-xl font-calimate">
                                         1000 Kebaikan untuk Nelayan
                                     </h3>
                                     <p class="flex-grow text-xs text-white/80 sm:text-sm font-ttNorms">
@@ -585,7 +585,7 @@
         class="relative bg-[url('/public/assets/images/fish-wave.png')] bg-cover bg-no-repeat bg-center px-4 py-16 bg-black sm:py-20 md:py-28">
         <div class="max-w-4xl mx-auto text-center">
             <!-- Title -->
-            <h2 class="mb-6 text-3xl font-bold text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
+            <h2 class="mb-6 text-4xl font-bold text-white sm:text-4xl md:text-5xl lg:text-6xl font-calimate">
                 Sea Needs You. Get in Touch.
             </h2>
 

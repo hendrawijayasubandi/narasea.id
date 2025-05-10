@@ -56,7 +56,7 @@
     <section
         class="min-h-screen bg-blue-900/90 bg-[url('/public/assets/images/landing-page-2-new.png')] bg-cover bg-center flex flex-col justify-center items-center px-4 py-12 sm:px-8 sm:py-16 md:px-12 md:py-20 lg:px-24 lg:py-28 xl:px-32 relative">
         <h1
-            class="mb-4 overflow-hidden text-3xl font-bold tracking-wide text-center text-white sm:text-4xl sm:mb-5 md:text-5xl md:mb-6 lg:text-6xl font-calimate">
+            class="mb-4 overflow-hidden text-4xl font-bold tracking-wide text-center text-white sm:text-4xl sm:mb-5 md:text-5xl md:mb-6 lg:text-6xl font-calimate">
             <span id="changing-text" class="inline-block"></span>
         </h1>
 
@@ -76,7 +76,7 @@
             <!-- Title Section -->
             <div class="max-w-6xl mx-auto mb-12 text-center lg:mb-16">
                 <h2
-                    class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate text-blue">
+                    class="text-4xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate text-blue">
                     Educate:
                 </h2>
                 <h5 class="mt-2 text-xl font-semibold sm:text-2xl md:text-3xl font-calimate text-teal-blue">
@@ -155,7 +155,7 @@
             <div class="flex items-center lg:w-1/3">
                 <div>
                     <h2
-                        class="text-3xl font-extrabold leading-tight tracking-wide text-white sm:text-4xl md:text-5xl font-calimate">
+                        class="text-4xl font-extrabold leading-tight tracking-wide text-white sm:text-4xl md:text-5xl font-calimate">
                         <span>Support</span><br>
                         <span>Marine</span><br>
                         <span>Conservation.</span>
@@ -183,7 +183,7 @@
                             </div>
                             <div
                                 class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
-                                <p class="text-bronze text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                <p class="text-bronze text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
                                     Become a Monthly Donor
                                 </p>
                             </div>
@@ -191,7 +191,7 @@
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
                                 class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-golden-yellow group-hover:translate-y-0 space-y-2">
-                                <p class="text-bronze text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                <p class="text-bronze text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
                                     Become a Monthly Donor
                                 </p>
                                 <p class="text-sm text-bronze lg:text-base font-ttNorms">
@@ -214,7 +214,7 @@
                             </div>
                             <div
                                 class="bg-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
-                                <p class="text-white text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                <p class="text-white text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
                                     Fundraise for Ocean Health
                                 </p>
                             </div>
@@ -222,7 +222,7 @@
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
                                 class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-blue group-hover:translate-y-0 space-y-2">
-                                <p class="text-white text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                <p class="text-white text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
                                     Fundraise for Ocean Health
                                 </p>
                                 <p class="text-sm text-white lg:text-base font-ttNorms">
@@ -245,7 +245,7 @@
                             </div>
                             <div
                                 class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
-                                <p class="text-wine-red text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                <p class="text-wine-red text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
                                     Sponsor a Program
                                 </p>
                             </div>
@@ -253,7 +253,7 @@
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
                                 class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-raspberry-pink group-hover:translate-y-0 space-y-2">
-                                <p class="text-wine-red text-base lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                <p class="text-wine-red text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
                                     Sponsor a Program
                                 </p>
                                 <p class="text-sm text-wine-red lg:text-base font-ttNorms">
@@ -298,11 +298,11 @@
                             </div>
                         </div>
                         <div class="bg-blue p-5 h-[120px] flex items-center">
-                            <p class="text-xl font-bold text-white font-calimate">Education Trips.</p>
+                            <p class="text-2xl font-bold text-white font-calimate">Education Trips.</p>
                         </div>
                         <div
                             class="absolute inset-0 flex flex-col justify-start p-5 transition-transform duration-300 transform translate-y-full items-start bg-blue group-hover:translate-y-0 space-y-2">
-                            <p class="text-xl font-bold text-white font-calimate">Education Trips.</p>
+                            <p class="text-2xl font-bold text-white font-calimate">Education Trips.</p>
                             <p class="text-sm text-white lg:text-base font-ttNorms">Hands-on experiences for students,
                                 professionals, and ocean enthusiasts.
                             </p>
@@ -321,11 +321,11 @@
                             </div>
                         </div>
                         <div class="bg-golden-yellow p-5 h-[120px] flex items-center">
-                            <p class="text-xl font-bold text-bronze font-calimate">Request a Speaker.</p>
+                            <p class="text-2xl font-bold text-bronze font-calimate">Request a Speaker.</p>
                         </div>
                         <div
                             class="absolute inset-0 flex flex-col justify-start p-5 transition-transform duration-300 transform translate-y-full items-start bg-golden-yellow group-hover:translate-y-0 space-y-2">
-                            <p class="text-xl font-bold text-bronze font-calimate">Request a Speaker.</p>
+                            <p class="text-2xl font-bold text-bronze font-calimate">Request a Speaker.</p>
                             <p class="text-sm text-bronze lg:text-base font-ttNorms">Bring marine conservation experts
                                 to educate your organization or community.
                             </p>
@@ -347,11 +347,11 @@
                             </div>
                         </div>
                         <div class="bg-raspberry-pink p-5 h-[120px] flex items-center">
-                            <p class="text-xl font-bold text-wine-red font-calimate">Sponsor a Coastal Community.</p>
+                            <p class="text-2xl font-bold text-wine-red font-calimate">Sponsor a Coastal Community.</p>
                         </div>
                         <div
                             class="absolute inset-0 flex flex-col justify-start p-5 transition-transform duration-300 transform translate-y-full items-start- bg-raspberry-pink group-hover:translate-y-0 space-y-2">
-                            <p class="text-xl font-bold text-wine-red font-calimate">Sponsor a Coastal Community.</p>
+                            <p class="text-2xl font-bold text-wine-red font-calimate">Sponsor a Coastal Community.</p>
                             <p class="text-sm text-wine-red lg:text-base font-ttNorms">Provide direct support for
                                 grassroots conservation initiatives.
                             </p>
@@ -370,11 +370,11 @@
                             </div>
                         </div>
                         <div class="bg-peachy-orange p-5 h-[120px] flex items-center">
-                            <p class="text-xl font-bold text-cocoa-brown font-calimate">Become a Volunteer.</p>
+                            <p class="text-2xl font-bold text-cocoa-brown font-calimate">Become a Volunteer.</p>
                         </div>
                         <div
                             class="absolute inset-0 flex flex-col justify-start p-5 transition-transform duration-300 transform translate-y-full items-start bg-peachy-orange group-hover:translate-y-0 space-y-2">
-                            <p class="text-xl font-bold text-cocoa-brown font-calimate">Become a Volunteer.</p>
+                            <p class="text-2xl font-bold text-cocoa-brown font-calimate">Become a Volunteer.</p>
                             <p class="text-sm text-cocoa-brown lg:text-base font-ttNorms">Strong coastal communities
                                 mean a stronger ocean. Be part of their journey.
                             </p>
@@ -403,7 +403,7 @@
 
         <!-- Content goes here -->
         <div class="relative z-10 mx-auto text-center text-white max-w-7xl" style="margin-top: 50px;">
-            <h2 class="text-3xl font-bold sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-calimate">
+            <h2 class="text-4xl font-bold sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-calimate">
                 Advocate & Amplify the Message.
             </h2>
             <p class="max-w-2xl mx-auto mb-8 text-lg font-ttNorms">
@@ -488,7 +488,7 @@
         <div class="relative z-10 ml-[2rem] mr-[2rem]" style="margin-top: 200px;">
             <div class="flex items-start justify-start lg:w-2/4">
                 <div class="text-start">
-                    <h3 class="mb-4 text-3xl font-bold leading-snug sm:text-3xl md:text-4xl lg:text-5xl font-calimate">
+                    <h3 class="mb-4 text-4xl font-bold leading-snug sm:text-3xl md:text-4xl lg:text-5xl font-calimate">
                         <span class="text-white">Every Action Creates a<br>Wave of Change.</span>
                     </h3>
                     <p class="mb-4 text-white font-ttNorms">
@@ -518,7 +518,7 @@
                         <!-- Modal Header -->
                         <div class="flex items-center justify-between mb-4">
                             <!-- Modal Title -->
-                            <h2 class="text-xl font-bold text-gray-800">Donate Information</h2>
+                            <h2 class="text2-xl font-bold text-gray-800">Donate Information</h2>
 
                             <!-- Close Button -->
                             <button onclick="toggleModal(false)" class="text-gray-500 text-xl hover:text-red-500">

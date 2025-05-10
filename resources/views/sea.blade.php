@@ -58,7 +58,7 @@
         <!-- Hero Content -->
         <div class="flex flex-col ml-[2rem] mr-[2rem] py-52">
             <h1
-                class="text-2xl font-bold tracking-wide text-white sm:text-3xl sm:mb-3 md:text-4xl lg:text-5xl font-calimate">
+                class="text-4xl font-bold tracking-wide text-white sm:text-4xl sm:mb-3 md:text-5xl lg:text-6xl font-calimate">
                 The Narasea Story:
             </h1>
             <p class="text-lg leading-relaxed sm:text-md md:text-lg lg:text-xl font-ttNorms text-white max-w-[42ch]">
@@ -69,9 +69,9 @@
         <!-- Who We Are -->
         <div id="who-we-are" class="flex flex-col items-stretch ml-[2rem] mr-[2rem] gap-6 mx-auto lg:flex-row lg:gap-8">
             <div class="flex items-center lg:w-2/4">
-                <div>
+                <div style="text-shadow: 5px 5px 3px rgba(0, 0, 0, 1);">
                     <h2
-                        class="text-3xl font-extrabold leading-tight tracking-wide text-white sm:text-4xl md:text-5xl font-calimate">
+                        class="text-4xl font-extrabold leading-tight tracking-wide text-white sm:text-4xl md:text-5xl font-calimate">
                         Who We Are
                     </h2>
                     <p class="mt-4 text-white text-md font-ttNorms">
@@ -88,9 +88,9 @@
         <div id="our-journey"
             class="flex flex-col items-stretch ml-[2rem] mr-[2rem] gap-6 mx-auto lg:flex-row-reverse lg:gap-8">
             <div class="flex items-center lg:w-2/4">
-                <div>
+                <div style="text-shadow: 5px 5px 3px rgba(0, 0, 0, 1);">
                     <h2
-                        class="text-3xl font-extrabold leading-tight tracking-wide text-white sm:text-4xl md:text-5xl font-calimate">
+                        class="text-4xl font-extrabold leading-tight tracking-wide text-white sm:text-4xl md:text-5xl font-calimate">
                         Our Journey
                     </h2>
                     <p class="mt-4 text-white text-md font-ttNorms">
@@ -118,7 +118,7 @@
                 <!-- Our Mission -->
                 <div class="flex flex-col items-start w-full gap-10 py-10 slick-slide md:flex-row">
                     <div class="text-white md:w-1/2">
-                        <h2 class="text-5xl font-bold font-calimate md:text-6xl">Our Mission :</h2>
+                        <h2 class="text-4xl font-bold font-calimate md:text-6xl">Our Mission :</h2>
                         <p class="mb-20 text-lg font-ttNorms md:text-lg">Echoing the Ocean's Call.</p>
                         <p class="text-base leading-relaxed text-justify font-ttNorms md:text-lg">
                             We listen, we amplify, and we act — ensuring<br>
@@ -135,7 +135,7 @@
                 <!-- Our Vision -->
                 <div class="flex flex-col items-start w-full gap-10 py-10 slick-slide md:flex-row">
                     <div class="text-white md:w-1/2">
-                        <h2 class="text-5xl font-bold font-calimate md:text-6xl">Our Vision :</h2>
+                        <h2 class="text-4xl font-bold font-calimate md:text-6xl">Our Vision :</h2>
                         <p class="mb-20 text-lg font-ttNorms md:text-lg">A Thriving Future, Above and Below.</p>
                         <p class="text-base leading-relaxed text-justify font-ttNorms md:text-lg">
                             We dream of a world where people and marine life coexist<br>
@@ -152,7 +152,7 @@
                 <!-- Our Approach -->
                 <div class="flex flex-col items-start w-full gap-10 py-10 slick-slide md:flex-row">
                     <div class="text-white md:w-1/2">
-                        <h2 class="text-5xl font-bold font-calimate md:text-6xl">Our Approach :</h2>
+                        <h2 class="text-4xl font-bold font-calimate md:text-6xl">Our Approach :</h2>
                         <p class="mb-20 text-lg font-ttNorms md:text-lg">Turning Ideas into Impact.</p>
                         <p class="text-base leading-relaxed text-justify font-ttNorms md:text-lg">
                             We don't just talk about conservation—we make it happen.<br>
@@ -189,7 +189,7 @@
             <div class="flex items-center lg:w-1/3">
                 <div>
                     <h2
-                        class="text-3xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate">
+                        class="text-4xl font-extrabold leading-tight tracking-wide sm:text-4xl md:text-5xl font-calimate">
                         <span class="text-blue">The </span>
                         <span class="text-teal-blue">Values</span><br>
                         <span class="text-blue">We Live By :</span>
@@ -218,7 +218,7 @@
                         <div class="w-full px-2 mb-4 md:w-1/2 lg:w-1/3">
                             <div class="bg-teal-blue p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]"
                                 style="height: 400px;">
-                                <p class="text-xl font-extrabold text-left text-white lg:text-2xl font-calimate">
+                                <p class="text-2xl font-extrabold text-left text-white lg:text-xl font-calimate">
                                     Connection.</p>
                                 <p class="mt-2 text-left text-white text-md lg:text-md font-ttNorms">
                                     Bridging people and the ocean through education, action, and storytelling.
@@ -230,7 +230,7 @@
                         <div class="w-full px-2 mb-4 md:w-1/2 lg:w-1/3">
                             <div class="bg-peachy-orange p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]"
                                 style="height: 400px;">
-                                <p class="text-xl font-extrabold text-left text-white lg:text-2xl font-calimate">
+                                <p class="text-2xl font-extrabold text-left text-white lg:text-xl font-calimate">
                                     Empowerment.</p>
                                 <p class="mt-2 text-left text-white text-md lg:text-md font-ttNorms">
                                     Giving communities, youth,and change- makers the tools to protect marine ecosystems.
@@ -242,7 +242,7 @@
                         <div class="w-full px-2 mb-4 md:w-1/2 lg:w-1/3">
                             <div class="bg-raspberry-pink p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]"
                                 style="height: 400px;">
-                                <p class="text-xl font-extrabold text-left text-wine-red lg:text-2xl font-calimate">
+                                <p class="text-2xl font-extrabold text-left text-wine-red lg:text-xl font-calimate">
                                     Storytelling for Impact.</p>
                                 <p class="mt-2 text-left text-md text-wine-red lg:text-md font-ttNorms">
                                     Using media & advocacy to amplify unheard voices and drive change.
@@ -254,7 +254,7 @@
                         <div class="w-full px-2 mb-4 md:w-1/2 lg:w-1/3">
                             <div class="bg-golden-yellow p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]"
                                 style="height: 400px;">
-                                <p class="text-xl font-extrabold text-left text-bronze lg:text-2xl font-calimate">
+                                <p class="text-2xl font-extrabold text-left text-bronze lg:text-xl font-calimate">
                                     Sustainability.</p>
                                 <p class="mt-2 text-left text-md text-bronze lg:text-md font-ttNorms">
                                     Creating long-term, community-driven solutions for ocean conservation.
@@ -266,7 +266,7 @@
                         <div class="w-full px-2 mb-4 md:w-1/2 lg:w-1/3">
                             <div class="bg-black p-6 rounded-[3rem] flex flex-col justify-center h-full min-h-[300px]"
                                 style="height: 400px;">
-                                <p class="text-xl font-extrabold text-left text-white lg:text-2xl font-calimate">
+                                <p class="text-2xl font-extrabold text-left text-white lg:text-xl font-calimate">
                                     Innovation.</p>
                                 <p class="mt-2 text-left text-white text-md lg:text-md font-ttNorms">
                                     Combining science, local wisdom, and technology to build a better future.
@@ -308,7 +308,7 @@
             </div>
 
             <!-- Kolom 2: 3 Card -->
-            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 <!-- Card 1 -->
                 <div class="relative">
                     <div class="absolute inset-0 bg-[#D9D9D9] z-0 rounded-3xl shadow-md"></div>
@@ -599,7 +599,7 @@
             </div>
 
             <!-- Kolom 2: 3 Card -->
-            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 <!-- Card 1 -->
                 <div class="relative">
                     <div class="absolute inset-0 bg-[#D9D9D9] z-0 rounded-3xl shadow-md"></div>
@@ -689,30 +689,22 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-10 w-full max-w-[700px] mx-auto"
             style="margin-top: 100px;">
             <!-- Button 1 -->
-            <div class="flex justify-start">
+            <div class="flex justify-center">
                 <a href="/"
-                    class="group relative flex items-center justify-center bg-peachy-orange text-white font-semibold font-calimate rounded-full overflow-hidden h-12 w-12 hover:w-[260px] transition-[width] duration-300 ease-in-out">
-                    <span
-                        class="absolute flex items-center gap-2 text-sm transition-opacity duration-300 ease-in-out opacity-0 left-5 whitespace-nowrap group-hover:opacity-100 group-hover:text-black">
+                    class="relative inline-flex items-center justify-center bg-peachy-orange hover:bg-peachy-orange-hover transition duration-200 text-white font-semibold font-calimate rounded-full h-12 px-6">
+                    <span class="flex items-center gap-2 text-sm text-white">
                         Learn More About Our Work
-                        <i class="text-sm fas fa-arrow-right"></i>
-                    </span>
-                    <span class="transition-opacity duration-300 ease-in-out group-hover:opacity-0">
                         <i class="text-sm fas fa-arrow-right"></i>
                     </span>
                 </a>
             </div>
 
             <!-- Button 2 -->
-            <div class="flex justify-start md:pl-[150px]">
+            <div class="flex justify-center">
                 <a href="{{ route('share') }}"
-                    class="group relative flex items-center justify-center bg-peachy-orange text-white font-calimate font-semibold rounded-full overflow-hidden h-12 w-12 hover:w-[200px] transition-[width] duration-300 ease-in-out pl-4 pr-4">
-                    <span
-                        class="absolute flex items-center gap-2 text-sm transition-opacity duration-300 ease-in-out opacity-0 left-4 whitespace-nowrap group-hover:opacity-100 group-hover:text-black">
+                    class="relative inline-flex items-center justify-center bg-peachy-orange hover:bg-peachy-orange-hover transition duration-200 text-white font-calimate font-semibold rounded-full h-12 px-6">
+                    <span class="flex items-center gap-2 text-sm text-white">
                         Join the Movement
-                        <i class="text-sm fas fa-arrow-right"></i>
-                    </span>
-                    <span class="transition-opacity duration-300 ease-in-out group-hover:opacity-0">
                         <i class="text-sm fas fa-arrow-right"></i>
                     </span>
                 </a>

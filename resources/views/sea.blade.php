@@ -202,15 +202,14 @@
                 <!-- Slider Container Wrapper (relative positioning) -->
                 <div class="relative">
                     <!-- Custom Navigation Buttons -->
-                    <div
-                        class="absolute left-0 right-0 z-10 justify-between hidden px-4 -translate-y-1/2 lg:flex top-1/2">
+                    <div class="absolute left-0 right-0 z-10 justify-between flex px-4 -translate-y-1/2 top-1/2">
                         <button
-                            class="flex items-center justify-center w-10 h-10 transition bg-white rounded-full shadow-lg slick-prev-values hover:bg-gray-100">
-                            <i class="text-gray-700 fas fa-chevron-left"></i>
+                            class="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 transition bg-white rounded-full shadow-lg slick-prev-values hover:bg-gray-100">
+                            <i class="text-gray-700 fas fa-chevron-left text-sm sm:text-base"></i>
                         </button>
                         <button
-                            class="flex items-center justify-center w-10 h-10 transition bg-white rounded-full shadow-lg slick-next-values hover:bg-gray-100">
-                            <i class="text-gray-700 fas fa-chevron-right"></i>
+                            class="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 transition bg-white rounded-full shadow-lg slick-next-values hover:bg-gray-100">
+                            <i class="text-gray-700 fas fa-chevron-right text-sm sm:text-base"></i>
                         </button>
                     </div>
                     <!-- Slider Container -->
@@ -556,7 +555,8 @@
                         <div class="flex-grow p-5 pt-3 text-left bg-blue rounded-b-3xl">
                             <p class="text-sm text-white">
                                 Aini is the Founder of Narasea and a strategic communicator who amplifies
-                                grassroots voices and drives sustainable impact through storytelling, public relations, and
+                                grassroots voices and drives sustainable impact through storytelling, public relations,
+                                and
                                 inclusive development initiatives.
                             </p>
                         </div>
@@ -577,7 +577,8 @@
                         <div class="flex-grow p-5 pt-3 text-left bg-blue rounded-b-3xl">
                             <p class="text-sm text-white">
                                 Yebe is a strategic communicator and partnership builder who connects
-                                academia, industry, and global organizations to advance blue economy initiatives and empower
+                                academia, industry, and global organizations to advance blue economy initiatives and
+                                empower
                                 communities through collaboration.
                             </p>
                         </div>

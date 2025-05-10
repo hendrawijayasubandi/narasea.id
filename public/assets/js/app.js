@@ -112,13 +112,20 @@ $(document).ready(function () {
         centerMode: true,
         centerPadding: '0',
         focusOnSelect: true,
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                arrows: false
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1
+                }
             }
-        }]
+        ]
     });
 
     // Custom arrow navigation

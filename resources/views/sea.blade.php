@@ -691,10 +691,10 @@
             <!-- Button 1 -->
             <div class="flex justify-center">
                 <a href="/"
-                    class="relative inline-flex items-center justify-center bg-peachy-orange hover:bg-peachy-orange-hover transition duration-200 text-white font-semibold font-calimate rounded-full h-12 px-6">
-                    <span class="flex items-center gap-2 text-sm text-white">
+                    class="relative inline-flex items-center justify-center bg-peachy-orange hover:bg-peachy-orange-hover transition duration-200 text-white font-semibold font-calimate rounded-full h-12 px-6 w-full max-w-[300px]">
+                    <span class="flex items-center gap-2 text-md text-white">
                         Learn More About Our Work
-                        <i class="text-sm fas fa-arrow-right"></i>
+                        <i class="text-md fas fa-arrow-right"></i>
                     </span>
                 </a>
             </div>
@@ -702,14 +702,15 @@
             <!-- Button 2 -->
             <div class="flex justify-center">
                 <a href="{{ route('share') }}"
-                    class="relative inline-flex items-center justify-center bg-peachy-orange hover:bg-peachy-orange-hover transition duration-200 text-white font-calimate font-semibold rounded-full h-12 px-6">
-                    <span class="flex items-center gap-2 text-sm text-white">
+                    class="relative inline-flex items-center justify-center bg-peachy-orange hover:bg-peachy-orange-hover transition duration-200 text-white font-calimate font-semibold rounded-full h-12 px-6 w-full max-w-[300px]">
+                    <span class="flex items-center gap-2 text-md text-white">
                         Join the Movement
-                        <i class="text-sm fas fa-arrow-right"></i>
+                        <i class="text-md fas fa-arrow-right"></i>
                     </span>
                 </a>
             </div>
         </div>
+
     </section>
 
     <!-- Component Copyright -->

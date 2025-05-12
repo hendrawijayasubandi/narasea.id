@@ -183,15 +183,17 @@
                             </div>
                             <div
                                 class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
-                                <p class="text-bronze text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                <p
+                                    class="text-bronze text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
                                     Become a Monthly Donor
                                 </p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-golden-yellow group-hover:translate-y-0 space-y-2">
-                                <p class="text-bronze text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                class="absolute inset-0 flex flex-col items-start justify-start p-6 space-y-2 transition-transform duration-300 transform translate-y-full bg-golden-yellow group-hover:translate-y-0">
+                                <p
+                                    class="text-bronze text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
                                     Become a Monthly Donor
                                 </p>
                                 <p class="text-sm text-bronze lg:text-base font-ttNorms">
@@ -214,15 +216,17 @@
                             </div>
                             <div
                                 class="bg-blue p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
-                                <p class="text-white text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                <p
+                                    class="text-white text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
                                     Fundraise for Ocean Health
                                 </p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-blue group-hover:translate-y-0 space-y-2">
-                                <p class="text-white text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                class="absolute inset-0 flex flex-col items-start justify-start p-6 space-y-2 transition-transform duration-300 transform translate-y-full bg-blue group-hover:translate-y-0">
+                                <p
+                                    class="text-white text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
                                     Fundraise for Ocean Health
                                 </p>
                                 <p class="text-sm text-white lg:text-base font-ttNorms">
@@ -245,15 +249,17 @@
                             </div>
                             <div
                                 class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-left justify-center relative h-[150px]">
-                                <p class="text-wine-red text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                <p
+                                    class="text-wine-red text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
                                     Sponsor a Program
                                 </p>
                             </div>
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-raspberry-pink group-hover:translate-y-0 space-y-2">
-                                <p class="text-wine-red text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
+                                class="absolute inset-0 flex flex-col items-start justify-start p-6 space-y-2 transition-transform duration-300 transform translate-y-full bg-raspberry-pink group-hover:translate-y-0">
+                                <p
+                                    class="text-wine-red text-2xl md:text-xl lg:text-2xl font-calimate font-bold min-h-[60px]">
                                     Sponsor a Program
                                 </p>
                                 <p class="text-sm text-wine-red lg:text-base font-ttNorms">
@@ -274,7 +280,7 @@
         <div class="relative z-10 flex flex-col gap-8 md:gap-4 ml-[2rem] mr-[2rem]">
 
             <!-- Section Atas -->
-            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 md:gap-4 items-stretch">
+            <div class="grid items-stretch grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3 md:gap-4">
                 <!-- Teks Kiri -->
                 <div class="flex flex-col justify-start">
                     <h2 class="mb-4 text-4xl font-bold lg:text-5xl font-calimate">
@@ -301,7 +307,7 @@
                             <p class="text-2xl font-bold text-white font-calimate">Education Trips.</p>
                         </div>
                         <div
-                            class="absolute inset-0 flex flex-col justify-start p-5 transition-transform duration-300 transform translate-y-full items-start bg-blue group-hover:translate-y-0 space-y-2">
+                            class="absolute inset-0 flex flex-col items-start justify-start p-5 space-y-2 transition-transform duration-300 transform translate-y-full bg-blue group-hover:translate-y-0">
                             <p class="text-2xl font-bold text-white font-calimate">Education Trips.</p>
                             <p class="text-sm text-white lg:text-base font-ttNorms">Hands-on experiences for students,
                                 professionals, and ocean enthusiasts.
@@ -324,7 +330,7 @@
                             <p class="text-2xl font-bold text-bronze font-calimate">Request a Speaker.</p>
                         </div>
                         <div
-                            class="absolute inset-0 flex flex-col justify-start p-5 transition-transform duration-300 transform translate-y-full items-start bg-golden-yellow group-hover:translate-y-0 space-y-2">
+                            class="absolute inset-0 flex flex-col items-start justify-start p-5 space-y-2 transition-transform duration-300 transform translate-y-full bg-golden-yellow group-hover:translate-y-0">
                             <p class="text-2xl font-bold text-bronze font-calimate">Request a Speaker.</p>
                             <p class="text-sm text-bronze lg:text-base font-ttNorms">Bring marine conservation experts
                                 to educate your organization or community.
@@ -335,7 +341,7 @@
             </div>
 
             <!-- Section Bawah -->
-            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 md:gap-4 items-stretch">
+            <div class="grid items-stretch grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3 md:gap-4">
                 <!-- Card 3 -->
                 <div class="h-full group">
                     <div class="relative flex flex-col overflow-hidden shadow-lg rounded-2xl">
@@ -350,7 +356,7 @@
                             <p class="text-2xl font-bold text-wine-red font-calimate">Sponsor a Coastal Community.</p>
                         </div>
                         <div
-                            class="absolute inset-0 flex flex-col justify-start p-5 transition-transform duration-300 transform translate-y-full items-start- bg-raspberry-pink group-hover:translate-y-0 space-y-2">
+                            class="absolute inset-0 flex flex-col justify-start p-5 space-y-2 transition-transform duration-300 transform translate-y-full items-start- bg-raspberry-pink group-hover:translate-y-0">
                             <p class="text-2xl font-bold text-wine-red font-calimate">Sponsor a Coastal Community.</p>
                             <p class="text-sm text-wine-red lg:text-base font-ttNorms">Provide direct support for
                                 grassroots conservation initiatives.
@@ -373,7 +379,7 @@
                             <p class="text-2xl font-bold text-cocoa-brown font-calimate">Become a Volunteer.</p>
                         </div>
                         <div
-                            class="absolute inset-0 flex flex-col justify-start p-5 transition-transform duration-300 transform translate-y-full items-start bg-peachy-orange group-hover:translate-y-0 space-y-2">
+                            class="absolute inset-0 flex flex-col items-start justify-start p-5 space-y-2 transition-transform duration-300 transform translate-y-full bg-peachy-orange group-hover:translate-y-0">
                             <p class="text-2xl font-bold text-cocoa-brown font-calimate">Become a Volunteer.</p>
                             <p class="text-sm text-cocoa-brown lg:text-base font-ttNorms">Strong coastal communities
                                 mean a stronger ocean. Be part of their journey.
@@ -400,7 +406,6 @@
     <section id="advocate-amplify"
         class="relative px-4 py-[100px] bg-blue bg-[url('/public/assets/images/under-the-sea-1.png')] bg-cover bg-no-repeat bg-bottom z-10 overflow-hidden"
         style="margin-top: -50px;">
-
         <!-- Content goes here -->
         <div class="relative z-10 mx-auto text-center text-white max-w-7xl" style="margin-top: 50px;">
             <h2 class="text-4xl font-bold sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-calimate">
@@ -424,16 +429,18 @@
                     class="absolute inset-0 mt-0 transition-all">
                     <div class="overflow-hidden shadow-sm rounded-2xl bg-peachy-orange backdrop-blur-sm">
                         <div class="flex flex-col md:flex-row">
+                            <!-- Flex for Mobile Layout: Left = Image, Right = Text -->
+                            <div class="flex items-center justify-center w-full md:w-1/2 bg-white/30">
+                                <img src="{{ asset('assets/images/close-up-hands-making-heart-shape-sea-against-clear-sky 1.png') }}"
+                                    alt="Share on Social"
+                                    class="object-cover object-center w-full h-full max-h-[200px] sm:max-h-[250px] md:max-h-full" />
+                            </div>
                             <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
                                 <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Join the Conversation.
                                 </h2>
                                 <p class="text-sm font-ttNorms md:text-lg">
                                     Share Nanasea's content & inspire action on social media.
                                 </p>
-                            </div>
-                            <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
-                                <img src="{{ asset('assets/images/close-up-hands-making-heart-shape-sea-against-clear-sky 1.png') }}"
-                                    alt="Share on Social" class="object-cover object-center w-full h-full" />
                             </div>
                         </div>
                     </div>
@@ -445,9 +452,10 @@
                     class="absolute inset-0 mt-8 transition-all">
                     <div class="overflow-hidden shadow-sm rounded-2xl bg-teal-blue backdrop-blur-sm">
                         <div class="flex flex-col md:flex-row">
-                            <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
+                            <!-- Flex for Mobile Layout: Left = Image, Right = Text -->
+                            <div class="flex items-center justify-center w-full md:w-1/2 bg-white/30">
                                 <img src="{{ asset('assets/images/aceppp1.png') }}" alt="Share on Social"
-                                    class="object-cover object-center w-full h-full" />
+                                    class="object-cover object-center w-full h-full max-h-[200px] sm:max-h-[250px] md:max-h-full" />
                             </div>
                             <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
                                 <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Support Digital
@@ -467,16 +475,18 @@
                     <div
                         class="overflow-hidden shadow-sm rounded-2xl bg-raspberry-pink text-wine-red backdrop-blur-sm">
                         <div class="flex flex-col md:flex-row">
+                            <!-- Flex for Mobile Layout: Left = Image, Right = Text -->
+                            <div class="flex items-center justify-center w-full md:w-1/2 bg-white/30">
+                                <img src="{{ asset('assets/images/product-slide-4-from-image-stock-1.png') }}"
+                                    alt="Share on Social"
+                                    class="object-cover object-center w-full h-full max-h-[200px] sm:max-h-[250px] md:max-h-full" />
+                            </div>
                             <div class="flex flex-col justify-center w-full p-5 text-left md:p-6 md:w-1/2">
                                 <h2 class="mb-3 text-2xl font-bold md:text-3xl font-calimate">Collaborate with Content
                                     Creators.</h2>
                                 <p class="text-sm font-ttNorms md:text-lg">
                                     Work with journalists, influencers, and filmmakers to amplify marine issues.
                                 </p>
-                            </div>
-                            <div class="flex items-center justify-center w-full aspect-square md:w-1/2 bg-white/30">
-                                <img src="{{ asset('assets/images/product-slide-4-from-image-stock-1.png') }}"
-                                    alt="Share on Social" class="object-cover object-center w-full h-full" />
                             </div>
                         </div>
                     </div>
@@ -507,43 +517,19 @@
             <div class="flex flex-wrap justify-start gap-4 mx-auto">
                 <!-- Button 1 -->
                 <button onclick="toggleModal(true)"
-                    class="py-2 text-xs font-bold tracking-wider text-white hover:text-white transition duration-200 px-7 sm:text-sm md:text-base bg-raspberry-pink rounded-2xl hover:bg-raspberry-pink-hover font-ttNorms">
+                    class="py-2 text-xs font-bold tracking-wider text-white transition duration-200 hover:text-white px-7 sm:text-sm md:text-base bg-raspberry-pink rounded-2xl hover:bg-raspberry-pink-hover font-ttNorms">
                     Donate Now
                 </button>
 
-                <!-- Modal Background -->
-                <div id="donateModal" class="fixed inset-0 z-[9999] flex items-center justify-center bg-black bg-opacity-50 hidden opacity-0 transition-opacity duration-300">
-                    <!-- Modal Content -->
-                    <div id="donateModalContent" class="bg-white w-11/12 max-w-lg max-h-[90vh] overflow-y-auto p-6 rounded-2xl shadow-xl relative transform scale-95 transition-all duration-300">
-                        <!-- Modal Header -->
-                        <div class="flex items-center justify-between mb-4">
-                            <!-- Modal Title -->
-                            <h2 class="text2-xl font-bold text-gray-800">Donate Information</h2>
-
-                            <!-- Close Button -->
-                            <button onclick="toggleModal(false)" class="text-gray-500 text-xl hover:text-red-500">
-                                <i class="fas fa-times"></i>
-                            </button>
-                        </div>
-
-                        <!-- Modal Body -->
-                        <div class="space-y-4 text-sm text-gray-700">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in neque vitae justo convallis lacinia.</p>
-                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
-                            <p>Donec euismod nisl sed turpis feugiat. Integer et nisi ut nulla ullamcorper convallis.</p>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- Button 2 -->
                 <a href="mailto:naraseaid@gmail.com"
-                    class="py-2 text-xs font-bold tracking-wider text-white hover:text-white transition duration-200 px-7 sm:text-sm md:text-base bg-teal-blue rounded-2xl hover:bg-teal-blue-hover font-ttNorms">
+                    class="py-2 text-xs font-bold tracking-wider text-white transition duration-200 hover:text-white px-7 sm:text-sm md:text-base bg-teal-blue rounded-2xl hover:bg-teal-blue-hover font-ttNorms">
                     Collaborate
                 </a>
 
                 <!-- Button 3 -->
                 <a href="https://wa.me/628112372277" target="_blank"
-                    class="py-2 text-xs font-bold tracking-wider text-white hover:text-white transition duration-200 px-7 sm:text-sm md:text-base bg-peachy-orange rounded-2xl hover:bg-peachy-orange-hover font-ttNorms">
+                    class="py-2 text-xs font-bold tracking-wider text-white transition duration-200 hover:text-white px-7 sm:text-sm md:text-base bg-peachy-orange rounded-2xl hover:bg-peachy-orange-hover font-ttNorms">
                     Message Us
                 </a>
             </div>
@@ -574,7 +560,7 @@
     </section> --}}
 
     <!-- Component Copyright -->
-    <div class="bg-blue text-white">
+    <div class="text-white bg-blue">
         @include('components.copyright')
     </div>
 
@@ -596,10 +582,10 @@
                 modal.classList.remove('hidden');
                 document.body.classList.add('overflow-hidden');
                 setTimeout(() => {
-                modal.classList.add('opacity-100');
-                modal.classList.remove('opacity-0');
-                modalContent.classList.add('scale-100');
-                modalContent.classList.remove('scale-95');
+                    modal.classList.add('opacity-100');
+                    modal.classList.remove('opacity-0');
+                    modalContent.classList.add('scale-100');
+                    modalContent.classList.remove('scale-95');
                 }, 10);
             } else {
                 modal.classList.remove('opacity-100');
@@ -607,13 +593,13 @@
                 modalContent.classList.remove('scale-100');
                 modalContent.classList.add('scale-95');
                 setTimeout(() => {
-                modal.classList.add('hidden');
-                document.body.classList.remove('overflow-hidden');
+                    modal.classList.add('hidden');
+                    document.body.classList.remove('overflow-hidden');
                 }, 300);
             }
         }
 
-        document.getElementById('donateModal').addEventListener('click', function (e) {
+        document.getElementById('donateModal').addEventListener('click', function(e) {
             if (e.target.id === 'donateModal') {
                 toggleModal(false);
             }

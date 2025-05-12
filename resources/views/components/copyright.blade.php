@@ -1,3 +1,3 @@
-<div class="font-calimate text-bold text-center text-gray-500 py-4">
-    Copyright &copy; 2025 Narasea Indonesia - Platform Edukasi & Advokasi Konservasi Laut. All rights reserved.
+<div class="py-4 text-center text-gray-500 font-calimate text-bold">
+    Copyright &copy; 2025 Yayasan Cerita Laut Nusantara. All rights reserved.
 </div>

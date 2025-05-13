@@ -379,12 +379,21 @@ html {
 }
 
 .slick-next-values {
-    right: -20px;
+    right: -7px;
 }
 
 .slick-prev-values:hover,
 .slick-next-values:hover {
     background-color: #062B54;
+}
+
+.values-slider .slick-slide {
+    transform: scale(0.9);
+    transition: all 0.3s ease-in-out;
+}
+
+.values-slider .slick-slide.slick-current {
+    transform: scale(1);
 }
 
 /* Ensure all cards in slider have equal height */

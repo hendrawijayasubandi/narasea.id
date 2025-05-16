@@ -533,6 +533,34 @@
                     Message Us
                 </a>
             </div>
+
+            <!-- Modal Background -->
+            <div id="donateModal"
+                class="fixed inset-0 z-[9999] flex items-center justify-center bg-black bg-opacity-50 hidden opacity-0 transition-opacity duration-300">
+                <!-- Modal Content -->
+                <div id="donateModalContent"
+                    class="bg-white w-11/12 max-w-lg max-h-[90vh] overflow-y-auto p-6 rounded-2xl shadow-xl relative transform scale-95 transition-all duration-300">
+                    <!-- Modal Header -->
+                    <div class="flex items-center justify-between mb-4">
+                        <!-- Modal Title -->
+                        <h2 class="text2-xl font-bold text-gray-800">Donate Information</h2>
+
+                        <!-- Close Button -->
+                        <button onclick="toggleModal(false)" class="text-gray-500 text-xl hover:text-red-500">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+
+                    <!-- Modal Body -->
+                    <div class="space-y-4 text-sm text-gray-700">
+                        <!-- Modal Body -->
+                        <div class="w-full">
+                            <img src="{{ asset('assets/images/coming-soon-paint-brush-stroke.png') }}"
+                                alt="Donate Info" class="w-full h-auto rounded-lg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="grid grid-cols-1 gap-12 ml-[2rem] mr-[2rem] md:grid-cols-2" style="margin-top: 150px;">

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SubscriberController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,5 @@ Route::get('/share', function () {
 Route::get('/sea', function () {
     return view('sea');
 })->name('sea');
+
+Route::post('/subscribe', [SubscriberController::class, 'store'])->name('subscribe');

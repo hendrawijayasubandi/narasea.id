@@ -45,6 +45,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
+    <style>
+        
+    </style>
 </head>
 
 <body>
@@ -146,6 +149,39 @@
                         <div class="h-full px-2 swiper-slide group">
                             <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
                                 <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative bg-gray">
+                                    <img src="{{ asset('assets/images/educate-card-1.png') }}" alt="Education"
+                                        class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
+                                </div>
+                                <div
+                                    class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
+                                    <p
+                                        class="text-cocoa-brown text-base font-bold lg:text-xl font-calimate min-h-[60px]">
+                                        Join hands-on workshops on climate change & sustainable living
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="h-full px-2 swiper-slide group">
+                            <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
+                                <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative bg-gray">
+                                    <img src="{{ asset('assets/images/educate-card-2.png') }}" alt="Education"
+                                        class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
+                                </div>
+                                <div
+                                    class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
+                                    <p class="text-bronze text-base font-bold lg:text-xl font-calimate min-h-[60px]">
+                                        Collaborate with universities & research centers for deeper impact
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 6 -->
+                        <div class="h-full px-2 swiper-slide group">
+                            <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
+                                <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative bg-gray">
                                     <img src="{{ asset('assets/images/educate-card-3.png') }}" alt="Education"
                                         class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 </div>
@@ -159,9 +195,9 @@
                         </div>
                     </div>
                     <!-- Tombol Prev -->
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-prev" style=" background-color: #083C75; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: background-color 0.3s ease, box-shadow 0.3s ease; position: absolute; top: 50%; left: 10px; transform: translateY(-50%); z-index: 10; "></div>
                     <!-- Tombol Next -->
-                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-next" style=" background-color: #083C75; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: background-color 0.3s ease, box-shadow 0.3s ease; position: absolute; top: 50%; right: 10px; transform: translateY(-50%); z-index: 10; "></div>
                     <!-- Dots Pagination -->
                     <div class="swiper-pagination"></div>
                 </div>

@@ -559,6 +559,19 @@ html {
     }
 }
 
+/* Button hover Prev/Next for Section Educate */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background-color: #062B54 !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
 /* Page 3 */
 /* Our Section */
 .slick-dots {

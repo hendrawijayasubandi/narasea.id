@@ -671,7 +671,7 @@
 
     <!-- Section The Ocean’s Story is Still Being Written – Be Part of It -->
     <section
-        class="relative bg-[url('/public/assets/images/coral.png')] bg-cover bg-no-repeat bg-bottom z-10 bg-teal-blue py-12 px-4 sm:py-16 md:py-20 -mt-[50px]">
+        class="relative bg-[url('/public/assets/images/coral.png')] sm:bg-cover bg-contain bg-no-repeat bg-bottom z-10 bg-teal-blue py-12 px-4 sm:py-16 md:py-20 -mt-[50px]">
         <div class="mx-auto text-center" style="margin-top: 50px;">
             <h2 class="mb-6 text-3xl font-bold text-white sm:text-3xl md:text-4xl font-calimate">
                 The Ocean's Story is Still Being Written - Be Part of It

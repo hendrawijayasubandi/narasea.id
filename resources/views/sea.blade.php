@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Narasea Indonesia - Platform Edukasi & Advokasi Konservasi Laut</title>
+    <title>Narasea Indonesia - Yayasan Edukasi & Aksi Konservasi Laut Indonesia</title>
 
     <!-- Meta SEO -->
     <meta name="description" content="Bercerita, Beraksi & Advokasi untuk Konservasi Laut Indonesia.">

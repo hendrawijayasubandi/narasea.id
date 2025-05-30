@@ -141,7 +141,29 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Card 4 -->
+                        <div class="h-full px-2 swiper-slide group">
+                            <div class="relative flex flex-col h-full overflow-hidden rounded-2xl">
+                                <div class="aspect-[4/3] overflow-hidden rounded-t-2xl relative bg-gray">
+                                    <img src="{{ asset('assets/images/educate-card-3.png') }}" alt="Education"
+                                        class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
+                                </div>
+                                <div
+                                    class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
+                                    <p class="text-wine-red text-base font-bold lg:text-xl font-calimate min-h-[60px]">
+                                        Support marine literacy programs for students & coastal communities
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- Tombol Prev -->
+                    <div class="swiper-button-prev"></div>
+                    <!-- Tombol Next -->
+                    <div class="swiper-button-next"></div>
+                    <!-- Dots Pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
@@ -149,7 +171,8 @@
 
     <!-- Section Support Marine Conservation. -->
     <section id="support-marine-conservation"
-        class="bg-black py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] relative z-30" style="margin-top: -150px;">
+        class="bg-black py-[200px] px-4 rounded-bl-[50px] rounded-br-[50px] relative z-30"
+        style="margin-top: -150px;">
         <div class="flex flex-col items-stretch gap-6 ml-[2rem] mr-[2rem] lg:flex-row">
             <!-- Left Side - Title -->
             <div class="flex items-center lg:w-1/3">

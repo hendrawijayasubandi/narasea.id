@@ -351,6 +351,10 @@ html {
     .slick-next-instagram {
         display: none !important;
     }
+
+    .educate-slider .swiper-slide {
+        width: 260px !important;
+    }
 }
 
 .slick-prev-values,

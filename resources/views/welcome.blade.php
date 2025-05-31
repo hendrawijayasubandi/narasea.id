@@ -218,16 +218,18 @@
         class="relative bg-[url('/public/assets/images/educate-mobile.png')] sm:bg-[url('/public/assets/images/educate.png')] bg-cover sm:bg-contain bg-no-repeat bg-bottom px-4 py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-white rounded-bl-[50px] rounded-br-[50px] z-30">
         <div class="relative z-10 ml-[2rem] mr-[2rem]">
             <!-- Voice title with different colors -->
-            <h2
-                class="mb-8 text-4xl font-bold tracking-wide sm:text-4xl md:text-5xl lg:text-6xl font-calimate lg:mb-12">
-                <span class="text-teal-blue">Voice from the</span>
-                <span class="text-blue"> Sea.</span>
-            </h2>
+            <div class="storytelling">
+                <h2
+                    class="mb-8 text-4xl font-bold tracking-wide sm:text-4xl md:text-5xl lg:text-6xl font-calimate lg:mb-12">
+                    <span class="text-teal-blue">Voice from the</span>
+                    <span class="text-blue"> Sea.</span>
+                </h2>
+            </div>
 
             <!-- Two-column content below -->
             <div class="flex flex-col gap-6 lg:flex-row lg:gap-8">
                 <!-- Left Column - YouTube Thumbnail -->
-                <div class="w-full lg:w-1/2">
+                <div class="w-full lg:w-1/2 youtube">
                     <div class="relative overflow-hidden transition border-2 aspect-video rounded-xl border-white/20 group hover:border-white/40"
                         style="border-radius: 2rem;">
                         <iframe class="absolute inset-0 w-full h-full rounded-xl"

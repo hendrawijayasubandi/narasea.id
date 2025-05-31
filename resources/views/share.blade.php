@@ -45,9 +45,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
-    <style>
-        
-    </style>
 </head>
 
 <body>
@@ -72,7 +69,7 @@
 
     <!-- Section Educate: Empower Future Ocean Advocates.-->
     <section id="srt-educate"
-        class="relative bg-[url('/public/assets/images/educate-share.png')] bg-contain bg-no-repeat bg-bottom bg-white py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-28 rounded-bl-[50px] rounded-br-[50px] z-40 overflow-hidden"
+        class="relative bg-[url('/public/assets/images/educate-share-mobile.png')] sm:bg-[url('/public/assets/images/educate-share.png')] bg-cover sm:bg-contain bg-no-repeat bg-bottom bg-white py-12 px-4 sm:py-16 md:py-20 lg:py-24 xl:py-28 rounded-bl-[50px] rounded-br-[50px] z-40 overflow-hidden"
         style="margin-bottom: 50px;">
         <!-- Content Container with relative positioning -->
         <div class="relative z-10">
@@ -104,9 +101,9 @@
                                         class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 </div>
                                 <div
-                                    class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
+                                    class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-start justify-center relative h-[150px]">
                                     <p
-                                        class="text-cocoa-brown text-base font-bold lg:text-xl font-calimate min-h-[60px]">
+                                        class="text-cocoa-brown text-lg font-bold lg:text-xl font-calimate min-h-[60px]">
                                         Join hands-on workshops on climate change & sustainable living
                                     </p>
                                 </div>
@@ -121,8 +118,8 @@
                                         class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 </div>
                                 <div
-                                    class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                    <p class="text-bronze text-base font-bold lg:text-xl font-calimate min-h-[60px]">
+                                    class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-start justify-center relative h-[150px]">
+                                    <p class="text-bronze text-lg font-bold lg:text-xl font-calimate min-h-[60px]">
                                         Collaborate with universities & research centers for deeper impact
                                     </p>
                                 </div>
@@ -137,8 +134,8 @@
                                         class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 </div>
                                 <div
-                                    class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                    <p class="text-wine-red text-base font-bold lg:text-xl font-calimate min-h-[60px]">
+                                    class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-start justify-center relative h-[150px]">
+                                    <p class="text-wine-red text-lg font-bold lg:text-xl font-calimate min-h-[60px]">
                                         Support marine literacy programs for students & coastal communities
                                     </p>
                                 </div>
@@ -153,9 +150,9 @@
                                         class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 </div>
                                 <div
-                                    class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
+                                    class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-start justify-center relative h-[150px]">
                                     <p
-                                        class="text-cocoa-brown text-base font-bold lg:text-xl font-calimate min-h-[60px]">
+                                        class="text-cocoa-brown text-lg font-bold lg:text-xl font-calimate min-h-[60px]">
                                         Join hands-on workshops on climate change & sustainable living
                                     </p>
                                 </div>
@@ -170,8 +167,8 @@
                                         class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 </div>
                                 <div
-                                    class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                    <p class="text-bronze text-base font-bold lg:text-xl font-calimate min-h-[60px]">
+                                    class="bg-golden-yellow p-4 lg:p-6 rounded-b-2xl flex-grow flex items-start justify-center relative h-[150px]">
+                                    <p class="text-bronze text-lg font-bold lg:text-xl font-calimate min-h-[60px]">
                                         Collaborate with universities & research centers for deeper impact
                                     </p>
                                 </div>
@@ -186,8 +183,8 @@
                                         class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110">
                                 </div>
                                 <div
-                                    class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-center justify-center relative h-[150px]">
-                                    <p class="text-wine-red text-base font-bold lg:text-xl font-calimate min-h-[60px]">
+                                    class="bg-raspberry-pink p-4 lg:p-6 rounded-b-2xl flex-grow flex items-start justify-center relative h-[150px]">
+                                    <p class="text-wine-red text-lg font-bold lg:text-xl font-calimate min-h-[60px]">
                                         Support marine literacy programs for students & coastal communities
                                     </p>
                                 </div>
@@ -198,8 +195,6 @@
                     <div class="swiper-button-prev" style=" background-color: #083C75; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: background-color 0.3s ease, box-shadow 0.3s ease; position: absolute; top: 50%; left: 10px; transform: translateY(-50%); z-index: 10; "></div>
                     <!-- Tombol Next -->
                     <div class="swiper-button-next" style=" background-color: #083C75; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: background-color 0.3s ease, box-shadow 0.3s ease; position: absolute; top: 50%; right: 10px; transform: translateY(-50%); z-index: 10; "></div>
-                    <!-- Dots Pagination -->
-                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
@@ -463,7 +458,7 @@
 
     <!-- Section Advocate & Amplify the Message. - Empower Communities. -->
     <section id="advocate-amplify"
-        class="relative px-4 py-[100px] bg-blue bg-[url('/public/assets/images/under-the-sea-1.png')] bg-cover bg-no-repeat bg-bottom z-10 overflow-hidden"
+        class="relative px-4 py-[100px] bg-blue bg-[url('/public/assets/images/under-the-sea-1-mobile.png')] sm:bg-[url('/public/assets/images/under-the-sea-1.png')] bg-cover bg-no-repeat bg-bottom z-10 overflow-hidden"
         style="margin-top: -50px;">
         <!-- Content goes here -->
         <div class="relative z-10 mx-auto text-center text-white max-w-7xl" style="margin-top: 50px;">
@@ -602,10 +597,10 @@
                     <!-- Modal Header -->
                     <div class="flex items-center justify-between mb-4">
                         <!-- Modal Title -->
-                        <h2 class="text2-xl font-bold text-gray-800">Donate Information</h2>
+                        <h2 class="font-bold text-gray-800 text2-xl">Donate Information</h2>
 
                         <!-- Close Button -->
-                        <button onclick="toggleModal(false)" class="text-gray-500 text-xl hover:text-red-500">
+                        <button onclick="toggleModal(false)" class="text-xl text-gray-500 hover:text-red-500">
                             <i class="fas fa-times"></i>
                         </button>
                     </div>

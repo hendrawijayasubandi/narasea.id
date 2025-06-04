@@ -129,7 +129,7 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-golden-yellow group-hover:translate-y-0 space-y-2">
+                                class="absolute inset-0 flex flex-col items-start justify-start p-6 space-y-2 transition-transform duration-300 transform translate-y-full bg-golden-yellow group-hover:translate-y-0">
                                 <p
                                     class="text-bronze text-2xl md:text-lg lg:text-xl font-calimate font-bold min-h-[60px]">
                                     10+
@@ -164,7 +164,7 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-raspberry-pink group-hover:translate-y-0 space-y-2">
+                                class="absolute inset-0 flex flex-col items-start justify-start p-6 space-y-2 transition-transform duration-300 transform translate-y-full bg-raspberry-pink group-hover:translate-y-0">
                                 <p
                                     class="text-wine-red text-2xl md:text-lg lg:text-xl font-calimate font-bold min-h-[60px]">
                                     500+ people educated on ocean literacy.
@@ -197,7 +197,7 @@
 
                             <!-- Deskripsi yang muncul saat hover -->
                             <div
-                                class="absolute inset-0 flex flex-col justify-start p-6 transition-transform duration-300 transform translate-y-full items-start bg-teal-blue group-hover:translate-y-0 space-y-2">
+                                class="absolute inset-0 flex flex-col items-start justify-start p-6 space-y-2 transition-transform duration-300 transform translate-y-full bg-teal-blue group-hover:translate-y-0">
                                 <p
                                     class="text-white text-2xl md:text-lg lg:text-xl font-calimate font-bold min-h-[60px]">
                                     100K+ media impressions through digital storytelling.
@@ -650,6 +650,9 @@
     <div class="text-white bg-black">
         @include('components.copyright')
     </div>
+
+    <!-- Button Scroll to Top -->
+    @include('components.scroll-to-top')
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>

@@ -102,8 +102,7 @@
                                 </div>
                                 <div
                                     class="bg-peachy-orange p-4 lg:p-6 rounded-b-2xl flex-grow flex items-start justify-center relative h-[150px]">
-                                    <p
-                                        class="text-cocoa-brown text-lg font-bold lg:text-xl font-calimate min-h-[60px]">
+                                    <p class="text-cocoa-brown text-lg font-bold lg:text-xl font-calimate min-h-[60px]">
                                         Join hands-on workshops on climate change & sustainable living
                                     </p>
                                 </div>
@@ -192,9 +191,13 @@
                         </div>
                     </div>
                     <!-- Tombol Prev -->
-                    <div class="swiper-button-prev" style=" background-color: #083C75; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: background-color 0.3s ease, box-shadow 0.3s ease; position: absolute; top: 50%; left: 10px; transform: translateY(-50%); z-index: 10; "></div>
+                    <div class="swiper-button-prev"
+                        style=" background-color: #083C75; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: background-color 0.3s ease, box-shadow 0.3s ease; position: absolute; top: 50%; left: 10px; transform: translateY(-50%); z-index: 10; ">
+                    </div>
                     <!-- Tombol Next -->
-                    <div class="swiper-button-next" style=" background-color: #083C75; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: background-color 0.3s ease, box-shadow 0.3s ease; position: absolute; top: 50%; right: 10px; transform: translateY(-50%); z-index: 10; "></div>
+                    <div class="swiper-button-next"
+                        style=" background-color: #083C75; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: background-color 0.3s ease, box-shadow 0.3s ease; position: absolute; top: 50%; right: 10px; transform: translateY(-50%); z-index: 10; ">
+                    </div>
                 </div>
             </div>
         </div>
@@ -645,6 +648,9 @@
     <div class="text-white bg-blue">
         @include('components.copyright')
     </div>
+
+    <!-- Button Scroll to Top -->
+    @include('components.scroll-to-top')
 
     <script src="//unpkg.com/alpinejs" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

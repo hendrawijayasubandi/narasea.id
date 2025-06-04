@@ -166,14 +166,14 @@
                     </div>
                 </div>
             </div>
-            <div class="slick-custom-nav flex justify-center gap-4 mt-4">
+            <div class="flex justify-center gap-4 mt-4 slick-custom-nav">
                 <button id="prevSlide"
-                    class="w-12 h-12 flex items-center justify-center text-white bg-teal-blue hover:bg-teal-blue-hover rounded-full shadow transition duration-200">
-                    <i class="fas fa-chevron-left text-xl"></i>
+                    class="flex items-center justify-center w-12 h-12 text-white transition duration-200 rounded-full shadow bg-teal-blue hover:bg-teal-blue-hover">
+                    <i class="text-xl fas fa-chevron-left"></i>
                 </button>
                 <button id="nextSlide"
-                    class="w-12 h-12 flex items-center justify-center text-white bg-teal-blue hover:bg-teal-blue-hover rounded-full shadow transition duration-200">
-                    <i class="fas fa-chevron-right text-xl"></i>
+                    class="flex items-center justify-center w-12 h-12 text-white transition duration-200 rounded-full shadow bg-teal-blue hover:bg-teal-blue-hover">
+                    <i class="text-xl fas fa-chevron-right"></i>
                 </button>
             </div>
         </div>
@@ -202,14 +202,14 @@
                 <!-- Slider Container Wrapper (relative positioning) -->
                 <div class="relative">
                     <!-- Custom Navigation Buttons -->
-                    <div class="absolute left-0 right-0 z-10 justify-between flex px-4 -translate-y-1/2 top-1/2">
+                    <div class="absolute left-0 right-0 z-10 flex justify-between px-4 -translate-y-1/2 top-1/2">
                         <button
-                            class="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 transition bg-white rounded-full shadow-lg slick-prev-values hover:bg-gray-100">
-                            <i class="text-gray-700 fas fa-chevron-left text-sm sm:text-base"></i>
+                            class="flex items-center justify-center w-8 h-8 transition bg-white rounded-full shadow-lg sm:w-10 sm:h-10 slick-prev-values hover:bg-gray-100">
+                            <i class="text-sm text-gray-700 fas fa-chevron-left sm:text-base"></i>
                         </button>
                         <button
-                            class="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 transition bg-white rounded-full shadow-lg slick-next-values hover:bg-gray-100">
-                            <i class="text-gray-700 fas fa-chevron-right text-sm sm:text-base"></i>
+                            class="flex items-center justify-center w-8 h-8 transition bg-white rounded-full shadow-lg sm:w-10 sm:h-10 slick-next-values hover:bg-gray-100">
+                            <i class="text-sm text-gray-700 fas fa-chevron-right sm:text-base"></i>
                         </button>
                     </div>
                     <!-- Slider Container -->
@@ -692,7 +692,7 @@
             <div class="flex justify-center">
                 <a href="/"
                     class="relative inline-flex items-center justify-center bg-peachy-orange hover:bg-peachy-orange-hover transition duration-200 text-white font-semibold font-calimate rounded-full h-12 px-6 w-full max-w-[300px]">
-                    <span class="flex items-center gap-2 text-md text-white">
+                    <span class="flex items-center gap-2 text-white text-md">
                         Learn More About Our Work
                         <i class="text-md fas fa-arrow-right"></i>
                     </span>
@@ -703,7 +703,7 @@
             <div class="flex justify-center">
                 <a href="{{ route('share') }}"
                     class="relative inline-flex items-center justify-center bg-peachy-orange hover:bg-peachy-orange-hover transition duration-200 text-white font-calimate font-semibold rounded-full h-12 px-6 w-full max-w-[300px]">
-                    <span class="flex items-center gap-2 text-md text-white">
+                    <span class="flex items-center gap-2 text-white text-md">
                         Join the Movement
                         <i class="text-md fas fa-arrow-right"></i>
                     </span>
@@ -717,6 +717,9 @@
     <div class="text-white bg-teal-blue">
         @include('components.copyright')
     </div>
+
+    <!-- Button Scroll to Top -->
+    @include('components.scroll-to-top')
 
     <script src="//unpkg.com/alpinejs" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
